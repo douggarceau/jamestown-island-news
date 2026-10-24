@@ -2211,7 +2211,7 @@ html body #coverSlot .cvcrime{padding:0 16px 16px}
 @media (min-width:900px){html body #coverSlot .cvcrime .crm-g{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 </style>
 <style>html body #nav{width:auto!important;max-width:100%!important;margin-left:0!important;margin-right:0!important;transform:none!important;flex-wrap:wrap!important;justify-content:center!important;overflow:visible!important}</style><script id="navshare">(()=>{const go=()=>{const n=document.getElementById("nav");if(!n||document.getElementById("nbShare"))return;const mk=(id,t)=>{const x=document.createElement("button");x.type="button";x.className="nb";x.id=id;x.textContent=t;n.appendChild(x);return x};const s=mk("nbShare","Share");s.onclick=async()=>{const u=location.href.split("#")[0];try{if(navigator.share){await navigator.share({title:document.title,url:u})}else{await navigator.clipboard.writeText(u);s.textContent="Link copied";setTimeout(()=>s.textContent="Share",1500)}}catch(e){}};};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",go):go()})();</script><script id="jtCoverVid">(()=>{/* Welcome: the very first time a reader clicks Front page or the cover, the cover is replaced by the lighthouse keeper video; after that, the normal sound. */
-const SRC="vid/welcome.mp4?v=3",POS="vid/welcome.jpg",KEY="jt_welcome_seen";
+const SRC="vid/welcome.mp4?v=3",POS="vid/welcome.jpg",KEY="jt_cover_intro_v1";
 const C=[];
 let done=false;try{done=!!localStorage.getItem(KEY)}catch(_){}
 let box=null,vid=null,skip=null,playing=false,lit=[],cur=-1,tmr=null;
