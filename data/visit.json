@@ -487,6 +487,24 @@
      "hours": "Mon–Fri 9am–4:30pm; Sat 9am–12pm",
      "url": "",
      "src": "https://mapdoor.com/us/ri/jamestown/usps"
+    },
+    {
+     "name": "Jamestown Early Learning Center",
+     "blurb": "Licensed child care center on North Main Road for children from about 12 months to 5 years old. State listings show its license as active. Call or visit to ask about openings, hours and tuition.",
+     "address": "87 North Main Rd, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://daycarescan.com/state/rhode-island/jamestown"
+    },
+    {
+     "name": "Newport County YMCA at Jamestown (after school)",
+     "blurb": "Licensed after-school child care run by the Newport County YMCA at the Melrose School. State listings show weekday afternoon hours during the school year. Contact the school or the Y about enrollment.",
+     "address": "76 Melrose Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7020",
+     "hours": "Mon–Fri 2–6 pm (school year)",
+     "url": "https://melrose.jamestownschools.org/",
+     "src": "https://childcarecenter.us/provider_detail/newport_co_y_jamestown_jamestown_ri"
     }
    ]
   },
