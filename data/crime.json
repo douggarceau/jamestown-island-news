@@ -1,0 +1,65 @@
+{
+ "asof": "2026-10-24T12:00:00-04:00",
+ "items": [
+  {
+   "kind": "courts",
+   "headline": "Jamestown man indicted in Ohio college aid case; RI Dem chair resigns",
+   "blurb": "Michael Perik of Jamestown pleaded not guilty to 12 felony counts in Ohio over alleged diversion of Eastern Gateway Community College aid; his attorney calls it political payback. His wife, Liz Beretta-Perik, resigned as RI Democratic Party chair Oct. 20.",
+   "hood": "Jamestown",
+   "spd": [
+    "JT"
+   ],
+   "date": "2026-10-20",
+   "url": "https://www.newsfromthestates.com/article/ri-democratic-party-chair-resigns-after-husband-indicted-federal-fraud-charges-ohio",
+   "outlet": "Rhode Island Current"
+  },
+  {
+   "kind": "arrest",
+   "headline": "State Police detective charged with DUI after stop on North Main Road",
+   "blurb": "Jamestown police stopped an SUV driving on two flat tires on North Main Road late Oct. 15 and charged its driver, a state police detective from East Greenwich, with suspicion of DUI and refusing a chemical test. State Police called it an open personnel matter.",
+   "hood": "Jamestown",
+   "spd": [
+    "JT"
+   ],
+   "date": "2026-10-15",
+   "url": "https://turnto10.com/news/local/rhode-island-state-trooper-charges-dui-refusal-submit-chemical-test-north-main-road-jamestown-october-15-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "arrest",
+   "headline": "Smithfield man charged in 1985 killing of Jamestown woman",
+   "blurb": "The attorney general's cold case unit and Newport police charged William Morton, 61, with first-degree murder after a DNA match, according to the AG. He is held without bail and is presumed innocent.",
+   "hood": "Jamestown",
+   "spd": [
+    "JT"
+   ],
+   "date": "2026-10-06",
+   "url": "https://www.newsfromthestates.com/article/ags-cold-case-unit-cracks-1985-newport-murder-case",
+   "outlet": "Rhode Island Current"
+  },
+  {
+   "kind": "arrest",
+   "headline": "Jamestown man arrested on reckless driving warrant",
+   "blurb": "Rhode Island State Police arrested a 52-year-old Jamestown man at his Howland Avenue home on a reckless driving warrant. He was arraigned and released with a court date.",
+   "date": "2026-09-22",
+   "url": "https://patch.com/rhode-island/jamestown/jamestown-man-wanted-reckless-driving-charge-nabbed-cops",
+   "outlet": "Patch",
+   "hood": "Jamestown",
+   "spd": [
+    "JT"
+   ]
+  },
+  {
+   "kind": "other",
+   "headline": "Man rescued from rocks below Beavertail Road cliff",
+   "blurb": "Jamestown firefighters used a drone and a rescue swimmer to reach a man who fell and was trapped on rocks near 435 Beavertail Road, then took him to Newport by boat. Officials said his injuries were minor.",
+   "hood": "Jamestown",
+   "spd": [
+    "JT"
+   ],
+   "date": "2026-09-14",
+   "url": "https://turnto10.com/news/local/rescue-crews-save-injured-man-steep-cliff-beavertail-road-jamestown-firefighters-drone-shoreline-rocks-september-14-2026",
+   "outlet": "NBC 10 WJAR"
+  }
+ ]
+}
