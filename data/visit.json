@@ -1,0 +1,650 @@
+{
+ "asof": "2026-10-24",
+ "sections": [
+  {
+   "key": "eat",
+   "title": "Eat & Drink",
+   "items": [
+    {
+     "name": "Narragansett Cafe",
+     "blurb": "Longtime pub, restaurant and live-music room. It hosts Sunday Blues, a Wednesday Italian Night and weekend breakfasts from 7 a.m. The site says it is open 365 days a year.",
+     "address": "25 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Open daily; weekend breakfast from 7 a.m.",
+     "url": "https://www.narragansettcafe.com/",
+     "src": "https://www.narragansettcafe.com/"
+    },
+    {
+     "name": "Village Hearth Bakery & Cafe",
+     "blurb": "Locally owned bakery and cafe making pastries, breads, sandwiches and soups from scratch. Its wood-fired brick oven turns out pizzas on Friday pizza nights, and the Salty wine bar operates inside.",
+     "address": "2 Watson Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-9282",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/village-hearth-bakery/7008/"
+    },
+    {
+     "name": "Slice of Heaven",
+     "blurb": "Family-owned cafe on Narragansett Avenue serving breakfast, lunch, baked goods and coffee. It is a daytime spot, closed Mondays and Tuesdays.",
+     "address": "32 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-9866",
+     "hours": "Wed–Sun 7am–3pm",
+     "url": "https://www.sliceofheavenri.com/",
+     "src": "https://www.sliceofheavenri.com/"
+    },
+    {
+     "name": "Beech",
+     "blurb": "Restaurant and bar in the former Trattoria Simpatico building, serving raw-bar and grilled dishes, salads and sandwiches built on local ingredients. It is dinner only and closed Mondays and Tuesdays.",
+     "address": "13 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 560-4051",
+     "hours": "Wed, Thu, Sun 4:30–9pm; Fri–Sat 4:30–9:30pm",
+     "url": "https://www.beechjt.com/",
+     "src": "https://www.beechjt.com/"
+    },
+    {
+     "name": "Our Table",
+     "blurb": "Village restaurant serving contemporary American comfort food and desserts. Dinner is served Monday and Thursday through Sunday, and tables can be booked through OpenTable.",
+     "address": "53 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 560-4069",
+     "hours": "Mon, Thu–Sun 5–10pm",
+     "url": "",
+     "src": "https://www.aaa.com/tripcanvas/restaurant/our-table-jamestown-AA36260"
+    },
+    {
+     "name": "JB's on the Water",
+     "blurb": "Waterfront restaurant at the Bay Voyage Inn and sister to Wickford on the Water. Outdoor seating looks across the bay toward Newport and the Pell Bridge.",
+     "address": "150 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 560-4115",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/jbs-on-the-water/11335/"
+    },
+    {
+     "name": "1 Ferry Wharf",
+     "blurb": "Waterfront seafood restaurant at Conanicut Marina offering shared plates and handhelds, with the Sugar Shack ice-cream window next door. Parties of five or more reserve by phone; smaller groups are seated first come, first served.",
+     "address": "3 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-5999",
+     "hours": "",
+     "url": "https://www.1ferrywharf.com/",
+     "src": "https://www.1ferrywharf.com/"
+    },
+    {
+     "name": "East Ferry Market & Deli",
+     "blurb": "Casual waterfront deli serving breakfast and lunch, with sandwiches, wraps, salads, soups, baked goods and coffee. The patio overlooks Narragansett Bay; after Labor Day, Sunday hours are shorter.",
+     "address": "47 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1592",
+     "hours": "Mon–Sat 6am–5pm; Sun 7am–2pm (after Labor Day)",
+     "url": "https://www.eastferrydeli.com/",
+     "src": "https://www.eastferrydeli.com/"
+    },
+    {
+     "name": "Angel's Kitchen",
+     "blurb": "Small Narragansett Avenue eatery listed among the village's dinner spots. Call ahead for current hours.",
+     "address": "23 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.restaurantji.com/ri/jamestown/"
+    },
+    {
+     "name": "Ace's Pizza",
+     "blurb": "Pizza shop near the center of the village on Clarke Street. Directory listings give different street numbers, so confirm the location before you go.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Tallulah's Taqueria",
+     "blurb": "Seasonal, fast-casual taqueria serving tacos and outdoor-friendly fare. It operates in the warmer months, so check before visiting in the off-season.",
+     "address": "35 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Seasonal",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Hard Pressed Cider Co.",
+     "blurb": "Pop-up stand at Windmist Farm selling cider and cinnamon-sugar donuts. It runs Friday through Sunday plus Monday holidays from Labor Day to Thanksgiving.",
+     "address": "71 Weeden Ln, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Fri–Sun, Labor Day–Thanksgiving",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    }
+   ]
+  },
+  {
+   "key": "do",
+   "title": "Things to Do",
+   "items": [
+    {
+     "name": "Beavertail State Park",
+     "blurb": "State park at the island's southern tip with four overlooks, rocky shoreline, saltwater fishing and accessible tide pools. A seasonal naturalist program runs in summer, and the Fort Burnside defense museum opens by appointment. The park is carry-in, carry-out.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "(401) 423-1771",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
+     "src": "https://riparks.ri.gov/parks/beavertail-state-park"
+    },
+    {
+     "name": "Beavertail Lighthouse Museum",
+     "blurb": "Museum in the 1856 Beavertail Lighthouse complex, with seasonal tower climbs (suggested $5 adult donation). It is closed for the season now; the gift shop opens for holiday shopping Dec. 5–6 and 12–13, noon to 3pm.",
+     "address": "Beavertail Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-3270",
+     "hours": "Closed for season; holiday shop Dec 5–6 & 12–13, 12–3pm",
+     "url": "https://www.beavertaillight.org/",
+     "src": "https://www.beavertaillight.org/"
+    },
+    {
+     "name": "Fort Wetherill State Park",
+     "blurb": "About 61 acres on 100-foot granite cliffs overlooking Newport Harbor and the East Passage. It is popular for scuba diving, fishing, picnicking and hiking, and pets are allowed. Restrooms are open May 1 to Oct. 31 only.",
+     "address": "Fort Wetherill Rd, Jamestown, RI",
+     "phone": "(401) 884-2010",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
+     "src": "https://riparks.ri.gov/parks/fort-wetherill-state-park"
+    },
+    {
+     "name": "Mackerel Cove Beach",
+     "blurb": "The town beach, a calm half-mile cove between the village and Beavertail. Del's Lemonade often parks in the lot in summer. The beach season ran June 18–Sept. 7.",
+     "address": "",
+     "phone": "(401) 423-7200",
+     "hours": "Season June 18–Sept. 7",
+     "url": "https://www.jamestownri.gov/mackerelcove",
+     "src": "https://www.jamestownri.gov/mackerelcove"
+    },
+    {
+     "name": "Jamestown Windmill",
+     "blurb": "Smock windmill built in 1787 that ground corn until 1896, on Windmill Hill in the center of the island. The 2026 season ran May 22–Oct. 12 and has ended; visits are by appointment, admission is by donation, and parking is on site.",
+     "address": "378 North Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "Closed for season; by appointment",
+     "url": "https://jamestownhistoricalsociety.org/jamestown-windmill/",
+     "src": "https://jamestownhistoricalsociety.org/jamestown-windmill/"
+    },
+    {
+     "name": "Jamestown Historical Society Museum",
+     "blurb": "Village museum run by the volunteer Jamestown Historical Society; the 2026 exhibit, Behind the Lines, looks at island life in 1776. The 2026 season ended Oct. 12, but visits can be arranged by appointment (info@jhsri.org). The museum is wheelchair accessible.",
+     "address": "92 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Closed for season; by appointment",
+     "url": "https://jamestownhistoricalsociety.org/jamestown-museum/",
+     "src": "https://jamestownhistoricalsociety.org/jamestown-museum/"
+    },
+    {
+     "name": "Conanicut Island Sanctuary",
+     "blurb": "Short loop trail with boardwalks and observation decks over Marsh Meadows, a large salt marsh. It is a good spot to see egrets, herons and ospreys. Parking at the trailhead is difficult, and leashed dogs are allowed.",
+     "address": "Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/"
+    },
+    {
+     "name": "Fort Getty Park",
+     "blurb": "Town park of 41 acres at the end of Fort Getty Road, with old fortifications, a rocky beach, a public boat ramp and dock, and the Kit Wright trail along Fox Hill Marsh. It looks out over the West Passage, the Jamestown Bridge and nearby Dutch Island, which is closed to the public. Camping has closed for 2026, and the 2027 wait list opened Oct. 1.",
+     "address": "",
+     "phone": "(401) 423-7200",
+     "hours": "Park 7am–10pm; camping closed for season",
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "https://www.jamestownri.gov/rvcamping"
+    },
+    {
+     "name": "Jamestown Arts Center",
+     "blurb": "Community arts center with exhibitions, classes and performances. Imprint and Playback, featuring seven artists from RISD's Movement Lab, runs Oct. 16–Nov. 7, 2026.",
+     "address": "18 Valley St, Jamestown, RI 02835",
+     "phone": "(401) 560-0979",
+     "hours": "Wed–Sat 11am–3pm",
+     "url": "https://www.jamestownartcenter.org/",
+     "src": "https://www.jamestownartcenter.org/"
+    },
+    {
+     "name": "Watson Farm (Historic New England)",
+     "blurb": "Historic working farm on North Road with self-guided walking tours. The tour season runs June to mid-October (Thu and Sat, 1–4pm), so call to confirm before visiting now. Admission is $10 adults, $5 students and $25 for families.",
+     "address": "455 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-0005",
+     "hours": "Thu & Sat 1–4pm, June–mid-Oct",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "https://www.historicnewengland.org/property/watson-farm/"
+    },
+    {
+     "name": "Jamestown Golf Course",
+     "blurb": "Public nine-hole course on 74 acres a short walk from the village. Tee times are not taken: play is first come, first served, so check in with the starter. Leagues and tournaments sometimes close the course for part of a day.",
+     "address": "245 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-9930",
+     "hours": "Opens 8am daily (from Oct. 5)",
+     "url": "https://www.jamestowngolf.com/",
+     "src": "https://www.jamestowngolf.com/"
+    },
+    {
+     "name": "Jamestown Community Band",
+     "blurb": "Local band that plays classic large-band music. In 2025 it closed the town's Concerts by the Water series at East Ferry Memorial Square. Check with Parks & Recreation for upcoming concert dates.",
+     "address": "",
+     "phone": "(401) 423-7260",
+     "hours": "",
+     "url": "",
+     "src": "https://jamestownri.gov/home/showpublisheddocument/83335/638822940305400000"
+    }
+   ]
+  },
+  {
+   "key": "shop",
+   "title": "Shops & Services",
+   "items": [
+    {
+     "name": "McQuade's Marketplace",
+     "blurb": "Full-service grocery store in the village with produce, meats, seafood, bakery items, a deli and prepared meals. It is the island's main supermarket for everyday groceries and household goods.",
+     "address": "6 Clarke St, Jamestown, RI 02835",
+     "phone": "(401) 423-0873",
+     "hours": "",
+     "url": "",
+     "src": "https://www.giftly.com/gift-card/mcquades-marketplace-jamestown"
+    },
+    {
+     "name": "Jamestown True Value",
+     "blurb": "Hardware store at the foot of Narragansett Avenue. Directory hours show it open seven days with a short Friday; call to confirm.",
+     "address": "5 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-2722",
+     "hours": "",
+     "url": "https://stores.truevalue.com/ri/jamestown/3059/",
+     "src": "https://in.worldorgs.com/catalog/jamestown/hardware-store/jamestown-true-value"
+    },
+    {
+     "name": "Grapes & Gourmet",
+     "blurb": "Family-owned wine and cheese shop on East Ferry Wharf carrying natural wines, imported cheese, craft beer, select spirits and beach snacks. Posted hours are summer 2026 hours, so check for off-season changes.",
+     "address": "9 E Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-0070",
+     "hours": "Summer 2026: Mon–Sat 10am–8pm; Sun 12–6pm",
+     "url": "https://www.grapesandgourmet.com/",
+     "src": "https://www.grapesandgourmet.com/"
+    },
+    {
+     "name": "Jamestown Wine & Spirits",
+     "blurb": "Package store established in 2006 selling wine, spirits, craft beer and soft drinks from a walk-in cooler. It also stocks local souvenirs and some Indian groceries and prepared foods.",
+     "address": "30 Southwest Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-0100",
+     "hours": "",
+     "url": "",
+     "src": "https://www.giftly.com/gift-card/jamestown-wine-and-spirits-jamestown"
+    },
+    {
+     "name": "Island Animal",
+     "blurb": "Pet boutique selling cat and dog food, toys, treats and accessories. Pets are welcome to browse with their owners.",
+     "address": "35 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 560-0616",
+     "hours": "Tue–Sat 10am–5:30pm; Sun 11am–3pm; closed Mon",
+     "url": "",
+     "src": "https://rhodybeat.com/stories/ri-day-trips-a-day-in-jamestown,26272"
+    },
+    {
+     "name": "Jamestown Animal Clinic",
+     "blurb": "Veterinary clinic in the village on Narragansett Avenue. Call for appointments and hours.",
+     "address": "30 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-2288",
+     "hours": "",
+     "url": "",
+     "src": "https://vets.greatpetcare.com/jamestown/jamestown-animal-clinic/30336"
+    },
+    {
+     "name": "Jamestown Outdoors",
+     "blurb": "Outdoor gear shop selling boogie boards, surfboards, skateboards, paddleboards and apparel. It also offers lessons, guided tours and bike, kayak and paddleboard rentals.",
+     "address": "35 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 924-2885",
+     "hours": "",
+     "url": "",
+     "src": "https://rhodybeat.com/stories/ri-day-trips-a-day-in-jamestown,26272"
+    },
+    {
+     "name": "Conanicut Marina (TPG)",
+     "blurb": "Full-service marina at East Ferry with slips, about 150 moorings, a fuel dock, launch service and the Taylor Point Boat Yard. It also runs a ship's store and chandlery and the Conanicut Marine gift shop; slips can be booked through Dockwa.",
+     "address": "1 East Ferry Wharf, Unit 1, Jamestown, RI 02835",
+     "phone": "(401) 423-7158",
+     "hours": "",
+     "url": "https://www.conanicutmarina.com/",
+     "src": "https://www.conanicutmarina.com/"
+    },
+    {
+     "name": "BankNewport – Jamestown Branch",
+     "blurb": "Village bank branch on Conanicus Avenue with a 24-hour ATM. Personal teller machine hours run weekdays 8am–6pm and Saturday mornings.",
+     "address": "31 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1565",
+     "hours": "PTM Mon–Fri 8am–6pm; Sat 9am–1pm; ATM 24/7",
+     "url": "https://www.banknewport.com/",
+     "src": "https://www.banknewport.com/locations-mobile/"
+    },
+    {
+     "name": "Club Wyndham Bay Voyage Inn",
+     "blurb": "Waterfront inn on Conanicus Avenue, home to JB's on the Water restaurant. Guests have water views, a pool, a fitness center and laundry.",
+     "address": "150 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Lionel Champlin Guest House",
+     "blurb": "Three-story Victorian beach-cottage guest house open year-round. Rooms have private baths and Wi-Fi, and spa services are offered on site.",
+     "address": "20 Lincoln St, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Year-round",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    }
+   ]
+  },
+  {
+   "key": "getting",
+   "title": "Getting Here",
+   "items": [
+    {
+     "name": "Jamestown Newport Ferry",
+     "blurb": "Seasonal passenger ferry linking East Ferry Wharf with Rose Island Light, Fort Adams, Ann Street Pier and Perrotti Park in Newport. The 2026 season ran May 16 to October 12 and has ended; the operator says service returns in 2027 (2026 opened in mid-May). 2026 all-day passes were $34 adults and $22 children, with a $26 in-person rate for Jamestown and Newport residents.",
+     "address": "1 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-9900",
+     "hours": "Season ended Oct. 12, 2026; resumes 2027",
+     "url": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
+     "src": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/"
+    },
+    {
+     "name": "Claiborne Pell Newport Bridge",
+     "blurb": "Route 138 toll bridge between Jamestown and Newport, run by the RI Turnpike and Bridge Authority. Two-axle tolls are $2.00 per axle with E-ZPass or $3.00 per axle by video toll. RI residents with a RITBA-issued E-ZPass pay $0.83 per crossing, and a $40, 30-day unlimited plan is also offered.",
+     "address": "",
+     "phone": "(401) 423-0800",
+     "hours": "",
+     "url": "https://www.ritba.org/tolls",
+     "src": "https://www.ritba.org/tolls"
+    },
+    {
+     "name": "Jamestown Verrazzano Bridge",
+     "blurb": "Route 138 bridge on the island's west side, linking Jamestown to the mainland at North Kingstown. RITBA maintains it, along with Route 138 across Jamestown; check RITBA travel alerts for lane closures during ongoing joint work.",
+     "address": "",
+     "phone": "(401) 423-0800",
+     "hours": "",
+     "url": "https://www.ritba.org/",
+     "src": "https://www.ritba.org/"
+    },
+    {
+     "name": "RIPTA Route 64 (Newport/URI Kingston)",
+     "blurb": "RIPTA bus linking Newport and URI Kingston, with a Jamestown Ferry Landing stop. Check the current schedule before you travel, since trips are limited.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ripta.com/64",
+     "src": "https://transitapp.com/en/region/providence/ripta/bus-64"
+    },
+    {
+     "name": "Boat Ramps & Harbor Office",
+     "blurb": "Public boat ramps are at East Ferry, Fort Getty and Fort Wetherill. The Harbor Office is at the police station on Conanicus Avenue; mooring, outhaul and pier permit wait lists are handled through the town's online mooring portal.",
+     "address": "250 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7200",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/harbor",
+     "src": "https://www.jamestownri.gov/harbor"
+    },
+    {
+     "name": "Mackerel Cove Beach Parking",
+     "blurb": "Town beach lot on the narrow neck between the village and Beavertail. In season (June 18–Sept. 7) non-residents pay $20 per vehicle per day by credit card through T2 MobilePay, first come, first served. Residents use a resident beach pass.",
+     "address": "",
+     "phone": "(401) 423-7200",
+     "hours": "Beach season June 18–Sept. 7, 9am–5pm",
+     "url": "https://www.jamestownri.gov/mackerelcove",
+     "src": "https://www.jamestownri.gov/mackerelcove"
+    }
+   ]
+  },
+  {
+   "key": "services",
+   "title": "Island Services",
+   "items": [
+    {
+     "name": "Jamestown Town Hall",
+     "blurb": "Seat of town government and the Town Clerk, where residents buy transfer-station stickers and other permits. Open weekdays.",
+     "address": "93 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7200",
+     "hours": "Mon–Fri 8am–4:30pm",
+     "url": "https://jamestownri.gov/",
+     "src": "https://jamestownri.gov/"
+    },
+    {
+     "name": "Jamestown Senior Center",
+     "blurb": "Senior Services department offering social, wellness and learning programs for residents 55 and older, with transportation for some programs. Weekday lunches are served 11:30am–12:30pm for a suggested $3 donation (order at 401-423-2658). During renovations at 6 West St., programs are at the Jamestown Club House.",
+     "address": "245 Conanicus Ave, Jamestown, RI 02835 (temporary; usually 6 West St)",
+     "phone": "(401) 423-9804",
+     "hours": "Mon–Fri 8:30am–4:30pm",
+     "url": "https://www.jamestownri.gov/seniorservices",
+     "src": "https://www.jamestownri.gov/seniorservices"
+    },
+    {
+     "name": "Jamestown Philomenian Library",
+     "blurb": "Public library offering museum passes, notary service, tech help by appointment and device lending. It also runs story times, book clubs and teen programs, and is closed Sundays.",
+     "address": "26 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-7280",
+     "hours": "Mon–Wed 9am–8pm; Thu–Sat 9am–5pm",
+     "url": "https://jplri.org/",
+     "src": "https://jplri.org/"
+    },
+    {
+     "name": "Jamestown Recreation Center",
+     "blurb": "Home of Parks & Recreation at East Ferry, which runs town programs and handles resident recreation and beach passes. Program sign-up is through the JTOWN RI REC app or the town's PerfectMind site.",
+     "address": "41 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "Mon–Fri 8am–4:30pm",
+     "url": "https://www.jamestownri.gov/parksandfacilities",
+     "src": "https://www.jamestownri.gov/parksandrec"
+    },
+    {
+     "name": "Jamestown Teen Center",
+     "blurb": "After-school drop-in run by Parks & Recreation for island teens. It is closed on federal and state holidays.",
+     "address": "",
+     "phone": "(401) 423-7260",
+     "hours": "Mon–Fri 2:30–6pm",
+     "url": "https://www.jamestownri.gov/parksandrec",
+     "src": "https://www.jamestownri.gov/parksandrec"
+    },
+    {
+     "name": "St. Mark Food Pantry",
+     "blurb": "Food pantry open to everyone; you don't need to be a parishioner or register. Enter by the side door to the right of the parking lot and go downstairs.",
+     "address": "60 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1421",
+     "hours": "Mon & Fri 9–11am; 2nd & 4th Wed 4–6pm",
+     "url": "https://www.stmarkjtn.org/",
+     "src": "https://www.stmarkjtn.org/"
+    },
+    {
+     "name": "Jamestown Police Department",
+     "blurb": "Island police station on Conanicus Avenue, which also houses the Harbor Office. For emergencies, dial 911; the listed department line also handles animal control.",
+     "address": "250 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1212",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/police",
+     "src": "https://apps.ri.gov/towns/view/jamestown/"
+    },
+    {
+     "name": "Jamestown Fire Department & EMS",
+     "blurb": "All-volunteer fire department, founded in 1891, with an EMS division in the same organization. In an emergency, dial 911; the station line is for non-emergency calls.",
+     "address": "50 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-0062",
+     "hours": "",
+     "url": "https://www.jamestownfd.com/",
+     "src": "https://www.jamestownfd.com/contact"
+    },
+    {
+     "name": "Jamestown Transfer Station",
+     "blurb": "Town transfer station and recycling drop-off. Residents need an annual sticker with proof of residency, sold online or at the Town Clerk's office (stickers go on sale each July). Curbside recycling is handled by Island Rubbish (401-423-1802).",
+     "address": "1218 North Main Rd, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Thu–Mon 8:30am–3:30pm",
+     "url": "https://www.jamestownri.gov/trashandrecycling",
+     "src": "https://www.jamestownri.gov/trashandrecycling"
+    },
+    {
+     "name": "Jamestown Post Office",
+     "blurb": "U.S. Postal Service office in the village on Narragansett Avenue. It has Saturday-morning hours and is closed Sundays.",
+     "address": "109 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-0420",
+     "hours": "Mon–Fri 9am–4:30pm; Sat 9am–12pm",
+     "url": "",
+     "src": "https://mapdoor.com/us/ri/jamestown/usps"
+    }
+   ]
+  },
+  {
+   "key": "give",
+   "title": "Give & Volunteer",
+   "items": [
+    {
+     "name": "St. Mark Food Pantry",
+     "blurb": "Open to all with no registration. To donate food or help out, call the parish office; the site does not list drop-off details.",
+     "address": "60 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1421",
+     "hours": "Mon & Fri 9–11am; 2nd & 4th Wed 4–6pm",
+     "url": "https://www.stmarkjtn.org/",
+     "src": "https://www.stmarkjtn.org/"
+    },
+    {
+     "name": "Jamestown Community Food Pantry",
+     "blurb": "Community pantry that Central Baptist Church helped found and that operates in the church building. Contact the church for hours and donation drop-off.",
+     "address": "Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://divinity.yale.edu/sites/default/files/job_positions/cbc_jamestown_self-study_2023.pdf"
+    },
+    {
+     "name": "Jamestown Fire & EMS Volunteers",
+     "blurb": "The department and its EMS division are made up entirely of volunteers, who train in vehicle extrication, boat emergencies, rope rescue and live fire. To join, download the Become a Member form on the website and bring it to the station.",
+     "address": "50 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-0062",
+     "hours": "",
+     "url": "https://www.jamestownfd.com/",
+     "src": "https://www.jamestownfd.com/"
+    },
+    {
+     "name": "Jamestown Historical Society Volunteers",
+     "blurb": "The all-volunteer society needs docents for the Windmill and Museum (Fri–Sun, 1–4pm, late May to mid-October), plus helpers for Windmill Day, the house tour and receptions. Sign up through the JHS SignUpGenius portal linked on its volunteer page, or email info@jhsri.org.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownhistoricalsociety.org/volunteer/",
+     "src": "https://www.jamestownhistoricalsociety.org/volunteer/"
+    },
+    {
+     "name": "Beavertail Lighthouse Museum Volunteers",
+     "blurb": "Volunteers work as docents and in the gift shop, archives, exhibits, grounds, fundraising, events and tower-climb assistance. Sign up with the online volunteer form, choosing your interests and availability, or call the association.",
+     "address": "Beavertail Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-3270",
+     "hours": "",
+     "url": "https://www.beavertaillight.org/volunteer",
+     "src": "https://www.beavertaillight.org/volunteer"
+    },
+    {
+     "name": "Jamestown Arts Center Volunteers",
+     "blurb": "Volunteers serve on committees, teach and mentor, and help keep up the gardens. Sign up with the volunteer form on the center's website or by phone.",
+     "address": "18 Valley St, Jamestown, RI 02835",
+     "phone": "(401) 560-0979",
+     "hours": "",
+     "url": "https://www.jamestownartcenter.org/volunteer",
+     "src": "https://www.jamestownartcenter.org/volunteer"
+    },
+    {
+     "name": "Conanicut Island Sailing Foundation",
+     "blurb": "Nonprofit sailing and ocean-education program at Fort Getty for youth and adults. It recruits volunteers through a volunteer form and offers Counselor-in-Training and Junior Instructor roles for teens.",
+     "address": "1050 Fort Getty Rd, Jamestown, RI 02835",
+     "phone": "(401) 855-6643",
+     "hours": "",
+     "url": "https://www.jamestownsailing.org/",
+     "src": "https://www.jamestownsailing.org/"
+    },
+    {
+     "name": "St. Matthew's Thrift Shop",
+     "blurb": "Church-run thrift shop that takes donated goods during Saturday opening hours. Please don't leave items outside; call to arrange a drop-off at another time.",
+     "address": "87 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1762",
+     "hours": "Sat 9am–12pm",
+     "url": "https://www.stmatthewsjamestown.org/",
+     "src": "https://www.stmatthewsjamestown.org/"
+    },
+    {
+     "name": "Jamestown Community Chorus",
+     "blurb": "No-audition community chorus; new singers meet one-on-one with the director to find their vocal part. Membership is $25 per session plus about $30 per concert for music, with scholarships available. Rehearsals for the December concerts are underway.",
+     "address": "P.O. Box 602, Jamestown, RI 02835",
+     "phone": "(401) 787-4487",
+     "hours": "",
+     "url": "https://jamestownchorus.com/membership/",
+     "src": "https://jamestownchorus.com/membership/"
+    },
+    {
+     "name": "Jamestown Community Theatre",
+     "blurb": "Nonprofit theater whose casts and crews mix island youth and adults, staging shows mostly at the Recreation Center at East Ferry. It also runs classes in audition technique, scene study and stagecraft; to get involved, contact artistic director Mary Wright (ms.wright@cox.net).",
+     "address": "",
+     "phone": "(401) 741-9818",
+     "hours": "",
+     "url": "",
+     "src": "https://jamestownri.gov/town-departments/parks-recreation/jamestown-community-theatre"
+    },
+    {
+     "name": "Jamestown Community Band",
+     "blurb": "Island band that plays classic large-band music, including the town's Concerts by the Water at East Ferry. Rehearsal details are not posted online, so ask the Parks & Recreation office how to join.",
+     "address": "41 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "",
+     "url": "",
+     "src": "https://jamestownri.gov/home/showpublisheddocument/83335/638822940305400000"
+    },
+    {
+     "name": "Friends of the Jamestown Philomenian Library",
+     "blurb": "Friends group that supports the library; its website has a volunteer page, a join page and separate teen volunteer listings. Ask at the circulation desk or call for current needs.",
+     "address": "26 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-7280",
+     "hours": "",
+     "url": "https://jplri.org/",
+     "src": "https://jplri.org/"
+    }
+   ]
+  },
+  {
+   "key": "worship",
+   "title": "Churches",
+   "items": [
+    {
+     "name": "St. Mark Church",
+     "blurb": "Catholic. Parish church on Narragansett Avenue that also runs the island's food pantry. Confession is Saturdays, 3–3:30pm.",
+     "address": "60 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1421",
+     "hours": "Sat 4pm; Sun 8am & 10:30am",
+     "url": "https://www.stmarkjtn.org/",
+     "src": "https://www.stmarkjtn.org/"
+    },
+    {
+     "name": "St. Matthew's Episcopal Church",
+     "blurb": "Episcopal. Village parish that holds Wednesday Morning Prayer and Bible study as well as Sunday worship. It runs a thrift shop open Saturday mornings.",
+     "address": "87 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-1762",
+     "hours": "Sun 8am & 10am",
+     "url": "https://www.stmatthewsjamestown.org/",
+     "src": "https://www.stmatthewsjamestown.org/contact-us.html"
+    },
+    {
+     "name": "Central Baptist Church",
+     "blurb": "Baptist. Congregation dating to the Baptist Society of Jamestown, formed in 1841, that welcomes members of many traditions. The church building houses the Jamestown Community Food Pantry.",
+     "address": "Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://divinity.yale.edu/sites/default/files/job_positions/cbc_jamestown_self-study_2023.pdf"
+    },
+    {
+     "name": "Conanicut Friends Meeting",
+     "blurb": "Quaker. Worship takes place in the 18th-century Friends Meetinghouse at North Road and Weeden Lane in summer. From November to April the meeting moves to the Norman Bird Sanctuary in Middletown (Sundays at 10am); contact John Drotos.",
+     "address": "North Rd & Weeden Ln, Jamestown, RI",
+     "phone": "(401) 855-3447",
+     "hours": "",
+     "url": "https://www.friendsjournal.org/meeting/conanicut-friends-meeting/",
+     "src": "https://www.friendsjournal.org/meeting/conanicut-friends-meeting/"
+    }
+   ]
+  }
+ ]
+}
