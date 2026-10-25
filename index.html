@@ -278,6 +278,21 @@ html body #view .vb i{font:800 10px/1.2 var(--lb)!important;letter-spacing:.1em!
 #dirList .none{padding:18px 14px;color:#9aa3ad;font:400 13px system-ui}
 #dirCol .bf{flex:none;padding:6px 12px;font:400 10.5px/1.35 system-ui,sans-serif;color:#7f8791;text-align:center;border-top:1px solid #1f1f1f}
 @media (prefers-reduced-motion:reduce){#dirCol .bulbs::before,#dirCol .bulbs::after,#dirList .drow::before,#dirList .nm{animation:none!important}}
+</style><style id="evtCss">.cvr .cimg .cevt{position:absolute;inset:0;display:none;z-index:6;cursor:pointer;container-type:size;overflow:hidden;background:radial-gradient(120% 70% at 50% 0%,#3a0f1c 0,#14060c 55%,#050203 100%);color:#fff;text-align:center;padding:7cqw 7cqw 6cqw;box-sizing:border-box;flex-direction:column;justify-content:space-between;align-items:center;border:.8cqw solid #e8b818;box-shadow:inset 0 0 0 .6cqw #000,inset 0 0 8cqw #000a}
+.cvr .cimg.evt .cevt{display:flex}
+.cevt .e-k{font:800 3.4cqw/1 Oswald,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#e8b818;text-shadow:0 0 3cqw #e8b81888}
+.cevt .e-d{font:400 17cqw/.95 'Alfa Slab One',Georgia,serif;color:#fff;text-transform:uppercase;text-shadow:0 0 2cqw #fff6,0 0 6cqw #ff3a5c99}
+.cevt .e-d small{display:block;font:700 5.4cqw/1 Oswald,sans-serif;letter-spacing:.3em;color:#ffb3c1;margin-bottom:2cqw;text-shadow:none}
+.cevt .e-t{font:400 9.2cqw/1.04 'Alfa Slab One',Georgia,serif;color:#ffd84a;text-transform:uppercase;text-wrap:balance;text-shadow:0 0 4cqw #ffb30055}
+.cevt .e-w{font:700 5cqw/1.25 Oswald,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#fff}
+.cevt .e-w small{display:block;font:500 3.8cqw/1.3 system-ui,sans-serif;letter-spacing:.02em;text-transform:none;color:#c9ced6;margin-top:1cqw}
+.cevt .e-b{font:italic 400 4.3cqw/1.35 Georgia,serif;color:#e9dfe2;max-width:92%}
+.cevt .e-go{font:800 3.6cqw/1 Oswald,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#000;background:#e8b818;border-radius:99px;padding:2.2cqw 5cqw}
+.cevt ul{list-style:none;margin:0;padding:0;width:100%;text-align:left}
+.cevt li{display:flex;justify-content:space-between;gap:3cqw;font:600 4.6cqw/1.2 Oswald,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:1.5cqw 0;border-bottom:1px solid #ffffff22}
+.cevt li i{font-style:normal;color:#ffd84a}
+.cevt h4{margin:3cqw 0 1cqw;font:400 6.2cqw/1.1 'Alfa Slab One',Georgia,serif;color:#fff;text-align:left;text-transform:uppercase}
+.cvr .cimg.evt .car,.cvr .cimg.evt .bcn{display:none}
 </style>
 </head>
 <body>
@@ -2397,8 +2412,33 @@ function flip(toBack){const b=document.querySelector('.cvr .cimg');if(!b||busy)r
  busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
  setTimeout(()=>{b.classList.toggle('back',!!toBack);if(toBack)bar(b);else unbar();b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
   requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';busy=false},420)}))},380)}
+
+let EV=null,evI=0,evN=0;
+const ETZ='America/New_York',pad=n=>String(n).padStart(2,'0');
+const tmin=t=>{const m=/(\d+):(\d+)\s*(AM|PM)/i.exec(t||'');if(!m)return 0;return (+m[1]%12+(/pm/i.test(m[3])?12:0))*60+ +m[2]};
+const esc2=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dparts=d=>{const t=new Date(d+'T12:00:00');return [t.toLocaleDateString('en-US',{weekday:'short'}),t.toLocaleDateString('en-US',{month:'short',day:'numeric'})]};
+const evLoad=()=>EV?Promise.resolve(EV):fetch('data/cal.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then(r=>r.json()).then(j=>{const now=new Date();const td=now.toLocaleDateString('en-CA',{timeZone:ETZ});const nm=(()=>{const p=now.toLocaleTimeString('en-GB',{timeZone:ETZ,hour12:false}).split(':');return +p[0]*60+ +p[1]})();
+ const up=(j.events||[]).filter(x=>x.date>td||(x.date===td&&tmin(x.time)>=nm-60)).sort((a,b)=>a.date===b.date?tmin(a.time)-tmin(b.time):a.date<b.date?-1:1);
+ const ent=up.filter(x=>!/rehears|pantry|thrift|teen center|exhibition|class\b|coffee|appointments|donation|book club|opening[s]? *$/i.test(x.artists)&&(/^(live|jazz|rock|theater|classical)$/.test(x.genre)||(x.genre==='arts'&&/concert|talk|screening|performance|reception|market|show|film/i.test(x.artists))||(x.genre==='community'&&/stroll|cruise|arrive|santa/i.test(x.artists))||x.genre==='family'&&/party|halloween/i.test(x.artists)));
+ const seen=new Set(),E=ent.filter(x=>{const k=x.date+x.artists.replace(/ - .*|:.*|\(.*/,'').trim();if(seen.has(k))return false;seen.add(k);return true}).slice(0,40);
+ const wk=new Date(Date.now()+7*864e5).toLocaleDateString('en-CA',{timeZone:ETZ});
+ const W={};up.filter(x=>x.genre==='worship'&&x.date<=wk).forEach(x=>{(W[x.venue]=W[x.venue]||[]).push(x)});
+ EV={E,W};return EV}).catch(()=>null);
+function evFace(){const E=EV&&EV.E,W=EV&&EV.W;if(!E||!E.length)return null;
+ const useW=(evN++%4===3)&&W&&Object.keys(W).length;
+ if(useW){const ch=Object.keys(W).slice(0,3);return '<i class="e-k">Worship on the island</i><div style="width:100%">'+ch.map(c=>{const seenT=new Set(),L=W[c].filter(x=>{const k=x.date+x.time;if(seenT.has(k))return false;seenT.add(k);return true}).slice(0,3);return '<h4>'+esc2(c.replace(/ Catholic| Episcopal/,''))+'</h4><ul>'+L.map(x=>{const d=dparts(x.date);return '<li><span>'+esc2(x.artists.replace(/ at .*$/,''))+'</span><i>'+d[0]+' '+esc2(x.time)+'</i></li>'}).join('')+'</ul>'}).join('')+'</div><span class="e-go">Full island calendar →</span>'}
+ const x=E[evI++%E.length],d=dparts(x.date);let b=(x.blurb||'').split(/(?<=[.!?])\s/)[0]||'';if(b.length>150)b=b.slice(0,147).replace(/\s+\S*$/,'')+'…';
+ return '<i class="e-k">Coming up on the island</i><b class="e-d"><small>'+d[0]+'</small>'+d[1]+'</b><strong class="e-t">'+esc2(x.artists)+'</strong><span class="e-w">'+esc2(x.time)+' · '+esc2(x.venue)+'<small>'+esc2((x.address||'').replace(/,? ?Jamestown, RI \d+/,'').replace(x.venue+', ','').replace(x.venue,''))+'</small></span>'+(b?'<em class="e-b">'+esc2(b)+'</em>':'')+'<span class="e-go">Full island calendar →</span>'}
+function flipEvt(on){const b=document.querySelector('.cvr .cimg');if(!b||busy)return;if(on&&(document.hidden||vidOn()||b.classList.contains('back')))return;if(!!on===b.classList.contains('evt'))return;
+ let html=null;if(on){html=evFace();if(!html)return;let f=b.querySelector('.cevt');if(!f){f=document.createElement('span');f.className='cevt';b.appendChild(f)}f.innerHTML=html}
+ busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
+ setTimeout(()=>{b.classList.toggle('evt',!!on);b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';busy=false},420)}))},380)}
+addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .cimg.evt');if(!c)return;e.preventDefault();e.stopImmediatePropagation();flipEvt(false);try{go('cal')}catch(_){location.hash='cal'}},true);
+setTimeout(evLoad,3000);
 let frozen=false;const held=()=>frozen||!!document.querySelector('.cvr .cimg:hover,.bkSpread:hover');const whenFree=fn=>{const tk=()=>{if(held())setTimeout(tk,1000);else fn()};tk()};
-let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||document.hidden||vidOn())return;if(cyc++%2===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),10000)}else{openBook()}},30000);
+let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||b.classList.contains('evt')||document.hidden||vidOn())return;const k=cyc++%3;if(k===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),10000)}else if(k===1){openBook()}else{evLoad().then(()=>{flipEvt(true);setTimeout(()=>whenFree(()=>flipEvt(false)),10000)})}},30000);
 ['img/inside-cover-ad.jpg','img/page-one-ad.jpg'].forEach(s=>{new Image().src=s});
 function openBook(){const b=document.querySelector('.cvr .cimg');if(!b||busy||document.hidden||vidOn()||b.classList.contains('back'))return;const cv=b.closest('.cvr');if(!cv)return;
  busy=true;if(getComputedStyle(cv).position==='static')cv.style.position='relative';
@@ -2416,7 +2456,7 @@ function bar(host){unbar();const d=document.createElement('span');d.className='f
 function unbar(){document.querySelectorAll('.frzBar').forEach(x=>x.remove())}
 })();</script>
 <script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
-<script id="bridgeCar">(()=>{const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#fff8e6;box-shadow:0 0 6px 2px rgba(255,244,210,.9),0 0 14px 4px rgba(255,236,190,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#ff2a1a;box-shadow:0 0 5px 1px rgba(255,30,10,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car{display:none}';document.head.appendChild(st);
+<script id="bridgeCar">(()=>{const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#fff8e6;box-shadow:0 0 6px 2px rgba(255,244,210,.9),0 0 14px 4px rgba(255,236,190,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#ff2a1a;box-shadow:0 0 5px 1px rgba(255,30,10,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car,.cvr .cimg.evt .car{display:none}';document.head.appendChild(st);
 const X0=0,Y0=39.6,X1=100,Y1=49.7;
 function drive(){const b=document.querySelector('.cvr .cimg');if(b&&!document.hidden&&!b.classList.contains('back')&&b.style.opacity!=='0'){const r=Math.random()<.5;const c=document.createElement('span');c.className='car '+(r?'r':'l');b.appendChild(c);
  const a=r?[X0,Y0,X1,Y1]:[X1,Y1,X0,Y0];const dur=7000+Math.random()*3000;
