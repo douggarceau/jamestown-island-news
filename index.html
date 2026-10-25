@@ -2104,7 +2104,7 @@ window.__adPool=()=>adPool();function adPool(){if(!ADS_ON)return AD_SEED;if(adPo
 ['#6fbf73','Architects<em>&amp; design</em>','Architecture, interiors and custom homes.']]
  .map(([k,big,sub],i)=>({tag:'Advertise here',big,name:P,sub,go:'How it works',theme:'ad',k,sty:String(i+1),view:'advertise',href:'#advertise'})).concat([{tag:'Island News',big:'Request<em>coverage</em>',name:'Tell us your news or event',sub:'',go:'Email us',theme:'ad',k:'#8fd3ff',sty:'11',href:'#coverage'}]))}
 setTimeout(()=>{const P=adShuf(adPool());['l','r'].forEach((sd,n)=>{if(document.querySelector('.lspot.'+sd+'.t-ad,.lspot.'+sd+'.t-adimg'))return;const ids=[...document.querySelectorAll('.lsrow .lspot.'+sd+' a[id]')].filter(x=>!x.parentNode.hidden&&x.parentNode.style.display!=='none'&&x.parentNode.getBoundingClientRect().top<innerHeight*1.5).map(x=>x.id);if(ids.length)showPromo0(ids[Math.floor(Math.random()*ids.length)],P.slice(n).concat(P.slice(0,n)),0,true)})},2500);
-function showPromo0(id,pool,offset=0,flip=false){
+function showPromo0(id,pool,offset=0,flip=false){{const el=document.getElementById(id);const bx=el&&el.parentNode;if(bx&&(bx.matches(':hover')||bx.dataset.frozen))return}
  const a=$(id);if(!a||a.parentNode.style.display==='none')return;const box=a.parentNode;
  if(flip&&a.contains(document.activeElement))return;
  clearTimeout(promoTimers.get(a));box.classList.remove('flip');delete a.dataset.promoNext;
@@ -2350,20 +2350,23 @@ function flip(toBack){const b=document.querySelector('.cvr .cimg');if(!b||busy)r
  busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
  setTimeout(()=>{b.classList.toggle('back',!!toBack);b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
   requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';busy=false},420)}))},380)}
-let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||document.hidden||vidOn())return;if(cyc++%2===0){flip(true);setTimeout(()=>flip(false),10000)}else{openBook()}},30000);
+let frozen=false;const held=()=>frozen||!!document.querySelector('.cvr .cimg:hover,.bkSpread:hover');const whenFree=fn=>{const tk=()=>{if(held())setTimeout(tk,1000);else fn()};tk()};
+let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||document.hidden||vidOn())return;if(cyc++%2===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),10000)}else{openBook()}},30000);
 ['img/inside-cover-ad.jpg','img/page-one-ad.jpg'].forEach(s=>{new Image().src=s});
 function openBook(){const b=document.querySelector('.cvr .cimg');if(!b||busy||document.hidden||vidOn()||b.classList.contains('back'))return;const cv=b.closest('.cvr');if(!cv)return;
  busy=true;if(getComputedStyle(cv).position==='static')cv.style.position='relative';
  const r=b.getBoundingClientRect(),c=cv.getBoundingClientRect();const L=r.left-c.left,T=r.top-c.top,w=Math.min(r.width*2,c.right-r.left);
  const s=document.createElement('div');s.className='bkSpread';s.style.cssText='position:absolute;left:'+L+'px;top:'+T+'px;width:'+w+'px;height:'+r.height+'px;z-index:3;display:flex;opacity:0;transition:opacity .5s ease;cursor:pointer;box-shadow:0 18px 40px rgba(0,0,0,.7);border-radius:6px;overflow:hidden';
  s.innerHTML='<img src="img/inside-cover-ad.jpg?v=2" alt="Inside front cover ad space" style="width:50%;height:100%;object-fit:cover;display:block"><img src="img/page-one-ad.jpg?v=2" alt="Page one ad space" style="width:50%;height:100%;object-fit:cover;display:block">';
- s.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();close();setTimeout(()=>{try{go('advertise')}catch(_){}},50)});
+ s.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();if(e.target.closest('.frzX')){frozen=false;unbar();close();return}if(!frozen){frozen=true;bar(s);return}frozen=false;unbar();close();setTimeout(()=>{try{go('advertise')}catch(_){}},50)});
  cv.appendChild(s);b.style.position='relative';b.style.zIndex='8';b.style.transformOrigin='0 50%';
  requestAnimationFrame(()=>{s.style.opacity='1';b.style.transition='transform 1.1s cubic-bezier(.5,.05,.3,1),opacity .3s ease .8s';b.style.transform='perspective(1600px) rotateY(-110deg)';b.style.opacity='0'});
- let shut=false;const tm=setTimeout(close,10000);
+ let shut=false;const tm=setTimeout(()=>whenFree(close),10000);s._close=close;
  function close(){if(shut)return;shut=true;clearTimeout(tm);b.style.transition='transform 1s cubic-bezier(.5,.05,.3,1),opacity .2s ease';b.style.opacity='1';b.style.transform='perspective(1600px) rotateY(0deg)';s.style.opacity='0';
   setTimeout(()=>{s.remove();b.style.transition='';b.style.transform='';b.style.zIndex='';b.style.transformOrigin='';busy=false},1100)}}
-addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .cimg.back');if(!c)return;e.preventDefault();e.stopImmediatePropagation();c.classList.remove('back');try{go('advertise')}catch(_){location.hash='advertise'}},true);
+addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .cimg.back');if(!c)return;e.preventDefault();e.stopImmediatePropagation();if(e.target.closest('.frzX')){frozen=false;unbar();flip(false);return}if(!frozen){frozen=true;bar(c);return}frozen=false;unbar();c.classList.remove('back');try{go('advertise')}catch(_){location.hash='advertise'}},true);
+function bar(host){unbar();const d=document.createElement('span');d.className='frzBar';d.innerHTML='<b>Tap again to advertise</b><i class="frzX" role="button" aria-label="Close">✕</i>';d.style.cssText='position:absolute;left:8px;right:8px;bottom:8px;z-index:9;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 10px;border-radius:6px;background:rgba(8,12,20,.85);border:1px solid #e8b818;font:700 11px/1.2 var(--mono,monospace);letter-spacing:.08em;text-transform:uppercase;color:#e8b818';d.querySelector('i').style.cssText='font-style:normal;color:#fff;font-size:14px;padding:0 4px;cursor:pointer';host.appendChild(d)}
+function unbar(){document.querySelectorAll('.frzBar').forEach(x=>x.remove())}
 })();</script>
 <script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
 </body>
