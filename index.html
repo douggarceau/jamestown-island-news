@@ -1650,7 +1650,7 @@ function vAdvertise(){const ex=[['#19b3a6','Real estate brokers'],['#e8b818','We
   <p style="margin:0"><strong style="color:#e8b818">No money up front.</strong> Just send us your info: name, logo or photo, a line about you and a phone number or website. We design the ad, run it and bill you.</p>
   <div style="display:grid;gap:8px;font:400 14px/1.5 var(--body,system-ui);color:#cfd6dc">
   <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Margin box</b> · $30 for 30 days<br>Rectangle, 830 × 474 pixels (about 7 × 4 proportion). Rotates through the side boxes on every page.</div>
-  <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Back cover</b> · $200 for 30 days<br>Full page, 1024 × 1536 pixels (2 × 3 portrait). The front-page cover flips to your ad every 30 seconds.</div>
+  <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Back of the online cover</b> · $200 for 30 days<br>Full page, 1024 × 1536 pixels (2 × 3 portrait). The cover on our front page flips over every 30 seconds to show your ad.</div>
   <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Larger ads</b> · ask us</div></div>
   <div style="display:flex;flex-wrap:wrap;gap:8px">${ex.map(([k,l])=>`<span style="padding:5px 10px;border:1px solid ${k};border-radius:999px;color:${k};font:700 11px/1.2 var(--mono,monospace);letter-spacing:.08em;text-transform:uppercase">${l}</span>`).join('')}</div>
   <div><a class="nb" id="adMail" href="#advertise" style="display:inline-block">Contact Jamestown Island News →</a></div></div></section>`}
@@ -2292,7 +2292,7 @@ setTimeout(cycle,8000);
 const H=/^(the wire · nightlife|the wire|shows this week|tech & ai wire|scene picks|band watch|venue desk)/i;
 const go=()=>{document.querySelectorAll('#view section.box').forEach(s=>{const b=s.querySelector('.bh b');const g=s.querySelector('.vguide');if((b&&H.test(b.textContent.trim()))||g)s.style.display='none'});document.querySelectorAll('#view .front').forEach(f=>{const st=f.querySelector(':scope>.stack');if(st&&![...st.children].some(c=>c.offsetHeight>0)){st.style.display='none';f.style.gridTemplateColumns='minmax(0,1fr)'}})};
 const V=()=>document.getElementById('view');const st=()=>{const v=V();if(!v)return setTimeout(st,200);go();new MutationObserver(go).observe(v,{childList:true,subtree:true})};
-document.readyState==='loading'?document.addEventListener('DOMContentLoaded',st):st()})();</script><script id="backCover">(()=>{const BK='img/back-cover-ad.jpg';new Image().src=BK;
+document.readyState==='loading'?document.addEventListener('DOMContentLoaded',st):st()})();</script><script id="backCover">(()=>{const BK='img/back-cover-ad.jpg?v=2';new Image().src=BK;
 const st=document.createElement('style');st.textContent='.cvr .cimg .cback{position:absolute;inset:0;display:none;z-index:6;cursor:pointer;background:#0b1a38}.cvr .cimg .cback img{display:block;width:100%;height:100%;object-fit:cover;animation:none!important;transform:none!important}.cvr .cimg.back .cback{display:block}';document.head.appendChild(st);
 const vidOn=()=>{const v=document.getElementById('irBox');return v&&getComputedStyle(v).display!=='none'&&getComputedStyle(v).opacity!=='0'};
 let busy=false;
