@@ -270,8 +270,8 @@ html body #view .vb i{font:800 10px/1.2 var(--lb)!important;letter-spacing:.1em!
 #dirList .none{padding:18px 16px;color:#9a9a9a;font:400 13px system-ui}
 #dirCol .bf{flex:none;padding:8px 16px;font:400 11px/1.4 system-ui,sans-serif;color:#7a7a7a;text-align:left;border-top:1px solid #262626}
 </style><style id="evtCss">
-.cvr .cimg .cevt{position:absolute;inset:0;display:none;z-index:6;cursor:pointer;container-type:size;overflow:hidden;background:#000;color:#fff;text-align:left;flex-direction:column;box-sizing:border-box;border:.7cqw solid #e8b818}
-.cvr .cimg.evt .cevt{display:flex}
+.cvr .cimg .cevt,.pbx .cevt{position:absolute;inset:0;display:none;z-index:6;cursor:pointer;container-type:size;overflow:hidden;background:#000;color:#fff;text-align:left;flex-direction:column;box-sizing:border-box;border:.7cqw solid #e8b818}
+.cvr .cimg.evt .cevt,.pbx .cevt{display:flex}.pbx{display:none;position:relative;aspect-ratio:2/3;width:100%;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px #3a1a12,0 18px 40px rgba(0,0,0,.7);background:#000}.pbx .cevt{border-radius:6px}
 .cevt .e-ph{flex:none;height:40%;background:#000 center/cover no-repeat;position:relative}
 .cevt .e-ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,0) 40%,#000 100%)}
 .cevt .e-dt{position:absolute;z-index:2;left:5cqw;top:5cqw;background:#e8b818;color:#000;padding:2.2cqw 4cqw 2.4cqw;font:700 12cqw/.95 Oswald,"Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.01em;text-align:center}
@@ -289,6 +289,14 @@ html body #view .vb i{font:800 10px/1.2 var(--lb)!important;letter-spacing:.1em!
 .cevt li{display:flex;justify-content:space-between;gap:3cqw;font:600 5.4cqw/1.2 system-ui,sans-serif;color:#fff;padding:1.4cqw 0;border-bottom:1px solid #333}
 .cevt li i{font-style:normal;color:#ffd84a;white-space:nowrap}
 .cevt h4{margin:2.4cqw 0 .6cqw;font:700 7cqw/1.1 Oswald,"Arial Narrow",sans-serif;color:#fff;text-transform:uppercase}
+</style>
+<style id="pbxCss">
+@container (min-width:821px){
+ html body #coverSlot .cvr{grid-template-columns:minmax(0,min(40%,380px)) minmax(0,1fr)!important;align-items:start}
+ html body #coverSlot .cvr .cimg{grid-column:1;grid-row:1}
+ html body #coverSlot .cvr .pbx{display:block;grid-column:1;grid-row:2;margin-top:2px}
+ html body #coverSlot .cvr .cvside{grid-column:2;grid-row:1/span 2}
+}
 </style>
 </head>
 <body>
@@ -2444,6 +2452,16 @@ function flipEvt(on,kind){const b=document.querySelector('.cvr .cimg');if(!b||bu
   requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';busy=false},420)}))},380)}
 addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .cimg.evt');if(!c)return;e.preventDefault();e.stopImmediatePropagation();const kd=(c.querySelector('.cevt')||{dataset:{}}).dataset.kind;flipEvt(false);if(kd==='biz'){const nb=document.getElementById('dirNb');if(nb&&nb.offsetParent)nb.click();else scrollTo({top:0,behavior:'smooth'})}else{try{go('cal')}catch(_){location.hash='cal'}}},true);
 setTimeout(evLoad,3000);
+
+let pk=0;
+function pbxFlip(b,r){const f=b.querySelector('.cevt');b._busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
+ setTimeout(()=>{f.dataset.kind=r.kind;f.innerHTML=r.html;b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';b._busy=false},420)}))},380)}
+function pbxNext(first){const b=document.querySelector('.cvr .pbx');if(!b||b._busy||document.hidden)return;if(!first&&b.matches(':hover'))return;
+ evLoad().then(()=>{const k=pk++%10;const kind=(k===4||k===9)?'biz':k===7?'worship':'ev';const r=evFace(kind)||evFace('ev');if(!r)return;if(first){const f=b.querySelector('.cevt');f.dataset.kind=r.kind;f.innerHTML=r.html}else pbxFlip(b,r)})}
+setInterval(()=>{const c=document.querySelector('.cvr');if(!c||!c.querySelector('.cimg')||c.querySelector('.pbx'))return;const b=document.createElement('div');b.className='pbx';b.innerHTML='<span class="cevt"></span>';c.appendChild(b);pbxNext(true)},1000);
+setTimeout(()=>setInterval(()=>pbxNext(false),14000),7000);
+addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .pbx');if(!c)return;e.preventDefault();e.stopImmediatePropagation();const kd=(c.querySelector('.cevt')||{dataset:{}}).dataset.kind;if(kd==='biz'){const nb=document.getElementById('dirNb');if(nb&&nb.offsetParent)nb.click();else scrollTo({top:0,behavior:'smooth'})}else{try{go('cal')}catch(_){location.hash='cal'}}},true);
 let frozen=false;const held=()=>frozen||!!document.querySelector('.cvr .cimg:hover,.bkSpread:hover');const whenFree=fn=>{const tk=()=>{if(held())setTimeout(tk,1000);else fn()};tk()};
 let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||b.classList.contains('evt')||document.hidden||vidOn())return;const k=cyc++%10;if(k===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),7000)}else if(k===5){openBook()}else{const kind=(k===4||k===9)?'biz':(k===8?'worship':'ev');evLoad().then(()=>{flipEvt(true,kind);setTimeout(()=>whenFree(()=>flipEvt(false)),7000)})}},14000);
 ['img/inside-cover-ad.jpg','img/page-one-ad.jpg'].forEach(s=>{new Image().src=s});
