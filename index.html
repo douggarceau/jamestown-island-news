@@ -1653,7 +1653,7 @@ function vAdvertise(){const ex=[['#19b3a6','Real estate brokers'],['#e8b818','We
   <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Back of the online cover</b> · $200 for 30 days<br>Full page, 1024 × 1536 pixels (2 × 3 portrait). The cover on our front page flips over every 30 seconds to show your ad.</div>
   <div style="padding:10px 12px;border:1px solid #2a3442;border-radius:6px"><b style="color:#fff">Larger ads</b> · ask us</div></div>
   <div style="display:flex;flex-wrap:wrap;gap:8px">${ex.map(([k,l])=>`<span style="padding:5px 10px;border:1px solid ${k};border-radius:999px;color:${k};font:700 11px/1.2 var(--mono,monospace);letter-spacing:.08em;text-transform:uppercase">${l}</span>`).join('')}</div>
-  <div><a class="nb" id="adMail" href="#advertise" style="display:inline-block">Contact Jamestown Island News →</a></div></div></section>`}
+  <div style="display:flex;flex-wrap:wrap;gap:8px"><a class="nb" id="adMail" href="#advertise" style="display:inline-block">Advertise with us →</a><a class="nb" href="#coverage" style="display:inline-block">Request coverage →</a><a class="nb" href="#contact" style="display:inline-block">Contact us →</a></div></div></section>`}
 function wireAd(){const m=$('#adMail');if(m){m.onclick=e=>{e.preventDefault();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent('Advertising on Jamestown Island News')}}const f=$('#adF');if(!f)return;f.onsubmit=async ev=>{ev.preventDefault();const venue=$('#aV').value.trim(),contact=$('#aE').value.trim();
   if(venue.length<2){say('#aMsg','err','Tell us which venue or business.');return}if(contact.length<5){say('#aMsg','err','Leave an email or phone so the editor can reach you.');return}
   if(!DB){say('#aMsg','err',NOT_OPEN);return}$('#aGo').disabled=true;
@@ -2053,7 +2053,7 @@ function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P=
 ['#f2a65a','Stores<em>&amp; shops</em>','Boutiques, galleries, gifts and island goods.'],
 ['#e85d9a','Advertise<em>your event</em>','Concerts, fundraisers, openings and sales.'],
 ['#6fbf73','Architects<em>&amp; design</em>','Architecture, interiors and custom homes.']]
- .map(([k,big,sub])=>({tag:'Advertise here',big,name:P,sub,go:'How it works',theme:'ad',k,view:'advertise',href:'#advertise'})))}
+ .map(([k,big,sub])=>({tag:'Advertise here',big,name:P,sub,go:'How it works',theme:'ad',k,view:'advertise',href:'#advertise'})).concat([{tag:'Island News',big:'Request<em>coverage</em>',name:'Tell us your news or event',sub:'',go:'Email us',theme:'ad',k:'#8fd3ff',href:'#coverage'}]))}
 setTimeout(()=>{const P=adShuf(adPool());['l','r'].forEach((sd,n)=>{if(document.querySelector('.lspot.'+sd+'.t-ad,.lspot.'+sd+'.t-adimg'))return;const ids=[...document.querySelectorAll('.lsrow .lspot.'+sd+' a[id]')].filter(x=>!x.parentNode.hidden&&x.parentNode.style.display!=='none'&&x.parentNode.getBoundingClientRect().top<innerHeight*1.5).map(x=>x.id);if(ids.length)showPromo0(ids[Math.floor(Math.random()*ids.length)],P.slice(n).concat(P.slice(0,n)),0,true)})},2500);
 function showPromo0(id,pool,offset=0,flip=false){
  const a=$(id);if(!a||a.parentNode.style.display==='none')return;const box=a.parentNode;
@@ -2304,5 +2304,6 @@ function flip(toBack){const b=document.querySelector('.cvr .cimg');if(!b||busy)r
 setInterval(()=>{flip(true);setTimeout(()=>flip(false),10000)},30000);
 addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .cimg.back');if(!c)return;e.preventDefault();e.stopImmediatePropagation();c.classList.remove('back');try{go('advertise')}catch(_){location.hash='advertise'}},true);
 })();</script>
+<script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
 </body>
 </html>
