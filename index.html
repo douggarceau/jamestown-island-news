@@ -1644,7 +1644,7 @@ function vScene(){
 }
 
 const ADPK=[['box','Margin box · $29.99 / 30 days','Your colored box in the side rotation on every page, linked to your site or phone.'],['featured','Featured listing','Top of your category in the Venue Guide, glowing, above every other listing.'],['spotlight','Front-page spotlight','Your venue in the Venue Guide on the front page, where every reader lands.'],['event','Event promo','Push a show or party on The Wire, the music calendar and your venue page.'],['story','Sponsored feature','A labeled sponsored story about your place, in the Report voice.']];
-function vAdvertise(){const ex=[['#19b3a6','Real estate brokers'],['#e8b818','Wealth & advisors'],['#9b7be0','Attorneys & estates'],['#d98cb3','Loan officers & mortgages'],['#5ec4e8','Medical & dental'],['#2f8fdd','Yachts & marinas'],['#ff6f61','Fine dining & wine'],['#6fbf73','Architects & design']];
+function vAdvertise(){const ex=[['#19b3a6','Real estate brokers'],['#e8b818','Wealth & advisors'],['#9b7be0','Attorneys & estates'],['#d98cb3','Loan officers & mortgages'],['#5ec4e8','Medical & dental'],['#2f8fdd','Yachts & marinas'],['#ff6f61','Restaurants & cafés'],['#f2a65a','Stores & shops'],['#6fbf73','Architects & design']];
   return `<h2 class="room">Advertise</h2><div class="intro"><b>Put your business in front of the island</b><p>A margin box on Jamestown Island News runs $30 for 30 days. Your box takes turns with the island's stories and events in the colored side spots on every page, desktop and phone. It carries your name, a line about you and a link or phone number.</p></div>
   <section class="box" style="--c:#e8b818"><div class="bh"><b>Ad sizes &amp; rates</b><span>no money up front</span></div><div style="padding:14px 16px;display:grid;gap:12px;font:400 15px/1.55 Georgia,serif;color:#d7dde2">
   <p style="margin:0"><strong style="color:#e8b818">No money up front.</strong> Just send us your info: name, logo or photo, a line about you and a phone number or website. We design the ad, run it and bill you.</p>
@@ -2049,7 +2049,8 @@ function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P=
 ['#d98cb3','Loan officers<em>&amp; mortgages</em>','Mortgages and refinancing for island buyers.'],
 ['#5ec4e8','Medical<em>&amp; dental</em>','Doctors, dentists, specialists and wellness.'],
 ['#2f8fdd','Yachts<em>&amp; marinas</em>','Charters, brokerage, moorings and yacht services.'],
-['#ff6f61','Fine dining<em>&amp; wine</em>','Restaurants, caterers and wine merchants.'],
+['#ff6f61','Restaurants<em>&amp; cafés</em>','Put tonight’s special in front of the island.'],
+['#f2a65a','Stores<em>&amp; shops</em>','Boutiques, galleries, gifts and island goods.'],
 ['#6fbf73','Architects<em>&amp; design</em>','Architecture, interiors and custom homes.']]
  .map(([k,big,sub])=>({tag:'Advertise here',big,name:P,sub,go:'How it works',theme:'ad',k,view:'advertise',href:'#advertise'})))}
 setTimeout(()=>{const P=adShuf(adPool());['l','r'].forEach((sd,n)=>{if(document.querySelector('.lspot.'+sd+'.t-ad,.lspot.'+sd+'.t-adimg'))return;const ids=[...document.querySelectorAll('.lsrow .lspot.'+sd+' a[id]')].filter(x=>!x.parentNode.hidden&&x.parentNode.style.display!=='none'&&x.parentNode.getBoundingClientRect().top<innerHeight*1.5).map(x=>x.id);if(ids.length)showPromo0(ids[Math.floor(Math.random()*ids.length)],P.slice(n).concat(P.slice(0,n)),0,true)})},2500);
