@@ -1644,7 +1644,7 @@ function vScene(){
 }
 
 const ADPK=[['box','Margin box · $29.99 / 30 days','Your colored box in the side rotation on every page, linked to your site or phone.'],['featured','Featured listing','Top of your category in the Venue Guide, glowing, above every other listing.'],['spotlight','Front-page spotlight','Your venue in the Venue Guide on the front page, where every reader lands.'],['event','Event promo','Push a show or party on The Wire, the music calendar and your venue page.'],['story','Sponsored feature','A labeled sponsored story about your place, in the Report voice.']];
-function vAdvertise(){const ex=[['#19b3a6','Shops & galleries'],['#ff6f61','Restaurants & cafés'],['#e8b818','Marinas & boatyards'],['#2f8fdd','Builders & trades'],['#6fbf73','Realtors & rentals'],['#9b7be0','Services & wellness']];
+function vAdvertise(){const ex=[['#19b3a6','Realtors & fine homes'],['#e8b818','Wealth & advisors'],['#9b7be0','Law & estates'],['#2f8fdd','Yachts & marinas'],['#ff6f61','Fine dining & wine'],['#6fbf73','Architects & design']];
   return `<h2 class="room">Advertise</h2><div class="intro"><b>Put your business in front of the island</b><p>A margin box on Jamestown Island News runs $30 for 30 days. Your box takes turns with the island's stories and events in the colored side spots on every page, desktop and phone. It carries your name, a line about you and a link or phone number.</p></div>
   <section class="box" style="--c:#e8b818"><div class="bh"><b>Margin box</b><span>$30 / 30 days</span></div><div style="padding:14px 16px;display:grid;gap:12px;font:400 15px/1.55 Georgia,serif;color:#d7dde2">
   <p style="margin:0">Island businesses of every kind are welcome. Send a note and the editor will get your box up.</p>
@@ -2039,12 +2039,12 @@ function showPromo(id,pool,off,flip){const A=adPool();const on=document.querySel
 function adShuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 const ADS_ON=true; /* Advertise Here boxes: set true to turn back on */
 const AD_SEED=[{tag:'Advertisement',img:'img/ad-eric-maluk.jpg',name:'Eric Maluk · Rate',sub:'Mortgages · (401) 254-4403',go:'Call Eric',theme:'adimg',k:'#c9a227',href:'tel:+14012544403',ext:0},{tag:'Advertisement',img:'img/ad-island-animal.jpg',name:'Island Animal',sub:'35 Narragansett Ave · (401) 560-0616',go:'Call the shop',theme:'adimg',k:'#c9a227',href:'tel:+14015600616',ext:0}];
-function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P='$30 for 30 days';return adPool.L=AD_SEED.concat([['#19b3a6','Your shop<em>right here</em>','A margin box on every page of Jamestown Island News.'],
-['#ff6f61','Restaurants<em>&amp; cafés</em>','Put tonight’s special in front of the island.'],
-['#e8b818','Marinas<em>&amp; boatyards</em>','Moorings, storage, haul-outs and repairs.'],
-['#2f8fdd','Builders<em>&amp; trades</em>','Contractors, landscapers, painters and plumbers.'],
-['#9b7be0','Galleries<em>&amp; shops</em>','Downtown, Valley Street and East Ferry.'],
-['#6fbf73','Realtors<em>&amp; rentals</em>','Listings and seasonal rentals, seen by islanders.']]
+function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P='$30 for 30 days';return adPool.L=AD_SEED.concat([['#19b3a6','Realtors<em>&amp; fine homes</em>','Waterfront listings in front of island buyers.'],
+['#e8b818','Wealth<em>&amp; advisors</em>','Financial planners, private banks and wealth managers.'],
+['#9b7be0','Law<em>&amp; estates</em>','Estate planning, real estate and family law.'],
+['#2f8fdd','Yachts<em>&amp; marinas</em>','Charters, brokerage, moorings and yacht services.'],
+['#ff6f61','Fine dining<em>&amp; wine</em>','Restaurants, caterers and wine merchants.'],
+['#6fbf73','Architects<em>&amp; design</em>','Architecture, interiors and custom homes.']]
  .map(([k,big,sub])=>({tag:'Advertise here',big,name:P,sub,go:'How it works',theme:'ad',k,view:'advertise',href:'#advertise'})))}
 setTimeout(()=>{const P=adShuf(adPool());['l','r'].forEach((sd,n)=>{if(document.querySelector('.lspot.'+sd+'.t-ad,.lspot.'+sd+'.t-adimg'))return;const ids=[...document.querySelectorAll('.lsrow .lspot.'+sd+' a[id]')].filter(x=>!x.parentNode.hidden&&x.parentNode.style.display!=='none'&&x.parentNode.getBoundingClientRect().top<innerHeight*1.5).map(x=>x.id);if(ids.length)showPromo0(ids[Math.floor(Math.random()*ids.length)],P.slice(n).concat(P.slice(0,n)),0,true)})},2500);
 function showPromo0(id,pool,offset=0,flip=false){
