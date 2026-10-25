@@ -2038,7 +2038,7 @@ function showPromo(id,pool,off,flip){const A=adPool();const on=document.querySel
  if(A.length&&on<Math.min(2,A.length)&&Math.random()<(on?0.15:0.3))return showPromo0(id,adShuf(A),0,flip);return showPromo0(id,pool,off,flip)}
 function adShuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 const ADS_ON=true; /* Advertise Here boxes: set true to turn back on */
-const AD_SEED=[{tag:'Advertisement',img:'img/ad-island-animal.jpg',name:'Island Animal',sub:'35 Narragansett Ave · (401) 560-0616',go:'Call the shop',theme:'adimg',k:'#c9a227',href:'tel:+14015600616',ext:0}];
+const AD_SEED=[{tag:'Advertisement',img:'img/ad-eric-maluk.jpg',name:'Eric Maluk · Rate',sub:'Mortgages · (401) 254-4403',go:'Call Eric',theme:'adimg',k:'#c9a227',href:'tel:+14012544403',ext:0},{tag:'Advertisement',img:'img/ad-island-animal.jpg',name:'Island Animal',sub:'35 Narragansett Ave · (401) 560-0616',go:'Call the shop',theme:'adimg',k:'#c9a227',href:'tel:+14015600616',ext:0}];
 function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P='$30 for 30 days';return adPool.L=AD_SEED.concat([['#19b3a6','Your shop<em>right here</em>','A margin box on every page of Jamestown Island News.'],
 ['#ff6f61','Restaurants<em>&amp; cafés</em>','Put tonight’s special in front of the island.'],
 ['#e8b818','Marinas<em>&amp; boatyards</em>','Moorings, storage, haul-outs and repairs.'],
