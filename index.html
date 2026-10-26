@@ -318,7 +318,14 @@ html body #view .vb i{font:800 10px/1.2 var(--lb)!important;letter-spacing:.1em!
 .evtk .ts2{display:block;margin-top:2px;font:400 13px/1.3 system-ui,sans-serif;color:#b5b5b5}
 @media (prefers-reduced-motion:reduce){.evtk .tl{animation:none}.evtk .tv{overflow-y:auto}}
 </style>
-</head>
+<style id="copCss">
+html body .cop{position:relative!important;overflow:hidden!important;color:#fff!important;border:3px solid #ff2020!important;animation:copGlow 1s steps(1) infinite!important;transform:none!important}
+html body .cop *{color:#fff!important;text-shadow:0 2px 6px #000!important}
+html body .cop::after{content:""!important;display:block!important;position:absolute!important;left:0!important;right:0!important;top:0!important;height:18px!important;z-index:5!important;pointer-events:none;animation:copBar 1s steps(1) infinite!important}
+@keyframes copGlow{0%{border-color:#ff2020;background:#e00000;box-shadow:0 0 70px 24px #ff1a1a,0 0 140px 40px rgba(255,0,0,.6)}50%{border-color:#2a6bff;background:#0030ff;box-shadow:0 0 70px 24px #1e5bff,0 0 140px 40px rgba(0,60,255,.6)}}
+@keyframes copBar{0%{background:linear-gradient(90deg,#fff 0 4%,#ff1a1a 4% 46%,#111 46% 54%,#0a0a1a 54% 100%);box-shadow:0 0 40px 14px #ff1a1a}50%{background:linear-gradient(90deg,#1a0a0a 0 46%,#111 46% 54%,#1e5bff 54% 96%,#fff 96% 100%);box-shadow:0 0 40px 14px #1e5bff}}
+@media (prefers-reduced-motion:reduce){html body .cop,html body .cop::after{animation:none!important}html body .cop{background:#600!important;box-shadow:-8px 0 0 #ff1a1a,8px 0 0 #1e5bff!important}}
+</style></head>
 <body>
 <title>Jamestown Island News</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -2571,5 +2578,7 @@ if(nb)nb.addEventListener('click',()=>{col.classList.add('show');setTimeout(()=>
 col.querySelector('.dx').addEventListener('click',close);
 addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 })();</script>
-</body>
+<script id="copJs">(()=>{const S=['jamestown-murder-hillary-hellewell-arrest','1985-cold-case-arrest'];const q=S.map(k=>`button[data-story="${k}"]`).join(',');
+const RX=/hellewell|murder|41-year|cold case|morton/i;const deco=()=>{document.querySelectorAll('.cop').forEach(el=>{if(!el.matches(q)||!RX.test(el.textContent))el.classList.remove('cop')});document.querySelectorAll(q).forEach(el=>{if(!el.closest('article,.reader')&&RX.test(el.textContent))el.classList.add('cop')})};
+new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,50)}).observe(document.documentElement,{childList:true,subtree:true,characterData:true});deco()})();</script></body>
 </html>
