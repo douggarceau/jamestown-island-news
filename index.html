@@ -2579,6 +2579,6 @@ col.querySelector('.dx').addEventListener('click',close);
 addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 })();</script>
 <script id="copJs">(()=>{const S=['jamestown-murder-hillary-hellewell-arrest','1985-cold-case-arrest'];const q=S.map(k=>`button[data-story="${k}"]`).join(',');
-const RX=/hellewell|murder|41-year|cold case|morton/i;const deco=()=>{document.querySelectorAll('.cop').forEach(el=>{if(!el.matches(q)||!RX.test(el.textContent))el.classList.remove('cop')});document.querySelectorAll(q).forEach(el=>{if(!el.closest('article,.reader')&&RX.test(el.textContent))el.classList.add('cop')})};
+const RX=/hellewell|murder|41-year|cold case|morton/i,VRX=/\b(murder|homicide|killed|killing|stabb|shooting|gunfire|gunman|assault|strangl|manslaughter)/i;try{const now=Date.now();STORIES.forEach(x=>{if(VRX.test(x.title+' '+(x.dek||''))&&now-Date.parse(x.date)<14*864e5&&!S.includes(x.slug))S.push(x.slug)})}catch(e){}const q2=()=>S.map(k=>`button[data-story="${k}"]`).join(',');const deco=()=>{const q=q2();document.querySelectorAll('.cop').forEach(el=>{if(!el.matches(q))el.classList.remove('cop')});document.querySelectorAll(q).forEach(el=>{if(!el.closest('article,.reader'))el.classList.add('cop')})};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,50)}).observe(document.documentElement,{childList:true,subtree:true,characterData:true});deco()})();</script></body>
 </html>
