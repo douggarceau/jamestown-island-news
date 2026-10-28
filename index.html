@@ -2597,6 +2597,34 @@ html body #coverSlot .cvr .cvbrk.th-halloween small{color:#efe3f7!important}
 html body #coverSlot .cvr .cvbrk.th-halloween .spr-go{background:transparent!important;border-color:#ff7518!important;color:#ffa63d!important}
 html body #coverSlot .cvr .cvbrk.th-halloween:hover .spr-go{background:#ff7518!important;color:#1a0b2e!important}
 </style>
+<style id="wwCss">
+.wwbtn{display:inline-flex;align-items:center;gap:10px;margin:4px 0 2px;padding:10px 16px 10px 12px;border-radius:999px;background:radial-gradient(120% 140% at 0% 50%,#3a1460 0%,#0b0610 70%);border:2px solid #ff7518;color:#ffb347;font:800 13px/1.15 var(--lb,system-ui),sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;box-shadow:0 0 14px #ff7518aa,0 0 34px #ff751855,inset 0 0 12px #ff751833;animation:wwGlow 2.4s ease-in-out infinite;text-align:left;-webkit-tap-highlight-color:transparent}
+.wwbtn:hover,.wwbtn:focus-visible{color:#fff;border-color:#ffa63d;outline:none}
+.wwbtn .ww-moon{flex:none;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 38% 36%,#fffbe8 0 30%,#f4e7b8 55%,#d8c690 100%);box-shadow:0 0 12px #fff3c0,0 0 26px #ffe68a99}
+.wwbtn .ww-t b{display:block;color:#ff9a1f;text-shadow:0 0 8px #ff7518,0 0 18px #ff751899;animation:wwFlick 3.2s infinite}
+.wwbtn .ww-t small{display:block;margin-top:3px;font:600 10px/1.2 var(--lb,system-ui),sans-serif;letter-spacing:.14em;color:#d8c6ee}
+@keyframes wwGlow{50%{box-shadow:0 0 22px #ff7518,0 0 48px #ff751888,inset 0 0 16px #ff751855}}
+@keyframes wwFlick{0%,19%,23%,60%,64%,100%{opacity:1}21%,62%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){.wwbtn,.wwbtn .ww-t b{animation:none}}
+.wwmod{position:fixed;inset:0;z-index:100000;display:flex;align-items:center;justify-content:center;background:rgba(6,2,12,.88);padding:16px;animation:wwIn .25s ease}
+.wwmod .ww-box{position:relative;width:min(92vw,calc(86vh*9/16));aspect-ratio:9/16;border-radius:14px;overflow:hidden;border:2px solid #ff7518;box-shadow:0 0 40px #ff751899}
+.wwmod video{width:100%;height:100%;object-fit:cover;display:block;background:#000}
+.wwmod .ww-x{position:absolute;top:8px;right:8px;width:40px;height:40px;border-radius:50%;border:2px solid #ff7518;background:#0b0610cc;color:#ffb347;font:700 20px/1 system-ui;cursor:pointer}
+@keyframes wwIn{from{opacity:0}}
+html body .wwbtn .ww-t b,html body #coverSlot .cvr .cvbrk .wwbtn .ww-t b{font:800 13px/1.15 var(--lb,system-ui),sans-serif!important;letter-spacing:.06em!important;text-transform:uppercase!important;color:#ff9a1f!important;text-shadow:0 0 8px #ff7518,0 0 18px #ff751899!important;margin:0!important}html body .wwbtn .ww-t small,html body #coverSlot .cvr .cvbrk .wwbtn .ww-t small{font:600 10px/1.2 var(--lb,system-ui),sans-serif!important;letter-spacing:.14em!important;text-transform:uppercase!important;color:#d8c6ee!important;margin-top:3px!important}html body #coverSlot .cvr .cvbrk .wwbtn{padding:10px 16px 10px 12px!important;max-width:100%}
+</style>
+<script id="wwMsg">(()=>{const UNTIL='2026-11-02',V='vid/werewolf-halloween.mp4',P='vid/werewolf-halloween.jpg';
+const today=new Date().toISOString().slice(0,10);if(today>=UNTIL)return;
+const btn='<span class="wwbtn" role="button" tabindex="0" data-ww="1"><span class="ww-moon" aria-hidden="true"></span><span class="ww-t"><b>Tap here for a Halloween message for kids</b><small>From the Jamestown werewolf</small></span></span>';
+const place=()=>{const box=document.querySelector('#coverSlot .cvbrk.th-halloween');if(box&&!box.querySelector('.wwbtn')){const go=box.querySelector('.spr-go');go?go.insertAdjacentHTML('beforebegin',btn):box.insertAdjacentHTML('beforeend',btn)}
+ try{if(STATE.view==='read'){const x=STORIES.find(z=>z.slug===STATE.story);const h=document.querySelector('#view .reader .dek, #view .reader h1');if(x&&x.theme==='halloween'&&h&&!document.querySelector('#view .wwbtn'))h.insertAdjacentHTML('afterend','<div style="margin:12px 0 4px">'+btn+'</div>')}}catch(_){}};
+const open=()=>{if(document.querySelector('.wwmod'))return;const m=document.createElement('div');m.className='wwmod';m.setAttribute('role','dialog');m.setAttribute('aria-label','Halloween message from the Jamestown werewolf');
+ m.innerHTML='<div class="ww-box"><video src="'+V+'" poster="'+P+'" playsinline controls autoplay></video><button class="ww-x" type="button" aria-label="Close">✕</button></div>';document.body.appendChild(m);
+ const v=m.querySelector('video');const p=v.play();if(p&&p.catch)p.catch(()=>{});
+ const close=()=>{try{v.pause()}catch(_){}m.remove()};m.addEventListener('click',e=>{if(e.target===m||e.target.closest('.ww-x'))close()});addEventListener('keydown',function k(e){if(e.key==='Escape'){close();removeEventListener('keydown',k)}})};
+addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ww]');if(!b)return;e.preventDefault();e.stopImmediatePropagation();open()},true);
+addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest&&e.target.closest('[data-ww]')){e.preventDefault();open()}},true);
+let q=0;const go=()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;place()})};new MutationObserver(go).observe(document.documentElement,{childList:true,subtree:true});go()})();</script>
 <script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
 <script id="bridgeCar">(()=>{const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#fff8e6;box-shadow:0 0 6px 2px rgba(255,244,210,.9),0 0 14px 4px rgba(255,236,190,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#ff2a1a;box-shadow:0 0 5px 1px rgba(255,30,10,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car,.cvr .cimg.evt .car{display:none}';document.head.appendChild(st);
 const X0=0,Y0=39.6,X1=100,Y1=49.7;
