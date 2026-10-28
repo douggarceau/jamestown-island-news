@@ -1495,7 +1495,7 @@ function liveLines(I){
   if(!L.length)return '';
   const n=(typeof up!=='undefined'&&Array.isArray(up))?up.length:0;
   const last=n?(()=>{const d=up.reduce((m,e)=>e.date>m?e.date:m,'');const t=new Date(d+'T12:00:00');return isNaN(t)?'':t.toLocaleDateString('en-US',{month:'long'})})():'';
-  return `<span class="lvh" aria-label="Today's cover stories">${L.map((x,i)=>`<span class="lvi${i?'':' lvlead'}" data-lv="${esc(x.slug)}" role="link" tabindex="0"><b>${esc(hd(x))}</b>${i===0&&x.dek?`<small>${esc(x.dek)}</small>`:''}</span>`).join('')}${n?`<span class="lvi lvcal" data-lv="" role="link" tabindex="0"><b>The Island Calendar</b><small>${n} listings${last?' through '+esc(last):''}.</small></span>`:''}</span>`;
+  return `<span class="lvh" aria-label="Today's cover stories">${L.map((x,i)=>`<span class="lvi${i?'':' lvlead'}" data-lv="${esc(x.slug)}" role="link" tabindex="0"><b>${esc(hd(x))}</b></span>`).join('')}${n?`<span class="lvi lvcal" data-lv="" role="link" tabindex="0"><b>The Island Calendar</b><small>${n} listings${last?' through '+esc(last):''}.</small></span>`:''}</span>`;
 }
 function vCover(I){if(!I||!I.src)return '';
   const CVS=new Set(I.lines.map(l=>l[0]));const loc=STORIES.filter(x=>!CVS.has(x.slug)&&!(typeof FEATURES!=='undefined'&&FEATURES.has(x.slug))).slice(0,7);
@@ -2560,14 +2560,16 @@ addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('[data-p
 <style id="liveCoverCss">
 .cvr .cimg{container-type:inline-size}
 .cvr .cimg:has(.lvh) .blb,.cvr .cimg:has(.lvh) .bcn,.cvr .cimg:has(.lvh) .car{display:none!important}
-html body #coverSlot .cvr .cimg .lvh{position:absolute;z-index:2;right:3.5%;top:21%;bottom:4%;width:37%;display:flex;flex-direction:column;justify-content:flex-start;gap:0;text-align:right;pointer-events:none}
-html body #coverSlot .cvr .cimg .lvh .lvi{display:block;pointer-events:auto;cursor:pointer;padding:1.6cqw 0;border-bottom:.35cqw solid rgba(200,30,40,.85)}
-html body #coverSlot .cvr .cimg .lvh .lvi:last-child{border-bottom:0}
-html body #coverSlot .cvr .cimg .lvh .lvi b{display:block;background:none!important;border:0!important;box-shadow:none!important;padding:0!important;font:700 3.9cqw/1.06 'Oswald','Bebas Neue','Arial Narrow',Impact,sans-serif;text-transform:uppercase;letter-spacing:.01em;color:#0a1a33!important;text-shadow:0 0 1.2cqw rgba(255,250,240,.95),0 0 .4cqw rgba(255,250,240,.9)}
-html body #coverSlot .cvr .cimg .lvh .lvi.lvlead b{font-size:5cqw!important}
-html body #coverSlot .cvr .cimg .lvh .lvi small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;margin-top:.8cqw;font:400 2.5cqw/1.25 Georgia,'Times New Roman',serif!important;text-transform:none!important;letter-spacing:0!important;color:#0a1a33!important;text-shadow:0 0 1cqw rgba(255,250,240,.95)}
+html body #coverSlot .cvr .cimg .lvh{position:absolute;z-index:2;right:2.5%;top:20.5%;bottom:3%;width:40%;display:flex;flex-direction:column;justify-content:flex-start;gap:1.6cqw;text-align:right;pointer-events:none}
+html body #coverSlot .cvr .cimg .lvh .lvi{display:block;pointer-events:auto;cursor:pointer;padding:1.8cqw 2.2cqw;border-radius:1cqw;background:rgba(252,247,238,.9);border-right:1cqw solid #c41e2a;box-shadow:0 .6cqw 2cqw rgba(0,0,0,.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+html body #coverSlot .cvr .cimg .lvh .lvi b{display:block;background:none!important;border:0!important;box-shadow:none!important;padding:0!important;font:700 4.6cqw/1.05 'Oswald','Arial Narrow',Impact,sans-serif!important;text-transform:uppercase;letter-spacing:.01em;color:#0a1a33!important;text-shadow:none!important}
+html body #coverSlot .cvr .cimg .lvh .lvi.lvlead{background:#0a1a33;border-right-color:#e8b818}
+html body #coverSlot .cvr .cimg .lvh .lvi.lvlead b{font-size:5.6cqw!important;color:#fff!important}
+html body #coverSlot .cvr .cimg .lvh .lvi small{display:block;margin-top:1cqw;font:400 2.9cqw/1.3 Georgia,'Times New Roman',serif!important;text-transform:none!important;letter-spacing:0!important;color:#1d2b40!important;text-shadow:none!important}
+html body #coverSlot .cvr .cimg .lvh .lvi.lvlead small{color:#e9edf2!important}
 html body #coverSlot .cvr .cimg .lvh .lvi:hover b,html body #coverSlot .cvr .cimg .lvh .lvi:focus b{color:#a3111d!important}
-html body #coverSlot .cvr .cimg .lvh .lvi.lvcal{margin-top:auto;border-top:.35cqw solid rgba(200,30,40,.85)}
+html body #coverSlot .cvr .cimg .lvh .lvi.lvlead:hover b{color:#e8b818!important}
+html body #coverSlot .cvr .cimg .lvh .lvi.lvcal{margin-top:auto}
 </style>
 <script id="bridgeCar">(()=>{const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#fff8e6;box-shadow:0 0 6px 2px rgba(255,244,210,.9),0 0 14px 4px rgba(255,236,190,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#ff2a1a;box-shadow:0 0 5px 1px rgba(255,30,10,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car,.cvr .cimg.evt .car{display:none}';document.head.appendChild(st);
 const X0=0,Y0=39.6,X1=100,Y1=49.7;
