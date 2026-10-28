@@ -1749,7 +1749,7 @@ function vReader(slug){
   const s=STORIES.find(x=>x.slug===slug); if(!s) return vFront();
   const LOCK=false&&!!(PAY_LINK&&typeof FEATURES!=='undefined'&&FEATURES.has(s.slug)&&!window.SS_MEMBER);
   let B=s.body;if(LOCK){let n=0;B=[];for(const p of s.body){if(p.startsWith('#T ')||p.startsWith('= '))continue;B.push(p);if(!/^(## |> )/.test(p)&&++n>=3&&!/:\s*$/.test(p))break}}
-  return `<article class="reader styled${s.emma?' emma':''}" style="${sty(s.slug)}">
+  return `<article class="reader styled${s.emma?' emma':''}${s.theme?' th-'+s.theme:''}" style="${sty(s.slug)}">
     <button class="back" data-go="${STATE.prev||'front'}">← Back</button>
     ${s.special?'<span class="spr-tag" style="display:inline-block;width:max-content;justify-self:start;margin-bottom:10px">SPECIAL REPORT</span>':''}<span class="kick" style="--tc:${tc(s.topic)}"><span class="dot"></span>${esc(tl(s.topic))}<time>${longDay(s.date)}</time></span>
     <h1>${esc(s.title)}</h1><p class="dek">${esc(s.dek)}</p>
@@ -2596,6 +2596,24 @@ html body #coverSlot .cvr .cvbrk.th-halloween b{color:#ffa63d!important;text-sha
 html body #coverSlot .cvr .cvbrk.th-halloween small{color:#efe3f7!important}
 html body #coverSlot .cvr .cvbrk.th-halloween .spr-go{background:transparent!important;border-color:#ff7518!important;color:#ffa63d!important}
 html body #coverSlot .cvr .cvbrk.th-halloween:hover .spr-go{background:#ff7518!important;color:#1a0b2e!important}
+</style>
+<style id="hweenReaderCss">
+html body .reader.th-halloween{background:radial-gradient(90% 40% at 100% 0%,#5b1f8a55 0%,transparent 70%),radial-gradient(70% 30% at 0% 100%,#ff751822 0%,transparent 70%),linear-gradient(180deg,#160a24 0%,#0b0610 100%)!important;border:1px solid #ff751866!important;border-radius:12px;padding:22px clamp(16px,3vw,34px)!important;box-shadow:0 0 30px #ff751822}
+html body .reader.th-halloween h1{color:#ffa63d!important;text-shadow:0 0 18px #ff751855!important}
+html body .reader.th-halloween .kick,html body .reader.th-halloween .byl,html body .reader.th-halloween .byl span{color:#ff9a1f!important}
+html body .reader.th-halloween .dek{color:#e9dcf5!important}
+html body .reader.th-halloween h3{color:#ff8a1f!important;border-bottom:2px solid #ff751855;padding-bottom:6px;text-shadow:0 0 12px #ff751844}
+html body .reader.th-halloween h3::before{content:"🎃 ";}
+html body .reader.th-halloween .body p,html body .reader.th-halloween p{color:#efe6f7!important}
+html body .reader.th-halloween .body>p:first-of-type::first-letter{color:#ff9a1f!important}
+html body .reader.th-halloween .stbl table th{color:#1a0b2e!important;background:#ff7518!important}
+html body .reader.th-halloween .stbl table,html body .reader.th-halloween .stbl td{border-color:#ff751844!important}
+html body .reader.th-halloween .stbl figcaption{color:#ff9a1f!important}
+html body .reader.th-halloween .xbtn{border-color:#ff7518!important;background:#1a0b2e!important;color:#ffb347!important}
+html body .reader.th-halloween .xbtn svg{fill:#ffb347!important}
+html body .reader.th-halloween .srcs b{color:#ff9a1f!important}
+html body .reader.th-halloween .srcs a{color:#d8c6ee!important}
+html body .reader.th-halloween hr{border-color:#ff751855!important}
 </style>
 <style id="wwCss">
 .wwbtn{display:inline-flex;align-items:center;gap:10px;margin:4px 0 2px;padding:10px 16px 10px 12px;border-radius:999px;background:radial-gradient(120% 140% at 0% 50%,#3a1460 0%,#0b0610 70%);border:2px solid #ff7518;color:#ffb347;font:800 13px/1.15 var(--lb,system-ui),sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;box-shadow:0 0 14px #ff7518aa,0 0 34px #ff751855,inset 0 0 12px #ff751833;animation:wwGlow 2.4s ease-in-out infinite;text-align:left;-webkit-tap-highlight-color:transparent}
