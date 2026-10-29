@@ -1411,7 +1411,7 @@ function applyCalendarFeed(j,isCalendar){
     let url=e.url||e.source_url||'';if(!/^https?:\/\//i.test(url))url='';
     const x={...e,time:calendarClock(e.time),doors_time:calendarClock(e.doors_time),venue:e.venue||'',hood:e.hood||'',genre:GENRE[e.genre]?e.genre:'other',price:e.price||'',ages:e.ages||'',url};CAL2.push(x);up.push(x)}
   const order=e=>{const m=/^(\d{1,2}):(\d{2})\s*(AM|PM)?$/i.exec(e.time||'');if(!m)return e.date+'00:00';let h=Number(m[1]);if(m[3])h=h%12+(/PM/i.test(m[3])?12:0);return e.date+String(h).padStart(2,'0')+':'+m[2]};const so=(a,b)=>order(a).localeCompare(order(b));CAL2.sort(so);up.sort(so);
-  if(isCalendar&&j.asof)CAL_UPDATED=j.asof;
+  if(isCalendar&&j.asof){const d=new Date(j.asof);CAL_UPDATED=isNaN(d)?j.asof:d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'})}
   const stat=document.querySelector('#mstat .ms:nth-child(2) b');if(stat)stat.textContent=up.length;
   if(['cal','front'].includes(STATE.view)&&!document.activeElement.matches('input,select,textarea'))render();
 }
@@ -2645,6 +2645,20 @@ const open=()=>{if(document.querySelector('.wwmod'))return;const m=document.crea
 addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-ww]');if(!b)return;e.preventDefault();e.stopImmediatePropagation();open()},true);
 addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest&&e.target.closest('[data-ww]')){e.preventDefault();open()}},true);
 let q=0;const go=()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;place()})};new MutationObserver(go).observe(document.documentElement,{childList:true,subtree:true});go()})();</script>
+<style id="phoneFix">
+@media (max-width:640px){
+ html body nav#nav.navbar{display:flex!important;flex-wrap:nowrap!important;justify-content:flex-start!important;overflow-x:auto!important;overflow-y:hidden!important;width:auto!important;max-width:none!important;margin-left:0!important;margin-right:0!important;transform:none!important;gap:6px!important;padding:8px 10px!important;scroll-snap-type:x proximity;scroll-padding-inline:10px;-webkit-overflow-scrolling:touch;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent);mask-image:linear-gradient(90deg,#000 88%,transparent)}
+ html body nav#nav.navbar::-webkit-scrollbar{display:none}
+ html body nav#nav.navbar>*{flex:none!important;scroll-snap-align:start}
+ html body nav#nav.navbar .nb{min-height:36px!important;padding:9px 12px!important;font-size:12px!important;white-space:nowrap!important;display:inline-flex!important;align-items:center}
+ html body nav#nav.navbar #nbSearch{flex:none!important;min-width:120px}
+ html body nav#nav.navbar #nbSearch input{min-height:36px!important}
+ html body h2.room,html body .room{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;color:#f3e7c4!important;-webkit-text-fill-color:#f3e7c4!important;text-shadow:0 1px 0 #000,0 0 18px rgba(232,184,24,.25)!important;filter:none!important;font-size:34px!important}
+ html body .crw h2.room{color:#ff4a3a!important;-webkit-text-fill-color:#ff4a3a!important}
+}
+</style>
+<script id="navPhone">(()=>{if(!matchMedia('(max-width:640px)').matches)return;const fix=()=>{const n=document.getElementById('nav');if(!n)return;const a=n.querySelector('[aria-current="page"]');let v='front';try{v=STATE.view}catch(_){}if(v==='front'||!a){n.scrollLeft=0}else{n.scrollLeft=Math.max(0,a.offsetLeft-n.clientWidth/2+a.offsetWidth/2)}};
+let t=0;const go=()=>{clearTimeout(t);t=setTimeout(fix,60)};addEventListener('load',()=>{fix();setTimeout(fix,600);setTimeout(fix,1500)});const st=()=>{const v=document.getElementById('view');if(!v)return setTimeout(st,200);new MutationObserver(go).observe(v,{childList:true})};st()})();</script>
 <script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','garceau'].join('')+String.fromCharCode(64)+['gmail','com'].join('.');const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
 <script id="bridgeCar">(()=>{const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#fff8e6;box-shadow:0 0 6px 2px rgba(255,244,210,.9),0 0 14px 4px rgba(255,236,190,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#ff2a1a;box-shadow:0 0 5px 1px rgba(255,30,10,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car,.cvr .cimg.evt .car{display:none}';document.head.appendChild(st);
 const X0=0,Y0=39.6,X1=100,Y1=49.7;
