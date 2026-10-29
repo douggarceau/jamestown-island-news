@@ -1250,7 +1250,7 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
     
     
     <button class="nb" id="dirNb" type="button">Directory</button>
-    <button class="nb" data-go="privacy">Privacy, Editorial Standards &amp; Contact Us</button>
+    <button class="nb" data-go="privacy" hidden style="display:none">Privacy, Editorial Standards &amp; Contact Us</button>
     <button class="nb" data-go="inbox" id="inboxBtn" hidden>Inbox <span class="n" id="inboxN">0</span></button>
   </nav>
   <div id="jtSea" aria-label="Tides and Narragansett Bay forecast"><a class="jts-t" href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8452660" target="_blank" rel="noopener"><b>Tides</b><span id="jtTide">Loading…</span></a><a class="jts-m" href="https://forecast.weather.gov/shmrn.php?mz=anz236" target="_blank" rel="noopener"><b>Narragansett Bay</b><span id="jtBay">Loading…</span></a></div>
@@ -1317,6 +1317,7 @@ tide();bay();setInterval(tide,18e5);setInterval(bay,18e5)})();</script>
   
 
   <p class="jtemg"><b>Emergency: 911</b> · Police (non-emergency) <a href="tel:+14014231212">(401) 423-1212</a> · Fire &amp; EMS (non-emergency) <a href="tel:+14014230062">(401) 423-0062</a></p><div class="foot"><span>Jamestown Island News</span><span>Sources linked on every story</span></div>
+  <p class="fpriv" style="margin:14px 0 0;text-align:center"><a href="#" data-go="privacy" style="color:#e8b818;text-decoration:none;font:700 12px/1.4 var(--lb,system-ui),sans-serif;letter-spacing:.1em;text-transform:uppercase">Privacy, Editorial Standards &amp; Contact Us</a></p>
   <div class="fsnd" style="text-align:center;margin:14px 0 0"><button type="button" id="sndBtn" aria-pressed="true" style="all:unset;cursor:pointer;margin:0 6px;padding:5px 10px;border:1px solid #3a4048;border-radius:4px;font:700 11px/1 var(--mono,ui-monospace,monospace);letter-spacing:.08em;text-transform:uppercase;color:#9aa4ad">🔊 Sound on</button><button type="button" id="ambBtn" aria-pressed="false" title="Low background drone." style="all:unset;cursor:pointer;margin:0 6px;padding:5px 10px;border:1px solid #3a4048;border-radius:4px;font:700 11px/1 var(--mono,ui-monospace,monospace);letter-spacing:.08em;text-transform:uppercase;color:#9aa4ad">🎧 Ambience off</button></div>
   <p class="pv" style="margin:14px 0 0;text-align:center;font:600 12px/1.4 var(--mono,ui-monospace,monospace);letter-spacing:.08em;color:#c9a227">Page visits: <b id="visits">…</b></p>
   <p class="legal" style="margin:10px 0 0;text-align:center;font:400 10.5px/1.5 var(--mono,ui-monospace,monospace);letter-spacing:.04em;color:#7d858d">© 2026 Jamestown Island News. All stories, content, designs and software on this site are the sole property of Jamestown Island News. All rights reserved.</p>
