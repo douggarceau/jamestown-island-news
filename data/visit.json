@@ -768,13 +768,22 @@
      "src": "https://www.ritba.org/"
     },
     {
-     "name": "RIPTA bus, Route 64 (Newport–URI Kingston)",
-     "blurb": "Public bus that crosses both bridges, linking Newport and the URI Kingston campus. On the island it stops at the Jamestown Ferry Landing at East Ferry. Weekday buses run about every 70 minutes. Weekend service has been cut back, so check the live schedule before you count on it.",
+     "name": "RIPTA bus, Route 14 (Jamestown–Providence)",
+     "blurb": "The bus to Providence. Route 14 (West Bay) runs between Newport and Kennedy Plaza in downtown Providence by way of Jamestown, with stops at the Jamestown Ferry Landing and along Conanicus and Narragansett avenues and North Main Road. Buses run about every hour and take roughly an hour and a half end to end. It runs daily; on weekends trips run only between Newport and Providence. Fare is $2, or $6 for a day pass, paid with a Wave card, the Transit app or exact cash.",
      "address": "Jamestown Ferry Landing, East Ferry, Jamestown, RI 02835",
      "phone": "(401) 781-9400",
-     "hours": "Weekdays, about every 70 minutes",
+     "hours": "Daily, about every hour",
+     "url": "https://www.ripta.com/14",
+     "src": "https://transitapp.com/en/region/providence/ripta/bus-14"
+    },
+    {
+     "name": "RIPTA bus, Route 64 (Newport–URI Kingston)",
+     "blurb": "Public bus linking Newport and the URI Kingston campus and Kingston train station, crossing both bridges. On the island it stops at the Jamestown Ferry Landing and along Conanicus Avenue and North Road. Weekday buses run about every 70 minutes, with Saturday service too. Fare is $2.",
+     "address": "Jamestown Ferry Landing, East Ferry, Jamestown, RI 02835",
+     "phone": "(401) 781-9400",
+     "hours": "Weekdays and Saturdays",
      "url": "https://www.ripta.com/64",
-     "src": "https://transitapp.com/en/region/providence/ripta/bus-64"
+     "src": "https://www.jamestownpress.com/articles/ripta-reverses-bus-service-proposal/"
     },
     {
      "name": "Mackerel Cove Beach Parking",
