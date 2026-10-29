@@ -1253,18 +1253,58 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
     <button class="nb" data-go="privacy" hidden style="display:none">Privacy, Editorial Standards &amp; Contact Us</button>
     <button class="nb" data-go="inbox" id="inboxBtn" hidden>Inbox <span class="n" id="inboxN">0</span></button>
   </nav>
-  <div id="jtSea" aria-label="Tides and Narragansett Bay forecast"><a class="jts-t" href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8452660" target="_blank" rel="noopener"><b>Tides</b><span id="jtTide">Loading…</span></a><a class="jts-m" href="https://forecast.weather.gov/shmrn.php?mz=anz236" target="_blank" rel="noopener"><b>Narragansett Bay</b><span id="jtBay">Loading…</span></a></div>
+  <div id="jtSea" aria-label="Tides and Narragansett Bay forecast">
+ <div class="tw-head"><a href="https://tidesandcurrents.noaa.gov/noaatidepredictions.html?id=8452660" target="_blank" rel="noopener"><b>Tides</b><span id="twNow">Loading…</span></a><span class="tw-sun" id="twSun"></span></div>
+ <div class="tw-chart" id="twChart"><svg viewBox="0 0 600 120" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="twFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb6ff" stop-opacity=".55"/><stop offset="1" stop-color="#0a2a4a" stop-opacity=".05"/></linearGradient><linearGradient id="twLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6fd3ff"/><stop offset=".5" stop-color="#bfefff"/><stop offset="1" stop-color="#6fd3ff"/></linearGradient></defs><g id="twNight"></g><path id="twArea" fill="url(#twFill)"/><path id="twPath" fill="none" stroke="url(#twLine)" stroke-width="2.2" vector-effect="non-scaling-stroke"/><line id="twNowL" y1="0" y2="120" stroke="#e8b818" stroke-width="1.5" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/></svg><div class="tw-lbls" id="twLbls"></div><i class="tw-dot" id="twDot"></i></div>
+ <a class="jts-m" href="https://forecast.weather.gov/shmrn.php?mz=anz236" target="_blank" rel="noopener"><b>Narragansett Bay</b><span id="jtBay">Loading…</span></a>
+</div>
 <script id="jtSeaJs">(()=>{const $=id=>document.getElementById(id);const pad=n=>String(n).padStart(2,'0');
 const ymd=d=>d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
-const hm=t=>{const d=new Date(t.replace(' ','T'));let h=d.getHours(),m=d.getMinutes();const ap=h<12?'a':'p';h=h%12||12;return h+':'+pad(m)+ap};
-const tide=()=>{const now=new Date(),end=new Date(now.getTime()+36e5*30);
- fetch('https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&datum=MLLW&station=8452660&time_zone=lst_ldt&interval=hilo&units=english&format=json&application=jamestownislandnews&begin_date='+ymd(now)+'&end_date='+ymd(end)).then(r=>r.json()).then(j=>{
-  const P=(j.predictions||[]).filter(x=>new Date(x.t.replace(' ','T'))>now-36e5*0.5).slice(0,4);
-  if(!P.length)throw 0;$('jtTide').innerHTML=P.map(x=>`<i class="${x.type==='H'?'hi':'lo'}">${x.type==='H'?'High':'Low'}</i> ${hm(x.t)} <small>${(+x.v).toFixed(1)} ft</small>`).join('<em>·</em>')}).catch(()=>{$('jtTide').textContent='NOAA tide table →'})};
+const pt=t=>new Date(t.replace(' ','T'));
+const hm=d=>{let h=d.getHours(),m=d.getMinutes();const ap=h<12?'a':'p';h=h%12||12;return h+':'+pad(m)+ap};
+const day=d=>d.toLocaleDateString('en-US',{weekday:'short'});
+let SUN=[];
+const sun=()=>fetch('https://api.open-meteo.com/v1/forecast?latitude=41.4968&longitude=-71.3673&daily=sunrise,sunset&timezone=America%2FNew_York&past_days=1&forecast_days=3').then(r=>r.json()).then(j=>{const d=j.daily||{};SUN=(d.sunrise||[]).map((r,i)=>[new Date(r),new Date(d.sunset[i])]);const t=new Date();const td=SUN.find(x=>x[0].toDateString()===t.toDateString());if(td)$('twSun').innerHTML=`<i>Sunrise</i> ${hm(td[0])} <i>Sunset</i> ${hm(td[1])}`;draw()}).catch(()=>{});
+let P=[];
+function draw(){if(P.length<2)return;const now=Date.now(),t0=now-6*36e5,t1=now+24*36e5,W=600,H=120;
+ const pts=P.map(x=>({t:pt(x.t).getTime(),v:+x.v,h:x.type==='H'}));
+ const vs=pts.map(x=>x.v),mn=Math.min(...vs)-.4,mx=Math.max(...vs)+.5;
+ const X=t=>(t-t0)/(t1-t0)*W,Y=v=>H-26-(v-mn)/(mx-mn)*(H-58);
+ const at=t=>{for(let i=0;i<pts.length-1;i++){const a=pts[i],b=pts[i+1];if(t>=a.t&&t<=b.t){const f=(t-a.t)/(b.t-a.t);return a.v+(b.v-a.v)*(1-Math.cos(Math.PI*f))/2}}return null};
+ let d='',first=null,last=null;for(let k=0;k<=150;k++){const t=t0+(t1-t0)*k/150,v=at(t);if(v==null)continue;const x=X(t).toFixed(1),y=Y(v).toFixed(1);d+=(d?'L':'M')+x+' '+y;if(first==null)first=x;last=x}
+ if(!d)return;$('twPath').setAttribute('d',d);$('twArea').setAttribute('d',d+`L${last} ${H}L${first} ${H}Z`);
+ $('twNight').innerHTML=SUN.length?(()=>{let g='',prev=null;SUN.forEach(([r,ss])=>{const a=prev?prev.getTime():t0;g+=`<rect x="${Math.max(0,X(a))}" y="0" width="${Math.max(0,X(r.getTime())-Math.max(0,X(a)))}" height="${H}" fill="#000" opacity=".28"/>`;prev=ss});g+=`<rect x="${X(prev.getTime())}" y="0" width="${Math.max(0,W-X(prev.getTime()))}" height="${H}" fill="#000" opacity=".28"/>`;return g})():'';
+ const nx=X(now);$('twNowL').setAttribute('x1',nx);$('twNowL').setAttribute('x2',nx);const nv=at(now);
+ if(nv!=null){const dot=$('twDot');dot.style.left=(nx/W*100)+'%';dot.style.top=(Y(nv)/H*100)+'%'}
+ $('twLbls').innerHTML=pts.filter(x=>x.t>t0+18e5&&x.t<t1-18e5&&Math.abs(x.t-now)>36e5*1.6).map(x=>{const lp=X(x.t)/W*100;return `<span class="${x.h?'hi':'lo'}${lp<18?' el':lp>82?' er':''}" style="left:${lp<18?1:lp>82?99:lp}%;top:${Y(x.v)/H*100}%"><b>${x.h?'High':'Low'} ${hm(new Date(x.t))}</b> ${x.v.toFixed(1)} ft</span>`}).join('')+`<span class="now" style="left:${nx/W*100}%">Now</span>`;
+ const nxt=pts.find(x=>x.t>now);if(nv!=null&&nxt){const rising=nxt.h;$('twNow').innerHTML=`<i class="${rising?'hi':'lo'}">${rising?'Rising ↑':'Falling ↓'}</i> ${nv.toFixed(1)} ft now · next ${nxt.h?'high':'low'} ${hm(new Date(nxt.t))}${new Date(nxt.t).getDate()!==new Date().getDate()?' '+day(new Date(nxt.t)):''}`}}
+const tide=()=>{const now=new Date(),b=new Date(now.getTime()-864e5),e=new Date(now.getTime()+2*864e5);
+ fetch('https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&datum=MLLW&station=8452660&time_zone=lst_ldt&interval=hilo&units=english&format=json&application=jamestownislandnews&begin_date='+ymd(b)+'&end_date='+ymd(e)).then(r=>r.json()).then(j=>{P=j.predictions||[];if(P.length<2)throw 0;draw()}).catch(()=>{$('twNow').textContent='NOAA tide table →';$('twChart').style.display='none'})};
 const bay=()=>{fetch('https://api.weather.gov/zones/coastal/ANZ236/forecast',{headers:{Accept:'application/geo+json'}}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{const p=((j.properties||{}).periods||[])[0];if(!p)throw 0;
   let t=(p.detailedForecast||'').replace(/\s+/g,' ').trim();const s=t.split(/(?<=\.)\s/);t=s.slice(0,2).join(' ');$('jtBay').innerHTML=`<i>${p.name}</i> ${t.replace(/[<>&]/g,'')}`})
  .catch(()=>{fetch('https://api.open-meteo.com/v1/forecast?latitude=41.4968&longitude=-71.3673&current=wind_speed_10m,wind_direction_10m,wind_gusts_10m&wind_speed_unit=kn&timezone=America%2FNew_York').then(r=>r.json()).then(j=>{const c=j.current||{};const D=['N','NE','E','SE','S','SW','W','NW'];const d=D[Math.round((c.wind_direction_10m||0)/45)%8];$('jtBay').innerHTML=`<i>Now</i> Wind ${d} ${Math.round(c.wind_speed_10m)} kt, gusts ${Math.round(c.wind_gusts_10m)} kt. Full marine forecast →`}).catch(()=>{$('jtBay').textContent='NWS marine forecast →'})})};
-tide();bay();setInterval(tide,18e5);setInterval(bay,18e5)})();</script>
+tide();bay();sun();setInterval(tide,18e5);setInterval(bay,18e5);setInterval(draw,6e4)})();</script>
+<style id="twCss">
+html body #jtSea{display:block!important;padding:12px 14px 10px!important;border:1px solid #1e3a55!important;border-radius:10px!important;background:radial-gradient(120% 140% at 0% 0%,#0f2c48 0%,#08131f 55%,#060b12 100%)!important;box-shadow:0 0 0 1px #0b1d2e inset,0 10px 26px #0008}
+html body #jtSea .tw-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+html body #jtSea .tw-head a{display:flex;gap:10px;align-items:baseline;min-width:0}
+html body #jtSea b{color:#e8b818}
+html body #jtSea .tw-sun{font:600 12px/1.3 var(--body,system-ui);color:#c8d3dc;white-space:nowrap}
+html body #jtSea .tw-sun i{color:#ffd24a;font-style:normal;font-weight:800;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin:0 3px 0 8px}
+html body #jtSea .tw-chart{position:relative;height:118px;margin:8px 0 10px;border-radius:8px;overflow:hidden;background:linear-gradient(180deg,#0b2236,#071422)}
+html body #jtSea .tw-chart svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+html body #jtSea .tw-lbls{position:absolute;inset:0;pointer-events:none}
+html body #jtSea .tw-lbls span{position:absolute;transform:translate(-50%,-140%);white-space:nowrap;text-align:center;font:500 10.5px/1.15 var(--body,system-ui);color:#9fb3c4}
+html body #jtSea .tw-lbls span b{display:inline;font:800 10.5px/1.2 var(--body,system-ui);letter-spacing:.02em;text-transform:none;color:#bfefff}
+html body #jtSea .tw-lbls span.lo{transform:translate(-50%,55%)}html body #jtSea .tw-lbls span.el{transform:translate(0,-140%)}html body #jtSea .tw-lbls span.er{transform:translate(-100%,-140%)}html body #jtSea .tw-lbls span.lo.el{transform:translate(0,55%)}html body #jtSea .tw-lbls span.lo.er{transform:translate(-100%,55%)}
+html body #jtSea .tw-lbls span.lo b{color:#ffd88a}
+html body #jtSea .tw-lbls span.now{top:4px;transform:translateX(-50%);font:800 9.5px/1 var(--lb,system-ui);letter-spacing:.14em;text-transform:uppercase;color:#e8b818;background:#060b12cc;padding:2px 5px;border-radius:3px}
+html body #jtSea .tw-dot{position:absolute;width:11px;height:11px;margin:-5.5px 0 0 -5.5px;border-radius:50%;background:#fff;box-shadow:0 0 0 3px #e8b81888,0 0 14px #e8b818;animation:twPulse 2s ease-in-out infinite}
+@keyframes twPulse{50%{box-shadow:0 0 0 6px #e8b81822,0 0 18px #e8b818}}
+@media (prefers-reduced-motion:reduce){html body #jtSea .tw-dot{animation:none}}
+html body #jtSea .jts-m{display:flex;gap:10px;align-items:baseline;padding-top:8px;border-top:1px solid #16304a}
+@media (max-width:480px){html body #jtSea .tw-lbls span{font-size:9.5px}html body #jtSea .tw-lbls span b{font-size:9.5px}html body #jtSea .tw-chart{height:108px}}
+</style>
 <div id="coverSlot"></div>
 
 <div class="shrpop" id="shrPop" hidden><b>Share Jamestown Island News</b><a data-sh="fb" href="#">Facebook</a><a data-sh="x" href="#">X / Twitter</a><a data-sh="sms" href="#">Text message</a><a data-sh="mail" href="#">Email</a><a data-sh="copy" href="#">Copy link</a></div>
