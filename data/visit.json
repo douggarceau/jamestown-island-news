@@ -768,11 +768,11 @@
      "src": "https://www.ritba.org/"
     },
     {
-     "name": "RIPTA Route 64 (Newport/URI Kingston)",
-     "blurb": "RIPTA bus linking Newport and URI Kingston, with a Jamestown Ferry Landing stop. Check the current schedule before you travel, since trips are limited.",
-     "address": "",
-     "phone": "",
-     "hours": "",
+     "name": "RIPTA bus, Route 64 (Newport–URI Kingston)",
+     "blurb": "Public bus that crosses both bridges, linking Newport and the URI Kingston campus. On the island it stops at the Jamestown Ferry Landing at East Ferry. Weekday buses run about every 70 minutes. Weekend service has been cut back, so check the live schedule before you count on it.",
+     "address": "Jamestown Ferry Landing, East Ferry, Jamestown, RI 02835",
+     "phone": "(401) 781-9400",
+     "hours": "Weekdays, about every 70 minutes",
      "url": "https://www.ripta.com/64",
      "src": "https://transitapp.com/en/region/providence/ripta/bus-64"
     },
