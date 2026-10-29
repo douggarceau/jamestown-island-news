@@ -1,6 +1,498 @@
 {
- "asof": "2026-10-24",
+ "asof": "2026-10-28",
  "sections": [
+  {
+   "key": "beaches",
+   "title": "Beaches & Coastline",
+   "items": [
+    {
+     "name": "Mackerel Cove Beach",
+     "blurb": "The town beach: a calm, half-mile cove on the narrow neck between the village and Beavertail. In summer, Del's Lemonade often parks its truck in the lot. Non-residents pay $20 per car per day (credit card, by T2 Mobile Pay) from 9 a.m. to 5 p.m. in season. Parking isn't guaranteed, and resident-only spots get ticketed even with a day pass.",
+     "address": "Beavertail Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-7200",
+     "hours": "Beach season June 18–Sept. 7, 9 a.m.–5 p.m.",
+     "url": "https://www.jamestownri.gov/mackerelcove",
+     "src": "https://www.jamestownri.gov/mackerelcove"
+    },
+    {
+     "name": "East Ferry Beach & Sheffield Cove",
+     "blurb": "Small, calm beaches in and near the village, and the island's easiest spots to launch a kayak or paddleboard.",
+     "address": "Conanicus Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Beavertail shoreline & tide pools",
+     "blurb": "Granite ledges, crashing surf and tide pools around the lighthouse. Go at low tide and wear shoes with grip. The rocks are slippery and the water is deep and rough, so stay well back on big-wave days.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
+     "src": "https://riparks.ri.gov/parks/beavertail-state-park"
+    },
+    {
+     "name": "Hull Cove",
+     "blurb": "A rocky, out-of-the-way cove off Beavertail Road, about a five-minute walk from a pull-off with room for a few cars.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Potter Cove",
+     "blurb": "A quiet cove on the island's east side by the Newport Pell Bridge, with a small lot on Freebody Drive.",
+     "address": "Freebody Dr, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Fort Wetherill State Park",
+     "blurb": "About 61 acres on 100-foot granite cliffs overlooking Newport Harbor and the East Passage. It is popular for scuba diving, fishing, picnicking and hiking, and pets are allowed. Restrooms are open May 1 to Oct. 31 only. It's also one of Rhode Island's best-known shore dives.",
+     "address": "Fort Wetherill Rd, Jamestown, RI",
+     "phone": "(401) 884-2010",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
+     "src": "https://riparks.ri.gov/parks/fort-wetherill-state-park"
+    }
+   ]
+  },
+  {
+   "key": "walks",
+   "title": "Walks & Trails",
+   "items": [
+    {
+     "name": "Beavertail overlooks",
+     "blurb": "Walk the paths between Beavertail's four ocean overlooks to the lighthouse. On rough days the surf is the show. Stay back from the wet rocks.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "Sunrise to sunset",
+     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
+     "src": "https://riparks.ri.gov/parks/beavertail-state-park"
+    },
+    {
+     "name": "Fort Wetherill cliffs",
+     "blurb": "Short walks along 100-foot granite cliffs and old fort batteries, looking across the harbor to Newport and Fort Adams.",
+     "address": "Fort Wetherill Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
+     "src": "https://riparks.ri.gov/parks/fort-wetherill-state-park"
+    },
+    {
+     "name": "Conanicut Island Sanctuary",
+     "blurb": "A short loop trail with boardwalks and observation decks. Good for birds, and easy for kids.",
+     "address": "Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sa"
+    },
+    {
+     "name": "Fort Getty Park",
+     "blurb": "Open fields and shoreline along the West Passage with a view of Dutch Island Lighthouse. A favorite at sunset.",
+     "address": "1050 Fort Getty Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "7 a.m.–10 p.m.",
+     "url": "https://jamestownri.gov/town-departments/parks-rec/fort-getty",
+     "src": "https://jamestownri.gov/town-departments/parks-rec/fort-getty"
+    },
+    {
+     "name": "Watson Farm walking trails",
+     "blurb": "Self-guided trails over a working farm on North Road, down toward the West Passage shore.",
+     "address": "455 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-0005",
+     "hours": "Thu & Sat 1–4 p.m., June–mid-Oct.",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "https://www.historicnewengland.org/property/watson-farm/"
+    },
+    {
+     "name": "North End bike path",
+     "blurb": "A flat path past the Jamestown Community Farm and the reservoir to Godena Farm, good for walking too. Park at Eldred Field or Godena Farm.",
+     "address": "North Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "The village loop",
+     "blurb": "Park once and walk Narragansett Avenue from East Ferry: the harbor, shops, cafes, the Arts Center and the fire museum, all within a few blocks.",
+     "address": "Narragansett Ave & Conanicus Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    }
+   ]
+  },
+  {
+   "key": "parks",
+   "title": "Parks & Sightseeing",
+   "items": [
+    {
+     "name": "Beavertail State Park",
+     "blurb": "The island's southern tip: four ocean overlooks, rocky shoreline, tide pools at low tide, picnic tables and the 1856 lighthouse. Parking is free and fills on summer weekends. It isn't a swimming beach (strong currents, no lifeguards). Leashed dogs are welcome in the park but not on the beach.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "(401) 423-1771",
+     "hours": "Sunrise to sunset",
+     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
+     "src": "https://riparks.ri.gov/parks/beavertail-state-park"
+    },
+    {
+     "name": "Beavertail Lighthouse Museum",
+     "blurb": "Museum in the 1856 Beavertail Lighthouse complex, with seasonal tower climbs (suggested $5 adult donation). It is closed for the season now; the gift shop opens for holiday shopping Dec. 5–6 and 12–13, noon to 3pm.",
+     "address": "Beavertail Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-3270",
+     "hours": "Closed for season; holiday shop Dec 5–6 & 12–13, 12–3pm",
+     "url": "https://www.beavertaillight.org/",
+     "src": "https://www.beavertaillight.org/"
+    },
+    {
+     "name": "Fort Getty Park",
+     "blurb": "Town park of 41 acres at the end of Fort Getty Road, with old fortifications, a rocky beach, a public boat ramp and dock, and the Kit Wright trail along Fox Hill Marsh. It looks out over the West Passage, the Jamestown Bridge and nearby Dutch Island, which is closed to the public. Camping has closed for 2026, and the 2027 wait list opened Oct. 1.",
+     "address": "",
+     "phone": "(401) 423-7200",
+     "hours": "Park 7am–10pm; camping closed for season",
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "https://www.jamestownri.gov/rvcamping"
+    },
+    {
+     "name": "Conanicut Battery Historic Park",
+     "blurb": "Revolutionary War earthworks from 1776 on Prospect Hill, with a commanding view over the West Passage. The entrance is on Battery Lane, west of Beavertail Road.",
+     "address": "120 Battery Ln, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.hmdb.org/m.asp?m=312031"
+    },
+    {
+     "name": "North End bike path",
+     "blurb": "A newer path past the Jamestown Community Farm and the reservoir to Godena Farm. Park at Eldred Field or Godena Farm for either end.",
+     "address": "North Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Conanicut Island Sanctuary",
+     "blurb": "Short loop trail with boardwalks and observation decks over Marsh Meadows, a large salt marsh. It is a good spot to see egrets, herons and ospreys. Parking at the trailhead is difficult, and leashed dogs are allowed.",
+     "address": "Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/"
+    },
+    {
+     "name": "Jamestown Windmill",
+     "blurb": "Smock windmill built in 1787 that ground corn until 1896, on Windmill Hill in the center of the island. The 2026 season ran May 22–Oct. 12 and has ended; visits are by appointment, admission is by donation, and parking is on site.",
+     "address": "378 North Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "Closed for season; by appointment",
+     "url": "https://jamestownhistoricalsociety.org/jamestown-windmill/",
+     "src": "https://jamestownhistoricalsociety.org/jamestown-windmill/"
+    },
+    {
+     "name": "Watson Farm (Historic New England)",
+     "blurb": "Historic working farm on North Road with self-guided walking tours. The tour season runs June to mid-October (Thu and Sat, 1–4pm), so call to confirm before visiting now. Admission is $10 adults, $5 students and $25 for families.",
+     "address": "455 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-0005",
+     "hours": "Thu & Sat 1–4pm, June–mid-Oct",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "https://www.historicnewengland.org/property/watson-farm/"
+    },
+    {
+     "name": "Jamestown Historical Society Museum",
+     "blurb": "Village museum run by the volunteer Jamestown Historical Society; the 2026 exhibit, Behind the Lines, looks at island life in 1776. The 2026 season ended Oct. 12, but visits can be arranged by appointment (info@jhsri.org). The museum is wheelchair accessible.",
+     "address": "92 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Closed for season; by appointment",
+     "url": "https://jamestownhistoricalsociety.org/jamestown-museum/",
+     "src": "https://jamestownhistoricalsociety.org/jamestown-museum/"
+    },
+    {
+     "name": "Jamestown Arts Center",
+     "blurb": "Community arts center with exhibitions, classes and performances. Imprint and Playback, featuring seven artists from RISD's Movement Lab, runs Oct. 16–Nov. 7, 2026.",
+     "address": "18 Valley St, Jamestown, RI 02835",
+     "phone": "(401) 560-0979",
+     "hours": "Wed–Sat 11am–3pm",
+     "url": "https://www.jamestownartcenter.org/",
+     "src": "https://www.jamestownartcenter.org/"
+    },
+    {
+     "name": "Jamestown Golf Course",
+     "blurb": "Public nine-hole course on 74 acres a short walk from the village. Tee times are not taken: play is first come, first served, so check in with the starter. Leagues and tournaments sometimes close the course for part of a day.",
+     "address": "245 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-9930",
+     "hours": "Opens 8am daily (from Oct. 5)",
+     "url": "https://www.jamestowngolf.com/",
+     "src": "https://www.jamestowngolf.com/"
+    }
+   ]
+  },
+  {
+   "key": "water",
+   "title": "Ferry & Boat Tours",
+   "items": [
+    {
+     "name": "Jamestown Newport Ferry",
+     "blurb": "Hop-on, hop-off passenger ferry from East Ferry Wharf to Rose Island Lighthouse and Newport's Fort Adams, Ann Street Pier and Perrotti Park. It runs daily in season, with all-day, one-way and season passes and a reduced evening fare after 4 p.m. Schedules change for big Newport events, so check before you go.",
+     "address": "1 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-9900 ext. 1",
+     "hours": "2026 season May 16–Oct. 12 (ended). Returns next spring.",
+     "url": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
+     "src": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/"
+    },
+    {
+     "name": "Coastal Queen Cruises",
+     "blurb": "Sightseeing cruises past the Jamestown shoreline, lower Narragansett Bay and Newport Harbor, plus themed event cruises and private charters. Jamestown cruises leave from East Ferry Wharf. Onboard bar, snack bar and restrooms, and the main deck is accessible. Reservations required.",
+     "address": "1 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-9900 ext. 1",
+     "hours": "",
+     "url": "https://coastalqueencruises.com/",
+     "src": "https://www.visitrhodeisland.com/listing/coastal-queen-cruises-from-jamestown/9928/"
+    },
+    {
+     "name": "Rose Island Lighthouse",
+     "blurb": "A lighthouse and wildlife refuge island in the bay, reached by the Jamestown Newport Ferry. Admission: adults $12, children under 12 $8, military and veterans $10. Limited overnight stays in the lighthouse are offered each year.",
+     "address": "Rose Island, Newport, RI",
+     "phone": "",
+     "hours": "10 a.m.–4 p.m. daily, April–October",
+     "url": "https://www.roseisland.org/visit-2",
+     "src": "https://www.roseisland.org/visit-2"
+    },
+    {
+     "name": "Dutch Island Lighthouse",
+     "blurb": "A 42-foot brick lighthouse from 1857 in the West Passage, owned by the state. It isn't open to the public. See it from the island's west side or from a boat.",
+     "address": "Dutch Island, Jamestown, RI",
+     "phone": "",
+     "hours": "Not open to visitors",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/dutch-island-lighthouse/8647/"
+    },
+    {
+     "name": "Kayak, paddleboard & bike rentals",
+     "blurb": "Jamestown Outdoors rents kayaks, stand-up paddleboards and bikes from spring through summer, with lessons, guided excursions and kids' surf camps.",
+     "address": "35 Narragansett Ave, Jamestown, RI 02835",
+     "phone": "(401) 924-2885",
+     "hours": "Rentals from spring; reduced hours off-season",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/jamestown-outdoors/8956/"
+    },
+    {
+     "name": "Conanicut Island Sailing Foundation",
+     "blurb": "Nonprofit sailing and ocean-education program at Fort Getty for youth and adults. It recruits volunteers through a volunteer form and offers Counselor-in-Training and Junior Instructor roles for teens.",
+     "address": "1050 Fort Getty Rd, Jamestown, RI 02835",
+     "phone": "(401) 855-6643",
+     "hours": "",
+     "url": "https://www.jamestownsailing.org/",
+     "src": "https://www.jamestownsailing.org/"
+    }
+   ]
+  },
+  {
+   "key": "boating",
+   "title": "Boating & Launches",
+   "items": [
+    {
+     "name": "Public boat launches",
+     "blurb": "Three public ramps: East Ferry (free, off Conanicus Avenue), Fort Getty and Fort Wetherill. Mind the tide when launching at East Ferry. Trailer parking there is limited, so follow the posted signs. At Fort Getty, day parking with a boat trailer is $30.",
+     "address": "East Ferry · Fort Getty · Fort Wetherill",
+     "phone": "(401) 423-7200",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/harbor",
+     "src": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities"
+    },
+    {
+     "name": "Docks & pump-outs",
+     "blurb": "East Ferry has free touch-and-go docks and two free self-service pump-out stations, run by the town with RI DEM.",
+     "address": "East Ferry, Conanicus Ave, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities",
+     "src": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities"
+    },
+    {
+     "name": "Moorings & permits",
+     "blurb": "Moorings, outhauls and beach or pier permits are issued by the town through a wait list. Contact the Harbor Office before you drop a hook or tie up long-term.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://my.onlinemooring.com/JamestownRI",
+     "src": "https://www.jamestownri.gov/harbor"
+    },
+    {
+     "name": "Harbor Office",
+     "blurb": "The Harbor Office and Harbormaster work out of the Jamestown Police Station.",
+     "address": "250 Conanicus Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-7200",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/harbor",
+     "src": "https://www.jamestownri.gov/harbor"
+    },
+    {
+     "name": "Conanicut Marina (TPG)",
+     "blurb": "Full-service marina at East Ferry with slips, about 150 moorings, a fuel dock, launch service and the Taylor Point Boat Yard. It also runs a ship's store and chandlery and the Conanicut Marine gift shop; slips can be booked through Dockwa.",
+     "address": "1 East Ferry Wharf, Unit 1, Jamestown, RI 02835",
+     "phone": "(401) 423-7158",
+     "hours": "",
+     "url": "https://www.conanicutmarina.com/",
+     "src": "https://www.conanicutmarina.com/"
+    }
+   ]
+  },
+  {
+   "key": "fishing",
+   "title": "Fishing",
+   "items": [
+    {
+     "name": "Fishing license",
+     "blurb": "Anyone 16 or older fishing from shore needs a Rhode Island saltwater fishing license: $7 a year for residents, $10 for non-residents, or $5 for seven days. You don't need one on a licensed charter or party boat. Buy online from RI DEM or at bait shops.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/programs/managementservices/licenses/saltwater-fishing-licenses.php",
+     "src": "https://dem.ri.gov/programs/managementservices/licenses/saltwater-fishing-licenses.php"
+    },
+    {
+     "name": "Fort Wetherill (public shore fishing)",
+     "blurb": "Scup and tautog off the rocks facing Fort Adams, plus striped bass and bluefish. There's an accessible fishing dock behind the RI DEM fisheries building, with parking in the lot just past it. Good at night under the lights.",
+     "address": "Fort Wetherill Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Taylor Point",
+     "blurb": "Striped bass on the outgoing tide, fished from flat rocks. Wear wading boots with studded or felt soles.",
+     "address": "Taylor Point, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Potter Cove",
+     "blurb": "Striped bass when bait is around. Fish the high tide. Small lot on Freebody Drive.",
+     "address": "Freebody Dr, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Mackerel Cove",
+     "blurb": "Striped bass and bluefish, best after dark around high tide. Fish outside summer beach hours.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Hull Cove",
+     "blurb": "Striped bass and bluefish, with poppers at dusk. Room for a few cars on Beavertail Road, then a short walk.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Beavertail Point",
+     "blurb": "Big striped bass, but the most dangerous spot on the island: big waves, slick rocks and deep water. Studded boots are a must, and only fish it on calm days.",
+     "address": "Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "https://onthewater.com/jamestown-fishing-guide"
+    },
+    {
+     "name": "Tall Tailz Charters (Newport)",
+     "blurb": "Inshore trips for tautog, sea bass, fluke and striped bass, nearshore tuna and shark, and offshore canyon trips for yellowfin, bigeye and marlin. Leaves from Fort Adams, 10 minutes over the bridge.",
+     "address": "Fort Adams, Newport, RI",
+     "phone": "(401) 855-1471",
+     "hours": "Late April–late November; offshore June–October",
+     "url": "https://talltailzcharters.com/",
+     "src": "https://talltailzcharters.com/"
+    },
+    {
+     "name": "Fish Newport RI (Newport)",
+     "blurb": "Family nearshore trips, striped bass charters on Newport's reefs and rips, and offshore bluefin tuna on jig and popper.",
+     "address": "Fort Adams, Newport, RI 02841",
+     "phone": "(401) 712-2997",
+     "hours": "Seasonal",
+     "url": "https://fishnewportri.com/",
+     "src": "https://fishnewportri.com/"
+    },
+    {
+     "name": "Wise Kraken Charters, the Stella Marie",
+     "blurb": "Full-day deep-sea fishing trips on a 50-foot boat, for individuals or private groups of up to 12. Runs year-round, including winter trips.",
+     "address": "",
+     "phone": "",
+     "hours": "Year-round",
+     "url": "https://wisekrakencharters.com/",
+     "src": "https://wisekrakencharters.com/"
+    }
+   ]
+  },
+  {
+   "key": "icecream",
+   "title": "Ice Cream & Treats",
+   "items": [
+    {
+     "name": "Sugar Shack at 1 Ferry Wharf",
+     "blurb": "Ice cream with a view of the water, right on East Ferry Wharf.",
+     "address": "3 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "(401) 423-5999",
+     "hours": "Seasonal",
+     "url": "https://www.1ferrywharf.com/sugar-shack/",
+     "src": "https://www.1ferrywharf.com/sugar-shack/"
+    },
+    {
+     "name": "Wicked Whisk",
+     "blurb": "Twenty-six flavors of ice cream, plus milkshakes and sundaes, on North Road.",
+     "address": "79 North Rd, Jamestown, RI 02835",
+     "phone": "(401) 560-4135",
+     "hours": "Early May–October",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/wicked-whisk/12553/"
+    },
+    {
+     "name": "Del's Lemonade at Mackerel Cove",
+     "blurb": "Rhode Island's frozen lemonade, usually from a truck in the Mackerel Cove beach lot on summer days.",
+     "address": "Mackerel Cove, Beavertail Rd, Jamestown, RI",
+     "phone": "",
+     "hours": "Summer",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Village Hearth Bakery & Cafe",
+     "blurb": "Locally owned bakery and cafe making pastries, breads, sandwiches and soups from scratch. Its wood-fired brick oven turns out pizzas on Friday pizza nights, and the Salty wine bar operates inside.",
+     "address": "2 Watson Ave, Jamestown, RI 02835",
+     "phone": "(401) 423-9282",
+     "hours": "",
+     "url": "",
+     "src": "https://www.visitrhodeisland.com/listing/village-hearth-bakery/7008/"
+    },
+    {
+     "name": "Hard Pressed Cider Co.",
+     "blurb": "Pop-up stand at Windmist Farm selling cider and cinnamon-sugar donuts. It runs Friday through Sunday plus Monday holidays from Labor Day to Thanksgiving.",
+     "address": "71 Weeden Ln, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Fri–Sun, Labor Day–Thanksgiving",
+     "url": "",
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    }
+   ]
+  },
   {
    "key": "eat",
    "title": "Eat & Drink",
@@ -116,122 +608,50 @@
    ]
   },
   {
-   "key": "do",
-   "title": "Things to Do",
+   "key": "stay",
+   "title": "Stay & Camp",
    "items": [
     {
-     "name": "Beavertail State Park",
-     "blurb": "State park at the island's southern tip with four overlooks, rocky shoreline, saltwater fishing and accessible tide pools. A seasonal naturalist program runs in summer, and the Fort Burnside defense museum opens by appointment. The park is carry-in, carry-out.",
-     "address": "Beavertail Rd, Jamestown, RI",
-     "phone": "(401) 423-1771",
-     "hours": "",
-     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
-     "src": "https://riparks.ri.gov/parks/beavertail-state-park"
-    },
-    {
-     "name": "Beavertail Lighthouse Museum",
-     "blurb": "Museum in the 1856 Beavertail Lighthouse complex, with seasonal tower climbs (suggested $5 adult donation). It is closed for the season now; the gift shop opens for holiday shopping Dec. 5–6 and 12–13, noon to 3pm.",
-     "address": "Beavertail Rd, Jamestown, RI 02835",
-     "phone": "(401) 423-3270",
-     "hours": "Closed for season; holiday shop Dec 5–6 & 12–13, 12–3pm",
-     "url": "https://www.beavertaillight.org/",
-     "src": "https://www.beavertaillight.org/"
-    },
-    {
-     "name": "Fort Wetherill State Park",
-     "blurb": "About 61 acres on 100-foot granite cliffs overlooking Newport Harbor and the East Passage. It is popular for scuba diving, fishing, picnicking and hiking, and pets are allowed. Restrooms are open May 1 to Oct. 31 only.",
-     "address": "Fort Wetherill Rd, Jamestown, RI",
-     "phone": "(401) 884-2010",
-     "hours": "",
-     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
-     "src": "https://riparks.ri.gov/parks/fort-wetherill-state-park"
-    },
-    {
-     "name": "Mackerel Cove Beach",
-     "blurb": "The town beach, a calm half-mile cove between the village and Beavertail. Del's Lemonade often parks in the lot in summer. The beach season ran June 18–Sept. 7.",
-     "address": "",
-     "phone": "(401) 423-7200",
-     "hours": "Season June 18–Sept. 7",
-     "url": "https://www.jamestownri.gov/mackerelcove",
-     "src": "https://www.jamestownri.gov/mackerelcove"
-    },
-    {
-     "name": "Jamestown Windmill",
-     "blurb": "Smock windmill built in 1787 that ground corn until 1896, on Windmill Hill in the center of the island. The 2026 season ran May 22–Oct. 12 and has ended; visits are by appointment, admission is by donation, and parking is on site.",
-     "address": "378 North Rd, Jamestown, RI",
+     "name": "Club Wyndham Bay Voyage Inn",
+     "blurb": "Waterfront inn on Conanicus Avenue, home to JB's on the Water restaurant. Guests have water views, a pool, a fitness center and laundry.",
+     "address": "150 Conanicus Ave, Jamestown, RI 02835",
      "phone": "",
-     "hours": "Closed for season; by appointment",
-     "url": "https://jamestownhistoricalsociety.org/jamestown-windmill/",
-     "src": "https://jamestownhistoricalsociety.org/jamestown-windmill/"
-    },
-    {
-     "name": "Jamestown Historical Society Museum",
-     "blurb": "Village museum run by the volunteer Jamestown Historical Society; the 2026 exhibit, Behind the Lines, looks at island life in 1776. The 2026 season ended Oct. 12, but visits can be arranged by appointment (info@jhsri.org). The museum is wheelchair accessible.",
-     "address": "92 Narragansett Ave, Jamestown, RI 02835",
-     "phone": "",
-     "hours": "Closed for season; by appointment",
-     "url": "https://jamestownhistoricalsociety.org/jamestown-museum/",
-     "src": "https://jamestownhistoricalsociety.org/jamestown-museum/"
-    },
-    {
-     "name": "Conanicut Island Sanctuary",
-     "blurb": "Short loop trail with boardwalks and observation decks over Marsh Meadows, a large salt marsh. It is a good spot to see egrets, herons and ospreys. Parking at the trailhead is difficult, and leashed dogs are allowed.",
-     "address": "Conanicus Ave, Jamestown, RI 02835",
-     "phone": "(401) 423-7260",
      "hours": "",
      "url": "",
-     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/"
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
     },
     {
-     "name": "Fort Getty Park",
-     "blurb": "Town park of 41 acres at the end of Fort Getty Road, with old fortifications, a rocky beach, a public boat ramp and dock, and the Kit Wright trail along Fox Hill Marsh. It looks out over the West Passage, the Jamestown Bridge and nearby Dutch Island, which is closed to the public. Camping has closed for 2026, and the 2027 wait list opened Oct. 1.",
-     "address": "",
-     "phone": "(401) 423-7200",
-     "hours": "Park 7am–10pm; camping closed for season",
-     "url": "https://www.jamestownri.gov/rvcamping",
-     "src": "https://www.jamestownri.gov/rvcamping"
+     "name": "East Bay Bed & Breakfast",
+     "blurb": "A Victorian B&B in the village with four guest rooms, each with a private bath, and a full breakfast. Open year-round.",
+     "address": "14 Union St, Jamestown, RI 02835",
+     "phone": "(401) 423-0330",
+     "hours": "Year-round",
+     "url": "http://www.eastbaybnb.com",
+     "src": "https://innsite.com/inns/B012242.html"
     },
     {
-     "name": "Jamestown Arts Center",
-     "blurb": "Community arts center with exhibitions, classes and performances. Imprint and Playback, featuring seven artists from RISD's Movement Lab, runs Oct. 16–Nov. 7, 2026.",
-     "address": "18 Valley St, Jamestown, RI 02835",
-     "phone": "(401) 560-0979",
-     "hours": "Wed–Sat 11am–3pm",
-     "url": "https://www.jamestownartcenter.org/",
-     "src": "https://www.jamestownartcenter.org/"
-    },
-    {
-     "name": "Watson Farm (Historic New England)",
-     "blurb": "Historic working farm on North Road with self-guided walking tours. The tour season runs June to mid-October (Thu and Sat, 1–4pm), so call to confirm before visiting now. Admission is $10 adults, $5 students and $25 for families.",
-     "address": "455 North Rd, Jamestown, RI 02835",
-     "phone": "(401) 423-0005",
-     "hours": "Thu & Sat 1–4pm, June–mid-Oct",
-     "url": "https://www.historicnewengland.org/property/watson-farm/",
-     "src": "https://www.historicnewengland.org/property/watson-farm/"
-    },
-    {
-     "name": "Jamestown Golf Course",
-     "blurb": "Public nine-hole course on 74 acres a short walk from the village. Tee times are not taken: play is first come, first served, so check in with the starter. Leagues and tournaments sometimes close the course for part of a day.",
-     "address": "245 Conanicus Ave, Jamestown, RI 02835",
-     "phone": "(401) 423-9930",
-     "hours": "Opens 8am daily (from Oct. 5)",
-     "url": "https://www.jamestowngolf.com/",
-     "src": "https://www.jamestowngolf.com/"
-    },
-    {
-     "name": "Jamestown Community Band",
-     "blurb": "Local band that plays classic large-band music. In 2025 it closed the town's Concerts by the Water series at East Ferry Memorial Square. Check with Parks & Recreation for upcoming concert dates.",
-     "address": "",
-     "phone": "(401) 423-7260",
-     "hours": "",
+     "name": "Lionel Champlin Guest House",
+     "blurb": "Three-story Victorian beach-cottage guest house open year-round. Rooms have private baths and Wi-Fi, and spa services are offered on site.",
+     "address": "20 Lincoln St, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Year-round",
      "url": "",
-     "src": "https://jamestownri.gov/home/showpublisheddocument/83335/638822940305400000"
+     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
+    },
+    {
+     "name": "Fort Getty Campground",
+     "blurb": "The town campground on the West Passage, with 26 tent sites and 75 seasonal RV sites. When open, tent sites run $40 a night (holiday weekends are flat-fee packages), and RV sites are $70 a night with a two-week minimum. Seasonal RV sites are assigned from a wait list. Closed for camping now. The town says it hopes to reopen in 2027.",
+     "address": "1050 Fort Getty Rd, Jamestown, RI 02835",
+     "phone": "(401) 423-7260",
+     "hours": "Closed for camping; reopening 2027",
+     "url": "https://www.jamestownri.gov/tentsitereservations",
+     "src": "https://jamestownri.gov/town-departments/parks-rec/fort-getty"
     }
    ]
   },
   {
    "key": "shop",
-   "title": "Shops & Services",
+   "title": "Shops",
    "items": [
     {
      "name": "McQuade's Marketplace",
@@ -297,15 +717,6 @@
      "src": "https://rhodybeat.com/stories/ri-day-trips-a-day-in-jamestown,26272"
     },
     {
-     "name": "Conanicut Marina (TPG)",
-     "blurb": "Full-service marina at East Ferry with slips, about 150 moorings, a fuel dock, launch service and the Taylor Point Boat Yard. It also runs a ship's store and chandlery and the Conanicut Marine gift shop; slips can be booked through Dockwa.",
-     "address": "1 East Ferry Wharf, Unit 1, Jamestown, RI 02835",
-     "phone": "(401) 423-7158",
-     "hours": "",
-     "url": "https://www.conanicutmarina.com/",
-     "src": "https://www.conanicutmarina.com/"
-    },
-    {
      "name": "BankNewport – Jamestown Branch",
      "blurb": "Village bank branch on Conanicus Avenue with a 24-hour ATM. Personal teller machine hours run weekdays 8am–6pm and Saturday mornings.",
      "address": "31 Conanicus Ave, Jamestown, RI 02835",
@@ -313,24 +724,6 @@
      "hours": "PTM Mon–Fri 8am–6pm; Sat 9am–1pm; ATM 24/7",
      "url": "https://www.banknewport.com/",
      "src": "https://www.banknewport.com/locations-mobile/"
-    },
-    {
-     "name": "Club Wyndham Bay Voyage Inn",
-     "blurb": "Waterfront inn on Conanicus Avenue, home to JB's on the Water restaurant. Guests have water views, a pool, a fitness center and laundry.",
-     "address": "150 Conanicus Ave, Jamestown, RI 02835",
-     "phone": "",
-     "hours": "",
-     "url": "",
-     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
-    },
-    {
-     "name": "Lionel Champlin Guest House",
-     "blurb": "Three-story Victorian beach-cottage guest house open year-round. Rooms have private baths and Wi-Fi, and spa services are offered on site.",
-     "address": "20 Lincoln St, Jamestown, RI 02835",
-     "phone": "",
-     "hours": "Year-round",
-     "url": "",
-     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
     }
    ]
   },
@@ -339,17 +732,8 @@
    "title": "Getting Here",
    "items": [
     {
-     "name": "Jamestown Newport Ferry",
-     "blurb": "Seasonal passenger ferry linking East Ferry Wharf with Rose Island Light, Fort Adams, Ann Street Pier and Perrotti Park in Newport. The 2026 season ran May 16 to October 12 and has ended; the operator says service returns in 2027 (2026 opened in mid-May). 2026 all-day passes were $34 adults and $22 children, with a $26 in-person rate for Jamestown and Newport residents.",
-     "address": "1 East Ferry Wharf, Jamestown, RI 02835",
-     "phone": "(401) 423-9900",
-     "hours": "Season ended Oct. 12, 2026; resumes 2027",
-     "url": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
-     "src": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/"
-    },
-    {
      "name": "Claiborne Pell Newport Bridge",
-     "blurb": "Route 138 toll bridge between Jamestown and Newport, run by the RI Turnpike and Bridge Authority. Two-axle tolls are $2.00 per axle with E-ZPass or $3.00 per axle by video toll. RI residents with a RITBA-issued E-ZPass pay $0.83 per crossing, and a $40, 30-day unlimited plan is also offered.",
+     "blurb": "Route 138 toll bridge between Jamestown and Newport. The toll is all-electronic: E-ZPass, or a bill by mail if you don't have one. Current rates are on RITBA's site.",
      "address": "",
      "phone": "(401) 423-0800",
      "hours": "",
@@ -373,15 +757,6 @@
      "hours": "",
      "url": "https://www.ripta.com/64",
      "src": "https://transitapp.com/en/region/providence/ripta/bus-64"
-    },
-    {
-     "name": "Boat Ramps & Harbor Office",
-     "blurb": "Public boat ramps are at East Ferry, Fort Getty and Fort Wetherill. The Harbor Office is at the police station on Conanicus Avenue; mooring, outhaul and pier permit wait lists are handled through the town's online mooring portal.",
-     "address": "250 Conanicus Ave, Jamestown, RI 02835",
-     "phone": "(401) 423-7200",
-     "hours": "",
-     "url": "https://www.jamestownri.gov/harbor",
-     "src": "https://www.jamestownri.gov/harbor"
     },
     {
      "name": "Mackerel Cove Beach Parking",
