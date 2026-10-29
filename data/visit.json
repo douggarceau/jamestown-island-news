@@ -612,6 +612,24 @@
    "title": "Stay & Camp",
    "items": [
     {
+     "name": "Vacation rentals on Airbnb",
+     "blurb": "Most visitors stay in a rented house or cottage. Airbnb lists homes all over the island, from village cottages to waterfront houses. Book early for summer weekends.",
+     "address": "Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.airbnb.com/jamestown-ri/stays",
+     "src": "https://www.airbnb.com/"
+    },
+    {
+     "name": "Vacation rentals on Vrbo",
+     "blurb": "Whole-house rentals by the week or weekend, good for families and groups.",
+     "address": "Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.vrbo.com/search?destination=Jamestown%2C%20Rhode%20Island",
+     "src": "https://www.vrbo.com/"
+    },
+    {
      "name": "Club Wyndham Bay Voyage Inn",
      "blurb": "Waterfront inn on Conanicus Avenue, home to JB's on the Water restaurant. Guests have water views, a pool, a fitness center and laundry.",
      "address": "150 Conanicus Ave, Jamestown, RI 02835",
