@@ -343,7 +343,7 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 .lsrow .lspot:not(.hasad):nth-child(6n+4){--gk:#4fa3ff;animation-delay:-.8s}.lsrow .lspot:not(.hasad):nth-child(6n+5){--gk:#5fdc6a;animation-delay:-2.5s}.lsrow .lspot:not(.hasad):nth-child(6n){--gk:#ff5fa2;animation-delay:-4.1s}
 @keyframes stGlow{0%,100%{box-shadow:0 0 10px 1px color-mix(in srgb,var(--gk) 28%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 45%,transparent)}50%{box-shadow:0 0 24px 5px color-mix(in srgb,var(--gk) 50%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 70%,transparent)}}
 @media (prefers-reduced-motion:reduce){.lsrow .lspot:not(.hasad){animation:none}}
-</style></head>
+</style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style></head>
 <body>
 <title>Jamestown Island News</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1741,7 +1741,7 @@ visitLoad();
 function vVisit(){visitLoad();const S=(VISIT&&VISIT.sections)||[];const cur=(STATE.vsec&&S.some(x=>x.key===STATE.vsec)?STATE.vsec:'')||((S[0]||{}).key)||'beaches';
  const tabs=S.map(x=>`<button class="pad${x.key===cur?' on':''}" data-vsec="${esc(x.key)}" style="--gc:${VCAT_COL[x.key]||'#e8b818'}"><span>${esc(x.title)}</span><small>${(x.items||[]).length}</small></button>`).join('');
  const sec=S.find(x=>x.key===cur)||S[0];
- const card=it=>`<div class="vcard" style="--k:${VCAT_COL[(sec||{}).key]||'#e8b818'}"><h4>${it.url?`<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a>`:esc(it.name)}</h4>${it.blurb?`<p>${esc(it.blurb)}</p>`:''}<div class="vmeta">${it.address?`<span>📍 ${esc(it.address)}</span>`:''}${it.phone?`<a href="tel:${esc(it.phone.replace(/[^0-9+]/g,''))}">📞 ${esc(it.phone)}</a>`:''}${it.hours?`<span>🕒 ${esc(it.hours)}</span>`:''}</div></div>`;
+ const card=it=>`<div class="vcard" style="--k:${VCAT_COL[(sec||{}).key]||'#e8b818'}"><h4>${esc(it.name)}</h4>${it.blurb?`<p>${esc(it.blurb)}</p>`:''}<div class="vmeta">${it.address?`<span>📍 ${esc(it.address)}</span>`:''}${it.phone?`<a href="tel:${esc(it.phone.replace(/[^0-9+]/g,''))}">📞 ${esc(it.phone)}</a>`:''}${it.hours?`<span>🕒 ${esc(it.hours)}</span>`:''}${it.url?`<a class="vweb" href="${esc(it.url)}" target="_blank" rel="noopener">Website →</a>`:''}</div></div>`;
  return `<h2 class="room">Visit Jamestown</h2><div class="intro"><b>Your guide to Conanicut Island</b><p>Beaches, the coastline, parks and lighthouses, the ferry, getting out on the water, fishing, food and places to stay. Many places run seasonal hours, so call ahead.</p><div class="vquick"><a class="vq em" href="tel:911"><i>Emergency</i>911</a><a class="vq" href="tel:+14014231212"><i>Police</i>(401) 423-1212</a><a class="vq" href="tel:+14014230062"><i>Fire &amp; EMS</i>(401) 423-0062</a><a class="vq map" href="https://www.google.com/maps/place/Jamestown,+RI+02835" target="_blank" rel="noopener"><i>Island map</i>Open map →</a></div></div>
  <div class="pads">${tabs}</div>
  <div class="vgrid">${sec?(sec.items||[]).map(card).join(''):'<div class="empty">Loading the island guide…</div>'}</div>`}
