@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-29T07:23:00-04:00",
+  "asof": "2026-10-30T07:19:00-04:00",
   "items": [
     {
       "kind": "courts",
@@ -48,18 +48,6 @@
       "spd": [
         "JT"
       ]
-    },
-    {
-      "kind": "other",
-      "headline": "Man rescued from rocks below Beavertail Road cliff",
-      "blurb": "Jamestown firefighters used a drone and a rescue swimmer to reach a man who fell and was trapped on rocks near 435 Beavertail Road, then took him to Newport by boat. Officials said his injuries were minor.",
-      "hood": "Jamestown",
-      "spd": [
-        "JT"
-      ],
-      "date": "2026-09-14",
-      "url": "https://turnto10.com/news/local/rescue-crews-save-injured-man-steep-cliff-beavertail-road-jamestown-firefighters-drone-shoreline-rocks-september-14-2026",
-      "outlet": "NBC 10 WJAR"
     }
   ]
 }
