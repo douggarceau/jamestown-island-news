@@ -2477,11 +2477,6 @@ q.addEventListener("keydown",e=>{const L=[...p.querySelectorAll("a")];if(!L.leng
 document.addEventListener("click",e=>{if(!p.contains(e.target)&&e.target!==q)p.hidden=true});addEventListener("scroll",()=>{if(!p.hidden)place()},{passive:true});addEventListener("resize",()=>{p.hidden=true})};
 document.readyState==="loading"?document.addEventListener("DOMContentLoaded",()=>setTimeout(go,0)):setTimeout(go,0)})();</script>
 <style>
-.lspot a.eadv{position:absolute;inset:0;z-index:5;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b;border-radius:inherit;opacity:0;pointer-events:none;transition:opacity .6s ease}
-.lspot a.eadv.on{opacity:1;pointer-events:auto}
-@media (prefers-reduced-motion:reduce){.lspot a.eadv{transition:none}}
-</style>
-<style>
 html body .lsrow .lspot.hasad{height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1660/948}
 .lspot a.radv{position:absolute;inset:0;z-index:6;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b center/cover no-repeat;border-radius:inherit}
 .lspot.hasad{box-shadow:0 0 12px 1px rgba(232,184,24,.28),0 0 0 1px rgba(232,184,24,.35);animation:adGlow 5s ease-in-out infinite}
@@ -2506,21 +2501,6 @@ const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(!B.length)retur
   const el=document.createElement('a');el.className='radv';el.dataset.img=ad.img;el.href=ad.href;if(/^https?:/.test(ad.href)){el.target='_blank';el.rel='noopener'}el.setAttribute('aria-label',ad.label);el.style.backgroundImage='url('+ad.img+')';bx.appendChild(el);bx.classList.add('hasad')});
  document.querySelectorAll('.lspot.hasad').forEach(bx=>{if(!bx.querySelector(':scope > a.radv'))bx.classList.remove('hasad')})};
 setTimeout(place,1500);setInterval(place,3000);addEventListener('resize',()=>setTimeout(place,300));
-})();
-</script>
-<script>
-/* Eric Maluk ad: takes over one margin news box now and then; runs 30 days from 2026-10-20 */
-(function(){return;/* replaced by the top-6 ad rotator */
-const START=Date.parse('2026-10-20T00:00:00-04:00'),END=START+30*864e5;
-if(Date.now()>=END)return;
-let ad;const mk=()=>{const a=document.getElementById('lsB'),box=a&&a.parentNode;if(!box)return null;
- ad=document.createElement('a');ad.className='eadv';ad.href='tel:+14012544403';ad.setAttribute('role','img');ad.setAttribute('aria-label','Advertisement: Eric Maluk, Rate. Call (401) 254-4403');
- box.appendChild(ad);return ad};
-const cycle=()=>{if(Date.now()>=END){if(ad)ad.classList.remove('on');return}
- if(!ad&&!mk()){setTimeout(cycle,3000);return}
- ad.classList.add('on');setTimeout(()=>ad.classList.remove('on'),11000);
- setTimeout(cycle,11000+70000+Math.random()*30000)};
-setTimeout(cycle,8000);
 })();
 </script>
 <script id="riBoxes">(()=>{/* Jamestown edition: hide desks that have no Jamestown data yet */
