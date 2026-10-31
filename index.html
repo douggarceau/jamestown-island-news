@@ -345,7 +345,8 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 @media (prefers-reduced-motion:reduce){.lsrow .lspot:not(.hasad){animation:none}}
 </style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><script>window.EP_COVER_POSTERS=true</script>
 <script>window.EP_COAST=true</script>
-<script src="posters.js?v=17"></script>
+<script>window.EP_MAST={img:'img/posters/story-jamestown.jpg'}</script>
+<script src="posters.js?v=20"></script>
 </head>
 <body>
 <title>Jamestown Island News</title>
@@ -2277,7 +2278,7 @@ function showPromo0(id,pool,offset=0,flip=false){{const el=document.getElementBy
  box.hidden=false;const key=promoKey(s);if(a.dataset.promoKey===key)return;
  a.dataset.promoNext=key;if(flip&&a.dataset.promoKey)flipTo(a,s);else fill(a,s)
 }
-let JTEVI=0;window.jtEvPool=()=>jtEvPool();function jtEvPool(){try{if(jtEvPool.c&&jtEvPool.c.length&&Date.now()-jtEvPool.t<60000)return jtEvPool.c;const L=(typeof jtWeekList==='function'?jtWeekList(28):[]);return jtEvPool.t=Date.now(),jtEvPool.c=L.filter(e=>e.genre!=='sports'&&e.genre!=='worship'&&e.genre!=='support').map(e=>({tag:'ON THE ISLAND · '+(typeof shortDay==='function'?shortDay(e.date):e.date),bigText:(e.artists||'').replace(/\s*\([^)]*\)/g,'').trim(),name:e.venue||'Jamestown',when:e.time||'',sub:'',go:'Details',theme:'mu',href:e.url||'#cal',ext:e.url?1:0,view:e.url?'':'cal',ev:e,k:(typeof GENRE!=='undefined'&&GENRE[e.genre])||'#e8b818'}))}catch(_){return[]}}
+let JTEVI=0;window.jtEvPool=()=>jtEvPool();function jtEvPool(){try{if(jtEvPool.c&&jtEvPool.c.length&&Date.now()-jtEvPool.t<60000)return jtEvPool.c;const L=(typeof jtWeekList==='function'?jtWeekList(28):[]);return jtEvPool.t=Date.now(),jtEvPool.c=(window.epMix||(x=>x))(L.filter(e=>e.genre!=='sports'&&e.genre!=='worship'&&e.genre!=='support').map(e=>({tag:'ON THE ISLAND · '+(typeof shortDay==='function'?shortDay(e.date):e.date),bigText:(e.artists||'').replace(/\s*\([^)]*\)/g,'').trim(),name:e.venue||'Jamestown',when:e.time||'',sub:'',go:'Details',theme:'mu',href:e.url||'#cal',ext:e.url?1:0,view:e.url?'':'cal',ev:e,k:(typeof GENRE!=='undefined'&&GENRE[e.genre])||'#e8b818'})))}catch(_){return[]}}
 (function jtSweep(n){setTimeout(()=>{document.querySelectorAll('.lsrow .lspot.t-cw>a,.lsrow .lspot.t-spd>a,.lsrow .lspot.cwi>a').forEach(a=>{if(jtEvPool().length)fill(a,{theme:'cw',tag:'CRIME'})});if(n<8)jtSweep(n+1)},1500)})(0);
 function fill(a,s){if(s&&(s.theme==='cw'||s.theme==='spd'||s.cwi||/CRIME/i.test(s.tag||''))){const E=jtEvPool();if(E.length){s=E[JTEVI++%E.length]}}return fill0(a,s)}
 window.__fill0=(a,s)=>fill0(a,s);function fill0(a,s){if(!a||!s)return;clearTimeout(promoTimers.get(a));a.dataset.promoKey=promoKey(s);delete a.dataset.promoNext;const box=a.parentNode;box.className=box.className.replace(/\bt-\S+/g,'').replace(/\bcwi\b/g,'').trim()+' t-'+s.theme+(s.cwi?' cwi':'');
@@ -2815,7 +2816,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>{if(!SKIP.includes(x.slug)&&!S.includes(x.slug)&&VRX.test(x.title+' '+(x.dek||''))&&n-Date.parse(x.date)<14*864e5)S.push(x.slug)})}catch(e){}return S};
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
-new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=17">
+new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=20">
 <link rel="stylesheet" href="polish.css?v=3">
 </body>
 </html>
