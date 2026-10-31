@@ -343,10 +343,10 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 .lsrow .lspot:not(.hasad):nth-child(6n+4){--gk:#4fa3ff;animation-delay:-.8s}.lsrow .lspot:not(.hasad):nth-child(6n+5){--gk:#5fdc6a;animation-delay:-2.5s}.lsrow .lspot:not(.hasad):nth-child(6n){--gk:#ff5fa2;animation-delay:-4.1s}
 @keyframes stGlow{0%,100%{box-shadow:0 0 10px 1px color-mix(in srgb,var(--gk) 28%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 45%,transparent)}50%{box-shadow:0 0 24px 5px color-mix(in srgb,var(--gk) 50%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 70%,transparent)}}
 @media (prefers-reduced-motion:reduce){.lsrow .lspot:not(.hasad){animation:none}}
-</style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><script>window.EP_COVER_POSTERS=true</script>
+</style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><script>window.EP_COVER_POSTERS=true;document.documentElement.classList.add("ep-cov")</script>
 <script>window.EP_COAST=true</script>
 <script>window.EP_MAST={img:'img/posters/story-jamestown.jpg'}</script>
-<script src="posters.js?v=21"></script>
+<script src="posters.js?v=23"></script>
 </head>
 <body>
 <title>Jamestown Island News</title>
@@ -2816,7 +2816,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>{if(!SKIP.includes(x.slug)&&!S.includes(x.slug)&&VRX.test(x.title+' '+(x.dek||''))&&n-Date.parse(x.date)<14*864e5)S.push(x.slug)})}catch(e){}return S};
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
-new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=20">
-<link rel="stylesheet" href="polish.css?v=3">
+new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
+<link rel="stylesheet" href="polish.css?v=23">
 </body>
 </html>
