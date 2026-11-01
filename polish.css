@@ -176,7 +176,3 @@ html[data-view=advertise] body #view .intro b{font:800 13px/1.2 "Libre Franklin"
 html[data-view=advertise] body #view div[style*="padding:10px 12px"]{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}html[data-view=advertise] body #view div[style*="padding:10px 12px"]>b{font:700 17px/1.25 Georgia,serif!important;color:#fff!important}
 html body .vgrid .vcard h4,html body .sgrid .sc h4,#view a.sh .who b,html[data-view=advertise] body #view .bh>b,html[data-view=advertise] body #view strong,html[data-view=advertise] body #view div[style*="padding:10px 12px"]>b{font-family:"Playfair Display",Georgia,serif!important;font-weight:700!important}
 #nav>[data-go="cal"]{order:-5!important}#nav>[data-go="front"]{order:-4!important}#nav>[data-go="visit"]{order:-3!important}#nav>[data-go="maps"]{order:-2!important}#nav>[data-go="stories"]{order:-1!important}
-.mapbox{margin:18px 0;padding:14px 16px;border:1px solid #1e2227;border-top:3px solid #e8b818;border-radius:6px;background:#ffffff05}
-.mapbox h3{font:700 17px/1.25 "Playfair Display",Georgia,serif;color:#fff;margin:0 0 10px}
-.mapbox img{display:block;width:100%;height:auto;border-radius:4px}
-.mapbox p{font:13.5px/1.5 Georgia,serif;color:#f4f6f8;margin:10px 0 0}
