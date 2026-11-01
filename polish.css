@@ -145,3 +145,5 @@ html.ot #whatsOn,html.ot #coverSlot .cvr>.spr,html.ot #coverSlot .cvside,html.ot
 .otd{margin-top:4px;padding:6px 14px;border:1px solid #e8b818;border-radius:6px;font:700 13px/1 "Helvetica Neue",Arial,sans-serif;color:#e8b818}
 html.ot #coverSlot{display:none!important}
 html.ot .jbig .jbf.a{background:radial-gradient(circle at 50% 30%,#6e4a12,#241606 72%)}html.ot .jbig .jbf.b{background:radial-gradient(circle at 50% 30%,#5a1a12,#1a0806 72%)}html.ot .jbig{margin:18px 0 6px}
+.otg{grid-auto-flow:dense;grid-auto-rows:300px}.otc{height:auto}.otc.otw2{grid-column:span 2}.otc.oth2{grid-row:span 2}.otc.otw2 .otf b,.otc.oth2 .otf b{font-size:36px}
+@media (max-width:640px){.otc.otw2{grid-column:auto}.otc.oth2{grid-row:auto}}

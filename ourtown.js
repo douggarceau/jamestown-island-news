@@ -10,12 +10,14 @@ function evFace(e,i){const d=new Date(e.date+'T12:00:00'),p=PAL[i%PAL.length];
  return `<a class="otf" style="--a:${p[0]};--b:${p[1]}" href="${/^https?:/.test(e.url||'')?H(e.url):'#cal'}" ${/^https?:/.test(e.url||'')?'target="_blank" rel="noopener"':''}><span class="otk">Come one, come all</span><b>${H(String(e.artists||'').split(/\s+[|@]\s+/)[0])}</b><span class="otw">${H(d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}))}${e.time?' · '+H(String(e.time).replace(/:00/g,'')):''}</span><span class="otv">${H(e.venue||'')}</span><span class="otd">Details →</span></a>`}
 function bizFace(x,i,kick){const p=PAL[(i+3)%PAL.length];
  return `<a class="otf" style="--a:${p[0]};--b:${p[1]}" href="${/^https?:/.test(x.url||'')?H(x.url):'#visit'}" ${/^https?:/.test(x.url||'')?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
-function card(f,b){return `<div class="otc"><div class="otin">${f}${b.replace('class="otf"','class="otf otback"')}</div></div>`}
+const R=()=>Math.random();
+function card(f,b){const sz=R()<.14?' otw2':R()<.12?' oth2':'';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf"','class="otf otback"')}</div></div>`}
+function shuf(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(R()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function build(){const td=ymd(new Date()),end=ymd(new Date(Date.now()+45*864e5));
  const seen=new Set(),ev=[];(EV||[]).filter(e=>e.date>=td&&e.date<=end&&!MUSIC.test(e.genre||'')&&!DULL.test(e.artists||'')).sort((a,b)=>a.date<b.date?-1:1).forEach(e=>{const k=String(e.artists||'').toLowerCase().replace(/[^a-z]/g,'').slice(0,24);if(!k||seen.has(k))return;seen.add(k);ev.push(e)});
  const sec=k=>(((BIZ||{}).sections||[]).find(s=>s.key===k)||{}).items||[];
  const biz=[].concat(sec('shop').filter(x=>x.status!=='closed'&&x.address).map(x=>[x,'Shop local']),sec('eat').filter(x=>x.address).map(x=>[x,'Eat on the island']),sec('icecream').map(x=>[x,'Treats on the island']));
- const faces=[];ev.slice(0,24).forEach((e,i)=>faces.push(evFace(e,i)));biz.forEach(([x,k],i)=>faces.push(bizFace(x,i,k)));
+ const faces=shuf(ev.slice(0,30).map((e,i)=>evFace(e,Math.floor(R()*6))).concat(biz.map(([x,k],i)=>bizFace(x,Math.floor(R()*6),k))));
  let h='';for(let i=0;i+1<faces.length;i+=2)h+=card(faces[i],faces[i+1]);
  return h}
 function mount(){const v=document.getElementById('view');const front=typeof STATE!=='undefined'&&STATE.view==='front';
