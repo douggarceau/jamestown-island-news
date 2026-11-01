@@ -1784,7 +1784,7 @@ function vInk(){const L=STORIES.filter(s=>s.topic==='ink');return `<h2 class="ro
 const FEATURES=new Set([]);
 
 const MAPS=[{t:'Jamestown, Rhode Island: Illustrated Island & Village Guide',d:'Conanicut Island with a detail map of Downtown & East Ferry and a numbered list of businesses and visitor stops. Illustrated, not to scale.',src:'img/maps/jamestown-illustrated-map.jpg'}];
-function vMaps(){return `<h2 class="room">Jamestown Maps</h2><div class="intro"><b>Maps of Conanicut Island</b><p>Tap any map to open it full size and zoom in.</p></div>${MAPS.map(m=>`<section class="mapbox"><h3>${esc(m.t)}</h3><a href="${m.src}" target="_blank" rel="noopener"><img src="${m.src}" alt="${esc(m.t)}" loading="lazy"></a><p>${esc(m.d)}</p></section>`).join('')}`}
+function vMaps(){return `<h2 class="room">Jamestown Maps</h2><div class="intro"><b>Maps of Conanicut Island</b><p>Tap any map to open it full size and zoom in.</p></div>${MAPS.map(m=>`<section class="mapbox"><h3>${esc(m.t)}</h3><a href="${m.src}" target="_blank" rel="noopener"><img src="${m.src}" alt="${esc(m.t)}"></a><p>${esc(m.d)}</p></section>`).join('')}`}
 function vStories(){
   const LS=STORIES.filter(s=>!FEATURES.has(s.slug)).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
   return `<h2 class="room">Jamestown Stories</h2>
