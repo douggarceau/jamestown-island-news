@@ -170,3 +170,6 @@ html[data-view=advertise] #view strong,html[data-view=advertise] #view .bh b,htm
 html[data-view=advertise] #view .intro b,html[data-view=advertise] #view .bh span,html[data-view=advertise] #view div:not([class]),html[data-view=advertise] #view div:not([class]) b,html[data-view=advertise] #view div:not([class]) span{font:500 12px/1.4 "Libre Franklin","Franklin Gothic",system-ui,sans-serif!important;color:#f4f6f8!important;letter-spacing:normal!important;text-transform:none!important}
 html[data-view=advertise] #view div:not([class]) b{font-weight:700!important;color:#fff!important}
 html[data-view=advertise] body #view .bh>b,html[data-view=advertise] body #view strong{font:700 17px/1.25 Georgia,serif!important;color:#fff!important;letter-spacing:normal!important;text-transform:none!important}
+#view a.sh .who b{font:700 17px/1.25 Georgia,serif!important;color:#fff!important}
+#view a.sh .who span,#view a.sh .who .calb{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}
+html[data-view=advertise] body #view .intro b{font:800 13px/1.2 "Libre Franklin",system-ui,sans-serif!important;color:#b08d2e!important;letter-spacing:.14em!important;text-transform:uppercase!important}
