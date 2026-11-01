@@ -6,10 +6,11 @@ const MUSIC=/^(live|rock|indie|jazz|pop|electronic|folk|r&b|latin|metal|hip-hop|
 const DULL=/pantry|thrift|rehearsal|appointment|office hours|support group|meeting\b|anonymous|al-anon|recovery|board of|council|committee|commission/i;
 const PAL=[['#1d4a6e','#0a1724'],['#5a1a12','#1a0806'],['#1f4d2b','#081a0e'],['#4a2a6e','#140a24'],['#6e4a12','#241606'],['#123f4a','#06181c']];
 let EV=null,BIZ=null;
-function evFace(e,i){const d=new Date(e.date+'T12:00:00'),p=PAL[i%PAL.length];
- return `<a class="otf" style="--a:${p[0]};--b:${p[1]}" href="${/^https?:/.test(e.url||'')?H(e.url):'#cal'}" ${/^https?:/.test(e.url||'')?'target="_blank" rel="noopener"':''}><span class="otk">Come one, come all</span><b>${H(String(e.artists||'').split(/\s+[|@]\s+/)[0])}</b><span class="otw">${H(d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}))}${e.time?' · '+H(String(e.time).replace(/:00/g,'')):''}</span><span class="otv">${H(e.venue||'')}</span><span class="otd">Details →</span></a>`}
-function bizFace(x,i,kick){const p=PAL[(i+3)%PAL.length];
- return `<a class="otf" style="--a:${p[0]};--b:${p[1]}" href="${/^https?:/.test(x.url||'')?H(x.url):'#visit'}" ${/^https?:/.test(x.url||'')?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
+const EVS=[];
+function evFace(e,i){EVS.push(e);const u=/^https?:/.test(e.url||'')?e.url:'';return `<a class="otf otp" data-ev="${EVS.length-1}" href="${u?H(u):'#cal'}" ${u?'target="_blank" rel="noopener"':''}></a>`}
+const ART=['wharf','bridge','story-jamestown','fair','fair2','gallery','gallery2','week2','marquee'];
+function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const img=ART[Math.floor(Math.random()*ART.length)];
+ return `<a class="otf otbz" style="--img:url(img/posters/${img}.jpg)" href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
 const R=()=>Math.random();
 function card(f,b){const sz=R()<.14?' otw2':R()<.12?' oth2':'';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf"','class="otf otback"')}</div></div>`}
 function shuf(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(R()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
@@ -26,7 +27,9 @@ function mount(){const v=document.getElementById('view');const front=typeof STAT
  if(v.querySelector('#otAds'))return;
  const s=document.createElement('section');s.id='otAds';s.setAttribute('aria-label','Our Town');
  s.innerHTML=`<h2 class="room">Our Town</h2><div class="otg">${build()}</div>`;
- v.appendChild(s)}
+ v.appendChild(s);
+ s.querySelectorAll('a.otp').forEach(a=>{const e=EVS[+a.dataset.ev];try{window.evPoster&&window.evPoster(a,{ev:e,bigText:String(e.artists||'').split(/\s+[|@]\s+/)[0]})}catch(_){}
+  if(!a.firstChild)a.innerHTML=`<span class="otk">Come one, come all</span><b>${H(e.artists)}</b>`})}
 fetch('data/cal.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{EV=d.events||[];mount()}).catch(()=>{EV=[]});
 fetch('data/visit.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{BIZ=d;mount()}).catch(()=>{BIZ={}});
 setInterval(mount,700);
