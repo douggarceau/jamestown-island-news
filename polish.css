@@ -162,3 +162,6 @@ html body .sgrid .sc.sc,html body .sgrid .sc.has-art{background:radial-gradient(
 .sgrid .sc:hover{filter:brightness(1.12) saturate(1.1)}
 html body .sgrid .sc h4,html body .sgrid .sc p{text-shadow:0 1px 3px #0009}
 #nav>#nbSis{order:9!important}#nav>#nbSub{order:10!important}#nav>#nbSearch{order:20!important}.subbox.sbpop{display:grid!important;position:fixed;z-index:9999;top:110px;right:16px;width:min(92vw,360px);margin:0}
+html body .vgrid .vcard{background:radial-gradient(130% 100% at 15% 0%,var(--g1),var(--g2) 75%)!important;border:1px solid #e8b81866!important;box-shadow:0 6px 22px #0007!important}
+html body .vgrid .vcard h4,html body .vgrid .vcard p{text-shadow:0 1px 3px #0009}
+.vgrid .vcard:nth-child(8n+1){--g1:#4a9cf0;--g2:#123a66}.vgrid .vcard:nth-child(8n+2){--g1:#f07a3c;--g2:#5a1a0a}.vgrid .vcard:nth-child(8n+3){--g1:#3fbf7a;--g2:#0e4024}.vgrid .vcard:nth-child(8n+4){--g1:#a46ae8;--g2:#3a1766}.vgrid .vcard:nth-child(8n+5){--g1:#f0b23a;--g2:#5a3406}.vgrid .vcard:nth-child(8n+6){--g1:#2fc4c4;--g2:#0b4444}.vgrid .vcard:nth-child(8n+7){--g1:#ec4f86;--g2:#5a0f2c}.vgrid .vcard:nth-child(8n+8){--g1:#6a86f0;--g2:#1a2a66}
