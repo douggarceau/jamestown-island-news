@@ -173,3 +173,4 @@ html body .pads .pad{box-shadow:0 0 12px color-mix(in srgb,var(--gc,#e8b818) 55%
 html body #nav .nb{box-shadow:0 0 10px #e8b81855,inset 0 0 10px #ffffff12}
 #view .who span,#view .who .calb{color:#f2f5f8!important}#view .pad small,#view .fld label,#view .intro p,#view .bh span{color:#e8edf2!important}#view .row .when,#view .row time,#view .row .t{color:#fff!important}
 html.ot .jbig{margin:18px auto 6px!important}
+html.ot .jbig{width:100%!important}
