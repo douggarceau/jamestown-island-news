@@ -164,3 +164,8 @@ html body .sgrid .sc h4{font:700 17px/1.25 Georgia,serif!important;color:#fff!im
 html body .sgrid .sc p{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}
 html body .sgrid .sc .meta,html body .sgrid .sc .kick{font:500 12px/1.4 "Libre Franklin","Franklin Gothic",system-ui,sans-serif!important;color:#f4f6f8!important}
 html body .sgrid .sc::after,html body .sgrid .sc::before{display:none!important}
+html body .sgrid .sc .kick,html body .sgrid .sc .meta{letter-spacing:normal!important;text-transform:none!important}
+html[data-view=advertise] #view p{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}
+html[data-view=advertise] #view strong,html[data-view=advertise] #view .bh b,html[data-view=advertise] #view h3,html[data-view=advertise] #view h4{font:700 17px/1.25 Georgia,serif!important;color:#fff!important;letter-spacing:normal!important;text-transform:none!important}
+html[data-view=advertise] #view .intro b,html[data-view=advertise] #view .bh span,html[data-view=advertise] #view div:not([class]),html[data-view=advertise] #view div:not([class]) b,html[data-view=advertise] #view div:not([class]) span{font:500 12px/1.4 "Libre Franklin","Franklin Gothic",system-ui,sans-serif!important;color:#f4f6f8!important;letter-spacing:normal!important;text-transform:none!important}
+html[data-view=advertise] #view div:not([class]) b{font-weight:700!important;color:#fff!important}
