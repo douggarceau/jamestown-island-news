@@ -126,3 +126,4 @@ html body #coverSlot .cvr .cvbrk{position:relative!important;overflow:hidden!imp
 #whatsOn .wo-z summary{opacity:.55}
 #nav>[data-go="cal"]{order:-1!important}
 .box.jtwk{display:none!important}
+#nav>[data-go="visit"]{order:0!important}#nav>[data-go="front"]{order:1!important}
