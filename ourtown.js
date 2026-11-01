@@ -32,5 +32,5 @@ function mount(){const v=document.getElementById('view');const front=typeof STAT
   if(!a.firstChild)a.innerHTML=`<span class="otk">Come one, come all</span><b>${H(e.artists)}</b>`})}
 fetch('data/cal.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{EV=d.events||[];mount()}).catch(()=>{EV=[]});
 fetch('data/visit.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{BIZ=d;mount()}).catch(()=>{BIZ={}});
-setInterval(mount,700);
+setInterval(mount,150);window.addEventListener('hashchange',mount);document.addEventListener('click',()=>setTimeout(mount,0),true);
 })();
