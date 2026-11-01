@@ -1,126 +1,6 @@
 {
- "asof": "2026-10-31T07:19:16-04:00",
+ "asof": "2026-11-01T07:19:00-05:00",
  "events": [
-  {
-   "date": "2026-10-31",
-   "time": "9:00 AM",
-   "artists": "Jamestown Step Workshop",
-   "venue": "St. Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "support",
-   "price": "",
-   "ages": "",
-   "url": "https://aainri.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "9 AM - 10 AM",
-   "address": "St. Matthew’s Episcopal Church, 87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "The Jamestown Step Workshop offers a Saturday morning devoted to AA’s Twelve Steps, the framework used by many groups to discuss recovery and mutual support. The approach appeared in Alcoholics Anonymous in 1939 and remains central to the fellowship. This open, in-person meeting welcomes interested observers as well as people addressing their own drinking. The independently organized group meets upstairs at St. Matthew’s. Presented by Jamestown Step Workshop Alcoholics Anonymous group. Contact: 401-438-8860 (Rhode Island AA information)."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "9:00 AM",
-   "artists": "St. Matthew’s Saturday Thrift Shop",
-   "venue": "St. Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://stmatthewsjamestown.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "9 AM - noon",
-   "address": "St. Matthew’s Episcopal Church, 87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "St. Matthew’s Thrift Shop welcomes Saturday shoppers and donations of useful belongings. The parish also passes surplus clothing and other goods to people and charitable organizations that need them, extending the shop’s work beyond its sales floor. The outreach belongs to a congregation established in 1836. Donations should be brought during opening hours; please do not leave goods outside. Call the parish to arrange another drop-off time. OCT 30 - OCT 31 / 2026 Presented by St. Matthew’s Episcopal Church Thrift Shop. Contact: 401-423-1762."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "9:30 AM",
-   "artists": "Everybody Chorus: Songs of the Seventies",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "classical",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "9:30 AM - 10:30 AM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Everybody Chorus welcomes neighbors for an informal hour of singing without auditions. This fall’s theme explores the seventies across three centuries: the 1770s, 1870s and 1970s, pairing familiar favorites with older songs. The program is offered by the Jamestown Community Chorus, whose history dates to 1949. New singers are welcome during the current session. The organizer lists a $3 charge for music. Presented by Jamestown Community Chorus - Everybody Chorus. Contact: 401-787-4487. cantabile50@gmail.com."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "11:00 AM",
-   "artists": "Imprint and Playback exhibition",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "11 AM - 3 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Imprint and Playback brings together seven artists who participated in Rhode Island School of Design’s Movement Lab Fellowship between 2023 and 2026. The exhibition connects moving images and performance-related practices with work developed through the fellowship. A separate October 28 performance and talk offers a closer look at the artists’ processes. The show continues through November 7 during the arts center’s regular Wednesday-through-Saturday gallery hours. Presented by Jamestown Arts Center. Contact: 401-560-0979."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "3:00 PM",
-   "artists": "Sacrament of Reconciliation at St. Mark",
-   "venue": "St. Mark Catholic Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://stmarkjtn.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "3 PM - 3:30 PM",
-   "address": "St. Mark Catholic Church, 60 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "St. Mark offers the Sacrament of Reconciliation before its Saturday afternoon Mass. Also known as confession or penance, the sacrament centers on repentance, forgiveness and renewed commitment to Christian life. The half-hour period takes place in the present church, dedicated in 1960 after its predecessor became too small for the parish. Anyone with questions about arrangements may contact the parish office. Presented by St. Mark Catholic Church. Contact: 401-423-1421."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "4:00 PM",
-   "artists": "Saturday Mass at St. Mark",
-   "venue": "St. Mark Catholic Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://stmarkjtn.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "4 PM",
-   "address": "St. Mark Catholic Church, 60 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "St. Mark’s worship continues a Catholic presence on Conanicut Island that began with a Mass in the Thorndyke Hotel dining room in July 1890. A seasonal chapel followed; in 1909, horses moved that building along Narragansett Avenue as year-round parish life developed. Today, weekday and weekend services continue at the parish’s present church. The 8 a.m. Sunday and weekday Masses are also livestreamed through StMarkJTN Live on YouTube. Presented by St. Mark Catholic Church. Contact: 401-423-1421."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "4:30 PM",
-   "artists": "Halloween Costume Parade",
-   "venue": "St. Matthew's Church lot to East Ferry Memorial Square",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://www.jamestownri.gov/recprograms",
-   "src": "Jamestown Parks and Recreation",
-   "hours": "",
-   "address": "Narragansett Avenue",
-   "blurb": "Meet at St. Matthew's Church parking lot at 4 p.m.; the costume parade heads down Narragansett Avenue to East Ferry Memorial Square."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "8:30 PM",
-   "artists": "The Smokin’ Toads Halloween Party",
-   "venue": "Narragansett Café",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://narragansettcaferi.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "8:30 PM - 11:59 PM",
-   "address": "Narragansett Café, 25 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "The Smokin’ Toads bring their four-piece lineup and a mix of classic and newer rock to the Narragansett Café’s Halloween party. The booking turns the venue’s Saturday music night into a seasonal gathering in the village. Its 8:30 p.m. start follows a week of separate jazz, solo and band performances. Guests should call the café for admission and age requirements. Presented by Narragansett Café. Contact: 401-423-2150."
-  },
   {
    "date": "2026-11-01",
    "time": "8:00 AM",
@@ -667,6 +547,19 @@
   },
   {
    "date": "2026-11-02",
+   "time": "4:30 PM",
+   "artists": "Harbor Management Commission meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Regular Harbor Management Commission meeting; the portal listing does not show the agenda."
+  },
+  {
+   "date": "2026-11-02",
    "time": "5:45 PM",
    "artists": "Heated Vinyasa",
    "venue": "Island Heron Yoga",
@@ -724,6 +617,19 @@
   },
   {
    "date": "2026-11-02",
+   "time": "6:00 PM",
+   "artists": "Jamestown Town Council meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Regular Town Council meeting; the portal listing does not show the agenda."
+  },
+  {
+   "date": "2026-11-02",
    "time": "6:30 PM",
    "artists": "Adult Pickleball, Beginners 2026-11",
    "venue": "Recreation Center Gymnasium",
@@ -764,6 +670,33 @@
    "src": "Jamestown Parks and Recreation",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult pickleball, advanced beginners with Tabatha Ashton; the listed fee covers the advertised series."
+  },
+  {
+   "date": "2026-11-03",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-11-03",
+   "time": "6:00 AM",
+   "artists": "Jamestown Board of Canvassers meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Board of Canvassers meeting on Election Day; the portal listing does not show the agenda."
   },
   {
    "date": "2026-11-03",
@@ -1067,20 +1000,6 @@
    "blurb": "Register through Jamestown Recreation for adult basketball pickup fall league; the listed fee covers the advertised series. The official calendar includes this holiday date; reconfirm with the organizer."
   },
   {
-   "date": "2026-11-03",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
-  },
-  {
    "date": "2026-11-04",
    "time": "8:00 AM",
    "artists": "Weekday Mass at St. Mark",
@@ -1182,6 +1101,19 @@
   },
   {
    "date": "2026-11-04",
+   "time": "9:00 AM",
+   "artists": "Jamestown Board of Canvassers meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Board of Canvassers meeting; the portal listing does not show the agenda."
+  },
+  {
+   "date": "2026-11-04",
    "time": "9:30 AM",
    "artists": "All Levels",
    "venue": "Island Heron Yoga",
@@ -1278,6 +1210,19 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Visitors are welcome to the parish’s morning-prayer gathering."
+  },
+  {
+   "date": "2026-11-04",
+   "time": "10:00 AM",
+   "artists": "Jamestown Technical Review Committee meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Technical Review Committee meeting; the portal listing does not show the agenda."
   },
   {
    "date": "2026-11-04",
@@ -1695,6 +1640,19 @@
    "src": "Island Heron Yoga",
    "address": "34 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Book a place in the studio’s slow flow class; check the booking page for current pricing and availability."
+  },
+  {
+   "date": "2026-11-05",
+   "time": "9:00 AM",
+   "artists": "Jamestown Board of Canvassers meeting",
+   "venue": "See the RI Open Meetings notice",
+   "hood": "Jamestown",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://opengov.sos.ri.gov/",
+   "src": "RI Open Meetings",
+   "blurb": "Board of Canvassers meeting; the portal listing does not show the agenda."
   },
   {
    "date": "2026-11-05",
@@ -3277,6 +3235,20 @@
   },
   {
    "date": "2026-11-10",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-11-10",
    "time": "8:00 AM",
    "artists": "Weekday Mass at St. Mark",
    "venue": "St. Mark Catholic Church",
@@ -3630,20 +3602,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup fall league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-11-10",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-11-11",
@@ -5212,6 +5170,20 @@
   },
   {
    "date": "2026-11-17",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-11-17",
    "time": "8:00 AM",
    "artists": "Weekday Mass at St. Mark",
    "venue": "St. Mark Catholic Church",
@@ -5581,20 +5553,6 @@
    "blurb": "Register through Jamestown Recreation for adult basketball pickup fall league; the listed fee covers the advertised series."
   },
   {
-   "date": "2026-11-17",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
-  },
-  {
    "date": "2026-11-18",
    "time": "8:00 AM",
    "artists": "Weekday Mass at St. Mark",
@@ -5937,6 +5895,48 @@
   },
   {
    "date": "2026-11-19",
+   "time": "",
+   "artists": "Chef’s Table Dinner",
+   "venue": "Our Table",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.ourtablejamestown.com/whats-happening",
+   "src": "Our Table",
+   "address": "53 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": "Reserve a place at the restaurant’s announced Chef’s Table dinner."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "",
+   "artists": "Merrily We Roll Along — production run begins",
+   "venue": "Jamestown Community Center",
+   "hood": "Jamestown",
+   "genre": "theater",
+   "price": "",
+   "ages": "",
+   "url": "https://www.mtishows.com/productions-map.php?node_id=749&t=1756924838",
+   "src": "Jamestown Community Theatre",
+   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
+   "blurb": "The announced production runs November 19–22; individual performance times were not confirmed on accessible official pages."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "unknown",
+   "artists": "Merrily We Roll Along — production day",
+   "venue": "Jamestown Recreation Center",
+   "hood": "Jamestown",
+   "genre": "theater",
+   "price": "",
+   "ages": "Company recommends ages 10+",
+   "url": "https://www.mtishows.com/productions-map.php?show_id=749",
+   "src": "Jamestown Community Theatre",
+   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
+   "blurb": "Jamestown Community Theatre stages Sondheim’s musical; confirm the curtain time and ticket details with the company."
+  },
+  {
+   "date": "2026-11-19",
    "time": "6:00 AM",
    "artists": "Morning Glory AA Meetings",
    "venue": "St. Matthew’s Episcopal Church",
@@ -6251,35 +6251,7 @@
    "blurb": "Jamestown Community Theatre opens its 36th season with Stephen Sondheim and George Furth’s musical about friendship, ambition and the price of success. The story moves backward through the life of composer Franklin Shepard, allowing audiences to discover the hopes that preceded his later compromises. Opening night brings the company’s fall production to the Recreation Center stage. apply. Organizer’s audience guidance: PG-13. NOV 19 - NOV 20 / 2026 Tickets: $20; seniors and students $15. Ticketing fees may Presented by Jamestown Community Theatre. Contact: 401-423-7260 (venue office); theatre inquiries: jamestowncommunitytheatreRI@gmail.com."
   },
   {
-   "date": "2026-11-19",
-   "time": "",
-   "artists": "Chef’s Table Dinner",
-   "venue": "Our Table",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://www.ourtablejamestown.com/whats-happening",
-   "src": "Our Table",
-   "address": "53 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Reserve a place at the restaurant’s announced Chef’s Table dinner."
-  },
-  {
-   "date": "2026-11-19",
-   "time": "",
-   "artists": "Merrily We Roll Along — production run begins",
-   "venue": "Jamestown Community Center",
-   "hood": "Jamestown",
-   "genre": "theater",
-   "price": "",
-   "ages": "",
-   "url": "https://www.mtishows.com/productions-map.php?node_id=749&t=1756924838",
-   "src": "Jamestown Community Theatre",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The announced production runs November 19–22; individual performance times were not confirmed on accessible official pages."
-  },
-  {
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "time": "unknown",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
@@ -6652,7 +6624,7 @@
    "blurb": "The Complaints performs at the café."
   },
   {
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "time": "unknown",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
@@ -6940,7 +6912,7 @@
    "blurb": "Signs Of Life performs at the café."
   },
   {
-   "date": "2026-11-21",
+   "date": "2026-11-22",
    "time": "unknown",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
@@ -7079,20 +7051,6 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
-  },
-  {
-   "date": "2026-11-22",
-   "time": "unknown",
-   "artists": "Merrily We Roll Along — production day",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "theater",
-   "price": "",
-   "ages": "Company recommends ages 10+",
-   "url": "https://www.mtishows.com/productions-map.php?show_id=749",
-   "src": "Jamestown Community Theatre",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "Jamestown Community Theatre stages Sondheim’s musical; confirm the curtain time and ticket details with the company."
   },
   {
    "date": "2026-11-23",
@@ -7332,6 +7290,20 @@
   },
   {
    "date": "2026-11-24",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-11-24",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2026-6",
    "venue": "Recreation Center Gymnasium",
@@ -7553,20 +7525,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup fall league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-11-24",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-11-25",
@@ -8520,6 +8478,20 @@
   },
   {
    "date": "2026-12-01",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-12-01",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2026-6",
    "venue": "Recreation Center Gymnasium",
@@ -8797,20 +8769,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup fall league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-12-01",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-12-02",
@@ -10332,6 +10290,20 @@
   },
   {
    "date": "2026-12-08",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-12-08",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2026-6",
    "venue": "Recreation Center Gymnasium",
@@ -10539,20 +10511,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-12-08",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-12-09",
@@ -11842,6 +11800,20 @@
   },
   {
    "date": "2026-12-15",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-12-15",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2026-6",
    "venue": "Recreation Center Gymnasium",
@@ -12105,20 +12077,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-12-15",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-12-16",
@@ -13266,6 +13224,20 @@
   },
   {
    "date": "2026-12-22",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-12-22",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
    "venue": "Church at Four Corners",
@@ -13473,20 +13445,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-12-22",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-12-23",
@@ -14118,6 +14076,20 @@
   },
   {
    "date": "2026-12-29",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2026-12-29",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
    "venue": "Church at Four Corners",
@@ -14297,20 +14269,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2026-12-29",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2026-12-30",
@@ -15084,6 +15042,20 @@
   },
   {
    "date": "2027-01-05",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-01-05",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -15333,20 +15305,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-01-05",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-01-06",
@@ -16512,6 +16470,20 @@
   },
   {
    "date": "2027-01-12",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-01-12",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -16733,20 +16705,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-01-12",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-01-13",
@@ -17730,6 +17688,20 @@
   },
   {
    "date": "2027-01-19",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-01-19",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -17993,20 +17965,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-01-19",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-01-20",
@@ -19032,6 +18990,20 @@
   },
   {
    "date": "2027-01-26",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-01-26",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -19253,20 +19225,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-01-26",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-01-27",
@@ -20320,6 +20278,20 @@
   },
   {
    "date": "2027-02-02",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-02-02",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -20555,20 +20527,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-02-02",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-02-03",
@@ -21664,6 +21622,20 @@
   },
   {
    "date": "2027-02-09",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-02-09",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
    "venue": "Recreation Center Gymnasium",
@@ -21871,20 +21843,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-02-09",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-02-10",
@@ -22910,6 +22868,20 @@
   },
   {
    "date": "2027-02-16",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-02-16",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
    "venue": "Church at Four Corners",
@@ -23117,20 +23089,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-02-16",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-02-17",
@@ -24128,6 +24086,20 @@
   },
   {
    "date": "2027-02-23",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-02-23",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -24349,20 +24321,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-02-23",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-02-24",
@@ -25388,6 +25346,20 @@
   },
   {
    "date": "2027-03-02",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-03-02",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -25623,20 +25595,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-03-02",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-03-03",
@@ -26634,6 +26592,20 @@
   },
   {
    "date": "2027-03-09",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-03-09",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -26827,20 +26799,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-03-09",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-03-10",
@@ -27768,6 +27726,20 @@
   },
   {
    "date": "2027-03-16",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-03-16",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -27975,20 +27947,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-03-16",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-03-17",
@@ -28874,6 +28832,20 @@
   },
   {
    "date": "2027-03-23",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-03-23",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -29067,20 +29039,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-03-23",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-03-24",
@@ -29938,6 +29896,20 @@
   },
   {
    "date": "2027-03-30",
+   "time": "",
+   "artists": "Craft Circle",
+   "venue": "Jamestown Senior Center",
+   "hood": "Jamestown",
+   "genre": "arts",
+   "price": "No charge",
+   "ages": "55+",
+   "url": "https://www.jamestownri.gov/seniorservices",
+   "src": "Jamestown Senior Services",
+   "address": "",
+   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
+  },
+  {
+   "date": "2027-03-30",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
    "venue": "Recreation Center Gymnasium",
@@ -30117,20 +30089,6 @@
    "src": "Jamestown Parks and Recreation",
    "address": "55 Lawn Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for adult basketball pickup winter league; the listed fee covers the advertised series."
-  },
-  {
-   "date": "2027-03-30",
-   "time": "",
-   "artists": "Craft Circle",
-   "venue": "Jamestown Senior Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "",
-   "blurb": "Bring a craft project for a social gathering; the posted calendar and description give conflicting start times."
   },
   {
    "date": "2027-03-31",
