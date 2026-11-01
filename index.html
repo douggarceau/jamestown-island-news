@@ -1256,7 +1256,7 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
     </div>
   </header>
   <nav class="navbar" id="nav" aria-label="Sections">
-    <button class="nb" data-go="front">Front page</button>
+    <button class="nb" data-go="front">Our Town</button>
     <button class="nb" data-go="stories">Jamestown Stories</button>
     <button class="nb" data-go="bars">Island News</button>
     <button class="nb" data-go="crime"><img class="cwmark xs" src="img/prowler-mark.jpg" alt="">Crime Watch</button>
@@ -2821,7 +2821,7 @@ const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
-<link rel="stylesheet" href="polish.css?v=45"><script src="whatson.js?v=22" defer></script>
-<script src="recovery.js?v=1" defer></script>
+<link rel="stylesheet" href="polish.css?v=46"><script src="whatson.js?v=22" defer></script>
+<script src="ourtown.js?v=1" defer></script><script src="recovery.js?v=1" defer></script>
 </body>
 </html>
