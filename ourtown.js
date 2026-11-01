@@ -12,7 +12,7 @@ const ART=['wharf','bridge','story-jamestown','fair','fair2','gallery','gallery2
 function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const img=ART[Math.floor(Math.random()*ART.length)];
  return `<a class="otf otbz" style="--img:url(img/posters/${img}.jpg)" href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
 const R=()=>Math.random();
-function card(f,b){const sz=R()<.14?' otw2':R()<.12?' oth2':'';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf"','class="otf otback"')}</div></div>`}
+function card(f,b){const sz='';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf"','class="otf otback"')}</div></div>`}
 function shuf(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(R()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function build(){const td=ymd(new Date()),end=ymd(new Date(Date.now()+45*864e5));
  const seen=new Set(),ev=[];(EV||[]).filter(e=>e.date>=td&&e.date<=end&&!MUSIC.test(e.genre||'')&&!DULL.test(e.artists||'')).sort((a,b)=>a.date<b.date?-1:1).forEach(e=>{const k=String(e.artists||'').toLowerCase().replace(/[^a-z]/g,'').slice(0,24);if(!k||seen.has(k))return;seen.add(k);ev.push(e)});
