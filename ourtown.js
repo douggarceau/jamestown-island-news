@@ -8,9 +8,9 @@ const PAL=[['#1d4a6e','#0a1724'],['#5a1a12','#1a0806'],['#1f4d2b','#081a0e'],['#
 let EV=null,BIZ=null;
 const EVS=[];
 function evFace(e,i){EVS.push(e);const u=/^https?:/.test(e.url||'')?e.url:'';return `<a class="otf otp" data-ev="${EVS.length-1}" href="${u?H(u):'#cal'}" ${u?'target="_blank" rel="noopener"':''}></a>`}
-const ART=['wharf','bridge','story-jamestown','fair','fair2','gallery','gallery2','week2','marquee'];
-function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const img=ART[Math.floor(Math.random()*ART.length)];
- return `<a class="otf otbz" style="--img:url(img/posters/${img}.jpg)" href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
+const ART=[['snow','#e8364a','#9a0f22'],['ornaments','#1fae5b','#0b5a2c'],['stars','#2f7de8','#123a8a'],['holly','#f5f0e6','#d9cdb4'],['lights','#7a3fd1','#2c1166'],['snow','#13a3b5','#0a4d5a'],['ornaments','#e8364a','#7a0a1a'],['stars','#f0a020','#a0520a']];
+function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const t=ART[Math.floor(Math.random()*ART.length)];
+ return `<a class="otf otbz" style="--img:url(img/holiday/${t[0]}.svg);--c1:${t[1]};--c2:${t[2]}"${t[1]==='#f5f0e6'?' data-lt="1"':''} href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
 const R=()=>Math.random();
 function card(f,b){const sz='';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf','class="otf otback')}</div></div>`}
 function shuf(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(R()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
