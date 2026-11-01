@@ -12,7 +12,8 @@
   "Building landscaping and home services",
   "Architecture and creative services",
   "Finance law property and consulting",
-  "Community and cultural resources"
+  "Community and cultural resources",
+  "Visitor information"
  ],
  "items": [
   {
@@ -32,6 +33,25 @@
     [
      "1ferrywharf.com",
      "https://www.1ferrywharf.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "171",
+   "n": "Accidental Sisters",
+   "c": "Community and cultural resources",
+   "a": "99 Narragansett Avenue",
+   "p": "401-423-1651",
+   "e": "",
+   "w": "https://www.churchatfourcorners.net/calendar/",
+   "wl": "Website",
+   "b": "A local vocal ensemble rehearses at Church at Four Corners. Wednesdays 7:00 PM.",
+   "nt": [],
+   "s": [
+    [
+     "churchatfourcorners.net",
+     "https://www.churchatfourcorners.net/calendar/"
     ]
    ],
    "cl": false
@@ -125,6 +145,25 @@
    "cl": false
   },
   {
+   "i": "170",
+   "n": "Baby Jam",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/17863580",
+   "wl": "Website",
+   "b": "Babies and caregivers share songs, rhymes and short stories. First Tuesdays December–March 9:30–10:00 AM. Reserve a place through the calendar; intended for ages 0–24 months, with siblings welcome.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/17863580"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "086",
    "n": "BankNewport",
    "c": "Finance law property and consulting",
@@ -140,6 +179,27 @@
      "Jamestown Chamber profile",
      "https://www.jamestownrichamber.com/banknewport"
     ],
+    [
+     "banknewport.com",
+     "https://www.banknewport.com/locations/jamestown-branch/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "214",
+   "n": "BankNewport ATM",
+   "c": "Visitor information",
+   "a": "31 Conanicus Avenue",
+   "p": "401-423-1565",
+   "e": "",
+   "w": "https://www.banknewport.com/locations/jamestown-branch/",
+   "wl": "Website",
+   "b": "The village bank provides an ATM and branch services. ATM 24 hours daily; lobby Monday–Thursday 9:00 AM–4:30 PM, Friday 9:00 AM–6:00 PM, Saturday 9:00 AM–noon. Use the ATM; account and network fees unknown; branch observes stated holidays.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
     [
      "banknewport.com",
      "https://www.banknewport.com/locations/jamestown-branch/"
@@ -188,6 +248,25 @@
    "cl": false
   },
   {
+   "i": "242",
+   "n": "Beavertail State Park",
+   "c": "Visitor information",
+   "a": "At the southern end of Beavertail Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://riparks.ri.gov/parks/beavertail-state-park",
+   "wl": "Website",
+   "b": "A peninsula park offers ocean overlooks, rocky shoreline walks and photography. Daily sunrise–sunset. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Several paved lots. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [],
+   "s": [
+    [
+     "riparks.ri.gov",
+     "https://riparks.ri.gov/parks/beavertail-state-park"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "004",
    "n": "Beech",
    "c": "Food and drink",
@@ -211,6 +290,44 @@
    "cl": false
   },
   {
+   "i": "223",
+   "n": "Beech private-event venue",
+   "c": "Visitor information",
+   "a": "13 Narragansett Avenue",
+   "p": "401-560-4051",
+   "e": "info@beechjt.com",
+   "w": "https://beechjt.com/private-events",
+   "wl": "Website",
+   "b": "The restaurant accepts inquiries for private gatherings. By reservation. Submit an inquiry at https://beechjt.com/private-events; capacity, rates and winter availability unknown.",
+   "nt": [],
+   "s": [
+    [
+     "beechjt.com",
+     "https://beechjt.com/private-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "205",
+   "n": "Bikes: rentals, routes and bridge restrictions",
+   "c": "Visitor information",
+   "a": "35 Narragansett Avenue",
+   "p": "401-924-2885",
+   "e": "jamestownoutdoors@gmail.com",
+   "w": "https://www.jamestownoutdoors.com/pages/standup-paddleboard-kayak-rentals",
+   "wl": "Website",
+   "b": "Jamestown Outdoors rents bicycles while state resources explain routes and bridge restrictions. Rentals by advance arrangement; winter availability unknown. Call to reserve; published bike price $35/day or $150/week includes helmet and lock; consult RIDOT’s route map; neither island bridge permits cycling; winter bike-shuttle schedule unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownoutdoors.com",
+     "https://www.jamestownoutdoors.com/pages/standup-paddleboard-kayak-rentals"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "018",
    "n": "Blossom",
    "c": "Shops and gifts",
@@ -226,6 +343,25 @@
      "Jamestown Chamber profile",
      "https://www.jamestownrichamber.com/blossom"
     ],
+    [
+     "blossomartisanboutique.com",
+     "https://www.blossomartisanboutique.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "197",
+   "n": "Blossom Artisan Boutique",
+   "c": "Visitor information",
+   "a": "24 Narragansett Avenue",
+   "p": "401-560-4031",
+   "e": "BlossomArtisanBoutique@gmail.com",
+   "w": "https://www.blossomartisanboutique.com/",
+   "wl": "Website",
+   "b": "A family shop sells handmade gifts and furnishings by regional makers. After Labor Day: Friday–Saturday 10:00 AM–5:00 PM; Sunday 11:00 AM–4:00 PM; design consultations by appointment. Visit during the posted seasonal hours or arrange a design appointment; winter retail closing date unknown.",
+   "nt": [],
+   "s": [
     [
      "blossomartisanboutique.com",
      "https://www.blossomartisanboutique.com/"
@@ -259,6 +395,46 @@
    "cl": false
   },
   {
+   "i": "149",
+   "n": "Brown Bag Book Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/17280702",
+   "wl": "Website",
+   "b": "Readers meet at midday to discuss the selected book. Fourth Tuesday 12:00–1:00 PM. Contact the library or consult the event page before attending.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/17280702"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "248",
+   "n": "Buccaneer Way",
+   "c": "Visitor information",
+   "a": "On the West side of Seaside Drive between Dory Street and Champlain Way, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!144",
+   "wl": "Website",
+   "b": "A grassy public path reaches a beach used for fishing and hand-carried boats. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside parking listed; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!144"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "019",
    "n": "Campos Custom Towel Company",
    "c": "Shops and gifts",
@@ -279,6 +455,48 @@
     [
      "surfcampos.com",
      "https://surfcampos.com"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "253",
+   "n": "Capstan Street",
+   "c": "Visitor information",
+   "a": "At the western end of Capstan Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!145",
+   "wl": "Website",
+   "b": "A rough public path leads from the road end to a cobble shoreline. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside spaces; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!145"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "233",
+   "n": "Carr Lane",
+   "c": "Visitor information",
+   "a": "To south of 466 East Shore Road, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!147",
+   "wl": "Website",
+   "b": "A rough public path reaches a cobble beach on the island’s east shore. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: unknown: guide’s parking flag conflicts with its no-onsite-parking description. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!147"
     ]
    ],
    "cl": false
@@ -372,6 +590,25 @@
    "cl": false
   },
   {
+   "i": "145",
+   "n": "Central Baptist Church / Church at Four Corners Choir",
+   "c": "Community and cultural resources",
+   "a": "99 Narragansett Avenue",
+   "p": "401-423-1651",
+   "e": "",
+   "w": "https://cbchurchjtn.org/our-choir",
+   "wl": "Website",
+   "b": "Adult singers and an occasional children’s choir provide music for weekly worship. Sundays 9:30 AM worship, with choir rehearsal afterward; rehearsal start time unknown. The choir explicitly welcomes new members; contact the church or ask after Sunday worship.",
+   "nt": [],
+   "s": [
+    [
+     "cbchurchjtn.org",
+     "https://cbchurchjtn.org/our-choir"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "058",
    "n": "Central Garage",
    "c": "Automotive",
@@ -392,6 +629,27 @@
     [
      "RI DMV list",
      "https://dmv.ri.gov/media/2991/download?language=en"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "250",
+   "n": "Champlin Way",
+   "c": "Visitor information",
+   "a": "The intersection of Champlin Way and Seaside Drive, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!148",
+   "wl": "Website",
+   "b": "A grassy access strip reaches a cobble beach and an old launch ramp. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: unknown: parking flag conflicts with description saying no onsite parking. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!148"
     ]
    ],
    "cl": false
@@ -492,7 +750,9 @@
    "w": "https://www.wyndhamhotels.com/wyndham-vacations/about-us/club-wyndham",
    "wl": "Wyndham brand website",
    "b": "Bay Voyage Inn is a Victorian-style lodging property overlooking the bay from Conanicus Avenue. The resort's published description identifies a former private mansion adapted into 32 suites. Its setting gives the property a connection to Jamestown's older resort architecture, while the same address also hosts JB's on the Water.",
-   "nt": [],
+   "nt": [
+    "The operator says this property ceased operations after 2025."
+   ],
    "s": [
     [
      "Wyndham information",
@@ -503,7 +763,7 @@
      "https://rci-afvc.parsip-afvc-stack-main.aws.lynch2.com/search-resorts/resort/1425"
     ]
    ],
-   "cl": false
+   "cl": true
   },
   {
    "i": "054",
@@ -516,7 +776,7 @@
    "wl": "Website",
    "b": "Newport Overlook is a Jamestown resort offering two-bedroom condominium-style accommodations, with full kitchens described on Wyndham's website. Despite the Newport name, the property is on the Jamestown side of the bay. Booking sites report a closure through January 26, 2028; contact Wyndham directly for the current operating status.",
    "nt": [
-    "TEMPORARILY CLOSED per booking-site notices; dates may change."
+    "The operator says this property ceased operations after 2025."
    ],
    "s": [
     [
@@ -568,6 +828,27 @@
     [
      "cruiseri.com",
      "https://cruiseri.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "243",
+   "n": "Conanicut Battery Historic Park",
+   "c": "Visitor information",
+   "a": "At the end of Battery Lane, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jamestownhistoricalsociety.org/conanicut-battery/",
+   "wl": "Website",
+   "b": "Woodland paths and interpretive signs surround a Revolutionary-era earthwork battery. Daily, sunup–sundown. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Lot off Battery Lane. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "jamestownhistoricalsociety.org",
+     "https://jamestownhistoricalsociety.org/conanicut-battery/"
     ]
    ],
    "cl": false
@@ -749,6 +1030,27 @@
    "cl": false
   },
   {
+   "i": "255",
+   "n": "Cottrell Pier Association / Greens Pier beach",
+   "c": "Visitor information",
+   "a": "Racquet Road, north of Clark Boat Yard, Jamestown, RI",
+   "p": "",
+   "e": "cottrellpier@gmail.com",
+   "w": "https://www.cottrellpier.com/",
+   "wl": "Website",
+   "b": "A private association maintains a beach, pier and pavilion for eligible members. Member season May–October; winter access unknown. Private member access; deeded rights and limited guest memberships apply, with occasional waiting lists; public day entry unavailable; parking fee, lifeguard hours and restrooms unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "cottrellpier.com",
+     "https://www.cottrellpier.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "005",
    "n": "Crudo Oyster Bar & Coastal Italian Kitchen",
    "c": "Food and drink",
@@ -833,6 +1135,46 @@
    "cl": false
   },
   {
+   "i": "231",
+   "n": "Decatur Avenue",
+   "c": "Visitor information",
+   "a": "At the eastern end of Decatur Avenue, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!151",
+   "wl": "Website",
+   "b": "A short public right-of-way leads to a rocky beach facing the Newport Bridge. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Guide lists space for two vehicles; current signage controls. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!151"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "162",
+   "n": "Dewey’s Readers",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "",
+   "w": "https://jplri.libcal.com/event/16590327",
+   "wl": "Website",
+   "b": "A nonfiction book group meets with retired librarian Deborah Homer. Third Wednesday 4:00 PM. Contact the library or consult the event page before attending.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16590327"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "078",
    "n": "DiMauro Architects",
    "c": "Architecture and creative services",
@@ -847,6 +1189,65 @@
     [
      "dimauroarchitects.com",
      "https://www.dimauroarchitects.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "165",
+   "n": "Drop-In Genealogy",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16548392",
+   "wl": "Website",
+   "b": "Visitors bring family-history questions and research materials for informal assistance. First Tuesday 5:30–7:30 PM; November meeting moved to November 17. Bring notes, a laptop or research questions.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16548392"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "256",
+   "n": "Dumplings Association beachfront",
+   "c": "Visitor information",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://www.dumplingsassociation.org/",
+   "wl": "Website",
+   "b": "A neighborhood association maintains private beachfront facilities in the Dumplings. Member access; newcomer eligibility, public day access, parking, lifeguards and restrooms unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "dumplingsassociation.org",
+     "https://www.dumplingsassociation.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "158",
+   "n": "Dutch Harbor Boat Yard",
+   "c": "Boating and recreation",
+   "a": "252 Narragansett Avenue",
+   "p": "401-423-0630",
+   "e": "",
+   "w": "https://www.dutchharborboatyard.com/",
+   "wl": "Website",
+   "b": "A working boatyard and marina provides services and moorings for visiting boaters. By reservation; winter gathering schedule unknown. Contact the boatyard to arrange services or a mooring.",
+   "nt": [],
+   "s": [
+    [
+     "dutchharborboatyard.com",
+     "https://www.dutchharborboatyard.com/"
     ]
    ],
    "cl": false
@@ -893,6 +1294,162 @@
     [
      "eastferrydeli.com",
      "https://eastferrydeli.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "159",
+   "n": "East Ferry wharf",
+   "c": "Boating and recreation",
+   "a": "1 East Ferry Wharf",
+   "p": "",
+   "e": "",
+   "w": "https://www.jamestownrichamber.com/eventsjtn",
+   "wl": "Website",
+   "b": "The village wharf serves as a public waterfront gathering and boat-arrival location. No organized recurring gathering verified. Attend advertised public waterfront events; boat services have separate ticketing.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownrichamber.com",
+     "https://www.jamestownrichamber.com/eventsjtn"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "215",
+   "n": "EV charging — Lionel Champlin Guest House",
+   "c": "Visitor information",
+   "a": "20 Lincoln Street",
+   "p": "401-423-7469",
+   "e": "",
+   "w": "https://lcguesthouse.com/2026-welcoming-new-innkeepers/",
+   "wl": "Website",
+   "b": "The guest house offers a charging station by prior arrangement. By arrangement; public non-guest access and winter availability unknown. Call ahead to arrange access; the 2026 announcement quotes $25 per full charge; connector type unknown.",
+   "nt": [],
+   "s": [
+    [
+     "lcguesthouse.com",
+     "https://lcguesthouse.com/2026-welcoming-new-innkeepers/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "161",
+   "n": "Evening Knitting & Crochet Circle",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16485716",
+   "wl": "Website",
+   "b": "Residents gather for conversation while working on portable fiber crafts. First Wednesdays 5:30–7:45 PM on the posted November–January dates. Open to Jamestown residents; bring a non-messy fiber project.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16485716"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "143",
+   "n": "Everybody Chorus",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "401-787-4487",
+   "e": "cantabile50@gmail.com",
+   "w": "https://jamestownchorus.com/everybody-chorus/",
+   "wl": "Website",
+   "b": "An informal chorus brings singers of all ages together around themed songs. Saturdays 9:30–10:30 AM. All ages welcome without auditions; contact the director for the current session.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownchorus.com",
+     "https://jamestownchorus.com/everybody-chorus/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "240",
+   "n": "Fairview Street",
+   "c": "Visitor information",
+   "a": "At the eastern end of Fairview Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!154",
+   "wl": "Website",
+   "b": "A narrow shoreline access path leads to a rocky beach on Narragansett Bay. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside spaces; current legality unknown. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!154"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "190",
+   "n": "Fort Burnside Communication & Coastal Defense Museum volunteers",
+   "c": "Community and cultural resources",
+   "a": "Beavertail Road",
+   "p": "",
+   "e": "",
+   "w": "https://fortburnside.org/visit/",
+   "wl": "Website",
+   "b": "Volunteers preserve and interpret Beavertail’s wartime communications and coastal-defense history. Visits by appointment; regular volunteer work schedule unknown. Use the museum’s contact form to ask about volunteering or membership; request a docent visit in advance.",
+   "nt": [],
+   "s": [
+    [
+     "fortburnside.org",
+     "https://fortburnside.org/visit/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "244",
+   "n": "Fort Getty",
+   "c": "Visitor information",
+   "a": "1050 Fort Getty Road, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.jamestownri.gov/rvcamping",
+   "wl": "Website",
+   "b": "A town park combines a rocky beach, boat access, walking paths and seasonal camping. Park 7:00 AM–10:00 PM; camping currently closed. Public access point; use the linked map and obey current signs. Access or parking charge applies; current amount unknown except where specified below. Parking: Town lists $20/day vehicle parking, $30 with boat and $125 non-resident seasonal pass; winter charges unknown. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown. Register for coastal education programs through CISF or reserve town facilities through Parks and Recreation.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/rvcamping"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "227",
+   "n": "Fort Wetherill State Park",
+   "c": "Visitor information",
+   "a": "Fort Wetherill Road; street number unknown",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!157",
+   "wl": "Website",
+   "b": "A former coastal fort offers clifftop walks, coves, shore diving and harbor views. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Several onsite lots. Restrooms: State park publishes restroom season May 1–October 31; no winter facilities verified. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!157"
     ]
    ],
    "cl": false
@@ -973,6 +1530,48 @@
     [
      "fullergallery.com",
      "https://fullergallery.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "251",
+   "n": "Garboard Street",
+   "c": "Visitor information",
+   "a": "At the intersection of Garboard Street and Seaside Drive, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!158",
+   "wl": "Website",
+   "b": "A short public path reaches a cobble beach with bridge views. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Guide lists room for two or three cars; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!158"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "202",
+   "n": "Getting to Jamestown by road",
+   "c": "Visitor information",
+   "a": "Rhode Island Route 138, Jamestown, RI",
+   "p": "401-423-0800",
+   "e": "",
+   "w": "https://www.ritba.org/",
+   "wl": "Website",
+   "b": "Route 138 connects Conanicut Island to the mainland and Newport by bridge. Road access subject to bridge notices; current toll amount unknown. Use the authority’s current toll and travel information; bicycles are prohibited on both bridges.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "ritba.org",
+     "https://www.ritba.org/"
     ]
    ],
    "cl": false
@@ -1067,6 +1666,128 @@
     [
      "haabcoconstruction.com",
      "https://www.haabcoconstruction.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "245",
+   "n": "Head’s / Jamestown Shores / Seaside Beach",
+   "c": "Visitor information",
+   "a": "At the intersection of Seaside Drive and Frigate Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!170",
+   "wl": "Website",
+   "b": "A town beach near Frigate Street has a picnic area and a rocky fishing jetty. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Permit parking in the published seasonal period; current fee and winter conditions unknown. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!170"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "174",
+   "n": "Heart Wise Walking",
+   "c": "Community and cultural resources",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9806",
+   "e": "edonnelly@jamestownri.net",
+   "w": "https://www.jamestownri.gov/seniorservices",
+   "wl": "Website",
+   "b": "A walking group combines a short brisk walk with conversation. Mondays, Wednesdays and Fridays; Wednesday 9:00 AM confirmed, other start times unknown. Sign the required waiver with Senior Services and confirm the meeting point.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/seniorservices"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "229",
+   "n": "High Street",
+   "c": "Visitor information",
+   "a": "Close to 15 High Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!159",
+   "wl": "Website",
+   "b": "A small overlook above a steep shoreline offers harbor views without direct beach access. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited High Street parking; current legality unknown. Restrooms: None listed in shoreline guide. Lifeguards: unknown. The guide describes a steep or inaccessible shore; view from established public paths.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!159"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "207",
+   "n": "Hobie Wave sailboat rentals — CISF",
+   "c": "Visitor information",
+   "a": "1050 Fort Getty Road",
+   "p": "401-855-6643",
+   "e": "Meg@JamestownSailing.org",
+   "w": "https://www.jamestownsailing.org/boat-rentals/",
+   "wl": "Website",
+   "b": "The community sailing foundation rents small sailboats when staff are available. Monday, Tuesday, Thursday and Friday after 4:00 PM; weekends by arrangement; winter season unknown. Contact at least 24 hours ahead; published rate $55/hour per boat, maximum normally four people; life jackets required.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownsailing.org",
+     "https://www.jamestownsailing.org/boat-rentals/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "236",
+   "n": "Hull Cove",
+   "c": "Visitor information",
+   "a": "Off Beavertail Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!481",
+   "wl": "Website",
+   "b": "A short woodland path reaches a rocky beach at Hull Cove. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Small lot off Beavertail Road; current capacity and restrictions unknown. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!481"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "249",
+   "n": "Hull Street",
+   "c": "Visitor information",
+   "a": "At the intersection Seaside Drive and Hull Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!160",
+   "wl": "Website",
+   "b": "A steep rocky public path overlooks the Jamestown Bridge. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside parking listed; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown. The guide describes a steep or inaccessible shore; view from established public paths.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!160"
     ]
    ],
    "cl": false
@@ -1294,6 +2015,46 @@
    "cl": false
   },
   {
+   "i": "212",
+   "n": "Island Transportation Car Service",
+   "c": "Visitor information",
+   "a": "",
+   "p": "401-324-5507",
+   "e": "islandtransportationcarservice@gmail.com",
+   "w": "http://islandtransportationcarservice.com",
+   "wl": "Website",
+   "b": "A regional car service accepts private transport bookings that include Jamestown. By reservation. Request a quote for airport, train, wedding or day-trip transport.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "islandtransportationcarservice.com",
+     "http://islandtransportationcarservice.com"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "156",
+   "n": "J/109 racing community — Jamestown Yacht Club participants",
+   "c": "Boating and recreation",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://j109.org/",
+   "wl": "Website",
+   "b": "J/109 owners and crews participate in local racing and class activities. Seasonal racing; winter schedule unknown. Contact the class or a skipper about membership and crew availability.",
+   "nt": [],
+   "s": [
+    [
+     "j109.org",
+     "https://j109.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "032",
    "n": "Jamestown Animal Clinic",
    "c": "Pets",
@@ -1342,6 +2103,25 @@
    "cl": false
   },
   {
+   "i": "199",
+   "n": "Jamestown Arts Center — gallery visits",
+   "c": "Visitor information",
+   "a": "18 Valley Street",
+   "p": "401-560-0979",
+   "e": "",
+   "w": "https://www.jamestownartcenter.org/",
+   "wl": "Website",
+   "b": "The arts center presents changing exhibitions and public art programs. Wednesday–Saturday 11:00 AM–3:00 PM; appointments available; exhibition runs and closures vary. Visit during exhibition hours; register separately for classes and workshops.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownartcenter.org",
+     "https://www.jamestownartcenter.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "101",
    "n": "Jamestown Chamber of Commerce",
    "c": "Community and cultural resources",
@@ -1358,6 +2138,25 @@
     [
      "Jamestown Chamber profile",
      "https://www.jamestownrichamber.com/jamestown-chamber-of-commerce"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "222",
+   "n": "Jamestown Clubhouse event rooms",
+   "c": "Visitor information",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://www.jamestownri.gov/jamestownclubhouse",
+   "wl": "Website",
+   "b": "The golf-course clubhouse rents rooms for small functions and meetings. By reservation. Request the town rental application; great room seats up to 50 and the upstairs conference room up to 12; current rates unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/jamestownclubhouse"
     ]
    ],
    "cl": false
@@ -1576,6 +2375,25 @@
    "cl": false
   },
   {
+   "i": "189",
+   "n": "Jamestown Fitness classes",
+   "c": "Community and cultural resources",
+   "a": "36 Southwest Avenue",
+   "p": "401-560-0300",
+   "e": "sam@jamestownfitness.com",
+   "w": "https://www.jamestownfitness.com/classes",
+   "wl": "Website",
+   "b": "The fitness center welcomes members and nonmembers to small group strength and dance exercise classes. November 2026: Total Body Tone Wednesdays and Fridays 9:00 AM; Zumba Gold Thursdays 9:30 AM except November 26. Contact the center or attend an advertised class; single-class prices are $8 for members and $12 for nonmembers.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownfitness.com",
+     "https://www.jamestownfitness.com/classes"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "047",
    "n": "Jamestown Golf Course",
    "c": "Boating and recreation",
@@ -1594,6 +2412,25 @@
     [
      "jamestowngolf.com",
      "https://jamestowngolf.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "155",
+   "n": "Jamestown Harbor Management Commission",
+   "c": "Community and cultural resources",
+   "a": "93 Narragansett Avenue",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.jamestownri.gov/harborcommission",
+   "wl": "Website",
+   "b": "The town commission conducts public business concerning harbor management. Third Tuesday 5:00 PM; check the posted agenda. Attend a posted public meeting; apply through the town for a vacant commission seat.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/harborcommission"
     ]
    ],
    "cl": false
@@ -1657,6 +2494,25 @@
     [
      "jamestownrikitchenandbath.com",
      "https://jamestownrikitchenandbath.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "218",
+   "n": "Jamestown Museum — visiting",
+   "c": "Visitor information",
+   "a": "92 Narragansett Avenue",
+   "p": "",
+   "e": "info@jhsri.org",
+   "w": "https://jamestownhistoricalsociety.org/jamestown-museum/",
+   "wl": "Website",
+   "b": "A former schoolhouse hosts changing exhibitions about island history. 2026 public season ended October 12; appointments available; 2027 schedule unknown. Request a special visit by email; the museum states it is wheelchair accessible.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownhistoricalsociety.org",
+     "https://jamestownhistoricalsociety.org/jamestown-museum/"
     ]
    ],
    "cl": false
@@ -1765,6 +2621,196 @@
    "cl": false
   },
   {
+   "i": "184",
+   "n": "Jamestown Recreation Adult Basketball",
+   "c": "Community and cultural resources",
+   "a": "55 Lawn Avenue",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=d1089fca-6ef4-46d4-b49b-6dddf78152b7&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Adults play in the town’s registered pickup basketball leagues. Tuesdays 7:00–9:00 PM during advertised sessions. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=d1089fca-6ef4-46d4-b49b-6dddf78152b7&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "180",
+   "n": "Jamestown Recreation Boot Camp",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Emilie Tamboe teaches registered group fitness classes. Monday and Thursday mornings; Tuesday and Friday 8:30 and 9:30 AM; consult each session. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "186",
+   "n": "Jamestown Recreation Dungeons and Dragons Club",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=57df6188-b217-48b7-a212-c09c77cd382a&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Fifth- and sixth-graders learn collaborative fantasy role-playing. Mondays 3:45–5:45 PM through November 9, 2026. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=57df6188-b217-48b7-a212-c09c77cd382a&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "187",
+   "n": "Jamestown Recreation Gamemastering",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "acadie@cox.net",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=57df6188-b217-48b7-a212-c09c77cd382a&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Young players learn to design and lead tabletop adventures. Fall Tuesdays 3:30–5:30 PM; winter introductory class selected Thursdays 3:30–5:30 PM. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=57df6188-b217-48b7-a212-c09c77cd382a&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "178",
+   "n": "Jamestown Recreation Guitar Circle",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=d1089fca-6ef4-46d4-b49b-6dddf78152b7&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Adults gather for a registered guitar-circle series. Selected Wednesdays 6:15–8:15 PM through December 16, 2026. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=d1089fca-6ef4-46d4-b49b-6dddf78152b7&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "183",
+   "n": "Jamestown Recreation Intro to Zumba",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Val Trainor leads a dance exercise class for registered participants. Selected Sundays 8:30–9:15 AM. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "181",
+   "n": "Jamestown Recreation Mindful Stretch",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Registered participants practice stretching with Emilie Tamboe. Wednesdays: fall 8:00 and 9:00 AM; winter and spring 8:30 and 9:30 AM. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "179",
+   "n": "Jamestown Recreation Pickleball",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f262a2aa-2f4a-422e-a81a-6187aae160c6&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "The town offers pickleball leagues and instruction at several experience levels. Sunday, Tuesday and Thursday leagues plus Monday, Tuesday and Thursday lessons; times vary by session. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f262a2aa-2f4a-422e-a81a-6187aae160c6&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "182",
+   "n": "Jamestown Recreation Tai Chi",
+   "c": "Community and cultural resources",
+   "a": "41 Conanicus Avenue",
+   "p": "",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Shahin Barzin leads tai chi series at advertised ability levels. Selected Wednesdays 5:00 and 6:00 PM. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=3385066d-e134-46d7-ac0f-4ac67db7a043&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "185",
+   "n": "Jamestown Recreation Youth Basketball",
+   "c": "Community and cultural resources",
+   "a": "55 Lawn Avenue",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f4f644d8-e7f6-47ff-ba4c-8fa26a635872&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True",
+   "wl": "Website",
+   "b": "Children participate in grade-based basketball programs. Saturdays January–March 2027; 8:45 AM, 9:55 AM or noon according to grade. Register and pay for the relevant series in the town’s online recreation portal.",
+   "nt": [],
+   "s": [
+    [
+     "jamestown.perfectmind.com",
+     "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f4f644d8-e7f6-47ff-ba4c-8fa26a635872&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "126",
    "n": "Jamestown Rotary Club",
    "c": "Community and cultural resources",
@@ -1841,6 +2887,25 @@
    "cl": false
   },
   {
+   "i": "154",
+   "n": "Jamestown Tree Committee",
+   "c": "Community and cultural resources",
+   "a": "",
+   "p": "",
+   "e": "jamestowntreecommittee@gmail.com",
+   "w": "https://www.jamestowntree.org/events",
+   "wl": "Website",
+   "b": "Volunteers care for the island’s public trees and tree nursery. Third Wednesday; time unknown. Contact the committee about nursery volunteering or the town’s committee application.",
+   "nt": [],
+   "s": [
+    [
+     "jamestowntree.org",
+     "https://www.jamestowntree.org/events"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "130",
    "n": "Jamestown Village",
    "c": "Community and cultural resources",
@@ -1855,6 +2920,25 @@
     [
      "providencevillageri.org",
      "https://www.providencevillageri.org/content.aspx?club_id=908317&module_id=715198&page_id=22"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "217",
+   "n": "Jamestown Windmill — visiting",
+   "c": "Visitor information",
+   "a": "378 North Road",
+   "p": "",
+   "e": "info@jhsri.org",
+   "w": "https://jamestownhistoricalsociety.org/jamestownwindmill/",
+   "wl": "Website",
+   "b": "The historical society preserves an eighteenth-century working windmill. 2026 public season ended October 12; special visits by arrangement; 2027 schedule unknown. Email for an off-season appointment; admission no charge with donations welcome; onsite parking; interior is not wheelchair accessible.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownhistoricalsociety.org",
+     "https://jamestownhistoricalsociety.org/jamestownwindmill/"
     ]
    ],
    "cl": false
@@ -1879,6 +2963,101 @@
    "cl": false
   },
   {
+   "i": "200",
+   "n": "JamestownRIRental",
+   "c": "Visitor information",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://www.jamestownrirental.com/our-homes",
+   "wl": "Website",
+   "b": "An owner-operated business offers furnished island vacation homes. Availability by property and booking dates. Choose a property and inquire through https://www.jamestownrirental.com/our-homes; verify the host’s town and state registration.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownrirental.com",
+     "https://www.jamestownrirental.com/our-homes"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "224",
+   "n": "JB’s on the Water event venue",
+   "c": "Visitor information",
+   "a": "150 Conanicus Avenue",
+   "p": "401-560-4115",
+   "e": "",
+   "w": "https://jbsonthewater.com/private-events",
+   "wl": "Website",
+   "b": "The waterfront restaurant offers private-event and catering inquiries. By reservation. Use https://jbsonthewater.com/private-events; capacity, rates and winter availability unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jbsonthewater.com",
+     "https://jbsonthewater.com/private-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "219",
+   "n": "JHS research vault — visiting",
+   "c": "Visitor information",
+   "a": "93 Narragansett Avenue",
+   "p": "",
+   "e": "research@jhsri.org",
+   "w": "https://jamestownhistoricalsociety.org/jamestown-books-new-and-old-2/",
+   "wl": "Website",
+   "b": "The historical society provides access to its local-history collections and displays. Tuesdays and Thursdays 9:00 AM–noon; check holiday exceptions. Visit during posted research hours or email about a collection inquiry.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownhistoricalsociety.org",
+     "https://jamestownhistoricalsociety.org/jamestown-books-new-and-old-2/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "206",
+   "n": "Kayak and paddleboard rentals — Jamestown Outdoors",
+   "c": "Visitor information",
+   "a": "35 Narragansett Avenue",
+   "p": "401-924-2885",
+   "e": "jamestownoutdoors@gmail.com",
+   "w": "https://www.jamestownoutdoors.com/pages/standup-paddleboard-kayak-rentals",
+   "wl": "Website",
+   "b": "An island outfitter arranges kayak and paddleboard rentals. By advance reservation; winter availability unknown. Call for kayaks and launching instructions; published SUP rate $65/day or $200/week; paddle and life jacket included; do not assume rentals operate during winter.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownoutdoors.com",
+     "https://www.jamestownoutdoors.com/pages/standup-paddleboard-kayak-rentals"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "198",
+   "n": "Latitude Jamestown",
+   "c": "Visitor information",
+   "a": "61 Conanicus Avenue",
+   "p": "401-862-0685",
+   "e": "pkcheck88@gmail.com",
+   "w": "https://latitudejamestown.com/",
+   "wl": "Website",
+   "b": "An apparel business makes customized clothing and sailing gear. Shop online or contact the business before visiting.",
+   "nt": [],
+   "s": [
+    [
+     "latitudejamestown.com",
+     "https://latitudejamestown.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "132",
    "n": "Lawn Avenue School",
    "c": "Community and cultural resources",
@@ -1893,6 +3072,164 @@
     [
      "lawn.jamestownschools.org",
      "https://lawn.jamestownschools.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "188",
+   "n": "Lawn School Improvement Team",
+   "c": "Community and cultural resources",
+   "a": "55 Lawn Avenue",
+   "p": "401-423-7020",
+   "e": "",
+   "w": "https://lawn.jamestownschools.org/apps/pages/index.jsp?pREC_ID=2201877&type=d&uREC_ID=2239326",
+   "wl": "Website",
+   "b": "Parents and community participants work with the school on improvement priorities. November 19, January 21 and March 11, 3:00–4:30 PM. Register your interest using the form linked from the team’s school page.",
+   "nt": [],
+   "s": [
+    [
+     "lawn.jamestownschools.org",
+     "https://lawn.jamestownschools.org/apps/pages/index.jsp?pREC_ID=2201877&type=d&uREC_ID=2239326"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "168",
+   "n": "Let’s LEGO Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "",
+   "w": "https://jplri.libcal.com/event/16694056",
+   "wl": "Website",
+   "b": "Children build with the library’s LEGO materials after school. Posted Mondays 3:00–4:00 PM. No registration; recommended ages 5–10, with an adult nearby for children under ten.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16694056"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "166",
+   "n": "Library Squad",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/17797010",
+   "wl": "Website",
+   "b": "Students in grades 5–8 help shape library activities and services. November 4 and December 2, 4:00–4:30 PM. Contact Youth Services or attend the advertised session.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/17797010"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "169",
+   "n": "Library Storytime",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/17267227",
+   "wl": "Website",
+   "b": "Young children and caregivers explore stories, songs and movement. Posted Wednesdays and Thursdays 10:15–10:45 AM. Register through the event page; ages 0–5 with a caregiver.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/17267227"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "234",
+   "n": "Mackerel Cove Beach",
+   "c": "Visitor information",
+   "a": "On the South side of Beavertail Road just past Hamilton Avenue, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.jamestownri.gov/mackerelcove",
+   "wl": "Website",
+   "b": "The town’s main swimming beach lies at the sheltered head of Mackerel Cove. Town publishes staffed season June 18–September 7, 9:00 AM–5:00 PM; winter facilities unknown. Public access point; use the linked map and obey current signs. Access or parking charge applies; current amount unknown except where specified below. Parking: Town currently publishes $20 per vehicle per day in designated non-resident spaces, credit/debit only; secure a space before paying; winter fee unknown. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards are listed for the summer beach season; winter coverage unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/mackerelcove"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "238",
+   "n": "Maple Avenue",
+   "c": "Visitor information",
+   "a": "At the western end of Maple Avenue, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!163",
+   "wl": "Website",
+   "b": "A small waterfront access point serves hand-carried boats and views over the cove. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Guide indicates parking; details unknown. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!163"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "232",
+   "n": "Marsh Meadows Wildlife Preserve",
+   "c": "Visitor information",
+   "a": "On the South side of Weeden Lane, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!164",
+   "wl": "Website",
+   "b": "A marsh preserve provides opportunities for watching wetland birds. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Two spaces outside the water-treatment facility fence. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!164"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "246",
+   "n": "Mast Street",
+   "c": "Visitor information",
+   "a": "Next to 29 Seaside Drive, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!165",
+   "wl": "Website",
+   "b": "A shoreline overlook faces the Jamestown Bridge above a steep rocky descent. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Small lot with two or three spaces listed. Restrooms: None listed in shoreline guide. Lifeguards: unknown. The guide describes a steep or inaccessible shore; view from established public paths.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!165"
     ]
    ],
    "cl": false
@@ -1917,6 +3254,65 @@
    "cl": false
   },
   {
+   "i": "239",
+   "n": "Middle Street",
+   "c": "Visitor information",
+   "a": "At the end of Middle Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!166",
+   "wl": "Website",
+   "b": "A rough path and steep final descent reach a rocky northeastern shoreline. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside spaces; current legality unknown. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!166"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "148",
+   "n": "Monday Mysteries",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16593375",
+   "wl": "Website",
+   "b": "A book circle discusses mystery fiction. Fourth Monday 4:00–5:00 PM. Contact the library or consult the event page before attending.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16593375"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "152",
+   "n": "My First Book Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/16421205",
+   "wl": "Website",
+   "b": "Children in grades 1 and 2 read together and complete an activity. First Thursday 3:30–4:15 PM on the posted dates. Visit the Youth Services desk or email the child’s name, grade and any food allergies.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16421205"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "134",
    "n": "Narragansett Little League — serving Jamestown",
    "c": "Community and cultural resources",
@@ -1931,6 +3327,227 @@
     [
      "narragansettlittleleague.com",
      "https://www.narragansettlittleleague.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "147",
+   "n": "Needles Galore Knitting Group",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16595773",
+   "wl": "Website",
+   "b": "Local knitters gather to work on their projects. Selected Mondays 2:00–4:00 PM; see dated calendar. Contact the library or consult the event page before attending.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16595773"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "208",
+   "n": "New England Sailing Center — charters and instruction",
+   "c": "Visitor information",
+   "a": "47 Conanicus Avenue",
+   "p": "401-619-1697",
+   "e": "sail@NESailingCenter.com",
+   "w": "https://www.nesailingcenter.com/yacht-charters/",
+   "wl": "Website",
+   "b": "A sailing school offers instruction and bareboat or captained yacht charters. Jamestown charter prices are listed for June–October; November–March local availability unknown. Contact the center and submit its sailing-resume form for bareboat eligibility; J/22 listings quote $150 half-day or $250 full-day, subject to availability.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "nesailingcenter.com",
+     "https://www.nesailingcenter.com/yacht-charters/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "211",
+   "n": "Newport day-trip connection",
+   "c": "Visitor information",
+   "a": "Newport, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.ripta.com/routes/64/",
+   "wl": "Website",
+   "b": "Jamestown visitors can reach Newport by road, bus or seasonal ferry. Route 64 timetable; seasonal ferry; no verified regular winter ferry. Use Route 64’s current timetable or drive across the Pell Bridge; check ferry season before planning a water connection.",
+   "nt": [],
+   "s": [
+    [
+     "ripta.com",
+     "https://www.ripta.com/routes/64/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "150",
+   "n": "One More Chapter Book Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/16420923",
+   "wl": "Website",
+   "b": "Older young readers discuss chapter books with library staff. First Wednesday 3:15–4:00 PM on the posted dates. Sign up at the Youth Services desk, borrow the book and read as much as possible before the meeting.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16420923"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "164",
+   "n": "Page to Plate Book Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16485943",
+   "wl": "Website",
+   "b": "The library lists a book club under the Page to Plate name. December 16 and January 27 at 4:00 PM; other dates unknown. Ask the library for participation details; the published description is incomplete.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16485943"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "237",
+   "n": "Park Dock / Broad Street beach",
+   "c": "Visitor information",
+   "a": "At the eastern end of Broad Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!143",
+   "wl": "Website",
+   "b": "An old ferry-landing right-of-way reaches a rocky northeastern beach. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Guide lists five resident-only spaces; visitor parking unknown. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!143"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "254",
+   "n": "Parker Farm Conservation Area",
+   "c": "Visitor information",
+   "a": "845 East Shore Road, Jamestown, RI",
+   "p": "401-490-1214",
+   "e": "cilt1984@gmail.com",
+   "w": "https://conanicutlandtrust.org/parker-farm/",
+   "wl": "Website",
+   "b": "A land-trust preserve has paths through meadows, woods and wetlands. Use the land trust’s linked trail map and rules; small trailhead lot; wet-season access varies; restrooms unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "conanicutlandtrust.org",
+     "https://conanicutlandtrust.org/parker-farm/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "228",
+   "n": "Potter Cove/Taylor Point",
+   "c": "Visitor information",
+   "a": "At the intersection of Bay View Drive and Freebody Drive, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!167",
+   "wl": "Website",
+   "b": "A narrow beach and rocky point offer views across the East Passage. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Two parking areas; verify current signs. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!167"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "216",
+   "n": "Public EV charging locator — Jamestown coverage unresolved",
+   "c": "Visitor information",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://energy.ri.gov/transportation/ri-nevi-program/nevi-charging-maps",
+   "wl": "Website",
+   "b": "The state links official maps for finding publicly accessible charging stations. Check the state map and its linked federal station locator; no additional specific Jamestown public charger was verified.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "energy.ri.gov",
+     "https://energy.ri.gov/transportation/ri-nevi-program/nevi-charging-maps"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "258",
+   "n": "Public restrooms — village and waterfront",
+   "c": "Visitor information",
+   "a": "41 Conanicus Avenue",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!152",
+   "wl": "Website",
+   "b": "Published shoreline information identifies toilets at several visitor sites but does not establish all winter opening hours. Winter hours unknown; Fort Wetherill’s published toilet season ends October 31. The shoreline guide lists village toilets at the Recreation Center across from East Ferry and facilities at Taylor Point, West Ferry, Fort Getty, Park Dock and Beavertail; verify winter access before relying on them.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!152"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "213",
+   "n": "Public Wi-Fi — Jamestown Philomenian Library",
+   "c": "Visitor information",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "",
+   "w": "https://jplri.org/hours",
+   "wl": "Website",
+   "b": "The public library provides wireless internet and computers for patrons. Monday–Wednesday 9:00 AM–8:00 PM; Thursday–Saturday 9:00 AM–5:00 PM on the dedicated hours page; holiday exceptions apply. Visit during library hours for no-charge internet access; outdoor or after-hours signal access unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.org",
+     "https://jplri.org/hours"
     ]
    ],
    "cl": false
@@ -1955,6 +3572,141 @@
    "cl": false
   },
   {
+   "i": "221",
+   "n": "Rembijas Pavilion at Fort Getty",
+   "c": "Visitor information",
+   "a": "1050 Fort Getty Road",
+   "p": "401-423-7260",
+   "e": "",
+   "w": "https://www.jamestownri.gov/RembijasPavilion",
+   "wl": "Website",
+   "b": "The town rents a pavilion for gatherings at Fort Getty. Seasonal rental dates by application; exact winter availability unknown. Apply through the town; resident reservations open the first business day in January for the next two seasons with $250 deposit, non-residents for the upcoming season with $400 deposit; final rental fee unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/RembijasPavilion"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "226",
+   "n": "RIDEM Fish and Wildlife Marine Fisheries Center",
+   "c": "Visitor information",
+   "a": "3 Fort Wetherill Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!169",
+   "wl": "Website",
+   "b": "A state fisheries site provides a fishing dock and views over rocky coves. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Paved visitor lot. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!169"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "204",
+   "n": "RIPTA Route 64: Jamestown connections",
+   "c": "Visitor information",
+   "a": "East Ferry, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.ripta.com/routes/64/",
+   "wl": "Website",
+   "b": "Route 64 connects the Jamestown ferry landing with Newport and mainland stops. Consult the dated timetable for the selected day; future revisions unknown. Use the official timetable and trip planner; some trips and connections vary by day, so do not assume every listed run serves Jamestown.",
+   "nt": [],
+   "s": [
+    [
+     "ripta.com",
+     "https://www.ripta.com/routes/64/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "163",
+   "n": "Rooster Book Club",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/16421547",
+   "wl": "Website",
+   "b": "Children in grades 3–5 discuss Rhode Island Children’s Book Award nominees. Posted Wednesdays 3:45–4:30 PM. Pick up the selection at Youth Services, read as much as possible and attend.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16421547"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "160",
+   "n": "Rusty Pens Writing & Storytelling Workshop",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "",
+   "w": "https://jplri.libcal.com/event/16548215",
+   "wl": "Website",
+   "b": "Writers of all experience levels share memories and develop personal stories. Mondays 10:30–11:30 AM. Beginners are welcome to attend the listed workshop.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16548215"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "257",
+   "n": "Safe Harbor Jamestown Boatyard private beach",
+   "c": "Visitor information",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://jby.com/moorings/",
+   "wl": "Website",
+   "b": "The boatyard offers a small private beach among its boating-customer amenities. By customer arrangement; beach hours unknown. Reserve a berth or mooring and ask about beach eligibility; public beach admission, lifeguards and restroom access unknown; 2026 transient moorings start at $90/night for smaller boats.",
+   "nt": [],
+   "s": [
+    [
+     "jby.com",
+     "https://jby.com/moorings/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "146",
+   "n": "Saint Mark Church Music Ministry",
+   "c": "Community and cultural resources",
+   "a": "60 Narragansett Avenue",
+   "p": "401-423-1421",
+   "e": "secretary@stmarkjtn.org",
+   "w": "https://stmarkjtn.org",
+   "wl": "Website",
+   "b": "The parish music ministry contributes to Catholic worship on the island. Choir rehearsal unknown; Mass Saturday 4:00 PM and Sunday 8:00 and 10:30 AM. Contact the parish office to ask about joining the music ministry.",
+   "nt": [],
+   "s": [
+    [
+     "stmarkjtn.org",
+     "https://stmarkjtn.org"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "137",
    "n": "Saint Matthew's Episcopal Church",
    "c": "Community and cultural resources",
@@ -1969,6 +3721,63 @@
     [
      "stmatthewsjamestown.org",
      "https://www.stmatthewsjamestown.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "144",
+   "n": "Saint Matthew’s Church Choir and Music Ministry",
+   "c": "Community and cultural resources",
+   "a": "87 Narragansett Avenue",
+   "p": "401-423-1762",
+   "e": "",
+   "w": "https://www.stmatthewsjamestown.org/music.html",
+   "wl": "Website",
+   "b": "A church choir contributes to worship in a parish that also hosts community concerts. Choir rehearsal Thursdays 7:00 PM; Sunday worship 8:00 and 10:00 AM. Contact the parish office about singing; public worship welcomes visitors.",
+   "nt": [],
+   "s": [
+    [
+     "stmatthewsjamestown.org",
+     "https://www.stmatthewsjamestown.org/music.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "177",
+   "n": "Saint Matthew’s community crafts and bingo",
+   "c": "Community and cultural resources",
+   "a": "87 Narragansett Avenue",
+   "p": "401-423-1762",
+   "e": "",
+   "w": "https://www.stmatthewsjamestown.org/parish-calendar.html",
+   "wl": "Website",
+   "b": "The parish calendar lists recurring craft and bingo gatherings. Got Crafts fourth Tuesday 1:30 PM; bingo Friday 1:00 PM. Contact the parish for visitor arrangements and any participation charges.",
+   "nt": [],
+   "s": [
+    [
+     "stmatthewsjamestown.org",
+     "https://www.stmatthewsjamestown.org/parish-calendar.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "157",
+   "n": "Save The Bay Swim",
+   "c": "Boating and recreation",
+   "a": "1 East Shore Road",
+   "p": "",
+   "e": "volunteer@savebay.org",
+   "w": "https://savebay.org/events/swim26/",
+   "wl": "Website",
+   "b": "An organized bay swim raises funds for coastal conservation and finishes in Jamestown. Annual summer event; no winter swim date verified. Register as a swimmer or use the organizer’s volunteer signup when available.",
+   "nt": [],
+   "s": [
+    [
+     "savebay.org",
+     "https://savebay.org/events/swim26/"
     ]
    ],
    "cl": false
@@ -1993,6 +3802,223 @@
    "cl": false
   },
   {
+   "i": "196",
+   "n": "Scuttlebutt at Dutch Harbor — unconfirmed",
+   "c": "Visitor information",
+   "a": "252 Narragansett Avenue",
+   "p": "401-423-0630",
+   "e": "",
+   "w": "https://www.dutchharborboatyard.com",
+   "wl": "Website",
+   "b": "An older town license identifies a snack-bar operation at Dutch Harbor. Ask the boatyard whether food service currently operates; reservations and seasonal closure unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "dutchharborboatyard.com",
+     "https://www.dutchharborboatyard.com"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "210",
+   "n": "Seal watching — Save The Bay Newport departure",
+   "c": "Visitor information",
+   "a": "37 America’s Cup Avenue, Newport, RI",
+   "p": "401-203-7325",
+   "e": "",
+   "w": "https://savebay.org/family-fun/seals/",
+   "wl": "Website",
+   "b": "Save The Bay offers winter boat trips to observe seals around the lower bay. Published season November–April; individual times vary with the booking calendar. Reserve through the official ticket link; one-hour tour $25 standard or $20 qualifying discounted rate, under-three children no charge; travel to Newport first.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "savebay.org",
+     "https://savebay.org/family-fun/seals/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "172",
+   "n": "Senior Craft Circle",
+   "c": "Community and cultural resources",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9806",
+   "e": "edonnelly@jamestownri.net",
+   "w": "https://www.jamestownri.gov/seniorservices",
+   "wl": "Website",
+   "b": "Crafters bring their projects for shared making and conversation. Tuesdays; time unknown because the town’s listing conflicts with its description. Bring a project; confirm the time with Senior Services.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/seniorservices"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "176",
+   "n": "Senior Line Dancing",
+   "c": "Community and cultural resources",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9806",
+   "e": "edonnelly@jamestownri.net",
+   "w": "https://www.jamestownri.gov/seniorservices",
+   "wl": "Website",
+   "b": "Participants learn line dances in a scheduled class series. Selected Thursdays 9:00–10:00 AM through December 10, 2026. Contact Senior Services about the advertised $15 series.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/seniorservices"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "173",
+   "n": "Senior Mah Jongg",
+   "c": "Community and cultural resources",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9806",
+   "e": "edonnelly@jamestownri.net",
+   "w": "https://www.jamestownri.gov/seniorservices",
+   "wl": "Website",
+   "b": "Experienced players gather for mah-jongg. Tuesdays 2:30 PM. Contact Senior Services; the advertised session is for experienced players.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/seniorservices"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "175",
+   "n": "Senior Zumba Gold",
+   "c": "Community and cultural resources",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9806",
+   "e": "edonnelly@jamestownri.net",
+   "w": "https://www.jamestownri.gov/seniorservices",
+   "wl": "Website",
+   "b": "Older adults take a dance-based movement class. Mondays 10:00–10:45 AM. Drop in; advertised fee is $5 per class.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/seniorservices"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "235",
+   "n": "Sheffield Cove Marsh",
+   "c": "Visitor information",
+   "a": "On the North side of Beavertail Road across the street from Mackerel Cove Beach, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!171",
+   "wl": "Website",
+   "b": "A protected marsh offers birdwatching and views across Sheffield Cove. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Use designated Mackerel Cove parking and its applicable permit or day fee. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!171"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "201",
+   "n": "Short-term rental registration and rules",
+   "c": "Visitor information",
+   "a": "93 Narragansett Avenue",
+   "p": "401-423-7200",
+   "e": "DBR.REInquiry@dbr.ri.gov",
+   "w": "https://www.jamestownri.gov/permits",
+   "wl": "Website",
+   "b": "Town registration and state requirements govern short stays in Jamestown homes. Annual town registration; the town page lists the 2027 application period as ending September 30, 2026. Use the town’s permit portal and licensed-property records; state registration also applies to stays of 30 nights or fewer advertised through a third-party platform; verify occupancy, inspection and local-representative requirements with the town.",
+   "nt": [],
+   "s": [
+    [
+     "jamestownri.gov",
+     "https://www.jamestownri.gov/permits"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "191",
+   "n": "Snackbar Royale",
+   "c": "Visitor information",
+   "a": "1 Ferry Wharf, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.snackbarroyale.com/",
+   "wl": "Website",
+   "b": "A waterfront restaurant serves casual coastal food at the marina. Published fall hours: Wednesday–Thursday 4:00–10:00 PM; Friday–Sunday noon–10:00 PM; kitchen closes 9:00 PM. Use the official takeout link https://snackbarroyale.square.site or inquire through the site; reservations and winter closure unknown.",
+   "nt": [],
+   "s": [
+    [
+     "snackbarroyale.com",
+     "https://www.snackbarroyale.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "151",
+   "n": "Snacks & Stories",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.org/sites/jplri.org/files/attachments/sliders/JPL%20Weekly%20December%2014%2C%202025.pdf",
+   "wl": "Website",
+   "b": "This library reading program was advertised for children in grades 3 and 4. Current schedule unknown. Ask Youth Services about the current program and registration.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.org",
+     "https://jplri.org/sites/jplri.org/files/attachments/sliders/JPL%20Weekly%20December%2014%2C%202025.pdf"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "252",
+   "n": "Spirketing Street",
+   "c": "Visitor information",
+   "a": "End of Spirketing Street, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!172",
+   "wl": "Website",
+   "b": "A public path and steps reach a cobble beach facing the sunset over the West Passage. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Guide lists one space; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!172"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "139",
    "n": "St. Mark Catholic Church",
    "c": "Community and cultural resources",
@@ -2012,6 +4038,105 @@
    "cl": false
   },
   {
+   "i": "225",
+   "n": "State-park wedding and group-use permits",
+   "c": "Visitor information",
+   "a": "Jamestown, RI",
+   "p": "401-667-6200",
+   "e": "DEM.RIparks@dem.ri.gov",
+   "w": "https://riparks.ri.gov/parks/beavertail-state-park",
+   "wl": "Website",
+   "b": "Organized gatherings at Beavertail and Fort Wetherill require consultation with state parks staff. By permit and confirmed date. Apply for special-use permission at least 30 days ahead; contact the park about group size, insurance and applicable charges.",
+   "nt": [],
+   "s": [
+    [
+     "riparks.ri.gov",
+     "https://riparks.ri.gov/parks/beavertail-state-park"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "247",
+   "n": "Steamboat Street",
+   "c": "Visitor information",
+   "a": "155-173 Seaside Dr, Jamestown, Rhode Island, 02835",
+   "p": "",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!509",
+   "wl": "Website",
+   "b": "A narrow wooded access path leads toward a rocky fishing shoreline. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Limited roadside parking listed; current signs control. Restrooms: None listed in shoreline guide. Lifeguards: unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!509"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "193",
+   "n": "Sugar Shack at East Ferry",
+   "c": "Visitor information",
+   "a": "1 Ferry Wharf, Jamestown, RI",
+   "p": "",
+   "e": "info@1ferrywharf.com",
+   "w": "https://www.1ferrywharf.com/sugar-shack/",
+   "wl": "Website",
+   "b": "A seasonal ice-cream counter is listed beside the marina restaurant. Winter hours and seasonal closing date unknown. Confirm current operation through Snackbar Royale; the older Sugar Shack page does not establish winter service.",
+   "nt": [],
+   "s": [
+    [
+     "1ferrywharf.com",
+     "https://www.1ferrywharf.com/sugar-shack/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "259",
+   "n": "Sunset and photography viewpoints",
+   "c": "Visitor information",
+   "a": "Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://riparks.ri.gov/parks/beavertail-state-park",
+   "wl": "Website",
+   "b": "Public coastal viewpoints provide westward sunsets and harbor or lighthouse scenes. Park or access-point hours apply; exact sunset time varies by date. Use established public paths and the individual parking instructions; Spirketing faces the West Passage while Fort Wetherill overlooks Newport Harbor.",
+   "nt": [],
+   "s": [
+    [
+     "riparks.ri.gov",
+     "https://riparks.ri.gov/parks/beavertail-state-park"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "209",
+   "n": "Tall Tailz — fishing and sightseeing charters",
+   "c": "Visitor information",
+   "a": "110 Racquet Road",
+   "p": "401-855-1471",
+   "e": "talltailzcharters@gmail.com",
+   "w": "https://talltailzcharters.com/jamestown/",
+   "wl": "Website",
+   "b": "A charter operator offers fishing and custom sightseeing trips from Clark Boat Yard. By reservation; operator describes its usual fishing season as late April–late November. Contact the captain for a trip, price, departure time and weather decision; winter departures unknown.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "talltailzcharters.com",
+     "https://talltailzcharters.com/jamestown/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "140",
    "n": "Taylor Point Restoration Association",
    "c": "Community and cultural resources",
@@ -2026,6 +4151,44 @@
     [
      "taylorpoint.org",
      "https://taylorpoint.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "167",
+   "n": "Teen Advisory Board",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "colleen@jplri.org",
+   "w": "https://jplri.libcal.com/event/17387765",
+   "wl": "Website",
+   "b": "Students in grades 9–12 advise the library and undertake volunteer projects. Posted monthly Tuesdays 4:00–4:30 PM. Contact Colleen LeBeau to participate and commit to meeting dates.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/17387765"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "195",
+   "n": "The Caddy Shack",
+   "c": "Visitor information",
+   "a": "245 Conanicus Avenue",
+   "p": "401-423-9930",
+   "e": "caddyshack@jamestowngolf.com",
+   "w": "https://jamestowngolf.com/caddy-shack/",
+   "wl": "Website",
+   "b": "The public golf course’s snack bar welcomes golfers and other visitors. Daily opening 8:00 AM; closing time unknown; operator posts November 30 seasonal closure. Visit without playing golf or call about group outings; next spring reopening unknown.",
+   "nt": [],
+   "s": [
+    [
+     "jamestowngolf.com",
+     "https://jamestowngolf.com/caddy-shack/"
     ]
    ],
    "cl": false
@@ -2712,6 +4875,25 @@
    "cl": false
   },
   {
+   "i": "194",
+   "n": "The Wicked Whisk",
+   "c": "Visitor information",
+   "a": "79 North Road",
+   "p": "401-560-4135",
+   "e": "thewickedwhiskrhody@gmail.com",
+   "w": "https://www.visitrhodeisland.com/listing/wicked-whisk/12553/",
+   "wl": "Website",
+   "b": "A seasonal ice-cream shop offers scoops, shakes and desserts. Published season early May–October; November–March hours unknown. Contact the shop for its next opening and any off-season orders.",
+   "nt": [],
+   "s": [
+    [
+     "visitrhodeisland.com",
+     "https://www.visitrhodeisland.com/listing/wicked-whisk/12553/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "074",
    "n": "TMT Construction",
    "c": "Building landscaping and home services",
@@ -2867,6 +5049,25 @@
    "cl": false
   },
   {
+   "i": "153",
+   "n": "Tuesday Matinee / Tuesday Movie",
+   "c": "Community and cultural resources",
+   "a": "26 North Road",
+   "p": "401-423-7280",
+   "e": "emma@jplri.org",
+   "w": "https://jplri.libcal.com/event/16489625",
+   "wl": "Website",
+   "b": "The library presents afternoon film screenings. Posted Tuesdays 1:30 PM; listed through January 2027. Contact the library or consult the event page before attending.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16489625"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "027",
    "n": "TWC Home",
    "c": "Shops and gifts",
@@ -2885,6 +5086,25 @@
     [
      "twc-home.com",
      "https://twc-home.com"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "203",
+   "n": "Village and ferry parking",
+   "c": "Visitor information",
+   "a": "11 Knowles Court",
+   "p": "401-423-9900",
+   "e": "",
+   "w": "https://cruiseri.com/jamestown-newport-ferry/parking-faq/",
+   "wl": "Website",
+   "b": "Public parking areas serve the village and East Ferry departures. All-day spaces identified by ferry operator; individual posted limits apply. Use the operator’s map: 11 Knowles Court, seaward spaces between 9 and 30 Conanicus Avenue, and spaces between 60 and 99 Narragansett Avenue; paid or overnight ferry parking is advertised May–October; winter fees unknown.",
+   "nt": [],
+   "s": [
+    [
+     "cruiseri.com",
+     "https://cruiseri.com/jamestown-newport-ferry/parking-faq/"
     ]
    ],
    "cl": false
@@ -2950,6 +5170,27 @@
     [
      "wellowner.org",
      "https://wellowner.org/find-a-contractor/rhode-island/well-pumps-equipment/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "241",
+   "n": "West Ferry",
+   "c": "Visitor information",
+   "a": "At the west end of Narragansett Avenue, Jamestown, RI",
+   "p": "401-423-7200",
+   "e": "",
+   "w": "https://www.shoreline-ri.com/#!174",
+   "wl": "Website",
+   "b": "A public waterfront overlook and pier face Dutch Harbor and the West Passage. Public access point; use the linked map and obey current signs. Guide lists no charge for access; parking conditions below are separate. Parking: Pier parking listed; current limits unknown. Restrooms: Available according to shoreline guide; winter opening unknown. Lifeguards: unknown. Southern pier facilities require the relevant town permit; public shoreline access does not grant permission to use every dock.",
+   "nt": [
+    "Hours and details not recently confirmed; check before visiting."
+   ],
+   "s": [
+    [
+     "shoreline-ri.com",
+     "https://www.shoreline-ri.com/#!174"
     ]
    ],
    "cl": false
