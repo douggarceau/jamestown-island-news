@@ -1526,7 +1526,7 @@ function vFront(){setTimeout(()=>{cwFill();cwLoad()},0);
         <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="cal">Full calendar →</button></div></section>
       <section class="box" style="--c:#2fd3c8"><div class="bh"><b>Tech &amp; AI wire</b><span class="techsrc">via AI Signals</span></div><div class="bwl">${((TECH&&TECH.news)||[]).slice(0,4).map(techRow).join('')||'<div class="empty">Feed is loading.</div>'}</div>
         <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="tech">All Tech &amp; AI →</button></div></section>
-      <section class="box jtwk" style="--c:#e8b818"><div class="bh"><b><span class="live" style="background:#e8b818;color:#111">● THIS WEEK</span> On the Island</b><span>${jtWeekSpan()}</span></div><div id="jtWeek">${jtWeek()}</div><div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="cal">Full island calendar →</button></div></section>
+      <section class="box jtst" style="--c:#e8b818"><div class="bh"><b>Jamestown Stories</b><span>${STORIES.length} stories</span></div><div class="nat-l" style="padding:6px 14px 10px;grid-template-columns:minmax(0,1fr)">${STORIES.map(x=>`<button data-story="${esc(x.slug)}">${esc(x.title)}</button>`).join('')}</div><div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="stories">All Jamestown stories →</button></div></section>
     </div></div>
     <div class="front-local">
     <div class="stack">
