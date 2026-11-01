@@ -143,3 +143,4 @@ html.ot #whatsOn,html.ot #coverSlot .cvr>.spr,html.ot #coverSlot .cvside,html.ot
 .otw{font:700 15px/1.3 "Helvetica Neue",Arial,sans-serif;color:#fff}
 .otv{font:500 14px/1.3 "Helvetica Neue",Arial,sans-serif;color:#f3dcc0}
 .otd{margin-top:4px;padding:6px 14px;border:1px solid #e8b818;border-radius:6px;font:700 13px/1 "Helvetica Neue",Arial,sans-serif;color:#e8b818}
+html.ot #coverSlot,html.ot .jbig{display:none!important}
