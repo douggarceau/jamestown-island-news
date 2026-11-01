@@ -174,3 +174,4 @@ html[data-view=advertise] body #view .bh>b,html[data-view=advertise] body #view 
 #view a.sh .who span,#view a.sh .who .calb{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}
 html[data-view=advertise] body #view .intro b{font:800 13px/1.2 "Libre Franklin",system-ui,sans-serif!important;color:#b08d2e!important;letter-spacing:.14em!important;text-transform:uppercase!important}
 html[data-view=advertise] body #view div[style*="padding:10px 12px"]{font:13.5px/1.5 Georgia,serif!important;color:#f4f6f8!important}html[data-view=advertise] body #view div[style*="padding:10px 12px"]>b{font:700 17px/1.25 Georgia,serif!important;color:#fff!important}
+html body .vgrid .vcard h4,html body .sgrid .sc h4,#view a.sh .who b,html[data-view=advertise] body #view .bh>b,html[data-view=advertise] body #view strong,html[data-view=advertise] body #view div[style*="padding:10px 12px"]>b{font-family:"Playfair Display",Georgia,serif!important;font-weight:700!important}
