@@ -150,3 +150,13 @@ html.ot .jbig .jbf.a{background:radial-gradient(circle at 50% 30%,#6e4a12,#24160
 .otf.otp{background:#111;padding:0;display:block;overflow:hidden}
 .otf.otbz{background:linear-gradient(#0009,#000c),var(--img) center/cover no-repeat}
 #nav>[data-go="cal"]{order:-4!important}#nav>[data-go="front"]{order:-3!important}#nav>[data-go="visit"]{order:-2!important}#nav>[data-go="stories"]{order:-1!important}
+.sgrid .sc{background:radial-gradient(120% 90% at 20% 0%,var(--g1),var(--g2) 70%)!important;border:1px solid #e8b81866!important;box-shadow:0 6px 22px #0007!important}
+.sgrid .sc:nth-child(8n+1){--g1:#2b6cb0;--g2:#0b1d33}
+.sgrid .sc:nth-child(8n+2){--g1:#c0542a;--g2:#2a0d06}
+.sgrid .sc:nth-child(8n+3){--g1:#2f855a;--g2:#08200f}
+.sgrid .sc:nth-child(8n+4){--g1:#7b4bb7;--g2:#1a0b2e}
+.sgrid .sc:nth-child(8n+5){--g1:#b7791f;--g2:#2a1704}
+.sgrid .sc:nth-child(8n+6){--g1:#1f8a8a;--g2:#05201f}
+.sgrid .sc:nth-child(8n+7){--g1:#b83260;--g2:#2a0614}
+.sgrid .sc:nth-child(8n+8){--g1:#3a5fc8;--g2:#0b1230}
+.sgrid .sc:hover{filter:brightness(1.12) saturate(1.1)}
