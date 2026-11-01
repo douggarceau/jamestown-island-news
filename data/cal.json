@@ -33,20 +33,6 @@
   },
   {
    "date": "2026-11-01",
-   "time": "8:00 AM",
-   "artists": "Sunday worship",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome at the parish’s scheduled Sunday service."
-  },
-  {
-   "date": "2026-11-01",
    "time": "8:30 AM",
    "artists": "Intro to Zumba 2026-1",
    "venue": "Recreation Center Gymnasium",
@@ -105,16 +91,16 @@
   {
    "date": "2026-11-01",
    "time": "9:30 AM",
-   "artists": "Sunday worship with choir",
+   "artists": "Sunday school at Church at Four Corners",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "worship",
+   "genre": "community",
    "price": "",
    "ages": "",
-   "url": "https://www.churchatfourcorners.net/calendar/",
+   "url": "https://www.cbchurchjtn.org",
    "src": "Church at Four Corners",
    "address": "99 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Attend Sunday worship with the church’s music ministry."
+   "blurb": ""
   },
   {
    "date": "2026-11-01",
@@ -144,6 +130,20 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-11-01",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2026-11-01",
@@ -958,6 +958,20 @@
   },
   {
    "date": "2026-11-03",
+   "time": "6:00 PM",
+   "artists": "Eucharistic adoration at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-03",
    "time": "7:00 PM",
    "artists": "Tuesday Trivia",
    "venue": "Narragansett Café",
@@ -1196,20 +1210,6 @@
    "src": "Fuller Art & Frame Gallery",
    "address": "42 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Browse displayed art during the gallery’s published hours until 5:00 PM; confirm holiday changes with the gallery."
-  },
-  {
-   "date": "2026-11-04",
-   "time": "10:00 AM",
-   "artists": "Morning Prayer",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome to the parish’s morning-prayer gathering."
   },
   {
    "date": "2026-11-04",
@@ -1525,6 +1525,20 @@
    "src": "Jamestown Historical Society and Jamestown 250th Commission",
    "address": "26 North Road, Jamestown, RI 02835",
    "blurb": "A lecture explores eighteenth-century Jamestown, co-sponsored by the historical society and the town’s 250th commission."
+  },
+  {
+   "date": "2026-11-04",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2026-11-05",
@@ -2313,6 +2327,20 @@
   },
   {
    "date": "2026-11-07",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-07",
    "time": "9:30 AM",
    "artists": "Everybody Chorus: Songs of the Seventies",
    "venue": "Jamestown Recreation Center",
@@ -2511,6 +2539,20 @@
   },
   {
    "date": "2026-11-07",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-07",
    "time": "4:00 PM",
    "artists": "Saturday Mass at St. Mark",
    "venue": "St. Mark Catholic Church",
@@ -2626,20 +2668,6 @@
   },
   {
    "date": "2026-11-08",
-   "time": "8:00 AM",
-   "artists": "Sunday worship",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome at the parish’s scheduled Sunday service."
-  },
-  {
-   "date": "2026-11-08",
    "time": "8:30 AM",
    "artists": "Intro to Zumba 2026-1",
    "venue": "Recreation Center Gymnasium",
@@ -2698,16 +2726,16 @@
   {
    "date": "2026-11-08",
    "time": "9:30 AM",
-   "artists": "Sunday worship with choir",
+   "artists": "Sunday school at Church at Four Corners",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "worship",
+   "genre": "community",
    "price": "",
    "ages": "",
-   "url": "https://www.churchatfourcorners.net/calendar/",
+   "url": "https://www.cbchurchjtn.org",
    "src": "Church at Four Corners",
    "address": "99 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Attend Sunday worship with the church’s music ministry."
+   "blurb": ""
   },
   {
    "date": "2026-11-08",
@@ -2765,6 +2793,20 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Continue the registered two-day storytelling workshop with Rachel Schaeffer Wolfe until noon."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2026-11-08",
@@ -3735,20 +3777,6 @@
   {
    "date": "2026-11-11",
    "time": "10:00 AM",
-   "artists": "Morning Prayer",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome to the parish’s morning-prayer gathering."
-  },
-  {
-   "date": "2026-11-11",
-   "time": "10:00 AM",
    "artists": "Veterans Day Wilderness Skills",
    "venue": "CISF tent at Fort Getty",
    "hood": "Jamestown",
@@ -3845,6 +3873,20 @@
    "src": "Narragansett Café",
    "address": "25 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "RI Jazz Collective performs at the café."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2026-11-12",
@@ -4488,6 +4530,20 @@
   },
   {
    "date": "2026-11-14",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-14",
    "time": "9:30 AM",
    "artists": "Everybody Chorus: Songs of the Seventies",
    "venue": "Jamestown Recreation Center",
@@ -4626,6 +4682,20 @@
   },
   {
    "date": "2026-11-14",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-14",
    "time": "4:00 PM",
    "artists": "Saturday Mass at St. Mark",
    "venue": "St. Mark Catholic Church",
@@ -4685,20 +4755,6 @@
   },
   {
    "date": "2026-11-15",
-   "time": "8:00 AM",
-   "artists": "Sunday worship",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome at the parish’s scheduled Sunday service."
-  },
-  {
-   "date": "2026-11-15",
    "time": "9:00 AM",
    "artists": "Vinyasa",
    "venue": "Island Heron Yoga",
@@ -4729,16 +4785,16 @@
   {
    "date": "2026-11-15",
    "time": "9:30 AM",
-   "artists": "Sunday worship with choir",
+   "artists": "Sunday school at Church at Four Corners",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "worship",
+   "genre": "community",
    "price": "",
    "ages": "",
-   "url": "https://www.churchatfourcorners.net/calendar/",
+   "url": "https://www.cbchurchjtn.org",
    "src": "Church at Four Corners",
    "address": "99 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Attend Sunday worship with the church’s music ministry."
+   "blurb": ""
   },
   {
    "date": "2026-11-15",
@@ -4768,6 +4824,20 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-11-15",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2026-11-15",
@@ -5697,20 +5767,6 @@
   },
   {
    "date": "2026-11-18",
-   "time": "10:00 AM",
-   "artists": "Morning Prayer",
-   "venue": "Saint Matthew’s Episcopal Church",
-   "hood": "Jamestown",
-   "genre": "worship",
-   "price": "",
-   "ages": "",
-   "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
-   "src": "Saint Matthew’s Episcopal Church",
-   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Visitors are welcome to the parish’s morning-prayer gathering."
-  },
-  {
-   "date": "2026-11-18",
    "time": "10:15 AM",
    "artists": "Storytime - Ages 0 to 5 years",
    "venue": "Jamestown Philomenian Library",
@@ -5894,6 +5950,20 @@
    "blurb": "The café hosts an open-mic music evening."
   },
   {
+   "date": "2026-11-18",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-11-19",
    "time": "6:00 AM",
    "artists": "Morning Glory AA Meetings",
@@ -5994,6 +6064,20 @@
    "src": "Saint Mark Church",
    "address": "60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Gather for coffee after the morning Mass on the parish’s published third-Thursday schedule."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "8:30 AM",
+   "artists": "Weekday coffee hour at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-11-19",
@@ -6669,6 +6753,20 @@
   },
   {
    "date": "2026-11-21",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-21",
    "time": "9:30 AM",
    "artists": "Everybody Chorus: Songs of the Seventies",
    "venue": "Jamestown Recreation Center",
@@ -6810,6 +6908,20 @@
    "hours": "3 PM - 3:30 PM",
    "address": "St. Mark Catholic Church, 60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "St. Mark offers the Sacrament of Reconciliation before its Saturday afternoon Mass. Also known as confession or penance, the sacrament centers on repentance, forgiveness and renewed commitment to Christian life. The half-hour period takes place in the present church, dedicated in 1960 after its predecessor became too small for the parish. Anyone with questions about arrangements may contact the parish office. Presented by St. Mark Catholic Church. Contact: 401-423-1421."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-11-21",
@@ -6955,6 +7067,20 @@
   },
   {
    "date": "2026-11-22",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-22",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -6966,6 +7092,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-11-22",
@@ -7793,6 +7961,20 @@
    "blurb": "21 Guns performs at the café."
   },
   {
+   "date": "2026-11-25",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-11-26",
    "time": "8:00 AM",
    "artists": "Boot Camp M/Th 2026-6",
@@ -8060,6 +8242,20 @@
   },
   {
    "date": "2026-11-28",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-28",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -8141,6 +8337,34 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
+  },
+  {
+   "date": "2026-11-28",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-11-28",
@@ -8226,6 +8450,20 @@
   },
   {
    "date": "2026-11-29",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-29",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -8237,6 +8475,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-11-29",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-11-29",
@@ -8730,6 +9010,20 @@
   },
   {
    "date": "2026-12-01",
+   "time": "6:00 PM",
+   "artists": "Eucharistic adoration at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-01",
    "time": "7:00 PM",
    "artists": "Tuesday Trivia",
    "venue": "Narragansett Café",
@@ -9105,6 +9399,20 @@
    "blurb": "Register through Jamestown Recreation for guitar circle; the listed fee covers the advertised series."
   },
   {
+   "date": "2026-12-02",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-03",
    "time": "8:00 AM",
    "artists": "Boot Camp M/Th 2026-6",
@@ -9371,6 +9679,20 @@
    "blurb": "Book a place in the studio’s prenatal yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "artists": "Prayer group at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-04",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2026-6",
@@ -9612,6 +9934,20 @@
   },
   {
    "date": "2026-12-05",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-05",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -9832,6 +10168,20 @@
   },
   {
    "date": "2026-12-05",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-05",
    "time": "4:00 PM",
    "artists": "Homemade Ramen — cooking class",
    "venue": "Jamestown Arts Center",
@@ -9841,6 +10191,20 @@
    "ages": "",
    "url": "https://jamestownartcenter.org/",
    "src": "The Jamestown Calendar"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-05",
@@ -9956,6 +10320,20 @@
   },
   {
    "date": "2026-12-06",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -9967,6 +10345,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-12-06",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-06",
@@ -10751,6 +11171,20 @@
    "blurb": "Register through Jamestown Recreation for guitar circle; the listed fee covers the advertised series."
   },
   {
+   "date": "2026-12-09",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-10",
    "time": "8:00 AM",
    "artists": "Boot Camp M/Th 2026-6",
@@ -11172,6 +11606,20 @@
   },
   {
    "date": "2026-12-12",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-12",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -11323,6 +11771,20 @@
   },
   {
    "date": "2026-12-12",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-12",
    "time": "4:00 PM",
    "artists": "A Contemporary Christmas - Saturday Concert",
    "venue": "Jamestown Recreation Center",
@@ -11363,6 +11825,20 @@
    "src": "Jamestown Community Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
    "blurb": "The community chorus presents its seasonal concert at the recreation center."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-12",
@@ -11436,6 +11912,20 @@
   },
   {
    "date": "2026-12-13",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-13",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -11447,6 +11937,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-13",
@@ -12401,6 +12933,20 @@
    "blurb": "Register through Jamestown Recreation for guitar circle; the listed fee covers the advertised series."
   },
   {
+   "date": "2026-12-16",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-17",
    "time": "8:00 AM",
    "artists": "Boot Camp M/Th 2026-6",
@@ -12441,6 +12987,20 @@
    "src": "Saint Mark Church",
    "address": "60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Gather for coffee after the morning Mass on the parish’s published third-Thursday schedule."
+  },
+  {
+   "date": "2026-12-17",
+   "time": "8:30 AM",
+   "artists": "Weekday coffee hour at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-17",
@@ -12808,6 +13368,20 @@
   },
   {
    "date": "2026-12-19",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-19",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -12904,6 +13478,34 @@
   },
   {
    "date": "2026-12-19",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-19",
    "time": "8:15 PM",
    "artists": "Your Favorite Color",
    "venue": "Narragansett Café",
@@ -12988,6 +13590,20 @@
   },
   {
    "date": "2026-12-20",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-20",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -12999,6 +13615,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-12-20",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-20",
@@ -13657,6 +14315,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2026-12-23",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-24",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
@@ -13784,6 +14456,20 @@
   },
   {
    "date": "2026-12-26",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-26",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -13823,6 +14509,34 @@
    "src": "Fuller Art & Frame Gallery",
    "address": "42 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Browse displayed art during the gallery’s published hours until 5:00 PM; confirm holiday changes with the gallery."
+  },
+  {
+   "date": "2026-12-26",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-27",
@@ -13882,6 +14596,20 @@
   },
   {
    "date": "2026-12-27",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-27",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -13893,6 +14621,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2026-12-27",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2026-12-27",
@@ -14453,6 +15223,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2026-12-30",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2026-12-31",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
@@ -14650,6 +15434,20 @@
   },
   {
    "date": "2027-01-02",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-02",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -14731,6 +15529,34 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
+  },
+  {
+   "date": "2027-01-02",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-02",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-03",
@@ -14818,6 +15644,20 @@
   },
   {
    "date": "2027-01-03",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-03",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -14829,6 +15669,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-01-03",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-03",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-03",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-03",
@@ -15322,6 +16204,20 @@
   },
   {
    "date": "2027-01-05",
+   "time": "6:00 PM",
+   "artists": "Eucharistic adoration at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-05",
    "time": "7:00 PM",
    "artists": "Adult Basketball Pickup Winter League 2027-1",
    "venue": "Lawn Avenue Gymnasium",
@@ -15601,6 +16497,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-01-06",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-07",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-1",
@@ -15867,6 +16777,20 @@
    "blurb": "Book a place in the studio’s prenatal yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-01-07",
+   "time": "7:00 PM",
+   "artists": "Prayer group at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-08",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
@@ -16050,6 +16974,20 @@
   },
   {
    "date": "2027-01-09",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-09",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -16175,6 +17113,34 @@
    "blurb": "Two for the Rhode performs in a concert presented by the Friends of the library."
   },
   {
+   "date": "2027-01-09",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-09",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-10",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -16260,6 +17226,20 @@
   },
   {
    "date": "2027-01-10",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-10",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -16271,6 +17251,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-01-10",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-10",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-10",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-10",
@@ -16945,6 +17967,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-01-13",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-14",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-1",
@@ -17324,6 +18360,20 @@
   },
   {
    "date": "2027-01-16",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-16",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -17405,6 +18455,34 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
+  },
+  {
+   "date": "2027-01-16",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-16",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-17",
@@ -17492,6 +18570,20 @@
   },
   {
    "date": "2027-01-17",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-17",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -17503,6 +18595,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-01-17",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-17",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-17",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-17",
@@ -18205,6 +19339,20 @@
    "blurb": "The library’s volunteer support group holds its monthly meeting."
   },
   {
+   "date": "2027-01-20",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-21",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-1",
@@ -18245,6 +19393,20 @@
    "src": "Saint Mark Church",
    "address": "60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Gather for coffee after the morning Mass on the parish’s published third-Thursday schedule."
+  },
+  {
+   "date": "2027-01-21",
+   "time": "8:30 AM",
+   "artists": "Weekday coffee hour at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-21",
@@ -18612,6 +19774,20 @@
   },
   {
    "date": "2027-01-23",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-23",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -18693,6 +19869,34 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
+  },
+  {
+   "date": "2027-01-23",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-23",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-24",
@@ -18780,6 +19984,20 @@
   },
   {
    "date": "2027-01-24",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-24",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -18791,6 +20009,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-01-24",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-24",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-24",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-24",
@@ -19507,6 +20767,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-01-27",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-01-28",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-1",
@@ -19886,6 +21160,20 @@
   },
   {
    "date": "2027-01-30",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-30",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -19967,6 +21255,34 @@
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
+  },
+  {
+   "date": "2027-01-30",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-30",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-30",
@@ -20068,6 +21384,20 @@
   },
   {
    "date": "2027-01-31",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-31",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -20079,6 +21409,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-01-31",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-31",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-01-31",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-01-31",
@@ -20558,6 +21930,20 @@
   },
   {
    "date": "2027-02-02",
+   "time": "6:00 PM",
+   "artists": "Eucharistic adoration at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-02",
    "time": "7:00 PM",
    "artists": "Adult Basketball Pickup Winter League 2027-1",
    "venue": "Lawn Avenue Gymnasium",
@@ -20807,6 +22193,20 @@
    "src": "Jamestown Parks and Recreation",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
+  },
+  {
+   "date": "2027-02-03",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
   },
   {
    "date": "2027-02-04",
@@ -21061,6 +22461,20 @@
    "blurb": "Book a place in the studio’s prenatal yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-02-04",
+   "time": "7:00 PM",
+   "artists": "Prayer group at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-05",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-1",
@@ -21230,6 +22644,20 @@
   },
   {
    "date": "2027-02-06",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-06",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -21328,6 +22756,20 @@
   },
   {
    "date": "2027-02-06",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-06",
    "time": "4:00 PM",
    "artists": "Newport String Quartet — Newport County Concert Series III",
    "venue": "Jamestown Arts Center",
@@ -21339,6 +22781,20 @@
    "src": "Newport String Project",
    "address": "18 Valley Street, Jamestown, RI 02835",
    "blurb": "The quartet performs music by Hildegard von Bingen, Alberto Hemsi, Evrim Demirel and Franz Schubert."
+  },
+  {
+   "date": "2027-02-06",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-07",
@@ -21426,6 +22882,20 @@
   },
   {
    "date": "2027-02-07",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-07",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -21437,6 +22907,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-02-07",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-07",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-07",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-07",
@@ -22111,6 +23623,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-02-10",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-11",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-1",
@@ -22518,6 +24044,20 @@
   },
   {
    "date": "2027-02-13",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-13",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -22615,6 +24155,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-02-13",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-13",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-14",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -22700,6 +24268,20 @@
   },
   {
    "date": "2027-02-14",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-14",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -22711,6 +24293,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-02-14",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-14",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-14",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-14",
@@ -23343,6 +24967,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-02-17",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-18",
    "time": "8:30 AM",
    "artists": "Exercise with Us",
@@ -23369,6 +25007,20 @@
    "src": "Saint Mark Church",
    "address": "60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Gather for coffee after the morning Mass on the parish’s published third-Thursday schedule."
+  },
+  {
+   "date": "2027-02-18",
+   "time": "8:30 AM",
+   "artists": "Weekday coffee hour at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-18",
@@ -23708,6 +25360,20 @@
   },
   {
    "date": "2027-02-20",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-20",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -23805,6 +25471,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-02-20",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-20",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-21",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -23890,6 +25584,20 @@
   },
   {
    "date": "2027-02-21",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-21",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -23901,6 +25609,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-02-21",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-21",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-21",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-21",
@@ -24603,6 +26353,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-02-24",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-25",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-2",
@@ -25010,6 +26774,20 @@
   },
   {
    "date": "2027-02-27",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-27",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -25107,6 +26885,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-02-27",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-27",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-02-28",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -25178,6 +26984,20 @@
   },
   {
    "date": "2027-02-28",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-28",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -25189,6 +27009,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-02-28",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-28",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-02-28",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-02-28",
@@ -25640,6 +27502,20 @@
   },
   {
    "date": "2027-03-02",
+   "time": "6:00 PM",
+   "artists": "Eucharistic adoration at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-02",
    "time": "7:00 PM",
    "artists": "Adult Basketball Pickup Winter League 2027-1",
    "venue": "Lawn Avenue Gymnasium",
@@ -25891,6 +27767,20 @@
    "blurb": "Register through Jamestown Recreation for tai chi advanced with Shahin Barzin; the listed fee covers the advertised series."
   },
   {
+   "date": "2027-03-03",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-04",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-2",
@@ -26101,6 +27991,20 @@
    "blurb": "Book a place in the studio’s prenatal yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-03-04",
+   "time": "7:00 PM",
+   "artists": "Prayer group at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-05",
    "time": "8:30 AM",
    "artists": "Boot Camp T/F 8:30AM 2027-2",
@@ -26270,6 +28174,20 @@
   },
   {
    "date": "2027-03-06",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-06",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -26367,6 +28285,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-03-06",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-06",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-07",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -26438,6 +28384,20 @@
   },
   {
    "date": "2027-03-07",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-07",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -26449,6 +28409,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-03-07",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-07",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-07",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-03-07",
@@ -27053,6 +29055,20 @@
    "blurb": "Book a place in the studio’s yin yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-03-10",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-11",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-2",
@@ -27418,6 +29434,20 @@
   },
   {
    "date": "2027-03-13",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-13",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -27515,6 +29545,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-03-13",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-13",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-14",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -27572,6 +29630,20 @@
   },
   {
    "date": "2027-03-14",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-14",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -27583,6 +29655,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-03-14",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-14",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-14",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-03-14",
@@ -28201,6 +30315,20 @@
    "blurb": "Book a place in the studio’s yin yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-03-17",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-18",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-2",
@@ -28241,6 +30369,20 @@
    "src": "Saint Mark Church",
    "address": "60 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Gather for coffee after the morning Mass on the parish’s published third-Thursday schedule."
+  },
+  {
+   "date": "2027-03-18",
+   "time": "8:30 AM",
+   "artists": "Weekday coffee hour at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://stmarkjtn.org/",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-03-18",
@@ -28538,6 +30680,20 @@
   },
   {
    "date": "2027-03-20",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-20",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -28621,6 +30777,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-03-20",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-20",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-21",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -28678,6 +30862,20 @@
   },
   {
    "date": "2027-03-21",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-21",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -28689,6 +30887,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-03-21",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-21",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-21",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-03-21",
@@ -29293,6 +31533,20 @@
    "blurb": "Book a place in the studio’s yin yoga class; check the booking page for current pricing and availability."
   },
   {
+   "date": "2027-03-24",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-25",
    "time": "8:30 AM",
    "artists": "Boot Camp M/Th 2027-2",
@@ -29616,6 +31870,20 @@
   },
   {
    "date": "2027-03-27",
+   "time": "9:00 AM",
+   "artists": "Thrift shop at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-27",
    "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
@@ -29699,6 +31967,34 @@
    "blurb": "Studio work time is available to currently enrolled ceramics students and CARP artists; this is not a public drop-in lesson."
   },
   {
+   "date": "2027-03-27",
+   "time": "3:00 PM",
+   "artists": "Confession at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-27",
+   "time": "4:00 PM",
+   "artists": "Saturday Vigil Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
+  },
+  {
    "date": "2027-03-28",
    "time": "8:00 AM",
    "artists": "Sunday worship",
@@ -29756,6 +32052,20 @@
   },
   {
    "date": "2027-03-28",
+   "time": "9:30 AM",
+   "artists": "Sunday school at Church at Four Corners",
+   "venue": "Church at Four Corners",
+   "hood": "Jamestown",
+   "genre": "community",
+   "price": "",
+   "ages": "",
+   "url": "https://www.cbchurchjtn.org",
+   "src": "Church at Four Corners",
+   "address": "99 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-28",
    "time": "10:00 AM",
    "artists": "Children’s Chapel / Sunday School",
    "venue": "Saint Matthew’s Episcopal Church",
@@ -29767,6 +32077,48 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
+  },
+  {
+   "date": "2027-03-28",
+   "time": "10:00 AM",
+   "artists": "Winter meeting for worship at Quest Montessori at Conanicut Friends Meeting",
+   "venue": "Conanicut Friends Meeting",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://neym.org/quarterly-meetings/southeast-quarter",
+   "src": "Conanicut Friends Meeting",
+   "address": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-28",
+   "time": "10:00 AM",
+   "artists": "Sunday worship at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
+  },
+  {
+   "date": "2027-03-28",
+   "time": "10:30 AM",
+   "artists": "Sunday Mass at St. Mark",
+   "venue": "St. Mark",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.dioceseofprovidence.org/parishfinder",
+   "src": "St. Mark",
+   "address": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "blurb": ""
   },
   {
    "date": "2027-03-28",
@@ -30327,6 +32679,20 @@
    "src": "Island Heron Yoga",
    "address": "34 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Book a place in the studio’s yin yoga class; check the booking page for current pricing and availability."
+  },
+  {
+   "date": "2027-03-31",
+   "time": "",
+   "artists": "Bible study following morning prayer at Saint Matthew's Episcopal Church",
+   "venue": "Saint Matthew's Episcopal Church",
+   "hood": "Jamestown",
+   "genre": "worship",
+   "price": "",
+   "ages": "",
+   "url": "https://www.stmatthewsjamestown.org/",
+   "src": "Saint Matthew's Episcopal Church",
+   "address": "87 Narragansett Avenue, Jamestown, RI 02835",
+   "blurb": ""
   }
  ]
 }

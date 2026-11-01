@@ -879,6 +879,22 @@
    "cl": false
   },
   {
+   "i": "260",
+   "n": "Conanicut Friends Meeting",
+   "c": "Community and cultural resources",
+   "a": "North Road and Weeden Lane, Jamestown, RI 02835",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "Website",
+   "b": "Conanicut Friends Meeting is a Quaker (Religious Society of Friends) worship community in Jamestown. Regular schedule: Winter meeting for worship at Quest Montessori Sunday 10:00 AM.",
+   "nt": [
+    "Schedule from the church or denomination listing; confirm before visiting."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
    "i": "020",
    "n": "Conanicut Gift Shop & Arcade",
    "c": "Shops and gifts",
@@ -4014,6 +4030,25 @@
     [
      "shoreline-ri.com",
      "https://www.shoreline-ri.com/#!172"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "261",
+   "n": "St. Mark",
+   "c": "Community and cultural resources",
+   "a": "60 Narragansett Ave., Jamestown, RI, 02835-1174",
+   "p": "401-423-1421",
+   "e": "",
+   "w": "http://www.stmarkjtn.org",
+   "wl": "Website",
+   "b": "St. Mark is a Catholic worship community in Jamestown. Regular schedule: Confession Saturday 3:00 PM; Saturday Vigil Mass Saturday 4:00 PM; Sunday Mass Sunday 10:30 AM; Sunday Mass Sunday 8:00 AM; Prayer group 1st Thursday 7:00 PM; Weekday coffee hour 3rd Thursday 8:30 AM; Eucharistic adoration 1st Tuesday 6:00 PM.",
+   "nt": [],
+   "s": [
+    [
+     "stmarkjtn.org",
+     "http://www.stmarkjtn.org"
     ]
    ],
    "cl": false
