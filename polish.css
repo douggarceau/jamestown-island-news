@@ -175,3 +175,6 @@ html body #nav .nb{box-shadow:0 0 10px #e8b81855,inset 0 0 10px #ffffff12}
 html.ot .jbig{margin:18px auto 6px!important}
 html.ot .jbig{width:100%!important}
 html.ot .jbig.jslim{max-width:none!important;margin:12px 0!important}
+#view a.sh .who b,#view a.sh .who span,#view a.sh .who .calb,#view a.sh .dt *{color:#fff!important;text-shadow:0 1px 3px #0007}
+#view a.sh .dt{background:#0000002e!important;border-color:#ffffff66!important}
+#view .pad[data-cc] span,#view .pad[data-cc] small{color:#fff!important;text-shadow:0 1px 2px #0006}
