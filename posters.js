@@ -253,7 +253,7 @@ window.epMix=function(L){try{
 /* Story art: every story gets a matching artwork that slowly moves (reader header + story cards) */
 (function(){
 const coast=()=>!!window.EP_COAST;
-function pick(s){const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLowerCase();const c=coast()&&Math.random()<.5;let k;
+function pick(s){if(s.img)return s.img;const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLowerCase();const c=coast()&&Math.random()<.5;let k;
  const ti=(s.title||'').toLowerCase();if(/\bmass\b|worship|vespers|hymn|prayer|church service|sunday service/.test(ti)&&!/parade|halloween|costume|fair|festival|party|concert/.test(x))k=c?'church2':'church';
  else if(/symphon|orchestra|philharmon|opera|ballet|nutcracker|choral|chorus|messiah|quartet|chamber|recital|baroque|classical/.test(x))k=c?'gala2':'gala';
  else if(/jazz|blues|swing|sax/.test(x))k=c?'jazz2':'jazz';
@@ -266,7 +266,7 @@ function pick(s){const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLow
  return 'img/posters/'+k+'.jpg'}
 const seen=new WeakSet();const esc3=x=>String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function dress(){if(typeof STORIES==='undefined')return;
- document.querySelectorAll('article.reader').forEach(a=>{if(a.querySelector(':scope>.rart'))return;let cur='';try{cur=STATE.story}catch(_){}const s=STORIES.find(x=>x.slug===cur);if(!s)return;
+ document.querySelectorAll('article.reader').forEach(a=>{if(a.querySelector(':scope>.rart'))return;let cur='';try{cur=STATE.story}catch(_){}const s=STORIES.find(x=>x.slug===cur);if(!s||s.img)return;
   const u=pick(s);const d=document.createElement('div');d.className='rart';d.style.setProperty('--art','url('+u+')');const key=u.replace(/^.*\/|\.jpg$/g,'');const T=String(s.title).split(/:\s|\s[–—-]\s/)[0];d.innerHTML='<span class="rart-p r2"></span><span class="rart-p rp-'+key.replace(/2$/,'')+(/2$/.test(key)?' rp-alt':'')+'"><span class="rp-k">'+esc3((typeof tl==='function'?tl(s.topic):s.topic)||'Story')+'</span><span class="rp-t">'+esc3(T)+'</span></span>';d.setAttribute('aria-hidden','true');const k=a.querySelector('.kick');a.insertBefore(d,k||a.firstChild.nextSibling)});
  document.querySelectorAll('.sgrid .sc[data-story],.hll a,.sea-g button[data-story]').forEach(b=>{if(seen.has(b))return;const s=STORIES.find(x=>x.slug===b.dataset.story);if(!s)return;seen.add(b);b.classList.add('has-art');b.style.setProperty('--art','url('+pick(s)+')')})}
 new MutationObserver(()=>requestAnimationFrame(dress)).observe(document.documentElement,{childList:true,subtree:true});
