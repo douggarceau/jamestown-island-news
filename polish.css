@@ -179,3 +179,7 @@ html body .vgrid .vcard h4,html body .sgrid .sc h4,#view a.sh .who b,html[data-v
 .newtag{display:inline-block;margin-right:7px;padding:2px 6px;border-radius:3px;background:#e3172b;color:#fff!important;font:800 10px/1.2 "Libre Franklin",system-ui,sans-serif!important;letter-spacing:.06em;vertical-align:middle}
 html body .sgrid .sc.xmas{position:relative;border:2px solid #1f8a3a!important;border-top:0!important;padding-top:34px!important;box-shadow:0 0 0 2px #c8102e,0 0 18px #1f8a3a66!important;background:#ffffff05 url(img/holiday/lights.svg) top center/100% 60px no-repeat!important}
 #view a.sh .dt{position:relative;overflow:visible!important}.tflag{position:absolute;left:50%;top:-9px;transform:translateX(-50%);padding:1px 6px;border-radius:3px;background:#ffd23a;color:#1a1200!important;font:800 9px/1.3 "Libre Franklin",system-ui,sans-serif!important;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;box-shadow:0 0 8px #ffd23a,0 0 16px #ffb30099;animation:tfg 2s ease-in-out infinite}@keyframes tfg{50%{box-shadow:0 0 12px #ffd23a,0 0 26px #ffb300cc}}
+
+/* story hero picture */
+html body .reader figure.hero{margin:14px 0 20px;padding:0}
+html body .reader figure.hero img{display:block;width:100%;height:auto;border-radius:6px}
