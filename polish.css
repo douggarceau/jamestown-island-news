@@ -231,3 +231,8 @@ html body .snd[hidden]{display:none}
 .spost{margin:22px auto;max-width:560px}.spost img{display:block;width:100%;height:auto;border-radius:6px}
 
 .otf.otxp{padding:0;display:block;overflow:hidden;background:#7a0e16}.otf.otxp img{width:100%;height:100%;object-fit:contain;display:block}.otc.otxm .otin{animation-duration:16s}@media (max-width:640px){.otc.otxm{height:auto;aspect-ratio:1122/1402}}
+
+/* Rockwell-era touches: classic magazine headings, warm cream, quiet double rule */
+html body h2.room:not(.cwh):not(.crw h2){font:400 clamp(34px,5vw,52px)/1.05 "Libre Caslon Display",Georgia,serif!important;letter-spacing:.01em!important;background:none!important;-webkit-text-fill-color:#f6e7c1!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important;animation:none!important;padding-bottom:14px!important}
+html body h2.room:not(.cwh)::after{width:min(420px,70%)!important;height:5px!important;border-radius:0!important;background:none!important;border-top:2px solid #c9a24a!important;border-bottom:1px solid #c9a24a!important;box-shadow:none!important}
+html body .reader h1,html body .reader.styled h1,html body .ann-h{font-family:"Libre Caslon Display",Georgia,serif!important;font-weight:400!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important}
