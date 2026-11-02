@@ -12,6 +12,7 @@ const ART=[['snow','#ff5a6a','#e0203a'],['ornaments','#34d27a','#16a34a'],['star
 function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const t=ART[Math.floor(Math.random()*ART.length)];
  return `<a class="otf otbz" style="--img:url(img/holiday/${t[0]}.svg);--c1:${t[1]};--c2:${t[2]}"${t[0]==='holly'?' data-lt="1"':''} href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
 const R=()=>Math.random();
+const XM=[['img/story/tree-lighting-poster.jpg','jamestown-town-tree-holiday-2026','Jamestown Tree Lighting and Concert, Saturday, December 5, 5:30 PM, Jamestown Recreation Center'],['img/story/santa-arrives-coastal-queen.jpg','santa-mrs-claus-arrive-by-sea-2026','Santa and Mrs. Claus arrive by boat, Saturday, December 5, 1 PM, East Ferry Wharf']];
 function card(f,b){const sz='';return `<div class="otc${sz}"><div class="otin" style="animation-duration:${(11+R()*9).toFixed(1)}s;animation-delay:-${(R()*20).toFixed(1)}s">${f}${b.replace('class="otf','class="otf otback')}</div></div>`}
 function shuf(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(R()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function build(){const td=ymd(new Date()),end=ymd(new Date(Date.now()+45*864e5));
@@ -19,7 +20,7 @@ function build(){const td=ymd(new Date()),end=ymd(new Date(Date.now()+45*864e5))
  const sec=k=>(((BIZ||{}).sections||[]).find(s=>s.key===k)||{}).items||[];
  const biz=[].concat(sec('shop').filter(x=>x.status!=='closed'&&x.address).map(x=>[x,'Shop local']),sec('eat').filter(x=>x.address).map(x=>[x,'Eat on the island']),sec('icecream').map(x=>[x,'Treats on the island']));
  const faces=shuf(ev.slice(0,30).map((e,i)=>evFace(e,Math.floor(R()*6))).concat(biz.map(([x,k],i)=>bizFace(x,Math.floor(R()*6),k))));
- let h='';for(let i=0;i+1<faces.length;i+=2)h+=card(faces[i],faces[i+1]);
+ let h='';if(Date.now()<Date.parse('2026-12-06T00:00:00-05:00'))h+=`<div class="otc oth2 otxm"><div class="otin">${XM.map((x,i)=>`<a class="otf otxp${i?' otback':''}" href="#" data-story="${x[1]}" aria-label="${H(x[2])}"><img src="${x[0]}" alt="${H(x[2])}" loading="lazy" decoding="async"></a>`).join('')}</div></div>`;for(let i=0;i+1<faces.length;i+=2)h+=card(faces[i],faces[i+1]);
  return h}
 function mount(){const v=document.getElementById('view');const front=typeof STATE!=='undefined'&&STATE.view==='front';
  document.documentElement.classList.toggle('ot',front);
