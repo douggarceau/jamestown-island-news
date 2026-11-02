@@ -88,7 +88,8 @@ const STPAL=[['#0b1f3a','#e8b818'],['#3a0b1f','#ff8fb1'],['#0b3a2e','#7fffd4'],[
 window.artCard=function(a,s){try{
  if(s.story&&!s.ext&&typeof STORIES!=='undefined'&&STORIES.some(x=>x.slug===s.story)){const st=STORIES.find(x=>x.slug===s.story);const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
   const mast=window.EP_MAST||{};const L=String(st.title).length;
-  a.innerHTML='<span class="ep os'+(mast.img?' os-img':'')+'" style="'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our story</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the story →</span></span>';return}
+  const RW=['lighthouse','harbor','mainstreet','autumn','ferry'],rk=st.theme==='christmas'?'christmas':RW[hash(st.slug)%RW.length];
+  a.innerHTML='<span class="ep os os-rw'+(mast.img?' os-img':'')+'" style="--osart:url(img/rockwell/'+rk+'.jpg);'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our story</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the story →</span></span>';return}
  const t=String(s.bigText||s.name||'').trim();if(!t)return;const h=hash(t);
  const st=(typeof STORIES!=='undefined'&&s.story)?STORIES.find(x=>x.slug===s.story):null;
  const ext=!st&&s.ext;const topic=st?String(st.topic||''):'news';
