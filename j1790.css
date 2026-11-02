@@ -1,0 +1,147 @@
+/* Jamestown Island News: 1790 theme, built to Doug's ChatGPT design. Active when <html> has class y17. */
+:root{--yk:#2b1d0e;--yk2:#4a3418;--yox:#7a1b12;--yp:#ecd8ab;--yp2:#f3e4bf;--yfell:"IM Fell English","Playfair Display",Georgia,"Times New Roman",serif;--yfsc:"IM Fell English SC","IM Fell English","Playfair Display SC",Georgia,serif}
+html.y17,html.y17 body{background:#c9a66f url(img/1790/paper-tex.jpg) center top/cover fixed!important;color:var(--yk)!important}
+html.y17 body::before,html.y17 body::after{display:none!important}
+
+/* text colour reset: ink everywhere except inside picture cards */
+html.y17.y17 body :is(#nav,#dirCol,#view,.site-footer,header.mast) :is(*):not(.fb *):not(.otp *):not(.otxp *):not(.lspot *):not(.jslim *):not(.jpost):not(.new3-glow):not(.os *):not(.fb):not(input):not([aria-current]):not([aria-current] *):not(.dayh):not(.dayh *):not(.pad *):not(.dt *){color:var(--yk)!important;-webkit-text-fill-color:var(--yk)!important;text-shadow:none!important}
+
+/* top and bottom bars: dark ink bands */
+html.y17.y17 body div.clsbar.top,html.y17.y17 body div.clsbar.bot{background:linear-gradient(180deg,#3a2614,#22160a)!important;border-bottom:1px solid #8a6a3a!important;opacity:1!important;box-shadow:none!important}
+html.y17.y17 body div.clsbar *{color:#ecd8ab!important;-webkit-text-fill-color:#ecd8ab!important;font-family:var(--yfell)!important;text-shadow:none!important}
+
+/* masthead: ship banner on paper */
+html.y17.y17 body header.mast{border:0!important;background:none!important}
+html.y17.y17 body header.mast h1.lgimg img{content:url(img/1790/paper-mast.png);width:min(780px,100%)!important;height:auto!important;filter:none!important;display:block;margin:0 auto}
+
+/* menu: scrimshaw buttons on a rope */
+html.y17.y17 body #nav.navbar{background:url(img/1790/rope-h.svg) 0 50%/20px 12px repeat-x!important;border:0!important;box-shadow:none!important}
+html.y17.y17 body #nav.navbar .nb.nb{background:repeating-linear-gradient(100deg,transparent 0 6px,#6b5a3e1c 6px 7px),repeating-linear-gradient(10deg,transparent 0 11px,#6b5a3e14 11px 12px),radial-gradient(130% 160% at 30% 15%,#fdf8ec 0,#ece0c4 55%,#cdb88f 100%)!important;border:1px solid #6b5a3e!important;outline:0!important;border-radius:18px!important;box-shadow:inset 0 1px 0 #fffc,inset 0 -3px 5px #8a6d3e55,0 3px 5px #3a2a1477!important;color:#24190c!important;-webkit-text-fill-color:#24190c!important;text-shadow:0 1px 0 #fff9!important;font:400 14px/1.15 var(--yfsc)!important;letter-spacing:.03em!important;padding:8px 16px!important;animation:none!important}
+html.y17.y17 body #nav.navbar .nb.nb *{color:#24190c!important;-webkit-text-fill-color:#24190c!important}
+html.y17.y17 body #nav.navbar .nb.nb[aria-current]{background:repeating-linear-gradient(100deg,transparent 0 6px,#f3e4bf22 6px 7px),radial-gradient(130% 160% at 30% 15%,#5a4630 0,#2e2216 70%)!important;border-color:#1a1209!important;text-shadow:0 1px 0 #000!important}
+html.y17.y17 body #nav.navbar .nb.nb[aria-current],html.y17.y17 body #nav.navbar .nb.nb[aria-current] *{color:#f3e4bf!important;-webkit-text-fill-color:#f3e4bf!important}
+/* "3 NEW": red wax seal */
+html.y17.y17 body #nav.navbar .nb.nb span.new3-glow{display:inline-grid!important;place-items:center;min-width:44px;height:30px;padding:0 8px!important;margin-left:8px!important;border-radius:48% 52% 50% 46%/55% 45% 55% 45%!important;background:radial-gradient(circle at 40% 35%,#c8323a 0,#9b1420 45%,#5e0810 100%)!important;box-shadow:0 0 0 2px #7a0e18,0 0 0 4px #a8202a88,0 3px 5px #0007!important;color:#f6e3c0!important;-webkit-text-fill-color:#f6e3c0!important;text-shadow:0 1px 0 #3a0006!important;font:700 11px/1 Georgia,serif!important;animation:none!important}
+html.y17.y17 body #nav.navbar .nb.nb span.jpost{background:radial-gradient(circle at 40% 35%,#c8323a 0,#9b1420 50%,#5e0810 100%)!important;border:0!important;box-shadow:0 2px 4px #0007!important;color:#f6e3c0!important;-webkit-text-fill-color:#f6e3c0!important;border-radius:3px!important;font-family:Georgia,serif!important}
+/* Search: parchment field with a silver coin and spyglass */
+html.y17.y17 body #nav #nbSearch{position:relative}
+html.y17.y17 body #nav #nbSearch input{background:var(--yp2)!important;color:var(--yk)!important;border:1px solid #6b5a3e!important;border-radius:3px!important;box-shadow:inset 0 2px 3px #5a3d1544!important;font:italic 15px var(--yfell)!important;padding-right:44px!important}
+html.y17.y17 body #nav #nbSearch::after{content:"";position:absolute;right:-6px;top:50%;width:40px;height:40px;margin-top:-20px;border-radius:50%;pointer-events:none;background:radial-gradient(circle at 50% 46%,transparent 0 7px,#3a3f45 7.5px 9px,transparent 9.5px),linear-gradient(45deg,transparent 0 62%,#3a3f45 62% 70%,transparent 70%),radial-gradient(circle at 36% 30%,#ffffff 0,#d5d9de 40%,#7d848c 100%);box-shadow:0 0 0 2px #4b5158,0 0 0 4px #c9ced4,0 3px 5px #0006}
+
+/* section headings: red italic with a flourish */
+html.y17.y17 body h2.room.room:not(.cwh):not(.zz){font:italic 400 clamp(36px,4.6vw,50px)/1.05 var(--yfell)!important;color:var(--yox)!important;-webkit-text-fill-color:var(--yox)!important;background:none!important;text-shadow:0 1px 0 #fff6!important;animation:none!important;padding-bottom:12px!important}
+html.y17.y17 body h2.room:not(.cwh)::after{height:10px!important;border:0!important;box-shadow:none!important;background:linear-gradient(var(--yox),var(--yox)) 0 3px/72% 1.5px no-repeat,radial-gradient(circle,var(--yox) 0 3px,transparent 3.5px) 74% 50%/10px 10px no-repeat!important;width:min(460px,80%)!important}
+html.y17.y17 body #view .intro b{font:italic 400 22px/1.2 var(--yfell)!important;letter-spacing:0!important;text-transform:none!important}
+html.y17.y17 body #view .intro{background:none!important;border:0!important;box-shadow:none!important}
+html.y17.y17 body #view .intro p{font:16px/1.45 var(--yfell)!important}
+
+/* calendar filters: gold and silver coins */
+html.y17.y17 body #view .pads{display:flex!important;flex-wrap:wrap;gap:10px!important;justify-content:center;background:none!important;border:0!important}
+html.y17.y17 body #view .pads .pad{width:82px!important;height:82px!important;min-width:0!important;padding:0!important;border-radius:50%!important;border:0!important;display:grid!important;place-content:center;gap:1px;text-align:center;background:radial-gradient(circle at 50% 50%,transparent 0 33px,#8a5e1255 33.5px 34.5px,transparent 35px),radial-gradient(circle at 36% 30%,#fff3b0 0,#f2c84b 32%,#c8962e 64%,#8a5e12 100%)!important;box-shadow:0 0 0 2px #6e4a12,0 0 0 4px #e9c25a,0 0 0 5px #6e4a12,0 4px 7px #3a2a1488,inset 0 0 6px #6e4a1288!important;cursor:pointer;transition:transform .15s}
+html.y17.y17 body #view .pads .pad:nth-child(3n+2){background:radial-gradient(circle at 50% 50%,transparent 0 33px,#4b515855 33.5px 34.5px,transparent 35px),radial-gradient(circle at 36% 30%,#ffffff 0,#d5d9de 34%,#9aa1a8 70%,#5d636a 100%)!important;box-shadow:0 0 0 2px #4b5158,0 0 0 4px #c9ced4,0 0 0 5px #4b5158,0 4px 7px #3a2a1488,inset 0 0 6px #4b515888!important}
+html.y17.y17 body #view .pads .pad span,html.y17.y17 body #view .pads .pad small{color:#3a2508!important;-webkit-text-fill-color:#3a2508!important;text-shadow:0 1px 0 #fff6!important;background:none!important}
+html.y17.y17 body #view .pads .pad:nth-child(3n+2) span,html.y17.y17 body #view .pads .pad:nth-child(3n+2) small{color:#25292e!important;-webkit-text-fill-color:#25292e!important}
+html.y17.y17 body #view .pads .pad span{font:700 11px/1 Georgia,serif!important;text-transform:uppercase!important;letter-spacing:.02em!important}
+html.y17.y17 body #view .pads .pad small{font:700 13px/1.1 Georgia,serif!important;max-width:64px;margin:0 auto}
+html.y17.y17 body #view .pads .pad.on{transform:scale(1.08);box-shadow:0 0 0 2px #6e4a12,0 0 0 4px #e9c25a,0 0 0 6px #7a1b12,0 6px 12px #3a2a14aa!important}
+html.y17.y17 body #view .pads .pad:hover{transform:translateY(-2px)}
+
+/* search row with the compass and rope */
+html.y17.y17 body #view .ctrl{position:relative;background:url(img/1790/rope-h.svg) 0 66%/20px 12px repeat-x!important;border:0!important;box-shadow:none!important;padding:0 0 8px!important;gap:140px!important}
+html.y17.y17 body #view .ctrl::after{content:"";position:absolute;left:50%;top:50%;width:104px;height:104px;margin:-46px 0 0 -52px;background:url(img/1790/compass.svg) center/contain no-repeat;filter:drop-shadow(0 5px 6px #0007);pointer-events:none}
+html.y17.y17 body #view .ctrl label{font:italic 17px var(--yfell)!important;text-transform:none!important;letter-spacing:0!important}
+html.y17.y17 body #view .ctrl input,html.y17.y17 body #view .ctrl select{background:var(--yp2)!important;color:var(--yk)!important;border:1px solid #6b5a3e!important;border-radius:3px!important;box-shadow:inset 0 2px 3px #5a3d1544!important;font:16px var(--yfell)!important}
+
+/* listings box, plaques and the red day band */
+html.y17.y17 body #view section.box{background:none!important;border:0!important;box-shadow:none!important}
+html.y17.y17 body #view section.box::before,html.y17.y17 body #view section.box::after{display:none!important}
+html.y17.y17 body #view .box>.bh{background:none!important;border:0!important;display:flex;justify-content:space-between;align-items:center;padding:6px 0!important}
+html.y17.y17 body #view .box>.bh>b,html.y17.y17 body #view .box>.bh>span{background:linear-gradient(180deg,#f6e8c4,#e0c890)!important;border:1px solid #6b5a3e!important;box-shadow:inset 0 0 0 3px #f6e8c4,inset 0 0 0 4px #8a6d3e,0 3px 5px #3a2a1466!important;padding:6px 16px!important;border-radius:2px!important}
+html.y17.y17 body #view .box>.bh>b{font:700 17px/1 Georgia,serif!important;letter-spacing:.06em!important;text-transform:uppercase!important}
+html.y17.y17 body #view .box>.bh>span{font:italic 15px/1 var(--yfell)!important}
+html.y17.y17 body #view .dayh{background:linear-gradient(180deg,#8a2a1c,#6a1a10 60%,#4e1009),url(img/1790/wood.jpg) center/cover!important;background-blend-mode:multiply!important;color:#f6e3c0!important;-webkit-text-fill-color:#f6e3c0!important;font:700 16px/1 Georgia,serif!important;letter-spacing:.08em!important;text-transform:uppercase!important;padding:9px 18px!important;border:1px solid #3a0e06!important;box-shadow:inset 0 1px 0 #ffffff22,0 3px 5px #3a2a1466!important;border-radius:2px!important;text-shadow:0 1px 0 #2a0600!important}
+
+/* listing rows: parchment, gold coin dates, scrimshaw tags */
+html.y17.y17 body #view .cald{gap:0!important;background:none!important}
+html.y17.y17 body #view .cald>a.sh{background:linear-gradient(180deg,#f6e8c4ee,#ead5a4ee)!important;border:0!important;border-bottom:1px solid #8a6d3e88!important;border-right:1px solid #8a6d3e55!important;box-shadow:none!important;border-radius:0!important;align-items:center!important}
+html.y17.y17 body #view .cald>a.sh:hover{background:linear-gradient(180deg,#fbf0d2,#f0dcb0)!important}
+html.y17.y17 body #view .cald .dt{width:60px!important;height:60px!important;min-width:60px!important;border-radius:50%!important;border:0!important;display:grid!important;place-content:center;gap:0;text-align:center;background:radial-gradient(circle at 36% 30%,#fff3b0 0,#f2c84b 32%,#c8962e 64%,#8a5e12 100%)!important;box-shadow:0 0 0 2px #6e4a12,0 0 0 3px #e9c25a,0 0 0 4px #6e4a12,0 3px 5px #3a2a1488!important;padding:0!important}
+html.y17.y17 body #view .cald .dt *{color:#3a2508!important;-webkit-text-fill-color:#3a2508!important;text-shadow:0 1px 0 #fff6!important;background:none!important;border:0!important;box-shadow:none!important;position:static!important;margin:0!important;padding:0!important;font-family:Georgia,serif!important}
+html.y17.y17 body #view .cald .dt .tflag{order:-1;font:700 9px/1 Georgia,serif!important;text-transform:uppercase;letter-spacing:.06em}
+html.y17.y17 body #view .cald .dt small{font:700 9px/1 Georgia,serif!important}
+html.y17.y17 body #view .cald .dt b{font:700 18px/1 Georgia,serif!important}
+html.y17.y17 body #view .cald .dt i{font:700 8px/1 Georgia,serif!important;font-style:normal!important}
+html.y17.y17 body #view .cald .who b{font:700 18px/1.15 var(--yfell)!important}
+html.y17.y17 body #view .cald .who>span{font:14px/1.3 var(--yfell)!important;color:var(--yk2)!important;-webkit-text-fill-color:var(--yk2)!important}
+html.y17.y17 body #view .cald .who .calb{font:italic 14px/1.35 var(--yfell)!important;color:var(--yk2)!important;-webkit-text-fill-color:var(--yk2)!important}
+html.y17.y17 body #view .gtag{background:repeating-linear-gradient(100deg,transparent 0 6px,#6b5a3e1c 6px 7px),radial-gradient(130% 160% at 30% 15%,#fdf8ec 0,#ece0c4 55%,#cdb88f 100%)!important;border:1px solid #6b5a3e!important;border-radius:16px!important;box-shadow:inset 0 1px 0 #fffc,inset 0 -2px 4px #8a6d3e55,0 2px 3px #3a2a1466!important;color:#24190c!important;-webkit-text-fill-color:#24190c!important;font:400 12px/1 var(--yfsc)!important;letter-spacing:.06em!important;padding:8px 16px!important;text-transform:uppercase!important}
+
+/* left: business directory in a wood frame with brass rivets */
+html.y17.y17 body aside#dirCol{background:linear-gradient(180deg,#f3e4bf,#e6d0a0)!important;border:10px solid transparent!important;border-image:url(img/1790/wood.jpg) 30 round!important;outline:0!important;box-shadow:0 8px 18px #3a2a1488,inset 0 0 18px #8a6d3e55!important;border-radius:0!important}
+html.y17.y17 body aside#dirCol>header{background:none!important;border-color:#6b5a3e88!important;text-align:center}
+html.y17.y17 body aside#dirCol>header h2{font:italic 400 24px/1.1 var(--yfell)!important}
+html.y17.y17 body aside#dirCol input,html.y17.y17 body aside#dirCol select,html.y17.y17 body aside#dirCol header button{background:var(--yp2)!important;color:var(--yk)!important;border:1px solid #6b5a3e!important;box-shadow:inset 0 2px 3px #5a3d1544!important;font-family:var(--yfell)!important;border-radius:3px!important}
+html.y17.y17 body aside#dirCol #dirList,html.y17.y17 body aside#dirCol .drow{background:transparent!important}
+html.y17.y17 body aside#dirCol .drow button.dn{background:linear-gradient(180deg,#f6e8c4,#e8d1a0)!important;background-image:linear-gradient(180deg,#f6e8c4,#e8d1a0)!important;border:1px solid #8a6d3e!important;border-radius:2px!important;box-shadow:0 2px 3px #3a2a1444!important}
+html.y17.y17 body aside#dirCol .drow button.dn *{color:var(--yk)!important;-webkit-text-fill-color:var(--yk)!important;font-family:var(--yfell)!important}
+html.y17.y17 body aside#dirCol .bf{background:var(--yp)!important;border-top:1px solid #6b5a3e!important}
+html.y17.y17 body aside#dirCol .bf,html.y17.y17 body aside#dirCol .bf *{color:var(--yk2)!important;-webkit-text-fill-color:var(--yk2)!important;font:italic 13px/1.3 var(--yfell)!important}
+/* directory event tabs: parchment with a red wax date seal */
+html.y17.y17 body aside#dirCol .fb{background:linear-gradient(180deg,#f6e8c4,#e8d1a0)!important;border:1px solid #8a6d3e!important;border-radius:2px!important;box-shadow:0 2px 3px #3a2a1444!important;filter:none!important}
+html.y17.y17 body aside#dirCol .fb svg,html.y17.y17 body aside#dirCol .fb .art{display:none!important}
+html.y17.y17 body aside#dirCol .fb *{color:var(--yk)!important;-webkit-text-fill-color:var(--yk)!important;text-shadow:none!important;background-image:none!important}
+html.y17.y17 body aside#dirCol .fb .fb-x{background:none!important}
+html.y17.y17 body aside#dirCol .fb .fb-t{font:700 15px/1.15 var(--yfell)!important;letter-spacing:0!important;text-transform:none!important}
+html.y17.y17 body aside#dirCol .fb .fb-d{background:radial-gradient(circle at 40% 35%,#c8323a 0,#9b1420 45%,#5e0810 100%)!important;border-radius:50%!important;box-shadow:0 0 0 2px #7a0e18,0 2px 4px #0006!important;margin:4px!important;width:44px!important;height:44px!important;min-width:44px!important;align-self:center}
+html.y17.y17 body aside#dirCol .fb .fb-d,html.y17.y17 body aside#dirCol .fb .fb-d *{color:#f6e3c0!important;-webkit-text-fill-color:#f6e3c0!important;font-family:Georgia,serif!important}
+
+/* right margin: event notices as torn parchment pinned with brass tacks */
+html.y17.y17 body .lspot{border:0!important;box-shadow:none!important;background:none!important;filter:drop-shadow(0 5px 6px #3a2a1477)!important}
+html.y17.y17 body .lspot .ep:not(.os){background:radial-gradient(120% 90% at 50% 40%,#f8ecc9 0,#ecd6a4 70%,#d2b47a 100%)!important;filter:none!important;clip-path:polygon(0 3%,6% 0,14% 2%,22% 0,31% 1.5%,40% 0,50% 2%,59% 0,68% 1.5%,77% 0,86% 2%,94% 0,100% 3%,99% 12%,100% 22%,98.5% 33%,100% 44%,99% 56%,100% 67%,98.5% 78%,100% 89%,99% 97%,93% 100%,84% 98%,75% 100%,66% 98.5%,57% 100%,48% 98%,39% 100%,30% 98.5%,21% 100%,12% 98%,4% 100%,0 97%,1% 88%,0 77%,1.5% 66%,0 55%,1% 44%,0 33%,1.5% 22%,0 12%)!important}
+html.y17.y17 body .lspot .ep:not(.os) .art,html.y17.y17 body .lspot .ep:not(.os) svg{display:none!important}
+html.y17.y17 body .lspot .ep:not(.os) *{color:var(--yk)!important;-webkit-text-fill-color:var(--yk)!important;text-shadow:none!important;background:none!important;border-color:#6b5a3e!important;box-shadow:none!important}
+html.y17.y17 body .lspot .ep:not(.os) [class*="-t"]{font:italic 400 26px/1.08 var(--yfell)!important;letter-spacing:0!important;text-transform:none!important}
+html.y17.y17 body .lspot::before{content:"";position:absolute;z-index:5;left:50%;top:6px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff3b0,#c8962e 55%,#6e4a12);box-shadow:0 1px 2px #0008}
+
+/* Our Town business cards: parchment notices */
+html.y17.y17 body .otf.otbz{background:#f3e4bf url(img/1790/paper-tex.jpg) center/cover!important;border:1px solid var(--yk)!important;outline:1px solid var(--yk2);outline-offset:-7px;filter:none!important;box-shadow:0 4px 10px #5a3d1566!important}
+html.y17.y17 body .otf.otbz *{color:var(--yk)!important;-webkit-text-fill-color:var(--yk)!important;text-shadow:none!important}
+html.y17.y17 body .otf.otbz b{font:italic 400 28px/1.1 var(--yfell)!important}
+html.y17.y17 body .otf.otbz .otd{background:linear-gradient(180deg,#ffffff,#d5d9de 45%,#9aa1a8)!important;border:1px solid #4b5158!important;border-radius:14px!important;box-shadow:inset 0 1px 0 #fff,0 2px 3px #0005!important}
+html.y17.y17 body .otf.otp{filter:sepia(.6) saturate(.75) brightness(.9)!important}
+html.y17.y17 body .otc.otxm{border:12px solid transparent!important;border-image:url(img/1790/rope.svg) 20 round!important}
+
+/* holiday banner: red ribbon in rope, emerald and sapphire studs */
+html.y17.y17 body #view section.jslim{background:var(--yox)!important;border:12px solid transparent!important;border-image:url(img/1790/rope.svg) 20 round!important;background-clip:padding-box!important;border-radius:0!important;height:auto!important;min-height:52px}
+html.y17.y17 body #view section.jslim a,html.y17.y17 body #view section.jslim a *{color:#f6ead0!important;-webkit-text-fill-color:#f6ead0!important;font-family:var(--yfell)!important}
+
+/* footer */
+html.y17.y17 body .site-footer{background:transparent!important}
+html.y17.y17 body .site-footer a{color:var(--yox)!important;-webkit-text-fill-color:var(--yox)!important}
+
+/* compass: back to top */
+#yCompass{position:fixed;right:22px;bottom:44px;z-index:9999;width:92px;height:92px;border:0;padding:0;border-radius:50%;background:url(img/1790/compass.svg) center/contain no-repeat;box-shadow:0 6px 14px #0008;cursor:pointer;transition:transform .8s ease}
+#yCompass:hover{transform:rotate(-22deg)}
+/* refinements */
+html.y17.y17 body header.mast h1.lgimg img{width:100%!important;max-width:1100px!important;height:230px!important;object-fit:cover;object-position:50% 30%;-webkit-mask-image:linear-gradient(180deg,#000 80%,transparent);mask-image:linear-gradient(180deg,#000 80%,transparent)}
+html.y17.y17 body #view .pads{gap:8px!important;flex-wrap:wrap}
+html.y17.y17 body #view .pads .pad{width:68px!important;height:68px!important;background-size:auto!important}
+html.y17.y17 body #view .pads .pad span{font-size:9.5px!important;letter-spacing:0!important}
+html.y17.y17 body #view .pads .pad small{font-size:11px!important;letter-spacing:0!important;word-spacing:-1px;line-height:1.05!important;max-width:56px}
+html.y17.y17 body #view .cald .dt .tflag{font-size:8px!important;letter-spacing:0!important}
+html.y17.y17 body #view .cald>a.sh{padding:8px 12px!important;gap:12px!important}
+html.y17.y17 body #view .cald .who b{font-size:17px!important;line-height:1.1!important}
+html.y17.y17 body #view .cald .who .calb{display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+html.y17.y17 body #view .cald .who>span{display:block}
+html.y17.y17 body aside#dirCol .drow button.dn{border-left:4px solid #7a1b12!important}
+html.y17.y17 body aside#dirCol .drow{border:0!important;box-shadow:none!important}
+html.y17.y17 body aside#dirCol .drow::before,html.y17.y17 body aside#dirCol .drow::after,html.y17.y17 body aside#dirCol .drow button.dn::before{display:none!important}
+html.y17.y17 body #nav #nbSearch::after{display:none!important}
+html.y17.y17 body #nav #nbSearch input{border-radius:16px!important;padding-right:12px!important}
+html.y17.y17 body #view .ctrl{gap:160px!important}
+html.y17.y17 body header.mast h1.lgimg{width:100%!important;max-width:1100px;margin:0 auto!important}
+html.y17.y17 body header.mast h1.lgimg img{object-position:50% 42%;height:250px!important}
+html.y17.y17 body #view .cald .dt .tflag{font-size:7px!important;margin-bottom:1px!important}
+html.y17.y17 body #view .gtag{padding:6px 11px!important;font-size:10.5px!important}
+html.y17.y17 body #view .cald .who b{font-size:16px!important}
+html.y17.y17 body header.mast h1.lgimg img{content:url(img/1790/banner.jpg)!important;height:auto!important;object-fit:fill;max-width:1100px!important;-webkit-mask-image:linear-gradient(180deg,#000 85%,transparent),linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(180deg,#000 85%,transparent);border-bottom:0}
