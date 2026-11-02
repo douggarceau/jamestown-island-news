@@ -236,3 +236,5 @@ html body .snd[hidden]{display:none}
 html body h2.room:not(.cwh):not(.crw h2){font:400 clamp(34px,5vw,52px)/1.05 "Libre Caslon Display",Georgia,serif!important;letter-spacing:.01em!important;background:none!important;-webkit-text-fill-color:#f6e7c1!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important;animation:none!important;padding-bottom:14px!important}
 html body h2.room:not(.cwh)::after{width:min(420px,70%)!important;height:5px!important;border-radius:0!important;background:none!important;border-top:2px solid #c9a24a!important;border-bottom:1px solid #c9a24a!important;box-shadow:none!important}
 html body .reader h1,html body .reader.styled h1,html body .ann-h{font-family:"Libre Caslon Display",Georgia,serif!important;font-weight:400!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important}
+
+html body .mast .lgimg.mh1790{display:block;width:min(500px,100%);margin:6px auto 4px!important;padding:6px;border:2px solid #c9a24a;border-radius:4px;background:#1a1410;box-shadow:0 8px 28px #000a}html body .mast .lgimg.mh1790 img{display:block;width:100%!important;height:auto!important;max-width:none!important;border-radius:2px}
