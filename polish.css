@@ -218,3 +218,5 @@ html body .ann-go{font:800 18px/1 var(--body,Arial,sans-serif);color:#0a1a33;bac
 html body .ann-none{font:400 20px/1.5 var(--body,Arial,sans-serif);color:#dfe5ea;text-align:center}
 
 #nav>[data-go="ann"]{order:-5!important}
+html body .reader figure.hero video,html body .ann-vid{display:block;width:100%;height:auto;border-radius:6px;background:#000}
+html body .ann-vid{border-radius:8px;box-shadow:0 10px 28px #000a}
