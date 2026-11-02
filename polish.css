@@ -183,3 +183,38 @@ html body .sgrid .sc.xmas{position:relative;border:2px solid #1f8a3a!important;b
 /* story hero picture */
 html body .reader figure.hero{margin:14px 0 20px;padding:0}
 html body .reader figure.hero img{display:block;width:100%;height:auto;border-radius:6px}
+
+/* Christmas lights: slow two-phase blink around the page edge (stories themed christmas, and Island Announcements) */
+html body article.reader.th-christmas,html body .annv{position:relative}
+html body .xl{position:absolute;inset:0;pointer-events:none;z-index:4}
+html body .xl i{position:absolute;display:block}
+html body .xl i::before,html body .xl i::after{content:"";position:absolute;inset:0}
+html body .xl i:nth-child(1),html body .xl i:nth-child(2){left:12px;right:12px;height:18px;background:linear-gradient(#2c3a2e,#2c3a2e) 0 5px/100% 2px no-repeat}
+html body .xl i:nth-child(1){top:3px}
+html body .xl i:nth-child(2){bottom:3px}
+html body .xl i:nth-child(3),html body .xl i:nth-child(4){top:22px;bottom:22px;width:18px;background:linear-gradient(#2c3a2e,#2c3a2e) 5px 0/2px 100% no-repeat}
+html body .xl i:nth-child(3){left:3px}
+html body .xl i:nth-child(4){right:3px}
+html body .xl i:nth-child(-n+2)::before{background:radial-gradient(circle at 12px 10px,#ff3b3b 0 3.5px,#ff3b3b66 4.5px,transparent 9px),radial-gradient(circle at 48px 10px,#2fe06f 0 3.5px,#2fe06f66 4.5px,transparent 9px);background-size:72px 18px;background-repeat:repeat-x;animation:xlA 1.8s ease-in-out infinite}
+html body .xl i:nth-child(-n+2)::after{background:radial-gradient(circle at 30px 10px,#ffd23a 0 3.5px,#ffd23a66 4.5px,transparent 9px),radial-gradient(circle at 66px 10px,#4aa8ff 0 3.5px,#4aa8ff66 4.5px,transparent 9px);background-size:72px 18px;background-repeat:repeat-x;animation:xlB 1.8s ease-in-out infinite}
+html body .xl i:nth-child(n+3)::before{background:radial-gradient(circle at 10px 12px,#ff3b3b 0 3.5px,#ff3b3b66 4.5px,transparent 9px),radial-gradient(circle at 10px 48px,#2fe06f 0 3.5px,#2fe06f66 4.5px,transparent 9px);background-size:18px 72px;background-repeat:repeat-y;animation:xlA 1.8s ease-in-out infinite}
+html body .xl i:nth-child(n+3)::after{background:radial-gradient(circle at 10px 30px,#ffd23a 0 3.5px,#ffd23a66 4.5px,transparent 9px),radial-gradient(circle at 10px 66px,#4aa8ff 0 3.5px,#4aa8ff66 4.5px,transparent 9px);background-size:18px 72px;background-repeat:repeat-y;animation:xlB 1.8s ease-in-out infinite}
+@keyframes xlA{0%,45%{opacity:1}55%,100%{opacity:.22}}
+@keyframes xlB{0%,45%{opacity:.22}55%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){html body .xl i::before,html body .xl i::after{animation:none;opacity:.9}}
+html body article.reader.th-christmas{padding-top:30px!important;padding-bottom:30px!important}
+html body .annv{padding:34px 30px;border:1px solid #2c3a2e;border-radius:12px;background:#0b1410}
+
+/* Island Announcements page */
+html body .ann-h{font:400 34px/1.1 var(--read,Georgia,serif);color:#f8f4ea;margin:0 0 22px;text-align:center}
+html body .ann-i{margin:0 0 34px}
+html body .ann-pic{display:block;width:100%;padding:0;border:0;background:none;cursor:pointer}
+html body .ann-pic img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 10px 28px #000a}
+html body .ann-t{padding:14px 2px 0;text-align:center}
+html body .ann-when{margin:0 0 6px;font:800 21px/1.25 var(--body,Arial,sans-serif);color:#ffd23a;letter-spacing:.02em}
+html body .ann-t h2{margin:0 0 6px;font:400 28px/1.15 var(--read,Georgia,serif);color:#f8f4ea}
+html body .ann-where{margin:0 0 12px;font:400 19px/1.4 var(--body,Arial,sans-serif);color:#dfe5ea}
+html body .ann-go{font:800 18px/1 var(--body,Arial,sans-serif);color:#0a1a33;background:#e8b818;border:0;border-radius:6px;padding:12px 18px;cursor:pointer}
+html body .ann-none{font:400 20px/1.5 var(--body,Arial,sans-serif);color:#dfe5ea;text-align:center}
+
+#nav>[data-go="ann"]{order:-5!important}
