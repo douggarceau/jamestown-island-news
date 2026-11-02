@@ -238,3 +238,30 @@ html body h2.room:not(.cwh)::after{width:min(420px,70%)!important;height:5px!imp
 html body .reader h1,html body .reader.styled h1,html body .ann-h{font-family:"Libre Caslon Display",Georgia,serif!important;font-weight:400!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important}
 
 html body .mast .lgimg.mh1790{display:block;width:min(500px,100%);margin:6px auto 4px!important;padding:6px;border:2px solid #c9a24a;border-radius:4px;background:#1a1410;box-shadow:0 8px 28px #000a}html body .mast .lgimg.mh1790 img{display:block;width:100%!important;height:auto!important;max-width:none!important;border-radius:2px}
+
+/* 1790 gazette front */
+html.gz-on #nav{display:none!important}
+#gaz1790{margin:8px 0 14px;padding:18px 22px 16px;background:radial-gradient(60% 40% at 85% 12%,#d9bf8a55,transparent 70%),radial-gradient(50% 35% at 10% 90%,#c9a86f44,transparent 70%),linear-gradient(180deg,#f1e3c2,#e9d6ad);color:#2b2014;border-radius:3px;box-shadow:0 10px 34px #000b,inset 0 0 60px #a07a3a40;font-family:"IM Fell English",Georgia,"Times New Roman",serif}
+#gaz1790 .gz-top{display:flex;justify-content:center}
+html body #gaz1790 .lgimg.mh1790{width:min(560px,100%);margin:0 auto!important;padding:0;border:0;background:none;box-shadow:0 3px 10px #5a3d1555}
+#gaz1790 .gz-date{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:12px 0 0;padding:5px 2px;border-top:3px double #3a2c1a;border-bottom:3px double #3a2c1a;font:italic 15px/1.3 "IM Fell English",Georgia,serif;color:#3a2c1a}
+#gaz1790 .gz-cols{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:12px}
+#gaz1790 .gz-st{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:5px;padding:8px 14px 12px;border-left:1px solid #6b5a3e88;border-bottom:1px solid #6b5a3e55;text-align:left;color:#2b2014;position:relative}
+#gaz1790 .gz-st:nth-child(4n+1),#gaz1790 .gz-lead:first-child{border-left:0}
+#gaz1790 .gz-lead{grid-column:span 2}
+#gaz1790 .gz-lead:nth-child(2){border-left:1px solid #6b5a3e88}
+#gaz1790 .gz-st:nth-child(3),#gaz1790 .gz-st:nth-child(7){border-left:0}
+#gaz1790 .gz-st b{font:400 22px/1.12 "IM Fell English SC","IM Fell English",Georgia,serif;color:#1d150c;letter-spacing:.01em}
+#gaz1790 .gz-lead b{font-size:30px;text-align:center}
+#gaz1790 .gz-rule{display:block;height:0;border-top:1px solid #3a2c1a;width:40%;margin:2px 0}
+#gaz1790 .gz-lead .gz-rule{margin:2px auto}
+#gaz1790 .gz-b{font:400 17px/1.35 "IM Fell English",Georgia,serif;color:#2b2014}
+#gaz1790 .gz-lead .gz-b{font-size:19px}
+#gaz1790 .gz-more{font:italic 15px/1 "IM Fell English",Georgia,serif;color:#7a1b12;margin-top:auto}
+#gaz1790 .gz-tag{align-self:flex-start;font:700 11px/1 Georgia,serif;letter-spacing:.12em;text-transform:uppercase;background:#7a1b12;color:#f6ead0;padding:3px 7px;border-radius:2px}
+#gaz1790 .gz-st:hover b,#gaz1790 .gz-st:focus-visible b{color:#7a1b12;text-decoration:underline}
+#gaz1790 .gz-st:focus-visible{outline:2px solid #7a1b12;outline-offset:-2px}
+#gaz1790 .gz-srch{cursor:default}
+#gaz1790 .gz-srch form{display:flex;margin-top:auto}#gaz1790 .gz-srch input{all:unset;box-sizing:border-box;width:100%;padding:7px 9px;border:1px solid #3a2c1a;background:#fbf3df;color:#2b2014;font:16px/1.2 "IM Fell English",Georgia,serif}#gaz1790 .gz-srch input::placeholder{color:#7a6a50}
+@media (max-width:900px){#gaz1790 .gz-cols{grid-template-columns:repeat(2,minmax(0,1fr))}#gaz1790 .gz-lead{grid-column:span 2}#gaz1790 .gz-st{border-left:0!important}#gaz1790 .gz-st:not(.gz-lead):nth-child(even){border-left:1px solid #6b5a3e88!important}}
+@media (max-width:520px){#gaz1790{padding:12px}#gaz1790 .gz-cols{grid-template-columns:1fr}#gaz1790 .gz-st,#gaz1790 .gz-lead{grid-column:auto;border-left:0!important}#gaz1790 .gz-date{justify-content:center;text-align:center}}
