@@ -145,3 +145,37 @@ html.y17.y17 body #view .cald .dt .tflag{font-size:7px!important;margin-bottom:1
 html.y17.y17 body #view .gtag{padding:6px 11px!important;font-size:10.5px!important}
 html.y17.y17 body #view .cald .who b{font-size:16px!important}
 html.y17.y17 body header.mast h1.lgimg img{content:url(img/1790/banner.jpg)!important;height:auto!important;object-fit:fill;max-width:1100px!important;-webkit-mask-image:linear-gradient(180deg,#000 85%,transparent),linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(180deg,#000 85%,transparent);border-bottom:0}
+
+/* ---- beat-up olden-days pass ---- */
+html.y17 body::after{content:""!important;display:block!important;position:fixed;inset:0;z-index:2147483000;pointer-events:none;background:url(img/1790/age.jpg) center/cover no-repeat;mix-blend-mode:multiply;opacity:.72}
+html.y17,html.y17 body{background-color:#b8915a!important;filter:sepia(.18) contrast(1.04)}
+/* engraved black ink headings, upper case like a broadsheet */
+html.y17.y17 body h2.room.room:not(.cwh):not(.zz){font:400 clamp(34px,4.4vw,48px)/1.05 var(--yfsc)!important;font-style:normal!important;text-transform:uppercase!important;letter-spacing:.02em!important;color:#1a1109!important;-webkit-text-fill-color:#1a1109!important;text-align:center;text-shadow:0 0 1px #1a110966!important}
+html.y17.y17 body h2.room:not(.cwh)::after{left:50%!important;transform:translateX(-50%);width:min(620px,90%)!important;height:9px!important;background:linear-gradient(#1a1109,#1a1109) 0 0/100% 1.5px no-repeat,linear-gradient(#1a1109,#1a1109) 0 100%/100% 1px no-repeat!important}
+html.y17.y17 body #view .intro{text-align:center;border-bottom:3px double #2b1d0e!important;padding-bottom:10px!important}
+/* broadsheet double rules round the main column */
+html.y17.y17 body #view{border-left:1px solid #2b1d0e99;border-right:1px solid #2b1d0e99;padding:0 14px!important}
+/* tarnish the coins: less shine, worn edges */
+html.y17.y17 body #view .pads .pad,html.y17.y17 body #view .cald .dt,html.y17.y17 body #nav #nbSub::before{filter:saturate(.7) brightness(.95) contrast(1.05)}
+/* scrimshaw: older, yellowed ivory with dark scratches */
+html.y17.y17 body #nav.navbar .nb.nb,html.y17.y17 body #view .gtag{filter:sepia(.45) brightness(.94);box-shadow:inset 0 0 0 1px #fff6,inset 0 -3px 6px #6b4a2266,0 2px 3px #2b1d0e88!important}
+/* listings: plain newsprint, ruled lines, no gloss */
+html.y17.y17 body #view .cald>a.sh{background:transparent!important;border-bottom:1px solid #2b1d0e88!important;border-right:1px dashed #2b1d0e44!important}
+html.y17.y17 body #view .cald>a.sh:hover{background:#2b1d0e12!important}
+html.y17.y17 body #view .cald .who b{font-family:var(--yfsc)!important;font-weight:400!important;color:#1a1109!important;-webkit-text-fill-color:#1a1109!important}
+html.y17.y17 body #view .dayh{background:none!important;color:#1a1109!important;-webkit-text-fill-color:#1a1109!important;text-shadow:none!important;border:0!important;border-top:3px double #1a1109!important;border-bottom:3px double #1a1109!important;box-shadow:none!important;text-align:center;font-family:var(--yfsc)!important;font-weight:400!important;letter-spacing:.14em!important}
+html.y17.y17 body #view .box>.bh>b,html.y17.y17 body #view .box>.bh>span{background:transparent!important;box-shadow:none!important;border:1px solid #1a1109!important;outline:1px solid #1a1109;outline-offset:2px}
+/* side panels: faded paper boxes with double ink frames, torn feel */
+html.y17.y17 body aside#dirCol{background:#e2c995aa!important;border:3px double #1a1109!important;border-image:none!important;box-shadow:none!important}
+html.y17.y17 body aside#dirCol>header h2{font:400 22px/1.1 var(--yfsc)!important;text-transform:uppercase;letter-spacing:.04em}
+html.y17.y17 body aside#dirCol .drow button.dn,html.y17.y17 body aside#dirCol .fb{background:transparent!important;background-image:none!important;border:0!important;border-bottom:1px dotted #1a110999!important;box-shadow:none!important;border-radius:0!important}
+html.y17.y17 body .lspot .ep:not(.os){background:#e8d2a2!important;box-shadow:inset 0 0 0 1px #1a1109,inset 0 0 0 4px #e8d2a2,inset 0 0 0 5px #1a1109,inset 0 0 30px #8a5a2255!important}
+html.y17.y17 body .lspot .ep:not(.os) [class*="-t"]{font-family:var(--yfsc)!important;font-style:normal!important;text-transform:uppercase}
+html.y17.y17 body .lspot,html.y17.y17 body .lspot .ep.os{filter:sepia(.75) saturate(.6) contrast(1.05) drop-shadow(0 3px 4px #2b1d0e66)!important}
+/* menu rope and banner: duller hemp */
+html.y17.y17 body #nav.navbar,html.y17.y17 body #view .ctrl{filter:none}
+html.y17.y17 body #view section.jslim{background:#5e1a10!important;filter:saturate(.7)}
+/* pictures in Our Town look like old prints */
+html.y17.y17 body .otf.otp,html.y17.y17 body .otf.otxp{filter:sepia(.7) saturate(.6) contrast(1.08) brightness(.92)!important}
+html.y17.y17 body .otf.otbz{background:transparent!important;border:3px double #1a1109!important;outline:0!important;box-shadow:none!important}
+html.y17.y17 body .otf.otbz b{font-family:var(--yfsc)!important;font-style:normal!important;text-transform:uppercase;font-size:24px!important}
