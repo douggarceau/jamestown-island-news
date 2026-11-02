@@ -127,6 +127,14 @@ def card(x, out):
     im.save(out, quality=88, optimize=True)
 
 
+def photo(src, out):
+    """Story picture as the share picture: the artwork itself, cropped to 1200x630, no text added."""
+    im = Image.open(src).convert('RGB'); W, H = 1200, 630
+    s = max(W / im.width, H / im.height); im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+    l = (im.width - W) // 2; tp = (im.height - H) // 2
+    im.crop((l, tp, l + W, tp + H)).save(out, quality=88, optimize=True)
+
+
 def page(x, img):
     e = lambda v: html.escape(v or '', quote=True)
     url = f'{SITE}/s/{x["slug"]}/'
@@ -165,11 +173,14 @@ def main():
     os.makedirs(os.path.join(ROOT, 'img', 'share'), exist_ok=True)
     keep_s, keep_i = set(), set()
     for x in L:
-        h = hashlib.sha1((x['title'] + '|' + str(x.get('topic')) + '|v2').encode()).hexdigest()[:8]
+        h = hashlib.sha1((x['title'] + '|' + str(x.get('topic')) + ('|' + x['img'] if x.get('img') else '') + '|v2').encode()).hexdigest()[:8]
         img = f'img/share/{x["slug"]}-{h}.jpg'
         keep_i.add(os.path.basename(img)); keep_s.add(x['slug'])
         if not os.path.exists(os.path.join(ROOT, img)):
-            card(x, os.path.join(ROOT, img))
+            if x.get('img'):
+                photo(os.path.join(ROOT, x['img'].lstrip('/')), os.path.join(ROOT, img))
+            else:
+                card(x, os.path.join(ROOT, img))
         d = os.path.join(ROOT, 's', x['slug']); os.makedirs(d, exist_ok=True)
         p = os.path.join(d, 'index.html'); new = page(x, img)
         if not os.path.exists(p) or open(p, encoding='utf-8').read() != new:
