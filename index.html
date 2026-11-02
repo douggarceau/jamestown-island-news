@@ -347,7 +347,7 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 <script>window.EP_COAST=true</script>
 <script>window.EP_MAST={img:'img/posters/story-jamestown.jpg'}</script>
 <script src="posters.js?v=34"></script>
-</head>
+<style>.new3-glow{display:inline-block;margin-left:7px;padding:3px 8px;border-radius:5px;background:#b50014;color:#fff;font-size:11px;font-weight:900;letter-spacing:.07em;vertical-align:middle;box-shadow:0 0 7px #f00,0 0 16px #f33;animation:new3pulse 1.8s ease-in-out infinite}@keyframes new3pulse{50%{box-shadow:0 0 13px #ff263c,0 0 26px #ff263c;background:#ed0924}}@media(prefers-reduced-motion:reduce){.new3-glow{animation:none}}</style></head>
 <body>
 <title>Jamestown Island News</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1257,7 +1257,7 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
   </header>
   <nav class="navbar" id="nav" aria-label="Sections">
     <button class="nb" data-go="front">Our Town</button>
-    <button class="nb" data-go="stories">Jamestown Stories</button>
+    <button class="nb" data-go="stories">Jamestown News <span class="new3-glow" aria-label="3 new stories">3 NEW</span></button>
     <button class="nb" data-go="bars">Island News</button>
     <button class="nb" data-go="crime"><img class="cwmark xs" src="img/prowler-mark.jpg" alt="">Crime Watch</button>
     <button class="nb pmnb" data-go="tech">Tech &amp; AI</button>
@@ -1785,7 +1785,7 @@ const FEATURES=new Set([]);
 
 function vStories(){
   const LS=STORIES.filter(s=>!FEATURES.has(s.slug)).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
-  return `<h2 class="room">Jamestown Stories</h2>
+  return `<h2 class="room">Jamestown News</h2>
   <div class="sgrid">${LS.map(storyCard).join('')}</div>`;
 }
 const PAY_LINK='';
