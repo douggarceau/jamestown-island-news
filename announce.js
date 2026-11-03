@@ -27,11 +27,13 @@ function arm(v){
       v.muted=false;const p=v.play();
       const back=()=>{v.muted=true;v.play().catch(()=>{})};
       if(p&&p.catch)p.catch(back);
-      setTimeout(()=>{if(v.paused)back()},700);
     }
   }catch(_){}
   sync();
 }
+/* a tap that opens a story counts as the go-ahead: start its video with sound inside that same tap */
+function loud(){document.querySelectorAll('.reader figure.hero video').forEach(v=>{if(v.__loud)return;v.__loud=1;{v.muted=false;const p=v.play();if(p&&p.catch)p.catch(()=>{v.muted=true;v.play().catch(()=>{})})}})}
+['click','touchend','keyup'].forEach(t=>document.addEventListener(t,()=>{setTimeout(loud,0);setTimeout(loud,120);setTimeout(loud,400)},true));
 const scan=()=>document.querySelectorAll('video.ann-vid,.reader figure.hero video').forEach(arm);
 new MutationObserver(()=>requestAnimationFrame(scan)).observe(document.documentElement,{childList:true,subtree:true});
 document.addEventListener('DOMContentLoaded',scan);
