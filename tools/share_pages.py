@@ -173,12 +173,14 @@ def main():
     os.makedirs(os.path.join(ROOT, 'img', 'share'), exist_ok=True)
     keep_s, keep_i = set(), set()
     for x in L:
-        h = hashlib.sha1((x['title'] + '|' + str(x.get('topic')) + ('|' + x['img'] if x.get('img') else '') + '|v2').encode()).hexdigest()[:8]
+        h = hashlib.sha1((x['title'] + '|' + str(x.get('topic')) + ('|' + x['img'] if x.get('img') else '|banner1') + '|v2').encode()).hexdigest()[:8]
         img = f'img/share/{x["slug"]}-{h}.jpg'
         keep_i.add(os.path.basename(img)); keep_s.add(x['slug'])
         if not os.path.exists(os.path.join(ROOT, img)):
             if x.get('img'):
                 photo(os.path.join(ROOT, x['img'].lstrip('/')), os.path.join(ROOT, img))
+            elif os.path.exists(os.path.join(ROOT, 'img', 'og-share-dec26.jpg')):
+                __import__('shutil').copyfile(os.path.join(ROOT, 'img', 'og-share-dec26.jpg'), os.path.join(ROOT, img))
             else:
                 card(x, os.path.join(ROOT, img))
         d = os.path.join(ROOT, 's', x['slug']); os.makedirs(d, exist_ok=True)
