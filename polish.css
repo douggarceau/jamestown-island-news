@@ -119,11 +119,11 @@ html body #coverSlot .cvr .cvbrk{position:relative!important;overflow:hidden!imp
 #whatsOn .wo-lb{display:inline-flex;align-items:center;gap:6px;font:700 11px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#f3dcc0}#whatsOn .wo-lb .wo-s{margin:0}
 #coverSlot .cvr>.pbx{display:none!important}
 #whatsOn .wo-z summary{opacity:.55}
-#nav>[data-go="cal"]{order:-1!important}
+
 .box.jtwk{display:none!important}
 #nav>[data-go="visit"]{order:0!important}#nav>[data-go="front"]{order:1!important}
 #nav>[data-go="cal"]{order:-3!important}#nav>[data-go="visit"]{order:-2!important}#nav>[data-go="stories"]{order:-1!important}#nav>[data-go="front"]{order:0!important}
-#whatsOn,#coverSlot,#view .front .stack>.box{display:none!important}
+
 #otAds{margin:18px 0}#otAds .room{margin:0 0 12px}
 .otg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
 .otc{perspective:1200px;height:300px}
