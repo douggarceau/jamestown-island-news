@@ -238,3 +238,5 @@ html body h2.room:not(.cwh)::after{width:min(420px,70%)!important;height:5px!imp
 html body .reader h1,html body .reader.styled h1,html body .ann-h{font-family:"Libre Caslon Display",Georgia,serif!important;font-weight:400!important;color:#f6e7c1!important;text-shadow:0 2px 0 #0006!important}
 
 #nav .elnb{color:#fff!important;background:#b5001a!important;border-color:#ff3a3a!important;animation:elBlink 1.4s ease-in-out infinite}@keyframes elBlink{0%,100%{background:#b5001a;box-shadow:0 0 10px #ff2020}50%{background:#5a0010;box-shadow:none}}@media(prefers-reduced-motion:reduce){#nav .elnb{animation:none}}#nav>.elnb{order:-6!important}
+
+#nav [data-go="crime"]{display:none!important}
