@@ -1,0 +1,231 @@
+{
+ "title": "Jamestown Holiday Guide",
+ "intro": "Our December suggestions on the island and just over the bridge, through New Year's Day.",
+ "through": "2027-01-01",
+ "asof": "2026-11-04",
+ "sections": [
+  {
+   "label": "The Big Day: Saturday, Dec. 5",
+   "items": [
+    {
+     "t": "Church at Four Corners Christmas Fair",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "9:00 AM",
+     "where": "Church at Four Corners",
+     "town": "Jamestown",
+     "url": "https://www.churchatfourcorners.net/calendar/",
+     "note": "Visit the church’s holiday fair from 9:00 AM to 2:00 PM."
+    },
+    {
+     "t": "Jamestown Village Holiday Stroll",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "9:00 AM",
+     "where": "Jamestown village",
+     "town": "Jamestown",
+     "url": "https://jamestownrichamber.com",
+     "note": "The Village Holiday Stroll brings business open houses and seasonal activities to Narragansett Avenue, with craft fairs at local churches and schools. Santa and Mrs."
+    },
+    {
+     "t": "Santa and Mrs. Claus Arrive by Boat",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "1:00 PM",
+     "where": "East Ferry wharf",
+     "town": "Jamestown",
+     "url": "https://www.jamestownrichamber.com/eventsjtn",
+     "note": "Welcome Santa and Mrs. Claus at the wharf before their fire-truck ride to the Conanicut Gift Shop."
+    },
+    {
+     "t": "Tree Lighting and Concert",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "5:30 PM",
+     "where": "Jamestown Recreation Center",
+     "town": "Jamestown",
+     "url": "https://troop1jamestown.org/calendar/",
+     "note": "Gather at the Recreation Center for the public tree lighting and concert following the luminary setup."
+    },
+    {
+     "t": "Very Merry Holiday Cruise with the Dickens Carolers",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "1:30 PM",
+     "where": "Coastal Queen — Jamestown departure",
+     "town": "Jamestown",
+     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
+     "note": "Board a 75-minute holiday cruise featuring the Dickens Carolers from Jamestown."
+    }
+   ]
+  },
+  {
+   "label": "Concerts and Music",
+   "items": [
+    {
+     "t": "A Contemporary Christmas",
+     "start": "2026-12-12",
+     "end": "2026-12-13",
+     "when": "Dec 12–13",
+     "time": "Sat. 4 PM, Sun. 3 PM",
+     "where": "Jamestown Recreation Center",
+     "town": "Jamestown",
+     "url": "https://jamestownchorus.com",
+     "note": "A Contemporary Christmas brings the Jamestown Community Chorus’s seasonal program to the Recreation Center."
+    },
+    {
+     "t": "The Renegades",
+     "start": "2026-12-20",
+     "end": "2026-12-20",
+     "when": "Sun, Dec 20",
+     "time": "4:00 PM",
+     "where": "Narragansett Café",
+     "town": "Jamestown",
+     "url": "https://narragansettcaferi.com/event/amber-rose-the-renegadesnarragansett-cafes-annual-christmas-party/",
+     "note": "The Renegades perform at the café’s annual Christmas party."
+    }
+   ]
+  },
+  {
+   "label": "Shopping and Markets",
+   "items": [
+    {
+     "t": "Holiday Arts Market",
+     "start": "2026-12-04",
+     "end": "2026-12-05",
+     "when": "Dec 4–5",
+     "time": "Several times",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://jamestownartcenter.org",
+     "note": "Locally made ceramics, jewelry, textiles, paintings and prints fill the Jamestown Arts Center’s Holiday Arts Market."
+    },
+    {
+     "t": "Beavertail Holiday Shopping and Open House",
+     "start": "2026-12-05",
+     "end": "2026-12-13",
+     "when": "Dec 5–13",
+     "time": "Noon–3 PM",
+     "where": "Beavertail Lighthouse Museum",
+     "town": "Jamestown",
+     "url": "https://www.beavertaillight.org/",
+     "note": "The museum’s holiday open house and shop, open noon to 3 PM on four listed days."
+    }
+   ]
+  },
+  {
+   "label": "Make Something",
+   "items": [
+    {
+     "t": "Stuffed Ornaments Workshop",
+     "start": "2026-12-01",
+     "end": "2026-12-01",
+     "when": "Tue, Dec 1",
+     "time": "3:00 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://www.jamestownartcenter.org/education-store/p/stuffed-ornaments-workshop",
+     "note": "Register to make stuffed ornaments in a two-hour workshop."
+    },
+    {
+     "t": "Ceramic Ornament Decorating",
+     "start": "2026-12-07",
+     "end": "2026-12-07",
+     "when": "Mon, Dec 7",
+     "time": "6–9 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://jamestownartcenter.org/",
+     "note": "Drop in and decorate a ceramic ornament."
+    },
+    {
+     "t": "Holiday Sides Cooking Class",
+     "start": "2026-12-14",
+     "end": "2026-12-19",
+     "when": "Dec 14–19",
+     "time": "",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://jamestownartcenter.org/",
+     "note": "A holiday cooking class at the Arts Center, with two sessions listed."
+    }
+   ]
+  },
+  {
+   "label": "Just Over the Bridge in Newport",
+   "items": [
+    {
+     "t": "The Newport Nutcracker at Rosecliff",
+     "start": "2026-12-01",
+     "end": "2026-12-04",
+     "when": "Through Dec 4",
+     "time": "",
+     "where": "Rosecliff",
+     "town": "Newport",
+     "url": "https://newportcontemporaryballet.org/performance/newport-nutcracker-at-rosecliff-2/",
+     "note": "An immersive Nutcracker moves through Rosecliff’s rooms."
+    },
+    {
+     "t": "Bowen's Wharf Christmas Tree Lighting",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "12:30 PM",
+     "where": "Bowen's Wharf",
+     "town": "Newport",
+     "url": "https://bowenswharf.com/events/annual-tree-lighting/",
+     "note": "Santa visits and musical performances lead to the 6:00 PM tree lighting."
+    },
+    {
+     "t": "Christmas with Cantus",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "1 PM and 3:30 PM",
+     "where": "Newport",
+     "town": "Newport",
+     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
+     "note": "Holiday concert from Newport Classical's December series; the vocal program is listed at 1 and 3:30 p.m. Check the ticket page for the venue."
+    },
+    {
+     "t": "Christmas at Whitehall",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1–3 PM",
+     "where": "Whitehall Museum",
+     "town": "Middletown",
+     "url": "Not published / not captured",
+     "note": "Listed for 1 to 3 PM, with donations welcome. Confirm before you go."
+    },
+    {
+     "t": "Messiah at the Mansion",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1 PM",
+     "where": "Newport",
+     "town": "Newport",
+     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
+     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+    },
+    {
+     "t": "Classical Christmas with Frisson",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "when": "Sat, Dec 12",
+     "time": "1 PM and 3:30 PM",
+     "where": "Newport",
+     "town": "Newport",
+     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
+     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+    }
+   ]
+  }
+ ]
+}
