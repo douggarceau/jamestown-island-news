@@ -208,7 +208,7 @@
      "time": "5:00 PM",
      "where": "Newport Harbor Island Resort",
      "town": "Newport",
-     "url": "",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
      "note": "The Goat Island lighthouse lights up for the season, with carolers, hot chocolate for the children and cider.",
      "addr": "1 Goat Island, Newport"
     },
@@ -658,10 +658,12 @@
      "end": "2027-01-03",
      "when": "Dec 4–Jan 3",
      "time": "",
-     "where": "South Kingstown",
-     "town": "South Kingstown",
-     "url": "",
-     "note": "Decorated trees, children’s activities, caroling, music, cocoa and handmade local gifts."
+     "where": "Kinney Azalea Gardens",
+     "town": "Kingston",
+     "url": "https://patch.com/rhode-island/kingston-ri/calendar/event/20260111/a7d7a9ac-1a91-45a1-be7e-5fe7b6d6ceac/kinney-azalea-garden-festival-of-trees-1-9-1-11",
+     "note": "The garden trails become a winter wonderland of decorated trees, with children’s activities, caroling, music, cocoa and handmade local gifts.",
+     "addr": "2391 Kingstown Road, Kingston (South Kingstown)",
+     "more": "Last season it was open 10 a.m. to 3 p.m. on most Fridays, Saturdays and Sundays, and children’s tickets were $8. Check the garden for this year’s days."
     },
     {
      "t": "Bristol’s Grand Illumination",
