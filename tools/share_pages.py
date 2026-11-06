@@ -17,10 +17,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(ROOT, 'tools', 'fonts')
 LABEL = {'crime': 'Crime Watch', 'streets': 'Island News', 'politics': 'Town Hall', 'housing': 'Island Homes',
          'culture': 'Arts & Culture', 'music': 'Island Music', 'food': 'Food & Drink', 'people': 'Island People',
-         'cover': 'Jamestown Stories'}
+         'cover': 'Jamestown Articles'}
 MASTHEAD = os.path.join(ROOT, 'img', 'jamestown-masthead.png')
 NAME = 'Jamestown Island News'
-DEFLABEL = 'Jamestown Stories'
+DEFLABEL = 'Jamestown Articles'
 NAVY, GOLD, CREAM = (10, 26, 51), (232, 184, 24), (248, 244, 234)
 
 
