@@ -812,8 +812,73 @@
    ]
   },
   {
-   "label": "New Year's",
+   "label": "New Year’s Eve and New Year’s Day",
    "items": [
+    {
+     "t": "Charlestown New Year’s Eve Bonfire",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "4:30–7 PM",
+     "where": "Ninigret Park",
+     "town": "Charlestown",
+     "url": "https://charlestowncitizens.org/2025/12/28/ring-in-new-year-with-bonfire",
+     "note": "The town’s free bonfire, a tradition since 2005: a giant stack of pallets is lit at dusk and families gather around it.",
+     "addr": "5 Park Lane, Charlestown",
+     "price": "No charge"
+    },
+    {
+     "t": "Providence New Year’s Eve Celebration and Illuminate PVD Fireworks",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "5–9 PM",
+     "where": "195 District Park and the Van Leesten Pedestrian Bridge",
+     "town": "Providence",
+     "url": "https://providencetourismcouncil.org/nye",
+     "note": "The city’s free all-ages New Year’s Eve: WaterFire lights the braziers around the bridge at 5:30, SambaViva takes the mainstage at 7, a parade leads into the countdown at 8, and fireworks go up over the Providence River at 8:30.",
+     "addr": "195 District Park, 120 Peck St., Providence",
+     "price": "No charge",
+     "more": "Also a DJ and pop-up dancers, roaming performers, food trucks from 5, an after-dark glowing playground with face painting and balloon twisting, a 360 photo booth, an enchanted forest with wishing trees and inflatable sculptures."
+    },
+    {
+     "t": "Holiday Lights Spectacular on New Year’s Eve",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "5–9:30 PM",
+     "where": "Roger Williams Park Zoo",
+     "town": "Providence",
+     "url": "https://www.rwpzoo.org/event/holiday-lights-spectacular/",
+     "note": "More than 3.5 million lights across 40 acres of the zoo.",
+     "more": "Buy tickets online in advance."
+    },
+    {
+     "t": "The Chanler: ‘The Scarlet House’",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "7 PM–1 AM",
+     "where": "The Chanler at Cliff Walk",
+     "town": "Newport",
+     "url": "https://www.thechanler.com/",
+     "note": "A crimson-themed evening: reception, live modern violin, four-course dinner, DJ and dancing, late-night bites and a midnight toast.",
+     "addr": "117 Memorial Blvd., Newport",
+     "price": "$385 plus service charge and tax"
+    },
+    {
+     "t": "Newport Harbor Island Resort New Year’s Eve",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "8:30 PM–1 AM",
+     "where": "Newport Harbor Island Resort",
+     "town": "Newport",
+     "url": "https://www.newportharborisland.com/",
+     "note": "The Goat Island resort’s New Year’s Eve celebration.",
+     "addr": "1 Goat Island, Newport",
+     "more": "Entertainment and menu not yet posted."
+    },
     {
      "t": "New Year’s Day Polar Plunge",
      "start": "2027-01-01",
