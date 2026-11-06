@@ -2815,5 +2815,15 @@ new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,
 <script id="newCount">(function(){const b=document.querySelector('.new3-glow');if(!b||typeof STORIES==='undefined')return;const d=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'}),n=STORIES.filter(x=>x.date===d).length;if(n){b.textContent=n+' NEW';b.setAttribute('aria-label',n+' new '+(n===1?'story':'stories'));b.hidden=false}})()</script>
 <style id="storyTableCss">@media (max-width:699px){#view .reader .stbl-s{overflow-x:visible}#view .reader .stbl table{width:100%!important;min-width:0!important;table-layout:auto}#view .reader .stbl th,#view .reader .stbl td{white-space:normal!important;overflow-wrap:normal;word-break:normal;hyphens:none;padding-left:7px!important;padding-right:7px!important}#view .reader .stbl th{letter-spacing:.04em!important}}</style>
 <script src="holiday.js?v=20261106c"></script>
+<style id="bulbNav">/* menu: Christmas bulb colors (red, green, gold, blue, pink) */
+html body #nav>.nb[data-bulb="1"]{--bulb:#ff2a2a;--bulbd:#3a0808}
+html body #nav>.nb[data-bulb="2"]{--bulb:#2fd158;--bulbd:#072a12}
+html body #nav>.nb[data-bulb="3"]{--bulb:#ffc61a;--bulbd:#382a04}
+html body #nav>.nb[data-bulb="4"]{--bulb:#3d8bff;--bulbd:#08183a}
+html body #nav>.nb[data-bulb="5"]{--bulb:#ff4fb8;--bulbd:#3a0824}
+html body #nav .nb{background:linear-gradient(180deg,var(--bulbd),#0b0a0a)!important;color:#fff4e6!important;border:1px solid var(--bulb)!important;box-shadow:0 0 10px color-mix(in srgb,var(--bulb) 55%,transparent),inset 0 0 8px color-mix(in srgb,var(--bulb) 22%,transparent)!important;text-shadow:0 0 8px color-mix(in srgb,var(--bulb) 80%,transparent)!important}
+html body #nav .nb:hover{box-shadow:0 0 18px var(--bulb),inset 0 0 10px color-mix(in srgb,var(--bulb) 35%,transparent)!important}
+html body #nav .nb[aria-current]{background:radial-gradient(ellipse at 50% 30%,#fff8 0,transparent 55%),var(--bulb)!important;color:#140600!important;text-shadow:none!important;border-color:#fff!important;box-shadow:0 0 24px var(--bulb),0 0 6px #fff inset!important}
+</style><script>(()=>{const B=()=>{const n=[...document.querySelectorAll("#nav>.nb")].filter(e=>e.offsetParent);n.sort((a,b)=>(a.offsetTop-b.offsetTop)||(a.offsetLeft-b.offsetLeft));n.forEach((e,i)=>e.dataset.bulb=String(i%5+1))};addEventListener("load",B);addEventListener("resize",B);setTimeout(B,1500);setTimeout(B,4000)})();</script>
 </body>
 </html>
