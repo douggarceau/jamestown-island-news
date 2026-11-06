@@ -170,7 +170,7 @@
      "where": "Rough Point",
      "town": "Newport",
      "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
-     "note": "Doris Duke’s oceanfront house, decorated for the season and open after dark.",
+     "note": "Doris Duke’s oceanfront house decorated for the season and open after dark, with warm drinks and jazz.",
      "addr": "680 Bellevue Ave., Newport",
      "price": "$35; $15 Newport County residents"
     },
@@ -315,6 +315,20 @@
    "label": "Make Something",
    "items": [
     {
+     "t": "Menorah Makers",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "when": "Sun, Nov 29",
+     "time": "2–3:30 PM",
+     "where": "Harbor Creative Arts",
+     "town": "North Kingstown",
+     "url": "https://www.jewishallianceri.org/",
+     "note": "Families make their own hanukkiah, with PJ Library and Harbor Creative Arts.",
+     "addr": "7592 Post Road, North Kingstown",
+     "price": "$18 per family, kit included; extra kits $18",
+     "more": "Register by Nov 22."
+    },
+    {
      "t": "Stuffed Ornaments Workshop",
      "start": "2026-12-01",
      "end": "2026-12-01",
@@ -327,6 +341,19 @@
      "addr": "18 Valley St., Jamestown",
      "price": "$40",
      "more": "Ages 13 and up; younger children with a parent. Registration required."
+    },
+    {
+     "t": "Wreath Decorating Workshop at Mount Hope Farm",
+     "start": "2026-12-03",
+     "end": "2026-12-04",
+     "when": "Thu, Dec 3 and Fri, Dec 4",
+     "time": "6–8 PM",
+     "where": "Mount Hope Farm barn",
+     "town": "Bristol",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "An evening wreath-decorating workshop in the farm’s barn.",
+     "addr": "250 Metacom Ave., Bristol",
+     "more": "Confirm price and registration with the farm."
     },
     {
      "t": "Holiday Wreath-Making Workshop",
@@ -400,6 +427,31 @@
      "more": "Play and dinner packages available; check the Playhouse for times."
     },
     {
+     "t": "Lili Bunny’s Quest book signing",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "when": "Sat, Nov 21",
+     "time": "10 AM–Noon",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Author Lisa Goddard signs her children’s holiday book.",
+     "addr": "Washington Square, Newport"
+    },
+    {
+     "t": "A Moment with Santa",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "when": "Sun, Nov 22",
+     "time": "",
+     "where": "Artistry Beauty Collective",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A visit with Santa, co-hosted with Lorelei’s for Littles.",
+     "addr": "32 Franklin St., Newport",
+     "more": "Time not listed; check before you go."
+    },
+    {
      "t": "Christmas in Newport begins",
      "start": "2026-12-01",
      "end": "2026-12-31",
@@ -468,7 +520,7 @@
      "where": "Rosecliff",
      "town": "Newport",
      "url": "https://newportclassical.org/",
-     "note": "Handel’s Messiah in the Rosecliff ballroom, presented by Newport Classical.",
+     "note": "Handel’s Messiah in the Rosecliff ballroom, sung by Ensemble Altera and the Professional Choristers of the Choir School of Newport County.",
      "addr": "548 Bellevue Ave., Newport",
      "price": "$60–$75"
     },
@@ -530,8 +582,10 @@
      "where": "Colony House",
      "town": "Newport",
      "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
-     "note": "Photos with Santa and readings of the classic poem.",
-     "addr": "Washington Square, Newport"
+     "note": "Photos with Santa, with readings of the poem at noon, 12:30 and 1, plus a Spanish-language reading at 1:30.",
+     "addr": "Washington Square, Newport",
+     "price": "No charge",
+     "more": "RSVP recommended."
     },
     {
      "t": "Christmas Open House, Museum of Newport Irish History",
@@ -614,6 +668,19 @@
      "addr": "Dowling Theater, 201 Washington St., Providence"
     },
     {
+     "t": "Christmas Preparations with the 1910 Household Staff",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "when": "Sun, Nov 22",
+     "time": "5–6:30 PM or 6:30–8 PM",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Costumed household staff show how the manor got ready for a 1910 Christmas, then you tour the decorated house on your own.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Two timed sessions; check Blithewold for tickets."
+    },
+    {
      "t": "Christmas at Blithewold",
      "start": "2026-11-24",
      "end": "2027-01-03",
@@ -638,6 +705,32 @@
      "note": "Cirque du Soleil’s holiday family show: acrobatics, dance, characters and Christmas music.",
      "addr": "220 Weybosset St., Providence",
      "more": "Weekend shows at 1, 4 and 7:30 on Saturdays; PPAC has a family-ticket offer."
+    },
+    {
+     "t": "Holiday Jazz Tea with Chelley Knight’s Quartet",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "11 AM–1 PM",
+     "where": "Blithewold Manor dining room",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Live jazz with afternoon tea in the manor dining room.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Rain date Nov 29."
+    },
+    {
+     "t": "Blithewold Wreath-Making Workshop",
+     "start": "2026-12-03",
+     "end": "2026-12-04",
+     "when": "Thu, Dec 3 and Fri, Dec 4",
+     "time": "10 AM–Noon",
+     "where": "Blithewold Education Space",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Make a holiday wreath with Blithewold’s horticulture team.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Check Blithewold for supplies and price."
     },
     {
      "t": "Wickford Festival of Lights",
@@ -676,6 +769,20 @@
      "url": "https://www.bristolri.gov/m/calendar/event/detail/938",
      "note": "Bristol lights its town tree at Hope and Court streets, with local school performers.",
      "more": "Rain date Dec 6."
+    },
+    {
+     "t": "Music in the Living Room at Blithewold",
+     "start": "2026-12-12",
+     "end": "2026-12-13",
+     "when": "Sat, Dec 12 and Sun, Dec 13",
+     "time": "1–2 PM",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Holiday music in the decorated manor: mezzo-soprano Nancy Hood on Dec 12 and jazz pianist Laszlo Gardony on Dec 13.",
+     "addr": "101 Ferry Road, Bristol",
+     "price": "Ticket includes manor and grounds admission",
+     "more": "Registration required to reserve a seat."
     },
     {
      "t": "Boston Pops Holiday Concert with Keith Lockhart",
