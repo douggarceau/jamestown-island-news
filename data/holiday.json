@@ -1,33 +1,77 @@
 {
  "title": "Jamestown Holiday Guide",
- "intro": "Our December suggestions on the island and just over the bridge, through New Year's Day.",
- "through": "2027-01-01",
- "asof": "2026-11-04",
+ "intro": "Everything for the holidays on the island and just over the bridges, from Thanksgiving week through New Year’s Day: times, addresses, prices and what to expect.",
+ "through": "2027-01-03",
+ "asof": "2026-11-06",
  "sections": [
   {
-   "label": "The Big Day: Saturday, Dec. 5",
+   "label": "Saturday, Dec. 5: The Island's Big Holiday Day",
    "items": [
     {
-     "t": "Church at Four Corners Christmas Fair",
+     "t": "Central Baptist Church Christmas Fair",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "9 AM–2 PM",
+     "where": "Church at Four Corners (Central Baptist Church)",
+     "town": "Jamestown",
+     "url": "https://www.churchatfourcorners.net/calendar/",
+     "note": "The church’s yearly fair at the Four Corners opens the day. In past years it has offered gift baskets, fresh evergreen wreaths, baked goods, a Re-gift Table and handmade gifts from more than a dozen Rhode Island crafters.",
+     "addr": "99 Narragansett Ave., Jamestown",
+     "more": "Last year’s lunch menu was soup, chili and hot dogs. The church calendar lists 9 to 2 this year; last year’s fair closed at 1, so come early for the wreaths."
+    },
+    {
+     "t": "Friends of the Library Winter Book Sale",
      "start": "2026-12-05",
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
      "time": "9:00 AM",
-     "where": "Church at Four Corners",
+     "where": "Jamestown Philomenian Library",
      "town": "Jamestown",
-     "url": "https://www.churchatfourcorners.net/calendar/",
-     "note": "Visit the church’s holiday fair from 9:00 AM to 2:00 PM."
+     "url": "https://jplri.libcal.com/event/17519186",
+     "note": "The Friends of the library hold their seasonal book sale on Stroll day, a good stop for stocking-stuffer books.",
+     "addr": "26 North Road, Jamestown"
     },
     {
      "t": "Jamestown Village Holiday Stroll",
      "start": "2026-12-05",
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
-     "time": "9:00 AM",
-     "where": "Jamestown village",
+     "time": "9 AM–5 PM",
+     "where": "Narragansett Avenue and the village",
      "town": "Jamestown",
-     "url": "https://jamestownrichamber.com",
-     "note": "The Village Holiday Stroll brings business open houses and seasonal activities to Narragansett Avenue, with craft fairs at local churches and schools."
+     "url": "https://www.jamestownrichamber.com/eventsjtn",
+     "note": "The Chamber of Commerce’s Stroll fills the village with business open houses, holiday sales and treats, window displays, and craft fairs at local churches and schools.",
+     "addr": "Narragansett Ave., Jamestown",
+     "price": "No charge to stroll",
+     "more": "Shops and fairs keep their own hours. Chamber: 401-423-3650."
+    },
+    {
+     "t": "Holiday Arts Market",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "10 AM–4 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
+     "note": "A juried market of one-of-a-kind work by local artists and artisans: ceramics, jewelry, textiles, paintings, prints and more.",
+     "addr": "18 Valley St., Jamestown",
+     "price": "No admission charge",
+     "more": "Bring a canned good or shelf-stable food for the Martin Luther King Jr. Community Center in Newport; bins are in the lobby. The building is wheelchair accessible."
+    },
+    {
+     "t": "Beavertail Lighthouse Holiday Open House",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "Noon–3 PM",
+     "where": "Beavertail Lighthouse Museum",
+     "town": "Jamestown",
+     "url": "https://www.beavertaillight.org/",
+     "note": "The lighthouse museum and gift shop reopen for holiday shopping: lighthouse ornaments, mugs and books.",
+     "addr": "Beavertail State Park, Beavertail Road, Jamestown",
+     "more": "Also open Dec 6, 12 and 13. Museum phone: 401-423-3270."
     },
     {
      "t": "Santa and Mrs. Claus Arrive by Boat",
@@ -35,10 +79,27 @@
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
      "time": "1:00 PM",
-     "where": "East Ferry wharf",
+     "where": "East Ferry Wharf",
      "town": "Jamestown",
-     "url": "https://www.jamestownrichamber.com/eventsjtn",
-     "note": "Welcome Santa and Mrs. Claus at the wharf before their fire-truck ride to the Conanicut Gift Shop."
+     "url": "https://www.jamestownrichamber.com/eventsjtn/santa-mrs-claus-arrive-in-jamestown-zmdcl",
+     "note": "The Coastal Queen docks at East Ferry at 1 p.m. sharp. Santa and Mrs. Claus then ride a fire truck up to the Conanicut Gift Shop for visits and photos from 1 to 2 p.m.",
+     "addr": "1 East Ferry Wharf; photos at Conanicut Gift Shop, 20 Narragansett Ave.",
+     "price": "No charge",
+     "more": "Get to the wharf a little before 1 to see the boat come in."
+    },
+    {
+     "t": "Holiday Cruise with the Very Merry Dickens Carolers",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "1:30 PM",
+     "where": "Coastal Queen, Jamestown departure",
+     "town": "Jamestown",
+     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
+     "note": "Right after Santa docks, the Coastal Queen heads back out for a 75-minute cruise with the Dickens Carolers singing traditional carols. The center bar serves holiday drinks, beer, wine and soft drinks.",
+     "addr": "1 East Ferry Wharf, Jamestown",
+     "price": "Newport sailings: $44 adults, $39 seniors and military, $34 children",
+     "more": "Book with Coastal Queen Cruises: 401-423-9900."
     },
     {
      "t": "Tree Lighting and Concert",
@@ -49,37 +110,168 @@
      "where": "East Ferry Wharf",
      "town": "Jamestown",
      "url": "https://www.jamestownrichamber.com/eventsjtn",
-     "note": "The town tree lighting at East Ferry Wharf, with Scout luminaries along the seawall."
-    },
-    {
-     "t": "Very Merry Holiday Cruise with the Dickens Carolers",
-     "start": "2026-12-05",
-     "end": "2026-12-05",
-     "when": "Sat, Dec 5",
-     "time": "1:30 PM",
-     "where": "Coastal Queen — Jamestown departure",
-     "town": "Jamestown",
-     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
-     "note": "Board a 75-minute holiday cruise featuring the Dickens Carolers from Jamestown."
+     "note": "The town tree lights up at East Ferry, with live music and Boy Scout Troop 1 luminaries along the seawall and Narragansett Avenue.",
+     "addr": "East Ferry Wharf, Conanicus Ave., Jamestown",
+     "price": "No charge",
+     "more": "It is right on the water, so dress warmly."
     }
    ]
   },
   {
-   "label": "Concerts and Music",
+   "label": "Thanksgiving Week Kickoff",
    "items": [
     {
-     "t": "A Contemporary Christmas",
+     "t": "Sparkling Lights at The Breakers",
+     "start": "2026-11-21",
+     "end": "2026-12-27",
+     "when": "Select nights, Nov 21–Dec 27",
+     "time": "Entry 4–6 PM",
+     "where": "The Breakers",
+     "town": "Newport",
+     "url": "https://www.newportmansions.org/events/sparkling-lights-at-the-breakers-2026/",
+     "note": "A half-mile path of holiday lights around The Breakers grounds, with music, plus a look inside the decorated mansion on the same ticket.",
+     "addr": "44 Ochre Point Ave., Newport",
+     "price": "Special timed ticket; check newportmansions.org",
+     "more": "Nights: Nov 21, 22, 27, 28, 29; Dec 3–6, 10–13, 18, 20–23, 26, 27. Timed entry at 4, 4:30, 5, 5:30 and 6; grounds close at 8. Tickets are for a set date and time and are not refundable."
+    },
+    {
+     "t": "Holidays at the Newport Mansions open",
+     "start": "2026-11-21",
+     "end": "2027-01-03",
+     "when": "Nov 21–Jan 3",
+     "time": "Daytime",
+     "where": "The Breakers, Marble House, Chateau-sur-Mer",
+     "town": "Newport",
+     "url": "https://wbsm.com/newport-mansions-christmas-events-guide/",
+     "note": "Three mansions dressed for Christmas, including the famous poinsettia tree at The Breakers. The Breakers and Marble House are open daily; Chateau-sur-Mer weekends only.",
+     "addr": "The Breakers, 44 Ochre Point Ave.; Marble House, 596 Bellevue Ave.; Chateau-sur-Mer, 474 Bellevue Ave.",
+     "more": "In past years the mansions closed on Thanksgiving and Christmas Day and at 2 p.m. on Christmas Eve."
+    },
+    {
+     "t": "The Newport Nutcracker at Rosecliff",
+     "start": "2026-11-25",
+     "end": "2026-12-04",
+     "when": "Nov 25–Dec 4",
+     "time": "Several times",
+     "where": "Rosecliff",
+     "town": "Newport",
+     "url": "https://newportcontemporaryballet.org/performance/newport-nutcracker-at-rosecliff-2/",
+     "note": "Newport Contemporary Ballet’s Nutcracker moves through Rosecliff’s rooms, with the audience following the story; the second act is in the Grand Ballroom with reserved seats.",
+     "addr": "548 Bellevue Ave., Newport",
+     "price": "$159–$249",
+     "more": "Performances Nov 25, 27, 28, 29 and Dec 1–4. Small audiences; it usually sells out."
+    },
+    {
+     "t": "A Rough Point Holiday: After Dark",
+     "start": "2026-11-27",
+     "end": "2026-12-26",
+     "when": "Fridays and Saturdays, Nov 27–Dec 26",
+     "time": "4–5:30 PM",
+     "where": "Rough Point",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Doris Duke’s oceanfront house, decorated for the season and open after dark.",
+     "addr": "680 Bellevue Ave., Newport",
+     "price": "$35; $15 Newport County residents"
+    },
+    {
+     "t": "Newport Illuminated Boat Parade",
+     "start": "2026-11-27",
+     "end": "2026-11-27",
+     "when": "Fri, Nov 27",
+     "time": "Evening",
+     "where": "Newport Harbor",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Lit-up boats circle Newport Harbor the night after Thanksgiving, competing for best sailboat, powerboat and fishing boat.",
+     "price": "No charge",
+     "more": "Good viewing from Perrotti Park, Bowen’s Wharf and Bannister’s Wharf. It has started at 6 p.m. in past years; check the time before you go."
+    },
+    {
+     "t": "Shops of Long Wharf Tree Lighting",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "4–6 PM",
+     "where": "Shops of Long Wharf",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Santa Magic and a tree lighting at the Long Wharf shops.",
+     "more": "Rain date Sunday, Nov 29."
+    },
+    {
+     "t": "Candy Cane Express Cruise with Mrs. Claus",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "when": "Sun, Nov 29",
+     "time": "11 AM and 1 PM",
+     "where": "Coastal Queen, Jamestown departure",
+     "town": "Jamestown",
+     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
+     "note": "One-hour family sailings from Jamestown with Mrs. Claus aboard for the little ones.",
+     "addr": "1 East Ferry Wharf, Jamestown",
+     "more": "Book with Coastal Queen Cruises: 401-423-9900."
+    },
+    {
+     "t": "Brunch with Santa",
+     "start": "2026-11-29",
+     "end": "2026-12-13",
+     "when": "Sun, Nov 29 and Sun, Dec 13",
+     "time": "Noon–2 PM",
+     "where": "Newport Harbor Island Resort",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A holiday brunch with Santa on Goat Island.",
+     "addr": "1 Goat Island, Newport",
+     "price": "$45 adults; $19 children under 12"
+    }
+   ]
+  },
+  {
+   "label": "On the Island: Concerts, Parties and Shopping",
+   "items": [
+    {
+     "t": "Holiday Arts Market Pre-Party and Early Shopping",
+     "start": "2026-12-04",
+     "end": "2026-12-04",
+     "when": "Fri, Dec 4",
+     "time": "5:30–7:30 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
+     "note": "First pick of the market the night before the Stroll.",
+     "addr": "18 Valley St., Jamestown",
+     "price": "No admission charge"
+    },
+    {
+     "t": "Beavertail Holiday Shopping Days",
+     "start": "2026-12-06",
+     "end": "2026-12-13",
+     "when": "Dec 6, 12 and 13",
+     "time": "Noon–3 PM",
+     "where": "Beavertail Lighthouse Museum",
+     "town": "Jamestown",
+     "url": "https://www.beavertaillight.org/",
+     "note": "More afternoons to shop the lighthouse gift shop, closed since fall.",
+     "addr": "Beavertail State Park, Jamestown",
+     "more": "Ask about the Beavertail charity license plate: $43.50 a set, $20 of it to the lighthouse."
+    },
+    {
+     "t": "A Contemporary Christmas: Jamestown Community Chorus",
      "start": "2026-12-12",
      "end": "2026-12-13",
      "when": "Dec 12–13",
-     "time": "Sat. 4 PM, Sun. 3 PM",
+     "time": "Sat 4 PM; Sun 3 PM",
      "where": "Jamestown Recreation Center",
      "town": "Jamestown",
      "url": "https://jamestownchorus.com",
-     "note": "A Contemporary Christmas brings the Jamestown Community Chorus’s seasonal program to the Recreation Center."
+     "note": "The island’s chorus, founded in 1949, sings a holiday program of mostly 21st-century music with a few folk tunes.",
+     "addr": "41 Conanicus Ave., Jamestown",
+     "price": "Ticket details at jamestownchorus.com",
+     "more": "Chorus contact: 401-787-4487."
     },
     {
-     "t": "The Renegades",
+     "t": "Narragansett Café Annual Christmas Party with The Renegades",
      "start": "2026-12-20",
      "end": "2026-12-20",
      "when": "Sun, Dec 20",
@@ -87,34 +279,22 @@
      "where": "Narragansett Café",
      "town": "Jamestown",
      "url": "https://narragansettcaferi.com/event/amber-rose-the-renegadesnarragansett-cafes-annual-christmas-party/",
-     "note": "The Renegades perform at the café’s annual Christmas party."
-    }
-   ]
-  },
-  {
-   "label": "Shopping and Markets",
-   "items": [
-    {
-     "t": "Holiday Arts Market",
-     "start": "2026-12-04",
-     "end": "2026-12-05",
-     "when": "Dec 4–5",
-     "time": "Several times",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "https://jamestownartcenter.org",
-     "note": "Locally made ceramics, jewelry, textiles, paintings and prints fill the Jamestown Arts Center’s Holiday Arts Market."
+     "note": "The Ganny’s yearly Christmas party, with Amber Rose and The Renegades.",
+     "addr": "25 Narragansett Ave., Jamestown",
+     "more": "Café: 401-423-2150."
     },
     {
-     "t": "Beavertail Holiday Shopping and Open House",
-     "start": "2026-12-05",
-     "end": "2026-12-13",
-     "when": "Dec 5–13",
-     "time": "Noon–3 PM",
-     "where": "Beavertail Lighthouse Museum",
+     "t": "Christmas Eve at the Island Churches",
+     "start": "2026-12-24",
+     "end": "2026-12-24",
+     "when": "Thu, Dec 24",
+     "time": "Times posted in December",
+     "where": "Jamestown churches",
      "town": "Jamestown",
-     "url": "https://www.beavertaillight.org/",
-     "note": "The museum’s holiday open house and shop, open noon to 3 PM on four listed days."
+     "url": "https://www.stmatthewsjamestown.org/parish-calendar.html",
+     "note": "St. Matthew’s Episcopal, Central Baptist and St. Mark Catholic all hold Christmas services; each posts its Christmas Eve and Christmas Day times in December.",
+     "addr": "St. Matthew’s, 87 Narragansett Ave.; Central Baptist, 99 Narragansett Ave.; St. Mark, 60 Narragansett Ave.",
+     "more": "We will add the times here as the churches post them."
     }
    ]
   },
@@ -126,60 +306,132 @@
      "start": "2026-12-01",
      "end": "2026-12-01",
      "when": "Tue, Dec 1",
-     "time": "3:00 PM",
+     "time": "3–5 PM",
      "where": "Jamestown Arts Center",
      "town": "Jamestown",
      "url": "https://www.jamestownartcenter.org/education-store/p/stuffed-ornaments-workshop",
-     "note": "Register to make stuffed ornaments in a two-hour workshop."
+     "note": "A two-hour workshop with Petra Napolitano to sew your own stuffed ornaments.",
+     "addr": "18 Valley St., Jamestown",
+     "price": "$40",
+     "more": "Ages 13 and up; younger children with a parent. Registration required."
+    },
+    {
+     "t": "Holiday Wreath-Making Workshop",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "10 AM–Noon",
+     "where": "The Breakers Greenhouse",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Make a fresh wreath with the Preservation Society’s greenhouse staff.",
+     "addr": "53 Coggeshall Ave., Newport",
+     "price": "$40 members; $50 non-members"
     },
     {
      "t": "Ceramic Ornament Decorating",
      "start": "2026-12-07",
      "end": "2026-12-07",
      "when": "Mon, Dec 7",
-     "time": "6–9 PM",
+     "time": "6–9 PM, drop in",
      "where": "Jamestown Arts Center",
      "town": "Jamestown",
      "url": "https://jamestownartcenter.org/",
-     "note": "Drop in and decorate a ceramic ornament."
+     "note": "Drop in and paint a ceramic ornament to take home.",
+     "addr": "18 Valley St., Jamestown",
+     "price": "$15",
+     "more": "All ages; under 12 with a parent."
     },
     {
      "t": "Holiday Sides Cooking Class",
      "start": "2026-12-14",
      "end": "2026-12-19",
-     "when": "Dec 14–19",
-     "time": "",
+     "when": "Mon, Dec 14 and Sat, Dec 19",
+     "time": "3 PM and 4 PM",
      "where": "Jamestown Arts Center",
      "town": "Jamestown",
      "url": "https://jamestownartcenter.org/",
-     "note": "A holiday cooking class at the Arts Center, with two sessions listed."
+     "note": "Learn a few side dishes for the holiday table.",
+     "addr": "18 Valley St., Jamestown",
+     "price": "$60; $48 members"
+    },
+    {
+     "t": "Cookie Decorating and Spanish Fun with Solé",
+     "start": "2026-12-21",
+     "end": "2026-12-21",
+     "when": "Mon, Dec 21",
+     "time": "3:15 PM",
+     "where": "Jamestown Philomenian Library",
+     "town": "Jamestown",
+     "url": "https://jplri.libcal.com/event/17303038",
+     "note": "Kids practice beginner Spanish while decorating two cookies to take home.",
+     "addr": "26 North Road, Jamestown",
+     "price": "No charge",
+     "more": "Kindergarten through grade 4. Registration required."
     }
    ]
   },
   {
-   "label": "Just Over the Bridge in Newport",
+   "label": "Over the Bridge in Newport and Middletown",
    "items": [
     {
-     "t": "The Newport Nutcracker at Rosecliff",
-     "start": "2026-12-01",
-     "end": "2026-12-04",
-     "when": "Through Dec 4",
-     "time": "",
-     "where": "Rosecliff",
+     "t": "On the Farce Day of Christmas",
+     "start": "2026-11-15",
+     "end": "2026-12-31",
+     "when": "Through Dec 31",
+     "time": "Several times",
+     "where": "Newport Playhouse and Cabaret Restaurant",
      "town": "Newport",
-     "url": "https://newportcontemporaryballet.org/performance/newport-nutcracker-at-rosecliff-2/",
-     "note": "An immersive Nutcracker moves through Rosecliff’s rooms."
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Ken Levine’s holiday comedy: a divorced daughter pays her ex to play husband at her parents’ house in Utah for Christmas.",
+     "more": "Play and dinner packages available; check the Playhouse for times."
     },
     {
-     "t": "Bowen's Wharf Christmas Tree Lighting",
+     "t": "Christmas in Newport begins",
+     "start": "2026-12-01",
+     "end": "2026-12-31",
+     "when": "Dec 1–31",
+     "time": "All month",
+     "where": "Around Newport",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Newport’s month-long Christmas celebration, running every December since 1971, with events nearly every day.",
+     "more": "It traditionally opens with the Washington Square tree lighting, a proclamation from the mayor and a Newport Artillery cannon salute."
+    },
+    {
+     "t": "Luminaria and Festival of Lights at Salve Regina",
+     "start": "2026-12-03",
+     "end": "2026-12-03",
+     "when": "Thu, Dec 3",
+     "time": "Evening",
+     "where": "Salve Regina University",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "About 1,000 luminarias at Our Lady of Mercy Chapel and the 24th annual multi-faith Festival of Lights at Ochre Court, with music, dance and prayers."
+    },
+    {
+     "t": "Mingle and Jingle Trunk Show",
+     "start": "2026-12-04",
+     "end": "2026-12-06",
+     "when": "Dec 4–6",
+     "time": "10 AM–6 PM",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Holiday shopping inside the historic Colony House.",
+     "addr": "Washington Square, Newport"
+    },
+    {
+     "t": "Bowen’s Wharf Christmas Tree Lighting",
      "start": "2026-12-05",
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
-     "time": "12:30 PM",
-     "where": "Bowen's Wharf",
+     "time": "From 12:30 PM",
+     "where": "Bowen’s Wharf",
      "town": "Newport",
      "url": "https://bowenswharf.com/events/annual-tree-lighting/",
-     "note": "Santa visits and musical performances lead to the 6:00 PM tree lighting."
+     "note": "The 56th annual lighting: Santa arrives around 12:30, followed by music on the wharf and the tree lighting at 6.",
+     "price": "No charge"
     },
     {
      "t": "Christmas with Cantus",
@@ -187,10 +439,25 @@
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
      "time": "1 PM and 3:30 PM",
-     "where": "Newport",
+     "where": "Emmanuel Church",
      "town": "Newport",
-     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series; the vocal program is listed at 1 and 3:30 p.m. Check the ticket page for the venue."
+     "url": "https://newportclassical.org/",
+     "note": "The vocal ensemble Cantus sings a Christmas program for Newport Classical.",
+     "addr": "42 Dearborn St., Newport",
+     "price": "$45–$62"
+    },
+    {
+     "t": "Messiah at the Mansion",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1 PM and 3:30 PM",
+     "where": "Rosecliff",
+     "town": "Newport",
+     "url": "https://newportclassical.org/",
+     "note": "Handel’s Messiah in the Rosecliff ballroom, presented by Newport Classical.",
+     "addr": "548 Bellevue Ave., Newport",
+     "price": "$60–$75"
     },
     {
      "t": "Christmas at Whitehall",
@@ -198,21 +465,72 @@
      "end": "2026-12-06",
      "when": "Sun, Dec 6",
      "time": "1–3 PM",
-     "where": "Whitehall Museum",
+     "where": "Whitehall Museum House",
      "town": "Middletown",
-     "url": "Not published / not captured",
-     "note": "Listed for 1 to 3 PM, with donations welcome. Confirm before you go."
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Colonial-style decorations, live music, a traditional wassail bowl and a festive treat from the Colonial Dames.",
+     "addr": "311 Berkeley Ave., Middletown",
+     "price": "Donations welcome"
     },
     {
-     "t": "Messiah at the Mansion",
+     "t": "Glen Manor House Christmas Open House",
      "start": "2026-12-06",
      "end": "2026-12-06",
      "when": "Sun, Dec 6",
-     "time": "1 PM",
-     "where": "Newport",
+     "time": "1:30–4 PM",
+     "where": "Glen Manor House",
+     "town": "Portsmouth",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The manor opens to the public dressed in its holiday decorations."
+    },
+    {
+     "t": "Behind the Scenes: Holiday Decorations",
+     "start": "2026-12-10",
+     "end": "2026-12-17",
+     "when": "Thu, Dec 10 and Thu, Dec 17",
+     "time": "10–11 AM",
+     "where": "The Breakers (Dec 10), Marble House (Dec 17)",
      "town": "Newport",
-     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A morning tour of how the mansions are decorated for the holidays.",
+     "price": "$20"
+    },
+    {
+     "t": "The Irish Tenors: A Family Christmas",
+     "start": "2026-12-10",
+     "end": "2026-12-10",
+     "when": "Thu, Dec 10",
+     "time": "7:30 PM",
+     "where": "Jane Pickens Theater",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The Irish Tenors bring their family Christmas show to Washington Square.",
+     "addr": "49 Touro St., Newport",
+     "price": "From $79"
+    },
+    {
+     "t": "Pictures with Santa and ‘A Visit from St. Nicholas’",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "when": "Sat, Dec 12",
+     "time": "Noon–2 PM",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Photos with Santa and readings of the classic poem.",
+     "addr": "Washington Square, Newport"
+    },
+    {
+     "t": "Christmas Open House, Museum of Newport Irish History",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "when": "Sat, Dec 12",
+     "time": "Noon–4:30 PM",
+     "where": "Museum of Newport Irish History",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The museum’s 10th annual open house, with eggnog and cookies.",
+     "addr": "648 Thames St., Newport"
     },
     {
      "t": "Classical Christmas with Frisson",
@@ -220,10 +538,109 @@
      "end": "2026-12-12",
      "when": "Sat, Dec 12",
      "time": "1 PM and 3:30 PM",
-     "where": "Newport",
+     "where": "Emmanuel Church",
      "town": "Newport",
-     "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+     "url": "https://newportclassical.org/",
+     "note": "An 11-piece chamber orchestra plays Bach, Vivaldi, the Nutcracker Suite and a Christmas sing-along.",
+     "addr": "42 Dearborn St., Newport",
+     "price": "$35–$55"
+    },
+    {
+     "t": "Holiday Cruises with the Dickens Carolers from Newport",
+     "start": "2026-12-13",
+     "end": "2026-12-20",
+     "when": "Sun, Dec 13 and Sun, Dec 20",
+     "time": "1:00 PM",
+     "where": "Coastal Queen, Bowen’s Wharf",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "75-minute caroling cruises on the Coastal Queen.",
+     "addr": "5 Bowen’s Wharf Landing, Newport",
+     "price": "$44 adults; $39 seniors and military; $34 children and youth"
+    },
+    {
+     "t": "A Musical Retelling of ‘A Christmas Carol’ with Christine Baranski",
+     "start": "2026-12-17",
+     "end": "2026-12-17",
+     "when": "Thu, Dec 17",
+     "time": "7:00 PM",
+     "where": "The Breakers",
+     "town": "Newport",
+     "url": "https://wbsm.com/newport-mansions-christmas-events-guide/",
+     "note": "One night only: the vocal ensemble Skylark sings the story, narrated by actress Christine Baranski.",
+     "addr": "44 Ochre Point Ave., Newport"
+    }
+   ]
+  },
+  {
+   "label": "Wickford and Beyond",
+   "items": [
+    {
+     "t": "A Christmas Carol at Trinity Rep",
+     "start": "2026-11-05",
+     "end": "2026-12-31",
+     "when": "Through Dec 31",
+     "time": "Several times",
+     "where": "Trinity Rep",
+     "town": "Providence",
+     "url": "https://www.trinityrep.com/",
+     "note": "Rhode Island’s best-known holiday play, in downtown Providence.",
+     "addr": "201 Washington St., Providence"
+    },
+    {
+     "t": "Christmas at Blithewold",
+     "start": "2026-11-24",
+     "end": "2027-01-03",
+     "when": "Nov 24–Jan 3",
+     "time": "Sparkle! lights 4–7 PM, Tue–Sun",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/event/sparkle-3/",
+     "note": "The Bristol mansion decorated room by room, with the Sparkle! light show in the evenings.",
+     "addr": "101 Ferry Road, Bristol"
+    },
+    {
+     "t": "Wickford Festival of Lights",
+     "start": "2026-12-03",
+     "end": "2026-12-06",
+     "when": "Dec 3–6",
+     "time": "Daily",
+     "where": "Wickford Village",
+     "town": "North Kingstown",
+     "url": "https://wickfordvillage.org/pages/events",
+     "note": "Thousands of white lights in the old village. Tree lighting at Updike Park opens it Thursday; Santa arrives by boat at the Town Dock on Brown Street Friday evening, and again Saturday and Sunday afternoons with carols and horse-drawn hayrides.",
+     "price": "No charge",
+     "more": "Elf Parade on Saturday; hot cocoa from the Boy Scouts; shops open until 9 p.m. Friday and Saturday."
+    },
+    {
+     "t": "Boston Pops Holiday Concert with Keith Lockhart",
+     "start": "2026-12-13",
+     "end": "2026-12-13",
+     "when": "Sun, Dec 13",
+     "time": "3 PM and 7 PM",
+     "where": "Providence Performing Arts Center",
+     "town": "Providence",
+     "url": "https://www.ppacri.org/events/detail/boston-pops-holiday-concert-with-keith-lockhart",
+     "note": "Keith Lockhart leads the Boston Pops in their holiday concert.",
+     "addr": "220 Weybosset St., Providence"
+    }
+   ]
+  },
+  {
+   "label": "New Year's",
+   "items": [
+    {
+     "t": "New Year’s Day Polar Plunge",
+     "start": "2027-01-01",
+     "end": "2027-01-01",
+     "when": "Fri, Jan 1",
+     "time": "Noon",
+     "where": "Easton’s Beach",
+     "town": "Newport",
+     "url": "https://www.visitrhodeisland.com/event/a-wish-come-true-22nd-annual-polar-plunge/39094/",
+     "note": "Hundreds of plungers run into the ocean at noon to raise money for A Wish Come True, which grants wishes to children with life-threatening illnesses.",
+     "addr": "175 Memorial Blvd., Newport",
+     "more": "Held every New Year’s Day; 2027 details are not posted yet. Parking is limited, so arrive early."
     }
    ]
   }
