@@ -158,8 +158,8 @@
      "url": "https://newportcontemporaryballet.org/performance/newport-nutcracker-at-rosecliff-2/",
      "note": "Newport Contemporary Ballet’s Nutcracker moves through Rosecliff’s rooms, with the audience following the story; the second act is in the Grand Ballroom with reserved seats.",
      "addr": "548 Bellevue Ave., Newport",
-     "price": "$159–$249",
-     "more": "Performances Nov 25, 27, 28, 29 and Dec 1–4. Small audiences; it usually sells out."
+     "price": "From $159",
+     "more": "Opens Wednesday, Nov 25, at 5:30 p.m.; then matinee and evening shows Nov 27, 28, 29 and Dec 1–4. Ages 6 and up. Small audiences; it usually sells out."
     },
     {
      "t": "A Rough Point Holiday: After Dark",
@@ -179,16 +179,16 @@
      "start": "2026-11-27",
      "end": "2026-11-27",
      "when": "Fri, Nov 27",
-     "time": "Evening",
+     "time": "6:00 PM",
      "where": "Newport Harbor",
      "town": "Newport",
      "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
      "note": "Lit-up boats circle Newport Harbor the night after Thanksgiving, competing for best sailboat, powerboat and fishing boat.",
      "price": "No charge",
-     "more": "Good viewing from Perrotti Park, Bowen’s Wharf and Bannister’s Wharf. It has started at 6 p.m. in past years; check the time before you go."
+     "more": "Good viewing from Perrotti Park, Bowen’s Wharf and Bannister’s Wharf."
     },
     {
-     "t": "Shops of Long Wharf Tree Lighting",
+     "t": "Santa Magic at Long Wharf",
      "start": "2026-11-28",
      "end": "2026-11-28",
      "when": "Sat, Nov 28",
@@ -196,8 +196,21 @@
      "where": "Shops of Long Wharf",
      "town": "Newport",
      "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
-     "note": "Santa Magic and a tree lighting at the Long Wharf shops.",
-     "more": "Rain date Sunday, Nov 29."
+     "note": "A tree lighting with Santa, photos, children’s crafts, letters to Santa and music.",
+     "more": "Rain date Sunday, Nov 29.",
+     "price": "No charge"
+    },
+    {
+     "t": "Lighting of the Lighthouse",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "5:00 PM",
+     "where": "Newport Harbor Island Resort",
+     "town": "Newport",
+     "url": "",
+     "note": "The Goat Island lighthouse lights up for the season, with carolers, hot chocolate for the children and cider.",
+     "addr": "1 Goat Island, Newport"
     },
     {
      "t": "Candy Cane Express Cruise with Mrs. Claus",
@@ -430,7 +443,7 @@
      "where": "Bowen’s Wharf",
      "town": "Newport",
      "url": "https://bowenswharf.com/events/annual-tree-lighting/",
-     "note": "The 56th annual lighting: Santa arrives around 12:30, followed by music on the wharf and the tree lighting at 6.",
+     "note": "The 56th annual lighting: Santa and live music from about 12:30, local musicians and choruses through the afternoon, and the tree lighting at 6 p.m. Santa and Mrs. Claus arrive by boat, weather permitting.",
      "price": "No charge"
     },
     {
@@ -442,7 +455,7 @@
      "where": "Emmanuel Church",
      "town": "Newport",
      "url": "https://newportclassical.org/",
-     "note": "The vocal ensemble Cantus sings a Christmas program for Newport Classical.",
+     "note": "Beloved carols and contemporary choral works, presented by Newport Classical.",
      "addr": "42 Dearborn St., Newport",
      "price": "$45–$62"
     },
@@ -559,6 +572,19 @@
      "price": "$44 adults; $39 seniors and military; $34 children and youth"
     },
     {
+     "t": "Santa Meet-and-Greet Cruises",
+     "start": "2026-12-14",
+     "end": "2026-12-23",
+     "when": "Dec 14–23",
+     "time": "Several sailings",
+     "where": "Coastal Queen, Bowen’s Wharf",
+     "town": "Newport",
+     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
+     "note": "About an hour on a decorated boat with Santa, hot chocolate and holiday music.",
+     "addr": "5 Bowen’s Wharf Landing, Newport",
+     "more": "Sailings: Dec 14 at 2; Dec 19 at 11; Dec 20 at 11 and 1; Dec 21, 22 and 23 at 11. Book: 401-423-9900."
+    },
+    {
      "t": "A Musical Retelling of ‘A Christmas Carol’ with Christine Baranski",
      "start": "2026-12-17",
      "end": "2026-12-17",
@@ -584,20 +610,34 @@
      "where": "Trinity Rep",
      "town": "Providence",
      "url": "https://www.trinityrep.com/",
-     "note": "Rhode Island’s best-known holiday play, in downtown Providence.",
-     "addr": "201 Washington St., Providence"
+     "note": "Trinity Rep’s 50th-anniversary production of Rhode Island’s best-known holiday play.",
+     "addr": "Dowling Theater, 201 Washington St., Providence"
     },
     {
      "t": "Christmas at Blithewold",
      "start": "2026-11-24",
      "end": "2027-01-03",
      "when": "Nov 24–Jan 3",
-     "time": "Sparkle! lights 4–7 PM, Tue–Sun",
+     "time": "Tue–Sun, 11 AM–7 PM",
      "where": "Blithewold Manor",
      "town": "Bristol",
      "url": "https://www.blithewold.org/event/sparkle-3/",
-     "note": "The Bristol mansion decorated room by room, with the Sparkle! light show in the evenings.",
-     "addr": "101 Ferry Road, Bristol"
+     "note": "The Bristol mansion decorated room by room, with the evening Sparkle! light display on the grounds.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Closed Thanksgiving and Christmas."
+    },
+    {
+     "t": "’Twas the Night Before… by Cirque du Soleil",
+     "start": "2026-11-24",
+     "end": "2026-12-06",
+     "when": "Nov 24–Dec 6",
+     "time": "Several times",
+     "where": "Providence Performing Arts Center",
+     "town": "Providence",
+     "url": "https://www.ppacri.org/",
+     "note": "Cirque du Soleil’s holiday family show: acrobatics, dance, characters and Christmas music.",
+     "addr": "220 Weybosset St., Providence",
+     "more": "Weekend shows at 1, 4 and 7:30 on Saturdays; PPAC has a family-ticket offer."
     },
     {
      "t": "Wickford Festival of Lights",
@@ -613,6 +653,29 @@
      "more": "Elf Parade on Saturday; hot cocoa from the Boy Scouts; shops open until 9 p.m. Friday and Saturday."
     },
     {
+     "t": "Festival of Trees",
+     "start": "2026-12-04",
+     "end": "2027-01-03",
+     "when": "Dec 4–Jan 3",
+     "time": "",
+     "where": "South Kingstown",
+     "town": "South Kingstown",
+     "url": "",
+     "note": "Decorated trees, children’s activities, caroling, music, cocoa and handmade local gifts."
+    },
+    {
+     "t": "Bristol’s Grand Illumination",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "Evening",
+     "where": "Burnside Building",
+     "town": "Bristol",
+     "url": "https://www.bristolri.gov/m/calendar/event/detail/938",
+     "note": "Bristol lights its town tree at Hope and Court streets, with local school performers.",
+     "more": "Rain date Dec 6."
+    },
+    {
      "t": "Boston Pops Holiday Concert with Keith Lockhart",
      "start": "2026-12-13",
      "end": "2026-12-13",
@@ -621,8 +684,21 @@
      "where": "Providence Performing Arts Center",
      "town": "Providence",
      "url": "https://www.ppacri.org/events/detail/boston-pops-holiday-concert-with-keith-lockhart",
-     "note": "Keith Lockhart leads the Boston Pops in their holiday concert.",
+     "note": "Keith Lockhart leads “Sleigh Ride,” seasonal arrangements, a sing-along and a visit from Santa.",
      "addr": "220 Weybosset St., Providence"
+    },
+    {
+     "t": "Ballet Rhode Island’s The Nutcracker",
+     "start": "2026-12-17",
+     "end": "2026-12-27",
+     "when": "Dec 17–27",
+     "time": "Several times",
+     "where": "The VETS",
+     "town": "Providence",
+     "url": "https://thevets.evenue.net/events/NT26",
+     "note": "Clara’s Christmas Eve story with Tchaikovsky’s score, Ballet RI dancers and local young performers.",
+     "price": "From $36",
+     "more": "Shows: Dec 17 and 18 at 7; Dec 19 and 20 at 1 and 6:30; Dec 23 at 6:30; Dec 26 at 1 and 6:30; Dec 27 at 1."
     }
    ]
   },
