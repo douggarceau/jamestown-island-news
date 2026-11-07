@@ -1,0 +1,253 @@
+{
+ "asof": "2026-11-07",
+ "note": "Snapshot taken November 7, 2026 from Zillow (ZIP 02835) and Redfin (Jamestown). Listings change daily, so check each listing before you act. Where the two sites show different prices, both are shown. This list may not be complete: Redfin's town page reports 46 homes but only 41 were readable, and Zillow's ZIP page was read in full at 28. Condos and units were left out. Verify with the listing agent or the MLS.",
+ "sources": [
+  {
+   "title": "Zillow: Jamestown, RI 02835 houses",
+   "url": "https://www.zillow.com/jamestown-ri-02835/houses/"
+  },
+  {
+   "title": "Redfin: Jamestown, RI",
+   "url": "https://www.redfin.com/city/35735/RI/Jamestown"
+  }
+ ],
+ "listings": [
+  {
+   "address": "871 E Shore Rd, Jamestown, RI 02835",
+   "price": "$799,000",
+   "beds": 3,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/871-E-Shore-Rd-Jamestown-RI-02835/65815471_zpid/"
+  },
+  {
+   "address": "1003 Fort Getty Rd, Jamestown, RI 02835",
+   "price": "$9,995,000",
+   "beds": 4,
+   "baths": 6,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/1003-Fort-Getty-Rd-Jamestown-RI-02835/65906262_zpid/"
+  },
+  {
+   "address": "32 Deck St, Jamestown, RI 02835",
+   "price": "$999,000",
+   "beds": 4,
+   "baths": 5,
+   "status": "For sale by owner",
+   "url": "https://www.zillow.com/homedetails/32-Deck-St-Jamestown-RI-02835/66092870_zpid/"
+  },
+  {
+   "address": "6 Douglas St, Jamestown, RI 02835",
+   "price": "$595,000",
+   "beds": 2,
+   "baths": 1,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/6-Douglas-St-Jamestown-RI-02835/65970496_zpid/"
+  },
+  {
+   "address": "76 Nautilus St, Jamestown, RI 02835",
+   "price": "$789,000",
+   "beds": 2,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/76-Nautilus-St-Jamestown-RI-02835/65898891_zpid/",
+   "alt": "Redfin: $849,000"
+  },
+  {
+   "address": "412 Seaside Dr, Jamestown, RI 02835",
+   "price": "$2,999,999",
+   "beds": 3,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/412-Seaside-Dr-Jamestown-RI-02835/65884055_zpid/"
+  },
+  {
+   "address": "115 Beavertail Rd, Jamestown, RI 02835",
+   "price": "$6,950,000",
+   "beds": 4,
+   "baths": 5,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/115-Beavertail-Rd-Jamestown-RI-02835/65905540_zpid/"
+  },
+  {
+   "address": "14 Howland Ave, Jamestown, RI 02835",
+   "price": "$1,099,900",
+   "beds": 4,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/14-Howland-Ave-Jamestown-RI-02835/65983344_zpid/"
+  },
+  {
+   "address": "4 Hull Cove St, Jamestown, RI 02835",
+   "price": "$4,999,000",
+   "beds": 4,
+   "baths": 4,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/4-Hull-Cove-St-Jamestown-RI-02835/65948765_zpid/"
+  },
+  {
+   "address": "10 Boston Ave, Jamestown, RI 02835",
+   "price": "$924,900",
+   "beds": 2,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/10-Boston-Ave-Jamestown-RI-02835/65869952_zpid/"
+  },
+  {
+   "address": "430 Gondola Ave, Jamestown, RI 02835",
+   "price": "$985,000",
+   "beds": 4,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/430-Gondola-Ave-Jamestown-RI-02835/65924782_zpid/"
+  },
+  {
+   "address": "77 Mast St, Jamestown, RI 02835",
+   "price": "$969,000",
+   "beds": 2,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/77-Mast-St-Jamestown-RI-02835/65938233_zpid/"
+  },
+  {
+   "address": "219 W Reach Dr, Jamestown, RI 02835",
+   "price": "$1,995,000",
+   "beds": 3,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/219-W-Reach-Dr-Jamestown-RI-02835/65879802_zpid/"
+  },
+  {
+   "address": "10 Summer St, Jamestown, RI 02835",
+   "price": "$835,000",
+   "beds": 2,
+   "baths": 1,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/10-Summer-St-Jamestown-RI-02835/65888707_zpid/",
+   "alt": "Redfin: $895,000"
+  },
+  {
+   "address": "31 Calvert Pl, Jamestown, RI 02835",
+   "price": "$2,195,000",
+   "beds": 5,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/31-Calvert-Pl-Jamestown-RI-02835/65858704_zpid/"
+  },
+  {
+   "address": "10 Washington St, Jamestown, RI 02835",
+   "price": "$799,000",
+   "beds": 2,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/10-Washington-St-Jamestown-RI-02835/65930616_zpid/"
+  },
+  {
+   "address": "50 Prospect Ave, Jamestown, RI 02835",
+   "price": "$2,695,000",
+   "beds": 4,
+   "baths": 5,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/50-Prospect-Ave-Jamestown-RI-02835/65852704_zpid/"
+  },
+  {
+   "address": "9 Cutter St, Jamestown, RI 02835",
+   "price": "$989,900",
+   "beds": 3,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/9-Cutter-St-Jamestown-RI-02835/65983668_zpid/"
+  },
+  {
+   "address": "57 Melrose Ave, Jamestown, RI 02835",
+   "price": "$899,000",
+   "beds": 2,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/57-Melrose-Ave-Jamestown-RI-02835/65853716_zpid/",
+   "alt": "Redfin: $929,000"
+  },
+  {
+   "address": "5 Decatur Ave, Jamestown, RI 02835",
+   "price": "$4,750,000",
+   "beds": 3,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/5-Decatur-Ave-Jamestown-RI-02835/65963704_zpid/"
+  },
+  {
+   "address": "345 Highland Dr, Jamestown, RI 02835",
+   "price": "$2,600,000",
+   "beds": 3,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/345-Highland-Dr-Jamestown-RI-02835/339473580_zpid/"
+  },
+  {
+   "address": "38 Gondola Ave, Jamestown, RI 02835",
+   "price": "$1,875,000",
+   "beds": 4,
+   "baths": 5,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/38-Gondola-Ave-Jamestown-RI-02835/66027359_zpid/"
+  },
+  {
+   "address": "121 Seaside Dr, Jamestown, RI 02835",
+   "price": "$3,950,000",
+   "beds": 3,
+   "baths": 5,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/121-Seaside-Dr-Jamestown-RI-02835/65834150_zpid/"
+  },
+  {
+   "address": "80 Westwind Dr, Jamestown, RI 02835",
+   "price": "$1,825,000",
+   "beds": 3,
+   "baths": 4,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/80-Westwind-Dr-Jamestown-RI-02835/65957893_zpid/",
+   "alt": "Redfin: $1,895,000"
+  },
+  {
+   "address": "76 Battery Ln, Jamestown, RI 02835",
+   "price": "$4,950,000",
+   "beds": 5,
+   "baths": 6,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/76-Battery-Ln-Jamestown-RI-02835/66060611_zpid/"
+  },
+  {
+   "address": "159 Longfellow Rd, Jamestown, RI 02835",
+   "price": "$2,325,000",
+   "beds": 3,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/159-Longfellow-Rd-Jamestown-RI-02835/65956742_zpid/"
+  },
+  {
+   "address": "5 Buoy St, Jamestown, RI 02835",
+   "price": "$1,275,000",
+   "beds": 3,
+   "baths": 2,
+   "status": "For sale",
+   "url": "https://www.zillow.com/homedetails/5-Buoy-St-Jamestown-RI-02835/65853632_zpid/"
+  },
+  {
+   "address": "1015 E Shore Rd, Jamestown, RI 02835",
+   "price": "$1,495,000",
+   "beds": 3,
+   "baths": 3,
+   "status": "New construction",
+   "url": "https://www.zillow.com/homedetails/1015-E-Shore-Rd-Jamestown-RI-02835/464841126_zpid/"
+  },
+  {
+   "address": "504 Seaside Dr, Jamestown, RI 02835",
+   "price": "$1,750,000",
+   "beds": 3,
+   "baths": 3,
+   "status": "For sale",
+   "url": "https://www.redfin.com/RI/Jamestown/504-Seaside-Dr-02835/home/51937445",
+   "note": "Found on Redfin only"
+  }
+ ]
+}
