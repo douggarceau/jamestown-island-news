@@ -4,17 +4,20 @@
   {
    "date": "2026-11-07",
    "time": "10:00 AM",
-   "artists": "Teddy Bear Clinic",
+   "artists": "Teddy Bear Clinic with Healing Hearts LLC",
    "venue": "Jamestown Philomenian Library",
    "hood": "Jamestown",
-   "genre": "community",
+   "genre": "family",
    "price": "",
-   "ages": "",
-   "url": "https://jplri.org",
-   "src": "Jamestown Public Calendar",
+   "ages": "2–8",
+   "url": "https://jplri.libcal.com/event/17396443",
+   "src": "Jamestown Philomenian Library",
+   "address": "26 North Road, Jamestown, RI 02835",
+   "blurb": "Bring a stuffed animal or doll for a pretend medical check-up; registration is required.",
    "hours": "10 AM",
-   "address": "Jamestown Philomenian Library, 26 North Road, Jamestown, RI 02835",
-   "blurb": "Children can bring a favorite stuffed animal or doll for a pretend checkup at the Teddy Bear Clinic. Stacey, a certified child life specialist, leads the program, helping young visitors explore medical tools such as stethoscopes and bandages through play. The approach introduces experiences children may encounter at a doctor’s visit. Sponsored by the Friends of the Jamestown Philomenian Library, the clinic is for ages two through eight with a caregiver. Registration is required; space is limited. Presented by Jamestown Philomenian Library; sponsored by Friends of the JPL. Contact: 401-423-7280."
+   "also_as": [
+    "Teddy Bear Clinic"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -28,21 +31,10 @@
    "url": "https://www.jamestownartcenter.org/education-store/p/story-alchemy-fall-2026",
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Explore storytelling and creative work in the first session of a two-day workshop."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "10:00 AM",
-   "artists": "Teddy Bear Clinic with Healing Hearts LLC",
-   "venue": "Jamestown Philomenian Library",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "2–8",
-   "url": "https://jplri.libcal.com/event/17396443",
-   "src": "Jamestown Philomenian Library",
-   "address": "26 North Road, Jamestown, RI 02835",
-   "blurb": "Bring a stuffed animal or doll for a pretend medical check-up; registration is required."
+   "blurb": "Explore storytelling and creative work in the first session of a two-day workshop.",
+   "also_as": [
+    "Story Alchemy with Rachel Schaeffer Wolfe — day 1"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -74,35 +66,6 @@
   },
   {
    "date": "2026-11-07",
-   "time": "10:00 AM",
-   "artists": "Story Alchemy with Rachel Schaeffer Wolfe — day 1",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "$110 for two days; JAC members $99",
-   "ages": "Adults",
-   "url": "https://www.jamestownartcenter.org/education-store/p/story-alchemy-fall-2026",
-   "src": "Jamestown Arts Center",
-   "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Join the first of two registered morning storytelling workshops, ending at noon."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "11:00 AM",
-   "artists": "Imprint and Playback exhibition",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "11 AM - 3 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Imprint and Playback brings together seven artists who participated in Rhode Island School of Design’s Movement Lab Fellowship between 2023 and 2026. The exhibition connects moving images and performance-related practices with work developed through the fellowship. A separate October 28 performance and talk offers a closer look at the artists’ processes. The show continues through November 7 during the arts center’s regular Wednesday-through-Saturday gallery hours. Presented by Jamestown Arts Center. Contact: 401-560-0979."
-  },
-  {
-   "date": "2026-11-07",
    "time": "11:00 AM",
    "artists": "Imprint and Playback — gallery viewing",
    "venue": "Jamestown Arts Center",
@@ -113,7 +76,11 @@
    "url": "https://www.jamestownartcenter.org/",
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Visit the exhibition during the gallery’s published 11:00 AM–3:00 PM hours."
+   "blurb": "Visit the exhibition during the gallery’s published 11:00 AM–3:00 PM hours.",
+   "hours": "11 AM - 3 PM",
+   "also_as": [
+    "Imprint and Playback exhibition"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -248,31 +215,20 @@
   {
    "date": "2026-11-07",
    "time": "9:30 AM",
-   "artists": "Everybody Chorus: Songs of the Seventies",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "classical",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "9:30 AM - 10:30 AM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Everybody Chorus welcomes neighbors for an informal hour of singing without auditions. This fall’s theme explores the seventies across three centuries: the 1770s, 1870s and 1970s, pairing familiar favorites with older songs. The program is offered by the Jamestown Community Chorus, whose history dates to 1949. New singers are welcome during the current session. The organizer lists a $3 charge for music. Presented by Jamestown Community Chorus - Everybody Chorus. Contact: 401-787-4487. cantabile50@gmail.com."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
    "src": "Everybody Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes."
+   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes.",
+   "hours": "9:30 AM - 10:30 AM",
+   "also_as": [
+    "Everybody Chorus: Songs of the Seventies"
+   ]
   },
   {
    "date": "2026-11-08",
@@ -301,7 +257,10 @@
    "url": "https://www.jamestownartcenter.org/education-store/p/story-alchemy-fall-2026",
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Continue the two-day Story Alchemy workshop."
+   "blurb": "Continue the two-day Story Alchemy workshop.",
+   "also_as": [
+    "Story Alchemy with Rachel Schaeffer Wolfe — day 2"
+   ]
   },
   {
    "date": "2026-11-08",
@@ -316,20 +275,6 @@
    "src": "Saint Matthew’s Episcopal Church",
    "address": "87 Narragansett Avenue, Jamestown, RI 02835",
    "blurb": "Children join the parish’s Sunday learning program during the 10:00 AM service."
-  },
-  {
-   "date": "2026-11-08",
-   "time": "10:00 AM",
-   "artists": "Story Alchemy with Rachel Schaeffer Wolfe — day 2",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "$110 for two days; JAC members $99",
-   "ages": "Adults",
-   "url": "https://www.jamestownartcenter.org/education-store/p/story-alchemy-fall-2026",
-   "src": "Jamestown Arts Center",
-   "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Continue the registered two-day storytelling workshop with Rachel Schaeffer Wolfe until noon."
   },
   {
    "date": "2026-11-08",
@@ -398,21 +343,10 @@
    "url": "https://www.islandheronyoga.com/events-1",
    "src": "Island Heron Yoga",
    "address": "34 Narragansett Avenue, rear entrance, Jamestown, RI 02835",
-   "blurb": "Take part in an all-levels session combining movement, breathing and meditation."
-  },
-  {
-   "date": "2026-11-08",
-   "time": "4:00 PM",
-   "artists": "Yoga and Meditation Practices with Heidi Doyle",
-   "venue": "Island Heron Yoga",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "$25",
-   "ages": "",
-   "url": "https://www.islandheronyoga.com/events-1",
-   "src": "Island Heron Yoga",
-   "address": "34 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Register for two hours of movement, breathing and meditation; all levels are accommodated."
+   "blurb": "Take part in an all-levels session combining movement, breathing and meditation.",
+   "also_as": [
+    "Yoga and Meditation Practices with Heidi Doyle"
+   ]
   },
   {
    "date": "2026-11-08",
@@ -619,21 +553,6 @@
   {
    "date": "2026-11-09",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. NOV 9 - NOV 10 / 2026 Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -643,7 +562,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-09",
@@ -752,7 +675,7 @@
    "artists": "Jamestown Community Chorus Rehearsals",
    "venue": "Central Baptist Church",
    "hood": "Jamestown",
-   "genre": "classical",
+   "genre": "community",
    "price": "",
    "ages": "",
    "url": "https://jamestownchorus.com",
@@ -937,17 +860,20 @@
   {
    "date": "2026-11-10",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
+   "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
    "genre": "family",
    "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
+   "ages": "Teens; exact eligibility unknown",
+   "url": "https://www.jamestownri.gov/parksandrec",
+   "src": "Jamestown Teen Center",
+   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
    "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -962,20 +888,6 @@
    "src": "Jamestown Senior Services",
    "address": "",
    "blurb": "Senior Services lists a mah jongg session for experienced players."
-  },
-  {
-   "date": "2026-11-10",
-   "time": "2:30 PM",
-   "artists": "Teen Center — afternoon gathering hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "Teens; exact eligibility unknown",
-   "url": "https://www.jamestownri.gov/parksandrec",
-   "src": "Jamestown Teen Center",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
   },
   {
    "date": "2026-11-10",
@@ -1514,21 +1426,6 @@
   {
    "date": "2026-11-12",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-12",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -1538,7 +1435,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -1801,21 +1702,6 @@
   {
    "date": "2026-11-13",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-13",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -1825,7 +1711,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -2161,31 +2051,20 @@
   {
    "date": "2026-11-14",
    "time": "9:30 AM",
-   "artists": "Everybody Chorus: Songs of the Seventies",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "classical",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "9:30 AM - 10:30 AM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Everybody Chorus welcomes neighbors for an informal hour of singing without auditions. This fall’s theme explores the seventies across three centuries: the 1770s, 1870s and 1970s, pairing familiar favorites with older songs. The program is offered by the Jamestown Community Chorus, whose history dates to 1949. New singers are welcome during the current session. The organizer lists a $3 charge for music. Presented by Jamestown Community Chorus - Everybody Chorus. Contact: 401-787-4487. cantabile50@gmail.com."
-  },
-  {
-   "date": "2026-11-14",
-   "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
    "src": "Everybody Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes."
+   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes.",
+   "hours": "9:30 AM - 10:30 AM",
+   "also_as": [
+    "Everybody Chorus: Songs of the Seventies"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -2448,21 +2327,6 @@
   {
    "date": "2026-11-16",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-16",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -2472,7 +2336,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-16",
@@ -2566,7 +2434,7 @@
    "artists": "Jamestown Community Chorus Rehearsals",
    "venue": "Central Baptist Church",
    "hood": "Jamestown",
-   "genre": "classical",
+   "genre": "community",
    "price": "",
    "ages": "",
    "url": "https://jamestownchorus.com",
@@ -2722,17 +2590,20 @@
   {
    "date": "2026-11-17",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
+   "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
    "genre": "family",
    "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
+   "ages": "Teens; exact eligibility unknown",
+   "url": "https://www.jamestownri.gov/parksandrec",
+   "src": "Jamestown Teen Center",
+   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
    "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -2747,20 +2618,6 @@
    "src": "Jamestown Senior Services",
    "address": "",
    "blurb": "Senior Services lists a mah jongg session for experienced players."
-  },
-  {
-   "date": "2026-11-17",
-   "time": "2:30 PM",
-   "artists": "Teen Center — afternoon gathering hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "Teens; exact eligibility unknown",
-   "url": "https://www.jamestownri.gov/parksandrec",
-   "src": "Jamestown Teen Center",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
   },
   {
    "date": "2026-11-17",
@@ -3152,21 +3009,6 @@
   {
    "date": "2026-11-18",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-18",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -3176,7 +3018,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -3452,21 +3298,6 @@
   {
    "date": "2026-11-19",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-19",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -3476,7 +3307,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -3711,7 +3546,7 @@
   },
   {
    "date": "2026-11-19",
-   "time": "unknown",
+   "time": "",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -3811,21 +3646,6 @@
   {
    "date": "2026-11-20",
    "time": "2:30 PM",
-   "artists": "Teen Center Afternoon Hours",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownri.gov",
-   "src": "Jamestown Public Calendar",
-   "hours": "2:30 PM - 6 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Teen Center provides a regular afternoon gathering opportunity within Jamestown’s recreation program. Its home at the Recreation Center places youth activities in a building also used for local arts and community events. Families should contact Parks & Recreation about current age eligibility, registration, fees and the activities planned for the day. The town’s regular schedule excludes federal and state holidays. Presented by Town of Jamestown Parks & Recreation. Contact: 401-423-7260. recreationinfo@jamestownri.net."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "2:30 PM",
    "artists": "Teen Center — afternoon gathering hours",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -3835,7 +3655,11 @@
    "url": "https://www.jamestownri.gov/parksandrec",
    "src": "Jamestown Teen Center",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation."
+   "blurb": "The town lists afternoon gathering hours until 6:00 PM; confirm registration and school-vacation changes with Recreation.",
+   "hours": "2:30 PM - 6 PM",
+   "also_as": [
+    "Teen Center Afternoon Hours"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -3869,21 +3693,6 @@
   {
    "date": "2026-11-20",
    "time": "5:30 PM",
-   "artists": "Members’ Show opening reception",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "5:30 PM - 7:30 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "The Jamestown Arts Center’s annual Members’ Show will open alongside Of Longing and Loss, a solo exhibition by Molly Kugler Dickinson. The pairing makes a connection between successive years of the center’s member program: Dickinson won Best in Show in 2025, and that recognition leads into her solo presentation this season. Awards at the new opening will include Best in Show, second and third place, and honorable mentions. This year’s top award carries the opportunity for a 2027 solo exhibition in the Small Gallery. The reception gives residents an evening to view the work and take part in the center’s annual recognition of participating artists. Both exhibitions are announced through January 9, 2027, although gallery visitors should check holiday opening hours separately. The reception itself is no-cost and open to the public. no-charge admission. Presented by Jamestown Arts Center. Contact: 401-560-0979."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "5:30 PM",
    "artists": "2026 Members’ Show — opening reception",
    "venue": "Jamestown Arts Center",
    "hood": "Jamestown",
@@ -3892,37 +3701,14 @@
    "ages": "",
    "url": "https://www.jamestownartcenter.org/events/members-show-opening-2026",
    "src": "Jamestown Arts Center",
-   "hours": "",
+   "hours": "5:30 PM - 7:30 PM",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Jamestown Arts Center opens its annual members’ exhibition with an evening reception."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "5:30 PM",
-   "artists": "Members’ Show and Molly Kugler Dickinson: Of Longing and Loss — opening reception",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "",
-   "url": "https://www.jamestownartcenter.org/events/members-show-opening-2026",
-   "src": "Jamestown Arts Center",
-   "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Celebrate the members’ exhibition and Molly Kugler Dickinson’s accompanying show, on view through January 9, 2027."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "5:30 PM",
-   "artists": "Members’ Show and Molly Dickinson opening reception",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "",
-   "url": "https://www.jamestownartcenter.org/events/members-show-opening-2026",
-   "src": "Jamestown Arts Center",
-   "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Meet the exhibitions at a public opening reception running until 7:30 PM."
+   "blurb": "Jamestown Arts Center opens its annual members’ exhibition with an evening reception.",
+   "also_as": [
+    "Members’ Show opening reception",
+    "Members’ Show and Molly Kugler Dickinson: Of Longing and Loss — opening reception",
+    "Members’ Show and Molly Dickinson opening reception"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -4058,7 +3844,7 @@
   },
   {
    "date": "2026-11-20",
-   "time": "unknown",
+   "time": "",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -4277,35 +4063,24 @@
   {
    "date": "2026-11-21",
    "time": "9:30 AM",
-   "artists": "Everybody Chorus: Songs of the Seventies",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "classical",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "9:30 AM - 10:30 AM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The Everybody Chorus welcomes neighbors for an informal hour of singing without auditions. This fall’s theme explores the seventies across three centuries: the 1770s, 1870s and 1970s, pairing familiar favorites with older songs. The program is offered by the Jamestown Community Chorus, whose history dates to 1949. New singers are welcome during the current session. The organizer lists a $3 charge for music. Presented by Jamestown Community Chorus - Everybody Chorus. Contact: 401-787-4487. cantabile50@gmail.com."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "9:30 AM",
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
    "src": "Everybody Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes."
+   "blurb": "All ages may join the informal singing hour; check with the director for seasonal or holiday changes.",
+   "hours": "9:30 AM - 10:30 AM",
+   "also_as": [
+    "Everybody Chorus: Songs of the Seventies"
+   ]
   },
   {
    "date": "2026-11-21",
-   "time": "unknown",
+   "time": "",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -4488,7 +4263,7 @@
   },
   {
    "date": "2026-11-22",
-   "time": "unknown",
+   "time": "",
    "artists": "Merrily We Roll Along — production day",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -4702,7 +4477,7 @@
    "artists": "Jamestown Community Chorus rehearsal",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "",
    "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
@@ -5622,7 +5397,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -5988,7 +5763,7 @@
    "artists": "Jamestown Community Chorus rehearsal",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "",
    "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
@@ -6935,21 +6710,6 @@
   {
    "date": "2026-12-04",
    "time": "5:30 PM",
-   "artists": "Holiday Arts Market",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "5:30 PM - 7:30 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Locally made ceramics, jewelry, textiles, paintings and prints fill the Jamestown Arts Center’s Holiday Arts Market. Friday offers an early-shopping evening, followed by a longer Saturday session. The market gives artists a public place to sell their work and shoppers a chance to find distinctive seasonal gifts. there is no Admission charge, with purchases paid separately. Visitors are also invited to bring nonperishable food for the Dr. Martin Luther King Jr. Community Center. NOV 22 - DEC 5 / 2026 Presented by Jamestown Arts Center. Contact: 401-560-0979."
-  },
-  {
-   "date": "2026-12-04",
-   "time": "5:30 PM",
    "artists": "Holiday Arts Market — Friday evening",
    "venue": "Jamestown Arts Center",
    "hood": "Jamestown",
@@ -6959,7 +6719,11 @@
    "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Browse the Arts Center’s holiday market until 7:30 PM."
+   "blurb": "Browse the Arts Center’s holiday market until 7:30 PM.",
+   "hours": "5:30 PM - 7:30 PM",
+   "also_as": [
+    "Holiday Arts Market"
+   ]
   },
   {
    "date": "2026-12-04",
@@ -7022,17 +6786,20 @@
   {
    "date": "2026-12-05",
    "time": "10:00 AM",
-   "artists": "Holiday Arts Market",
+   "artists": "Holiday Arts Market — Saturday",
    "venue": "Jamestown Arts Center",
    "hood": "Jamestown",
    "genre": "arts",
-   "price": "",
+   "price": "No charge",
    "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
+   "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
+   "src": "Jamestown Arts Center",
+   "address": "18 Valley Street, Jamestown, RI 02835",
+   "blurb": "Browse the Arts Center’s holiday market until 4:00 PM.",
    "hours": "10 AM - 4 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Locally made ceramics, jewelry, textiles, paintings and prints fill the Jamestown Arts Center’s Holiday Arts Market. Friday offers an early-shopping evening, followed by a longer Saturday session. The market gives artists a public place to sell their work and shoppers a chance to find distinctive seasonal gifts. there is no Admission charge, with purchases paid separately. Visitors are also invited to bring nonperishable food for the Dr. Martin Luther King Jr. Community Center. Presented by Jamestown Arts Center. Contact: 401-560-0979."
+   "also_as": [
+    "Holiday Arts Market"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -7064,35 +6831,6 @@
   },
   {
    "date": "2026-12-05",
-   "time": "10:00 AM",
-   "artists": "Holiday Arts Market — Saturday",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "No charge",
-   "ages": "",
-   "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
-   "src": "Jamestown Arts Center",
-   "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Browse the Arts Center’s holiday market until 4:00 PM."
-  },
-  {
-   "date": "2026-12-05",
-   "time": "12:00 PM",
-   "artists": "Beavertail holiday shopping openings",
-   "venue": "Beavertail Lighthouse Museum and Gift Shop",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://beavertaillight.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "noon - 3 PM",
-   "address": "Beavertail Lighthouse Museum and Gift Shop, end of Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Beavertail’s museum and gift shop reopen for a December shopping afternoon after the regular season. Visitors can choose gifts connected with the lighthouse’s maritime setting and explore exhibits about its keepers and history at the entrance to Narragansett Bay. The opening covers the museum and gift shop; a tower climb is not included in the announcement. Call ahead if weather makes a visit uncertain. Presented by Beavertail Lighthouse Museum Association. Contact: 401-423-3270."
-  },
-  {
-   "date": "2026-12-05",
    "time": "12:00 PM",
    "artists": "Beavertail Holiday Shopping",
    "venue": "Beavertail Lighthouse gift shop",
@@ -7103,21 +6841,12 @@
    "url": "https://www.beavertaillight.org/",
    "src": "Beavertail Lighthouse Museum Association",
    "address": "Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM."
-  },
-  {
-   "date": "2026-12-05",
-   "time": "12:00 PM",
-   "artists": "Beavertail Holiday Shopping and Open House",
-   "venue": "Beavertail Lighthouse Museum",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://www.beavertaillight.org/",
-   "src": "Beavertail Lighthouse Museum Association",
-   "address": "Beavertail State Park, Jamestown, RI 02835",
-   "blurb": "Visit the museum’s holiday open house and shop between noon and 3:00 PM; tower access is unknown."
+   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM.",
+   "hours": "noon - 3 PM",
+   "also_as": [
+    "Beavertail holiday shopping openings",
+    "Beavertail Holiday Shopping and Open House"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -7143,21 +6872,10 @@
    "url": "https://www.jamestownrichamber.com/eventsjtn/santa-mrs-claus-arrive-in-jamestown-zmdcl",
    "src": "Jamestown Chamber of Commerce",
    "address": "1 East Ferry Wharf; then 20 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "Welcome Santa and Mrs. Claus at the wharf before their visit to the gift shop."
-  },
-  {
-   "date": "2026-12-05",
-   "time": "1:00 PM",
-   "artists": "Santa and Mrs. Claus arrive by boat",
-   "venue": "East Ferry wharf",
-   "hood": "Jamestown",
-   "genre": "family",
-   "price": "",
-   "ages": "",
-   "url": "https://www.jamestownrichamber.com/eventsjtn",
-   "src": "Jamestown Chamber of Commerce",
-   "address": "1 East Ferry Wharf, Jamestown, RI 02835",
-   "blurb": "Welcome Santa and Mrs. Claus at the wharf before their fire-truck ride to the Conanicut Gift Shop."
+   "blurb": "Welcome Santa and Mrs. Claus at the wharf before their visit to the gift shop.",
+   "also_as": [
+    "Santa and Mrs. Claus arrive by boat"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -7346,7 +7064,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -7413,21 +7131,6 @@
   {
    "date": "2026-12-06",
    "time": "12:00 PM",
-   "artists": "Beavertail holiday shopping openings",
-   "venue": "Beavertail Lighthouse Museum and Gift Shop",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://beavertaillight.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "noon - 3 PM",
-   "address": "Beavertail Lighthouse Museum and Gift Shop, end of Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Beavertail’s museum and gift shop reopen for a December shopping afternoon after the regular season. Visitors can choose gifts connected with the lighthouse’s maritime setting and explore exhibits about its keepers and history at the entrance to Narragansett Bay. The opening covers the museum and gift shop; a tower climb is not included in the announcement. Call ahead if weather makes a visit uncertain. Presented by Beavertail Lighthouse Museum Association. Contact: 401-423-3270."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "12:00 PM",
    "artists": "Beavertail Holiday Shopping",
    "venue": "Beavertail Lighthouse gift shop",
    "hood": "Jamestown",
@@ -7437,21 +7140,12 @@
    "url": "https://www.beavertaillight.org/",
    "src": "Beavertail Lighthouse Museum Association",
    "address": "Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "12:00 PM",
-   "artists": "Beavertail Holiday Shopping and Open House",
-   "venue": "Beavertail Lighthouse Museum",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://www.beavertaillight.org/",
-   "src": "Beavertail Lighthouse Museum Association",
-   "address": "Beavertail State Park, Jamestown, RI 02835",
-   "blurb": "Visit the museum’s holiday open house and shop between noon and 3:00 PM; tower access is unknown."
+   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM.",
+   "hours": "noon - 3 PM",
+   "also_as": [
+    "Beavertail holiday shopping openings",
+    "Beavertail Holiday Shopping and Open House"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -7470,21 +7164,6 @@
   {
    "date": "2026-12-06",
    "time": "3:00 PM",
-   "artists": "Art Law and Artists’ Rights",
-   "venue": "Jamestown Arts Center",
-   "hood": "Jamestown",
-   "genre": "arts",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownartcenter.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "3 PM - 5 PM",
-   "address": "Jamestown Arts Center, 18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Art-law attorney Gale P. Elston leads a no-cost professional-development session drawing on her book Art Law and Artists’ Rights for Creators, Authors, and Artists. Topics include copyright, fair use, trademarks and the Visual Artists Rights Act, with practical examples connecting the discussion to decisions artists face when creating and sharing their work. The program adds a professional dimension to the arts center’s exhibitions and studio education. Space is limited; advance registration is requested. no-charge admission. RSVP requested; limited space. DEC 6 - DEC 12 / 2026 Presented by Jamestown Arts Center. Contact: 401-560-0979."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "3:00 PM",
    "artists": "Art Law and Artists’ Rights with Gale P. Elston",
    "venue": "Jamestown Arts Center",
    "hood": "Jamestown",
@@ -7494,7 +7173,11 @@
    "url": "https://www.jamestownartcenter.org/events/art-law",
    "src": "Jamestown Arts Center",
    "address": "18 Valley Street, Jamestown, RI 02835",
-   "blurb": "Hear an art-law attorney discuss issues relevant to creators during a two-hour program."
+   "blurb": "Hear an art-law attorney discuss issues relevant to creators during a two-hour program.",
+   "hours": "3 PM - 5 PM",
+   "also_as": [
+    "Art Law and Artists’ Rights"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -7770,7 +7453,7 @@
    "artists": "Jamestown Community Chorus rehearsal",
    "venue": "Church at Four Corners",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "",
    "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
@@ -8403,21 +8086,10 @@
    "url": "https://www.jamestownri.gov/seniorservices",
    "src": "Jamestown Senior Services",
    "address": "245 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "Participate in the scheduled line-dancing class at the golf-course clubhouse."
-  },
-  {
-   "date": "2026-12-10",
-   "time": "9:00 AM",
-   "artists": "Line Dancing — final class",
-   "venue": "Jamestown Golf Course clubhouse",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "$15 for the eight-week session",
-   "ages": "55+",
-   "url": "https://www.jamestownri.gov/seniorservices",
-   "src": "Jamestown Senior Services",
-   "address": "245 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "Participate in the scheduled line-dancing class at the golf-course clubhouse."
+   "blurb": "Participate in the scheduled line-dancing class at the golf-course clubhouse.",
+   "also_as": [
+    "Line Dancing — final class"
+   ]
   },
   {
    "date": "2026-12-10",
@@ -8635,21 +8307,6 @@
   {
    "date": "2026-12-12",
    "time": "12:00 PM",
-   "artists": "Beavertail holiday shopping openings",
-   "venue": "Beavertail Lighthouse Museum and Gift Shop",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://beavertaillight.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "noon - 3 PM",
-   "address": "Beavertail Lighthouse Museum and Gift Shop, end of Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Beavertail’s museum and gift shop reopen for a December shopping afternoon after the regular season. Visitors can choose gifts connected with the lighthouse’s maritime setting and explore exhibits about its keepers and history at the entrance to Narragansett Bay. The opening covers the museum and gift shop; a tower climb is not included in the announcement. Call ahead if weather makes a visit uncertain. Presented by Beavertail Lighthouse Museum Association. Contact: 401-423-3270."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "12:00 PM",
    "artists": "Beavertail Holiday Shopping",
    "venue": "Beavertail Lighthouse gift shop",
    "hood": "Jamestown",
@@ -8659,21 +8316,12 @@
    "url": "https://www.beavertaillight.org/",
    "src": "Beavertail Lighthouse Museum Association",
    "address": "Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "12:00 PM",
-   "artists": "Beavertail Holiday Shopping and Open House",
-   "venue": "Beavertail Lighthouse Museum",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://www.beavertaillight.org/",
-   "src": "Beavertail Lighthouse Museum Association",
-   "address": "Beavertail State Park, Jamestown, RI 02835",
-   "blurb": "Visit the museum’s holiday open house and shop between noon and 3:00 PM; tower access is unknown."
+   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM.",
+   "hours": "noon - 3 PM",
+   "also_as": [
+    "Beavertail holiday shopping openings",
+    "Beavertail Holiday Shopping and Open House"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -8692,21 +8340,6 @@
   {
    "date": "2026-12-12",
    "time": "4:00 PM",
-   "artists": "A Contemporary Christmas - Saturday Concert",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "live",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "4 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "A Contemporary Christmas brings the Jamestown Community Chorus’s seasonal program to the Recreation Center. The repertoire emphasizes music written in the 21st century alongside older folk material, placing newer voices within an island singing tradition established in 1949. Saturday and Sunday offer separate afternoon performances. Contact the chorus for December ticket prices and booking arrangements. Call the chorus for ticket prices and reservations. Presented by Jamestown Community Chorus. Contact: 401-787-4487. cantabile50@gmail.com."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "4:00 PM",
    "artists": "A Contemporary Christmas",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -8716,21 +8349,12 @@
    "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
    "src": "Jamestown Community Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI",
-   "blurb": "Jamestown Community Chorus presents its Christmas program."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "4:00 PM",
-   "artists": "A Contemporary Christmas — Jamestown Community Chorus",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "live",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
-   "src": "Jamestown Community Chorus",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The community chorus presents its seasonal concert at the recreation center."
+   "blurb": "Jamestown Community Chorus presents its Christmas program.",
+   "hours": "4 PM",
+   "also_as": [
+    "A Contemporary Christmas - Saturday Concert",
+    "A Contemporary Christmas — Jamestown Community Chorus"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -8808,7 +8432,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -8875,21 +8499,6 @@
   {
    "date": "2026-12-13",
    "time": "12:00 PM",
-   "artists": "Beavertail holiday shopping openings",
-   "venue": "Beavertail Lighthouse Museum and Gift Shop",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://beavertaillight.org",
-   "src": "Jamestown Public Calendar",
-   "hours": "noon - 3 PM",
-   "address": "Beavertail Lighthouse Museum and Gift Shop, end of Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Beavertail’s museum and gift shop reopen for a December shopping afternoon after the regular season. Visitors can choose gifts connected with the lighthouse’s maritime setting and explore exhibits about its keepers and history at the entrance to Narragansett Bay. The opening covers the museum and gift shop; a tower climb is not included in the announcement. Call ahead if weather makes a visit uncertain. Presented by Beavertail Lighthouse Museum Association. Contact: 401-423-3270."
-  },
-  {
-   "date": "2026-12-13",
-   "time": "12:00 PM",
    "artists": "Beavertail Holiday Shopping",
    "venue": "Beavertail Lighthouse gift shop",
    "hood": "Jamestown",
@@ -8899,21 +8508,12 @@
    "url": "https://www.beavertaillight.org/",
    "src": "Beavertail Lighthouse Museum Association",
    "address": "Beavertail Road, Jamestown, RI 02835",
-   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM."
-  },
-  {
-   "date": "2026-12-13",
-   "time": "12:00 PM",
-   "artists": "Beavertail Holiday Shopping and Open House",
-   "venue": "Beavertail Lighthouse Museum",
-   "hood": "Jamestown",
-   "genre": "community",
-   "price": "",
-   "ages": "",
-   "url": "https://www.beavertaillight.org/",
-   "src": "Beavertail Lighthouse Museum Association",
-   "address": "Beavertail State Park, Jamestown, RI 02835",
-   "blurb": "Visit the museum’s holiday open house and shop between noon and 3:00 PM; tower access is unknown."
+   "blurb": "Visit the lighthouse gift shop for its holiday opening from noon to 3:00 PM.",
+   "hours": "noon - 3 PM",
+   "also_as": [
+    "Beavertail holiday shopping openings",
+    "Beavertail Holiday Shopping and Open House"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -8932,21 +8532,6 @@
   {
    "date": "2026-12-13",
    "time": "3:00 PM",
-   "artists": "A Contemporary Christmas - Sunday Concert",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "live",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com",
-   "src": "Jamestown Public Calendar",
-   "hours": "3 PM",
-   "address": "Jamestown Recreation Center, 41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "A Contemporary Christmas brings the Jamestown Community Chorus’s seasonal program to the Recreation Center. The repertoire emphasizes music written in the 21st century alongside older folk material, placing newer voices within an island singing tradition established in 1949. Saturday and Sunday offer separate afternoon performances. Contact the chorus for December ticket prices and booking arrangements. Call the chorus for ticket prices and reservations. Presented by Jamestown Community Chorus. Contact: 401-787-4487."
-  },
-  {
-   "date": "2026-12-13",
-   "time": "3:00 PM",
    "artists": "A Contemporary Christmas",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
@@ -8956,21 +8541,12 @@
    "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
    "src": "Jamestown Community Chorus",
    "address": "41 Conanicus Avenue, Jamestown, RI",
-   "blurb": "Jamestown Community Chorus presents its Christmas program."
-  },
-  {
-   "date": "2026-12-13",
-   "time": "3:00 PM",
-   "artists": "A Contemporary Christmas — Jamestown Community Chorus",
-   "venue": "Jamestown Recreation Center",
-   "hood": "Jamestown",
-   "genre": "live",
-   "price": "",
-   "ages": "",
-   "url": "https://jamestownchorus.com/for-members/calendar-rehearsals/",
-   "src": "Jamestown Community Chorus",
-   "address": "41 Conanicus Avenue, Jamestown, RI 02835",
-   "blurb": "The community chorus presents its seasonal concert at the recreation center."
+   "blurb": "Jamestown Community Chorus presents its Christmas program.",
+   "hours": "3 PM",
+   "also_as": [
+    "A Contemporary Christmas - Sunday Concert",
+    "A Contemporary Christmas — Jamestown Community Chorus"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -10351,7 +9927,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -10441,21 +10017,10 @@
    "url": "https://narragansettcaferi.com/event/amber-rose-the-renegadesnarragansett-cafes-annual-christmas-party/",
    "src": "Narragansett Café",
    "address": "25 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "The Renegades perform at the café’s annual Christmas party."
-  },
-  {
-   "date": "2026-12-20",
-   "time": "4:00 PM",
-   "artists": "The Renegades~Narragansett Cafe’S Annual Christmas Party!",
-   "venue": "Narragansett Cafe",
-   "hood": "Jamestown",
-   "genre": "live",
-   "price": "",
-   "ages": "",
-   "url": "https://narragansettcaferi.com/event/amber-rose-the-renegadesnarragansett-cafes-annual-christmas-party/",
-   "src": "Narragansett Cafe",
-   "address": "25 Narragansett Avenue, Jamestown, RI 02835",
-   "blurb": "The Renegades~Narragansett Cafe’S Annual Christmas Party! performs at the village pub."
+   "blurb": "The Renegades perform at the café’s annual Christmas party.",
+   "also_as": [
+    "The Renegades~Narragansett Cafe’S Annual Christmas Party!"
+   ]
   },
   {
    "date": "2026-12-20",
@@ -11407,7 +10972,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -12489,7 +12054,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -13998,7 +13563,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -15396,7 +14961,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -16876,7 +16441,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -18314,7 +17879,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -19796,7 +19361,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -21180,7 +20745,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -22499,7 +22064,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -23911,7 +23476,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -25303,7 +24868,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -26551,7 +26116,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -27781,7 +27346,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
@@ -28954,7 +28519,7 @@
    "artists": "Everybody Chorus rehearsal",
    "venue": "Jamestown Recreation Center",
    "hood": "Jamestown",
-   "genre": "live",
+   "genre": "community",
    "price": "",
    "ages": "All ages",
    "url": "https://jamestownchorus.com/everybody-chorus/",
