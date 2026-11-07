@@ -34,8 +34,9 @@ function bauhaus(p,h){const r=h%3;return '<svg class="art bau" viewBox="0 0 100 
 function eq(n){let s='<span class="art eq" aria-hidden="true">';for(let i=0;i<n;i++)s+='<i style="animation-delay:-'+((i*0.37)%1.4).toFixed(2)+'s;height:'+(20+((i*53)%70))+'%"></i>';return s+'</span>'}
 function sax(){return '<svg class="art horn" viewBox="0 0 100 160" aria-hidden="true"><path d="M58 4h10v8l-6 2v70c0 30-8 52-30 60-14 5-28-2-28-16 0-9 7-15 16-15 10 0 14 6 14 14l0 4c8-4 12-16 12-34V14l-6-2z" fill="#e8b818"/><g fill="#0b2a5b">'+[30,44,58,72].map(y=>'<circle cx="62" cy="'+y+'" r="3"/>').join('')+'</g></svg>'}
 /* Island scene backgrounds (owner's art, Nov 7 2026): shown on about half of the fair and gallery posters, alternating hourly */
-const SCN=[['01-bridge',50],['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72]];
-const useScene=(st,h)=>(st==='fair'||st==='gallery')&&((h+Math.floor(Date.now()/36e5))%2===0);
+const SCN=[['01-bridge',50],['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72]];
+/* Nov 7 2026: owner wants only real art. Every poster uses an island painting, except the jazz and live-band posters, which carry their own painted art. */
+const useScene=(st,h)=>!(st==='blue'||st==='gig');
 /* --- margin poster (landscape ~300x180) --- */
 window.evPoster=function(a,s){try{
  const e=s.ev||{},t=clean(s.bigText);if(!t)return;const st=kind(e,t),h=hash(t),w=when(e);
@@ -236,8 +237,8 @@ function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null;
  const lab=(o,s)=>{const h=o.parentElement;if(h&&h.matches('button,a')){h.setAttribute('aria-label',s);const im=h.querySelector(':scope>img');if(im)im.alt=''}o.setAttribute('aria-hidden','true')};
  const evl=(c,k)=>{const d=c&&c.date?new Date(c.date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}):'';return (k||'')+String(c&&c.artists||'Event').split(/\s+[|@]\s+/)[0]+(d?', '+d:'')+(c&&c.time?', '+c.time:'')+(c&&c.venue?', '+c.venue:'')+'. '+(c&&c.url?'Opens tickets and info in a new tab':'Opens the event calendar')};
  const show=(o,first)=>{const L=pick();if(!L.length)return;
-  if(face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k';lab(o,'This week in Jamestown. Opens the event calendar')};first?put():turn(o,put);return}}
-  if(face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w';lab(o,'Worship services this week. Opens the event calendar')};first?put():turn(o,put);return}}
+  if(false&&face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k';lab(o,'This week in Jamestown. Opens the event calendar')};first?put():turn(o,put);return}}
+  if(false&&face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w';lab(o,'Worship services this week. Opens the event calendar')};first?put():turn(o,put);return}}
   if(face===0){cur=L[i++%L.length];const h=window.bigPoster&&window.bigPoster(cur,region());if(!h)return;const put=()=>{o.innerHTML=h;o.dataset.href=cur.url||'';o.dataset.face='p';lab(o,evl(cur,'Event poster: '));requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})};first?put():turn(o,put);face=1}
   else{face=0;show(o,false) /* brown facts card retired: go straight to the next poster */}};
  let started=false;const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&pick().length){started=true;show(o,true);clearInterval(kick)}},400);
