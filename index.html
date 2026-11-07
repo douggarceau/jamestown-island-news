@@ -1469,6 +1469,7 @@ function calendarKey(e){return e.external_identity||[e.date,e.time||'',e.venue||
 function calendarClock(t){if(!/^\d{2}:\d{2}$/.test(t||''))return t||'';const [h,m]=t.split(':').map(Number);return (h%12||12)+':'+String(m).padStart(2,'0')+(h<12?' AM':' PM')}
 function applyCalendarFeed(j,isCalendar){
   if(!j||!Array.isArray(j.events))return;
+  if(j.asof)window.CAL_ASOF=j.asof;
   if(isCalendar&&Array.isArray(j.managed_venues)&&j.events.length){const managed=new Set(j.managed_venues);for(const rows of [CAL2,up])for(let i=rows.length-1;i>=0;i--)if(managed.has(rows[i].venue))rows.splice(i,1)}
   const seen=new Set(CAL2.map(calendarKey));
   for(const e of j.events){if(!e.date||!e.artists||e.date<todayKey||e.reported_status==='EventCancelled'||/\b(drag|queer\w*|lgbt\w*|pride|lesbian|transgender|bisexual|boylesque)\b/i.test((e.artists||'')+' '+(e.title||'')))continue;const k=calendarKey(e);if(seen.has(k))continue;seen.add(k);
@@ -1508,7 +1509,7 @@ function storyCard(s){return `<button class="sc styled" style="--tc:${tc(s.topic
   <h4>${esc(s.title)}</h4><p>${esc(s.dek)}</p><span class="meta">${s.minutes} min read</span></button>`}
 function showRow(e){const d=pd(e.date);return `<a class="sh" href="${esc(e.url)}" target="_blank" rel="noopener">
   <span class="dt"><small>${MON[d.getMonth()]}</small><b>${d.getDate()}</b><i>${DOW[d.getDay()]}</i></span>
-  <span class="who"><b>${esc(e.artists)}</b><span>${esc(e.venue)}${e.hood?' · '+esc(e.hood):''}${e.time?' · '+esc(e.time):''}${e.doors_time?' · Doors '+esc(e.doors_time):''}${e.price?' · '+esc(e.price):''}${e.ages?' · '+esc(e.ages):''}</span>${e.blurb?'<i class="calb" title="'+esc(e.blurb)+'">'+esc(e.blurb)+'</i>':''}${(e.location_evidence||'').includes('official_club_calendar_default')?'<small style="display:block;color:var(--muted)">Venue inferred from the official Club Calendar; confirm with venue.</small>':''}</span>
+  <span class="who"><b>${esc(e.artists)}</b><span>${esc(e.venue)}${e.hood?' · '+esc(e.hood):''}${e.time?' · '+esc(e.time):''}${e.doors_time?' · Doors '+esc(e.doors_time):''}${e.price?' · '+esc(e.price):''}${e.ages?' · '+esc(e.ages):''}</span>${e.blurb?'<i class="calb" title="'+esc(e.blurb)+'">'+esc(e.blurb)+'</i>':''}${e.time&&window.CAL_ASOF?'<small class="vfy" style="display:block;color:var(--muted)">Time info as of '+esc(new Date(window.CAL_ASOF).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/New_York'}))+'; confirm with the venue.</small>':''}${(e.location_evidence||'').includes('official_club_calendar_default')?'<small style="display:block;color:var(--muted)">Venue inferred from the official Club Calendar; confirm with venue.</small>':''}</span>
   <span class="gtag" style="--gc:${GENRE[e.genre]||'#6f8aa8'}">${esc(e.genre)}</span></a>`}
 function evCard(e){return `<a class="ev" style="--gc:${KIND[e.kind]||'#8b949c'}" href="${esc(e.url)}" target="_blank" rel="noopener">
   <span class="kick" style="--tc:${KIND[e.kind]||'#8b949c'}"><span class="dot"></span>${esc(e.kind)}</span>
