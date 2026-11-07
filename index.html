@@ -1753,10 +1753,20 @@ function vVisit(){visitLoad();const S=(VISIT&&VISIT.sections)||[];const cur=(STA
  <div class="vgrid">${sec?(sec.items||[]).map(card).join(''):'<div class="empty">Loading the island guide…</div>'}</div>`}
 /* Homes for sale in Jamestown, RI. Data in data/realestate.json (snapshot; see its note). */
 let RE=null;function reLoad(){if(RE)return;fetch('data/realestate.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.listings){RE=j;if(STATE.view==='realestate')render()}}).catch(()=>{})}
-function vRealEstate(){reLoad();const j=RE||{};const L=j.listings||[];
+let REsort='default';const RE_SORTS=[['default','Default'],['price-asc','Price: low to high'],['price-desc','Price: high to low'],['newest','Newest listed'],['longest','Longest listed']];
+const rePrice=s=>parseInt(String(s).replace(/[^0-9]/g,''),10)||0;
+function reSorted(L){const a=L.slice();const last=(x,v)=>x.dom==null?Infinity:v;
+ if(REsort==='price-asc')a.sort((x,y)=>rePrice(x.price)-rePrice(y.price));
+ else if(REsort==='price-desc')a.sort((x,y)=>rePrice(y.price)-rePrice(x.price));
+ else if(REsort==='newest')a.sort((x,y)=>(x.dom==null)-(y.dom==null)||(x.dom||0)-(y.dom||0));
+ else if(REsort==='longest')a.sort((x,y)=>(x.dom==null)-(y.dom==null)||(y.dom||0)-(x.dom||0));
+ return a}
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-resort]');if(!b)return;e.preventDefault();REsort=b.dataset.resort;render()});
+function vRealEstate(){reLoad();const j=RE||{};const L=reSorted(j.listings||[]);
+ const sortBar=`<div class="pads">${RE_SORTS.map(([k,t])=>`<button class="pad${REsort===k?' on':''}" data-resort="${k}"><span>${t}</span></button>`).join('')}</div>`;
  const cards=L.map(x=>`<a class="revc" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="readdr"><b>${esc(x.address)}</b><small>${esc(x.status)}${x.note?' · '+esc(x.note):''}</small></span><span class="reprice"><b>${esc(x.price)}</b><small>${x.beds} bd · ${x.baths} ba</small>${x.alt?`<small class="realt">${esc(x.alt)}</small>`:''}</span></a>`).join('');
  const src=(j.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ');
- return `<style>.revlist{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}.revc{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid rgba(128,128,128,.3);border-radius:8px;text-decoration:none;color:inherit}.readdr b,.reprice b{display:block}.readdr small,.reprice small{display:block;opacity:.75;font-size:12px}.reprice{text-align:right}.realt{color:#c77d00!important}.revc:hover{border-color:currentColor}</style><h2 class="room">Homes for Sale in Jamestown, RI</h2><div class="intro"><b>Houses listed for sale on Conanicut Island</b><p>${esc(j.note||'')}</p>${src?`<p class="srcs">Sources: ${src}</p>`:''}${j.asof?`<p>Snapshot date: ${esc(j.asof)}</p>`:''}</div><div class="revlist">${L.length?cards:'<div class="empty">Loading listings…</div>'}</div>`}
+ return `<style>.revlist{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}.revc{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid rgba(128,128,128,.3);border-radius:8px;text-decoration:none;color:inherit}.readdr b,.reprice b{display:block}.readdr small,.reprice small{display:block;opacity:.75;font-size:12px}.reprice{text-align:right}.realt{color:#c77d00!important}.revc:hover{border-color:currentColor}</style><h2 class="room">Homes for Sale in Jamestown, RI</h2><div class="intro"><b>Houses listed for sale on Conanicut Island</b><p>${esc(j.note||'')}</p>${src?`<p class="srcs">Sources: ${src}</p>`:''}${j.asof?`<p>Snapshot date: ${esc(j.asof)}</p>`:''}</div>${sortBar}<div class="revlist">${L.length?cards:'<div class="empty">Loading listings…</div>'}</div>`}
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-vsec]');if(!b)return;e.preventDefault();STATE.vsec=b.dataset.vsec;render()});
 function cwFill(){const q=id=>document.getElementById(id);
   if(q('cwNews')){const L=CW.news.filter(cwMatch);let h=L.map(cwNewsRow).join('');
