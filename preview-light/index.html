@@ -3132,7 +3132,7 @@ html body aside#dirCol .drow .dn::before,html body aside#dirCol .drow .dn::after
 </style>
 <script id="pvLightJs">(()=>{
 const h1=document.querySelector('header.mast .lgimg');if(h1&&!h1.querySelector('.pvname')){const s=document.createElement('span');s.className='pvname';s.innerHTML='Jamestown<small>Island News</small>';h1.appendChild(s)}
-const hol=()=>{const s=document.querySelector('#view section.hg');if(!s||s.querySelector('.pvhint'))return;const c=s.querySelector('.pvhcov');const p=c&&c.querySelector('p');const d=document.createElement('div');d.className='pvhint';d.innerHTML='<span class="lab">HOLIDAY</span><br>';if(p)d.appendChild(p);const b=s.querySelector('.pvban');if(b)b.after(d)};
+const hol=()=>{const s=document.querySelector('#view section.hg');if(!s||s.querySelector('.pvhint'))return;const c=s.querySelector('.pvhcov');const p=c&&c.querySelector('p');const d=document.createElement('div');d.className='pvhint';d.innerHTML='<span class="cv"><picture><source type="image/webp" srcset="img/art/v2-06-holiday-cover-500.webp 500w, img/art/v2-06-holiday-cover-900.webp 900w" sizes="200px"><img src="img/art/v2-06-holiday-cover-500.jpg" alt="" width="1024" height="1536" loading="lazy" decoding="async"></picture></span><div class="tx"><span class="lab">HOLIDAY</span></div>';if(p)d.querySelector('.tx').appendChild(p);const b=s.querySelector('.pvban');if(b)b.after(d)};
 const V=document.getElementById('view');if(V)new MutationObserver(()=>setTimeout(hol,0)).observe(V,{childList:true});hol()})();</script><style id="pvArtV2">
 /* v2 art has its titles painted in: show the art, keep the live headings for screen readers only */
 html body header.mast .pvmast{max-width:600px!important;aspect-ratio:3/1!important;max-height:200px;background:#0e2233!important;border:0!important;padding:0!important;display:block!important}
@@ -3172,5 +3172,90 @@ html body #coverSlot .cvr button.cvbrk .cvbrk-t b{font-size:clamp(34px,10cqw,58p
 html body #coverSlot .cvr button.cvbrk .cvbrk-t small{font-size:24px!important;line-height:1.45!important}
 @media (max-width:900px){html body #coverSlot .cvr button.cvbrk .cvbrk-t b{font-size:38px!important}html body #coverSlot .cvr button.cvbrk .cvbrk-t small{font-size:21px!important}}
 @media (max-width:360px){html body #coverSlot .cvr button.cvbrk .cvbrk-t b{font-size:32px!important}}
-</style><script id="pvLightV4Js">(()=>{const lab=()=>{const c=document.querySelector('#coverSlot .cvr .cimg');if(!c||c.previousElementSibling&&c.previousElementSibling.classList.contains('pvfe-w'))return;const w=document.createElement('div');w.className='pvfe-w';w.innerHTML='<span class="pvfe">Featured event</span>';c.parentNode.insertBefore(w,c);if(matchMedia('(max-width:900px)').matches){}};const S=document.getElementById('coverSlot');if(S)new MutationObserver(lab).observe(S,{childList:true,subtree:false});lab()})();</script><style id="pvLeadStable">html body #coverSlot .cvr .cvbrk{transform:none!important;transition:none!important}html body #coverSlot .cvr .cvbrk>:not(.spr-tag):not(.cvbrk-t):not(.spr-go){display:none!important}</style><script id="pvLeadStableJs">(()=>{const fix=()=>{const b=document.querySelector('#coverSlot .cvr .cvbrk');if(!b)return;if(b.classList.contains('itn-on')||b.classList.contains('bpx-on')){b.classList.remove('itn-on','bpx-on')}};setInterval(fix,250);fix()})();</script></body>
+</style><script id="pvLightV4Js">(()=>{const lab=()=>{const c=document.querySelector('#coverSlot .cvr .cimg');if(!c||c.previousElementSibling&&c.previousElementSibling.classList.contains('pvfe-w'))return;const w=document.createElement('div');w.className='pvfe-w';w.innerHTML='<span class="pvfe">Featured event</span>';c.parentNode.insertBefore(w,c);if(matchMedia('(max-width:900px)').matches){}};const S=document.getElementById('coverSlot');if(S)new MutationObserver(lab).observe(S,{childList:true,subtree:false});lab()})();</script><style id="pvLeadStable">html body #coverSlot .cvr .cvbrk{transform:none!important;transition:none!important}html body #coverSlot .cvr .cvbrk>:not(.spr-tag):not(.cvbrk-t):not(.spr-go){display:none!important}</style><script id="pvLeadStableJs">(()=>{const fix=()=>{const b=document.querySelector('#coverSlot .cvr .cvbrk');if(!b)return;if(b.classList.contains('itn-on')||b.classList.contains('bpx-on')){b.classList.remove('itn-on','bpx-on')}};setInterval(fix,250);fix()})();</script><style id="pvCards">
+/* Stationary cards for the light preview: one palette, one type system, text-driven height */
+.pvc{--c-bg:#FFFCF5;--c-ink:#203343;--c-sub:#52606B;--c-line:#D8D0C0;--c-acc:#7A3038;--c-gold:#A58A51;background:var(--c-bg);border:1px solid var(--c-line);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;color:var(--c-ink);text-align:left;box-sizing:border-box;min-width:0}
+.pvc:hover{border-color:#A58A51}
+.pvc .k{font:600 13px/1.2 "Source Sans 3",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--c-acc)}
+.pvc .t{font:700 24px/1.15 "Cormorant Garamond",Georgia,serif;color:var(--c-ink);margin:0;overflow-wrap:anywhere}
+.pvc .w{font:600 15px/1.35 "Source Sans 3",Arial,sans-serif;color:var(--c-ink)}
+.pvc .v{font:400 15px/1.35 "Source Sans 3",Arial,sans-serif;color:var(--c-sub)}
+.pvc .s{font:400 16px/1.5 "Source Serif 4",Georgia,serif;color:var(--c-sub);margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pvc .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.pvc .btn{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:4px;font:600 16px/1 "Source Sans 3",Arial,sans-serif;text-decoration:none;cursor:pointer;box-sizing:border-box}
+.pvc .btn.p{background:#203343;color:#FFFCF5;border:1px solid #203343}.pvc .btn.p:hover{background:#245A73}
+.pvc .btn.q{background:#FFFCF5;color:#203343;border:1px solid #203343}.pvc .btn.q:hover{background:#F7F3EA}
+.pvc :focus-visible,.pvfeat :focus-visible{outline:3px solid #203343;outline-offset:2px;box-shadow:0 0 0 2px #FFFCF5}
+.pvc .rule{height:0;border-top:1px solid var(--c-gold);width:48px;margin:2px 0 4px}
+/* featured events (replaces the flipping poster boxes) */
+.pvfeat{display:flex;flex-direction:column;gap:10px;min-width:0}
+.pvfeat .bar{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.pvfeat .lbl{font:600 13px/1 "Source Sans 3",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#52606B}
+.pvfeat .nav{display:flex;align-items:center;gap:6px}
+.pvfeat .nav button{min-width:44px;min-height:44px;border:1px solid #203343;background:#FFFCF5;color:#203343;border-radius:4px;font:600 16px "Source Sans 3",Arial,sans-serif;cursor:pointer}
+.pvfeat .nav button:hover{background:#F7F3EA}
+.pvfeat .cnt{font:400 15px "Source Sans 3",Arial,sans-serif;color:#52606B;min-width:64px;text-align:center}
+.pvfeat .pvc .t{font-size:30px}
+@media (max-width:899px){.pvfeat .pvc .t{font-size:27px}}
+/* rail */
+.pvrail{display:flex;flex-direction:column;gap:12px}
+.pvrail .pvc .t{font-size:22px}
+@media (max-width:899px){.pvrail{flex-direction:row;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;width:100%}.pvrail .pvc{flex:0 0 min(78vw,280px);scroll-snap-align:start}}
+html body .lsrow.pvfrozen>.lspot{display:none!important}
+html body #coverSlot .cvr.pvfrozen>.cimg,html body #coverSlot .cvr.pvfrozen>.pbx,html body #coverSlot .cvr.pvfrozen>.pvfe-w{display:none!important}
+/* poster enlargement */
+.pvmodal{position:fixed;inset:0;z-index:100000;background:rgba(32,51,67,.72);display:flex;align-items:center;justify-content:center;padding:16px}
+.pvmodal .box{background:#FFFCF5;border-radius:4px;padding:14px;max-width:min(92vw,460px);width:100%;max-height:92vh;overflow:auto;display:flex;flex-direction:column;gap:10px}
+.pvmodal .pst{position:relative;width:100%;aspect-ratio:2/3;container-type:size;overflow:hidden;border:1px solid #D8D0C0}
+.pvmodal .pst>*{position:absolute;inset:0}
+.pvmodal .x{align-self:flex-end;min-height:44px;padding:0 16px;border:1px solid #203343;background:#FFFCF5;color:#203343;border-radius:4px;font:600 16px "Source Sans 3",Arial,sans-serif;cursor:pointer}
+
+.pvfeat .lbl::after,.pvfeat .lbl::before{display:none!important;content:none!important}
+/* desktop: lead story left (wider), featured events right, island news below */
+@media (min-width:900px){html body #coverSlot .cvr.pvfrozen{display:grid!important;grid-template-columns:minmax(0,3fr) minmax(0,2fr)!important;grid-template-rows:auto auto!important;gap:24px 28px!important;align-items:start!important}
+ html body #coverSlot .cvr.pvfrozen>.cvbrk{grid-column:1!important;grid-row:1!important}
+ html body #coverSlot .cvr.pvfrozen>.pvfeat{grid-column:2!important;grid-row:1!important}
+ html body #coverSlot .cvr.pvfrozen>.cvside{grid-column:1/-1!important;grid-row:2!important;margin-top:0!important}}
+@media (max-width:899px){html body #coverSlot .cvr.pvfrozen>.cvbrk{order:-2!important}html body #coverSlot .cvr.pvfrozen>.pvfeat{order:1!important}html body #coverSlot .cvr.pvfrozen>.cvside{order:3!important}}
+/* directory event rows: same palette, no poster colours */
+html body aside#dirCol .fb{background:#FFFCF5!important;border:1px solid #D8D0C0!important;border-radius:4px!important;box-shadow:none!important;background-image:none!important}
+html body aside#dirCol .fb .fb-d{background:#203343!important;border-radius:4px 0 0 4px!important;background-image:none!important}
+html body aside#dirCol .fb .fb-d *{color:#FFFCF5!important;font-family:"Source Sans 3",Arial,sans-serif!important}
+html body aside#dirCol .fb .fb-t{color:#203343!important;font:700 18px/1.2 "Cormorant Garamond",Georgia,serif!important;font-style:normal!important}
+html body aside#dirCol .fb .fb-v{color:#52606B!important;font:600 13px/1.3 "Source Sans 3",Arial,sans-serif!important;letter-spacing:.04em!important}
+/* holiday intro: the new cover beside the intro text */
+html body #view .hg .pvhint{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:20px;align-items:center}
+html body #view .hg .pvhint .cv{display:block;aspect-ratio:2/3;border:1px solid #D8D0C0;border-radius:4px;overflow:hidden}
+html body #view .hg .pvhint .cv img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:520px){html body #view .hg .pvhint{grid-template-columns:minmax(0,130px) minmax(0,1fr);gap:14px}html body #view .hg .pvhint p{font-size:17px!important}}
+</style>
+<script id="pvCardsJs">(()=>{
+const E=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CAT={live:'Live music',rock:'Live music',jazz:'Live music',classical:'Classical music',arts:'The arts',theater:'Theater',family:'Family',community:'Community',recreation:'Recreation',worship:'Worship',civic:'Town meeting',support:'Support'};
+const day=d=>{if(!d)return '';const t=new Date(d+'T12:00:00');return t.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})};
+const pool=()=>{try{return (window.jtEvPool&&window.jtEvPool())||[]}catch(_){return []}};
+const today=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+const evCard=(ev,extra)=>{const u=/^https?:/.test(ev.url||'')?ev.url:'';const blurb=String(ev.blurb||'').trim();
+ return '<article class="pvc"><span class="k">'+E(CAT[ev.genre]||'Event')+'</span><h3 class="t">'+E(String(ev.artists||'').split(/\s+[|@]\s+/)[0])+'</h3><span class="rule" aria-hidden="true"></span><span class="w">'+E(day(ev.date)+(ev.time?' · '+ev.time:''))+'</span>'+(ev.venue?'<span class="v">'+E(ev.venue)+'</span>':'')+(blurb?'<p class="s">'+E(blurb)+'</p>':'')+'<div class="acts">'+(u?'<a class="btn p" href="'+E(u)+'" target="_blank" rel="noopener">Tickets &amp; info<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)"> (opens in a new tab)</span></a>':'<a class="btn p" href="#cal" data-go="cal">See the calendar</a>')+(extra||'')+'</div></article>'};
+/* featured events: stationary, manual Previous / Next */
+let FI=0,FL=[];
+const featHTML=()=>{if(!FL.length)return '';const ev=FL[FI];return '<div class="bar"><span class="lbl">Featured events</span><div class="nav"><button type="button" data-pvf="-1" aria-label="Previous event">‹</button><span class="cnt" aria-live="polite">'+(FI+1)+' of '+FL.length+'</span><button type="button" data-pvf="1" aria-label="Next event">›</button></div></div>'+evCard(ev,window.bigPoster?'<button type="button" class="btn q" data-pvposter="'+FI+'">View poster</button>':'')};
+const feat=()=>{const c=document.querySelector('#coverSlot .cvr');if(!c)return;let f=c.querySelector('.pvfeat');
+ if(!FL.length){const seen=new Set();FL=pool().map(p=>p.ev).filter(e=>e&&e.date>=today&&!/worship|support/.test(e.genre||'')).sort((a,b)=>(a.date+(a.time||'')).localeCompare(b.date+(b.time||''))).filter(e=>{const k=(e.artists||'').toLowerCase().slice(0,40);if(seen.has(k))return false;seen.add(k);return true}).slice(0,30)}
+ if(!FL.length)return;if(!f){f=document.createElement('section');f.className='pvfeat';f.setAttribute('aria-label','Featured events');const ref=c.querySelector('.cimg')||c.firstChild;c.insertBefore(f,ref);c.classList.add('pvfrozen')}f.innerHTML=featHTML()};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-pvf]');if(b){FI=(FI+Number(b.dataset.pvf)+FL.length)%FL.length;feat();const n=document.querySelector('.pvfeat [data-pvf="'+b.dataset.pvf+'"]');n&&n.focus();return}
+ const pb=e.target.closest('[data-pvposter]');if(pb){const ev=FL[+pb.dataset.pvposter];if(!ev||!window.bigPoster)return;const m=document.createElement('div');m.className='pvmodal';m.setAttribute('role','dialog');m.setAttribute('aria-modal','true');m.setAttribute('aria-label','Event poster: '+(ev.artists||''));let h='';try{h=window.bigPoster(ev,'Jamestown')||''}catch(_){}
+  m.innerHTML='<div class="box"><button type="button" class="x">Close</button><div class="pst">'+h+'</div></div>';document.body.appendChild(m);const x=m.querySelector('.x');x.focus();const close=()=>{m.remove();pb.focus()};x.onclick=close;m.addEventListener('click',ev2=>{if(ev2.target===m)close()});m.addEventListener('keydown',ev2=>{if(ev2.key==='Escape')close()});try{window.epFit&&window.epFit()}catch(_){};return}},true);
+/* rail: freeze the rotating promo cards into stationary, consistent cards */
+const rail=()=>{const L=document.querySelector('.lsrow');if(!L||L.classList.contains('pvfrozen'))return;const S=[...L.querySelectorAll('.lspot')];if(!S.length)return;const P=pool();const seen=new Set();const out=[];
+ for(const s of S){const a=s.querySelector('a');const lab=(a&&a.getAttribute('aria-label'))||'';
+  if(s.classList.contains('t-ad')){const big=(s.querySelector('.ls-big')||{}).textContent||'';const k='ad:'+big;if(seen.has(k))continue;seen.add(k);out.push('<article class="pvc"><span class="k">Advertise here</span><h3 class="t">'+E(big.replace(/&/,' & ').replace(/\s+/g,' ').trim())+'</h3><span class="v">'+E(lab)+'</span><div class="acts"><a class="btn q" href="#advertise" data-go="advertise">How it works</a></div></article>');continue}
+  const os=s.querySelector('.os-t');if(os){const t=os.textContent.trim();if(seen.has('s:'+t))continue;seen.add('s:'+t);const st=(typeof STORIES!=='undefined'?STORIES:[]).find(x=>x.title===t);if(!st)continue;out.push('<article class="pvc"><span class="k">Our article</span><h3 class="t">'+E(t)+'</h3>'+(st.date?'<span class="v">'+E(day(st.date))+'</span>':'')+(st.dek?'<p class="s">'+E(st.dek)+'</p>':'')+'<div class="acts"><a class="btn p" href="?story='+E(st.slug)+'" data-story="'+E(st.slug)+'">Read the article</a></div></article>');continue}
+  const t=((s.querySelector('.ep-t')||{}).textContent||lab).trim();if(!t||seen.has('e:'+t))continue;seen.add('e:'+t);const p=P.find(x=>x.ev&&x.ev.artists===t);if(p)out.push(evCard(p.ev))}
+ if(!out.length)return;const R=document.createElement('div');R.className='pvrail';R.setAttribute('aria-label','More stories and events');
+ const first=S.find(x=>x.getBoundingClientRect().width>0);if(getComputedStyle(L).position==='absolute'&&first){R.style.cssText='position:absolute;left:'+first.offsetLeft+'px;top:'+first.offsetTop+'px;width:'+first.offsetWidth+'px'}
+ R.innerHTML=out.slice(0,14).join('');L.appendChild(R);L.classList.add('pvfrozen')};
+let tries=0;const go=()=>{feat();rail();if(++tries<40&&(!document.querySelector('.pvfeat')||!document.querySelector('.lsrow.pvfrozen')))setTimeout(go,500)};go();
+const S=document.getElementById('coverSlot');if(S)new MutationObserver(()=>{if(!document.querySelector('#coverSlot .pvfeat'))feat()}).observe(S,{childList:true})})();</script>
+</body>
 </html>
