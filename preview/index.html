@@ -1251,7 +1251,7 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
 <div class="clsbar top"><a class="twb" id="tw" href="https://forecast.weather.gov/MapClick.php?lat=41.4968&amp;lon=-71.3673" target="_blank" rel="noopener" title="Jamestown forecast from the National Weather Service"><b id="twTime">--:--</b><span class="twd" id="twDate"></span><span id="twIcon">☁</span><b id="twTemp">--°</b><span class="twc" id="twCond"></span></a><span class="cb-m nhm" aria-hidden="true"><span class="nhm-r"><span>Jamestown</span><span>Conanicut Island</span><span>East Ferry</span><span>West Ferry</span><span>Shoreby Hill</span><span>Beavertail</span><span>Fort Wetherill</span><span>Mackerel Cove</span><span>Jamestown Shores</span><span>Dutch Island</span><span>The Dumplings</span><span>North End</span><span>Fort Getty</span><span>Taylor Point</span><span>Jamestown</span><span>Conanicut Island</span><span>East Ferry</span><span>West Ferry</span><span>Shoreby Hill</span><span>Beavertail</span><span>Fort Wetherill</span><span>Mackerel Cove</span><span>Jamestown Shores</span><span>Dutch Island</span><span>The Dumplings</span><span>North End</span><span>Fort Getty</span><span>Taylor Point</span></span></span></span><span class="rec"><i></i>LIVE FROM JAMESTOWN</span></div>
 <div class="clsbar bot" aria-hidden="true"><span>■ JAMESTOWN ISLAND NEWS</span><span class="cb-m">ISLAND NEWS · EVENTS · PEOPLE · THE ISLAND CALENDAR · SOURCES LINKED ON EVERY STORY</span><span id="issueBar">ISSUE</span></div>
 
-<div id="pvBanner" style="position:sticky;top:20px;z-index:99999;background:#d9b25a;color:#15110a;font:700 13px/1.3 Helvetica,Arial,sans-serif;text-align:center;padding:8px">DESIGN PREVIEW — not the live site. All stories, listings and links are the same.</div><div class="wrap">
+<div id="pvBanner" style="position:sticky;top:20px;z-index:99999;background:#d9b25a;color:#15110a;font:700 13px/1.3 Helvetica,Arial,sans-serif;text-align:center;padding:8px">CLAUDE'S REDESIGN PREVIEW — not the live site. All stories, listings and links are the same.</div><div class="wrap">
   <header class="mast">
     <div>
       <h1 class="logo lgimg"><img src="img/jamestown-masthead.png?v=2" alt="Jamestown Island News" width="1440" height="346"></h1>
@@ -2989,5 +2989,122 @@ html body header.mast .pvmast>picture img{object-fit:contain!important}
 .pvban picture,.pvban img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:contain!important}
 html body #view .pvban h2.room,html body #view .pvban h2{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;margin:0!important;padding:0!important}
 .pvban .pvsub{display:none!important}
+</style><style id="pvCards">
+/* Stationary cards for the light preview: one palette, one type system, text-driven height */
+.pvc{--c-bg:#FFFCF5;--c-ink:#203343;--c-sub:#52606B;--c-line:#D8D0C0;--c-acc:#7A3038;--c-gold:#A58A51;background:var(--c-bg);border:1px solid var(--c-line);border-radius:4px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;color:var(--c-ink);text-align:left;box-sizing:border-box;min-width:0}
+.pvc:hover{border-color:#A58A51}
+.pvc .k{font:600 13px/1.2 "Source Sans 3",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--c-acc)}
+.pvc .t{font:700 24px/1.15 "Cormorant Garamond",Georgia,serif;color:var(--c-ink);margin:0;overflow-wrap:anywhere}
+.pvc .w{font:600 15px/1.35 "Source Sans 3",Arial,sans-serif;color:var(--c-ink)}
+.pvc .v{font:400 15px/1.35 "Source Sans 3",Arial,sans-serif;color:var(--c-sub)}
+.pvc .s{font:400 16px/1.5 "Source Serif 4",Georgia,serif;color:var(--c-sub);margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pvc .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.pvc .btn{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:4px;font:600 16px/1 "Source Sans 3",Arial,sans-serif;text-decoration:none;cursor:pointer;box-sizing:border-box}
+.pvc .btn.p{background:#203343;color:#FFFCF5;border:1px solid #203343}.pvc .btn.p:hover{background:#245A73}
+.pvc .btn.q{background:#FFFCF5;color:#203343;border:1px solid #203343}.pvc .btn.q:hover{background:#F7F3EA}
+.pvc :focus-visible,.pvfeat :focus-visible{outline:3px solid #203343;outline-offset:2px;box-shadow:0 0 0 2px #FFFCF5}
+.pvc .rule{height:0;border-top:1px solid var(--c-gold);width:48px;margin:2px 0 4px}
+/* featured events (replaces the flipping poster boxes) */
+.pvfeat{display:flex;flex-direction:column;gap:10px;min-width:0}
+.pvfeat .bar{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.pvfeat .lbl{font:600 13px/1 "Source Sans 3",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#52606B}
+.pvfeat .nav{display:flex;align-items:center;gap:6px}
+.pvfeat .nav button{min-width:44px;min-height:44px;border:1px solid #203343;background:#FFFCF5;color:#203343;border-radius:4px;font:600 16px "Source Sans 3",Arial,sans-serif;cursor:pointer}
+.pvfeat .nav button:hover{background:#F7F3EA}
+.pvfeat .cnt{font:400 15px "Source Sans 3",Arial,sans-serif;color:#52606B;min-width:64px;text-align:center}
+.pvfeat .pvc .t{font-size:30px}
+@media (max-width:899px){.pvfeat .pvc .t{font-size:27px}}
+/* rail */
+.pvrail{display:flex;flex-direction:column;gap:12px}
+.pvrail .pvc .t{font-size:22px}
+@media (max-width:899px){.pvrail{flex-direction:row;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;width:100%}.pvrail .pvc{flex:0 0 min(78vw,280px);scroll-snap-align:start}}
+html body .lsrow.pvfrozen>.lspot{display:none!important}
+html body #coverSlot .cvr.pvfrozen>.cimg,html body #coverSlot .cvr.pvfrozen>.pbx,html body #coverSlot .cvr.pvfrozen>.pvfe-w{display:none!important}
+/* poster enlargement */
+.pvmodal{position:fixed;inset:0;z-index:100000;background:rgba(32,51,67,.72);display:flex;align-items:center;justify-content:center;padding:16px}
+.pvmodal .box{background:#FFFCF5;border-radius:4px;padding:14px;max-width:min(92vw,460px);width:100%;max-height:92vh;overflow:auto;display:flex;flex-direction:column;gap:10px}
+.pvmodal .pst{position:relative;width:100%;aspect-ratio:2/3;container-type:size;overflow:hidden;border:1px solid #D8D0C0}
+.pvmodal .pst>*{position:absolute;inset:0}
+.pvmodal .x{align-self:flex-end;min-height:44px;padding:0 16px;border:1px solid #203343;background:#FFFCF5;color:#203343;border-radius:4px;font:600 16px "Source Sans 3",Arial,sans-serif;cursor:pointer}
+
+.pvfeat .lbl::after,.pvfeat .lbl::before{display:none!important;content:none!important}
+/* desktop: lead story left (wider), featured events right, island news below */
+@media (min-width:900px){html body #coverSlot .cvr.pvfrozen{display:grid!important;grid-template-columns:minmax(0,3fr) minmax(0,2fr)!important;grid-template-rows:auto auto!important;gap:24px 28px!important;align-items:start!important}
+ html body #coverSlot .cvr.pvfrozen>.cvbrk{grid-column:1!important;grid-row:1!important}
+ html body #coverSlot .cvr.pvfrozen>.pvfeat{grid-column:2!important;grid-row:1!important}
+ html body #coverSlot .cvr.pvfrozen>.cvside{grid-column:1/-1!important;grid-row:2!important;margin-top:0!important}}
+@media (max-width:899px){html body #coverSlot .cvr.pvfrozen>.cvbrk{order:-2!important}html body #coverSlot .cvr.pvfrozen>.pvfeat{order:1!important}html body #coverSlot .cvr.pvfrozen>.cvside{order:3!important}}
+/* directory event rows: same palette, no poster colours */
+html body aside#dirCol .fb{background:#FFFCF5!important;border:1px solid #D8D0C0!important;border-radius:4px!important;box-shadow:none!important;background-image:none!important}
+html body aside#dirCol .fb .fb-d{background:#203343!important;border-radius:4px 0 0 4px!important;background-image:none!important}
+html body aside#dirCol .fb .fb-d *{color:#FFFCF5!important;font-family:"Source Sans 3",Arial,sans-serif!important}
+html body aside#dirCol .fb .fb-t{color:#203343!important;font:700 18px/1.2 "Cormorant Garamond",Georgia,serif!important;font-style:normal!important}
+html body aside#dirCol .fb .fb-v{color:#52606B!important;font:600 13px/1.3 "Source Sans 3",Arial,sans-serif!important;letter-spacing:.04em!important}
+/* holiday intro: the new cover beside the intro text */
+html body #view .hg .pvhint{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:20px;align-items:center}
+html body #view .hg .pvhint .cv{display:block;aspect-ratio:2/3;border:1px solid #D8D0C0;border-radius:4px;overflow:hidden}
+html body #view .hg .pvhint .cv img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:520px){html body #view .hg .pvhint{grid-template-columns:minmax(0,130px) minmax(0,1fr);gap:14px}html body #view .hg .pvhint p{font-size:17px!important}}
+</style><script id="pvCardsJs">(()=>{
+const E=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CAT={live:'Live music',rock:'Live music',jazz:'Live music',classical:'Classical music',arts:'The arts',theater:'Theater',family:'Family',community:'Community',recreation:'Recreation',worship:'Worship',civic:'Town meeting',support:'Support'};
+const day=d=>{if(!d)return '';const t=new Date(d+'T12:00:00');return t.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})};
+const pool=()=>{try{return (window.jtEvPool&&window.jtEvPool())||[]}catch(_){return []}};
+const today=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+const evCard=(ev,extra)=>{const u=/^https?:/.test(ev.url||'')?ev.url:'';const blurb=String(ev.blurb||'').trim();
+ return '<article class="pvc"><span class="k">'+E(CAT[ev.genre]||'Event')+'</span><h3 class="t">'+E(String(ev.artists||'').split(/\s+[|@]\s+/)[0])+'</h3><span class="rule" aria-hidden="true"></span><span class="w">'+E(day(ev.date)+(ev.time?' · '+ev.time:''))+'</span>'+(ev.venue?'<span class="v">'+E(ev.venue)+'</span>':'')+(blurb?'<p class="s">'+E(blurb)+'</p>':'')+'<div class="acts">'+(u?'<a class="btn p" href="'+E(u)+'" target="_blank" rel="noopener">Tickets &amp; info<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)"> (opens in a new tab)</span></a>':'<a class="btn p" href="#cal" data-go="cal">See the calendar</a>')+(extra||'')+'</div></article>'};
+/* featured events: stationary, manual Previous / Next */
+let FI=0,FL=[];
+const featHTML=()=>{if(!FL.length)return '';const ev=FL[FI];return '<div class="bar"><span class="lbl">Featured events</span><div class="nav"><button type="button" data-pvf="-1" aria-label="Previous event">‹</button><span class="cnt" aria-live="polite">'+(FI+1)+' of '+FL.length+'</span><button type="button" data-pvf="1" aria-label="Next event">›</button></div></div>'+evCard(ev,window.bigPoster?'<button type="button" class="btn q" data-pvposter="'+FI+'">View poster</button>':'')};
+const feat=()=>{const c=document.querySelector('#coverSlot .cvr');if(!c)return;let f=c.querySelector('.pvfeat');
+ if(!FL.length){const seen=new Set();FL=pool().map(p=>p.ev).filter(e=>e&&e.date>=today&&!/worship|support/.test(e.genre||'')).sort((a,b)=>(a.date+(a.time||'')).localeCompare(b.date+(b.time||''))).filter(e=>{const k=(e.artists||'').toLowerCase().slice(0,40);if(seen.has(k))return false;seen.add(k);return true}).slice(0,30)}
+ if(!FL.length)return;if(!f){f=document.createElement('section');f.className='pvfeat';f.setAttribute('aria-label','Featured events');const ref=c.querySelector('.cimg')||c.firstChild;c.insertBefore(f,ref);c.classList.add('pvfrozen')}f.innerHTML=featHTML()};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-pvf]');if(b){FI=(FI+Number(b.dataset.pvf)+FL.length)%FL.length;feat();const n=document.querySelector('.pvfeat [data-pvf="'+b.dataset.pvf+'"]');n&&n.focus();return}
+ const pb=e.target.closest('[data-pvposter]');if(pb){const ev=FL[+pb.dataset.pvposter];if(!ev||!window.bigPoster)return;const m=document.createElement('div');m.className='pvmodal';m.setAttribute('role','dialog');m.setAttribute('aria-modal','true');m.setAttribute('aria-label','Event poster: '+(ev.artists||''));let h='';try{h=window.bigPoster(ev,'Jamestown')||''}catch(_){}
+  m.innerHTML='<div class="box"><button type="button" class="x">Close</button><div class="pst">'+h+'</div></div>';document.body.appendChild(m);const x=m.querySelector('.x');x.focus();const close=()=>{m.remove();pb.focus()};x.onclick=close;m.addEventListener('click',ev2=>{if(ev2.target===m)close()});m.addEventListener('keydown',ev2=>{if(ev2.key==='Escape')close()});try{window.epFit&&window.epFit()}catch(_){};return}},true);
+/* rail: freeze the rotating promo cards into stationary, consistent cards */
+const rail=()=>{const L=document.querySelector('.lsrow');if(!L||L.classList.contains('pvfrozen'))return;const S=[...L.querySelectorAll('.lspot')];if(!S.length)return;const P=pool();const seen=new Set();const out=[];
+ for(const s of S){const a=s.querySelector('a');const lab=(a&&a.getAttribute('aria-label'))||'';
+  if(s.classList.contains('t-ad')){const big=(s.querySelector('.ls-big')||{}).textContent||'';const k='ad:'+big;if(seen.has(k))continue;seen.add(k);out.push('<article class="pvc"><span class="k">Advertise here</span><h3 class="t">'+E(big.replace(/&/,' & ').replace(/\s+/g,' ').trim())+'</h3><span class="v">'+E(lab)+'</span><div class="acts"><a class="btn q" href="#advertise" data-go="advertise">How it works</a></div></article>');continue}
+  const os=s.querySelector('.os-t');if(os){const t=os.textContent.trim();if(seen.has('s:'+t))continue;seen.add('s:'+t);const st=(typeof STORIES!=='undefined'?STORIES:[]).find(x=>x.title===t);if(!st)continue;out.push('<article class="pvc"><span class="k">Our article</span><h3 class="t">'+E(t)+'</h3>'+(st.date?'<span class="v">'+E(day(st.date))+'</span>':'')+(st.dek?'<p class="s">'+E(st.dek)+'</p>':'')+'<div class="acts"><a class="btn p" href="?story='+E(st.slug)+'" data-story="'+E(st.slug)+'">Read the article</a></div></article>');continue}
+  const t=((s.querySelector('.ep-t')||{}).textContent||lab).trim();if(!t||seen.has('e:'+t))continue;seen.add('e:'+t);const p=P.find(x=>x.ev&&x.ev.artists===t);if(p)out.push(evCard(p.ev))}
+ if(!out.length)return;const R=document.createElement('div');R.className='pvrail';R.setAttribute('aria-label','More stories and events');
+ const first=S.find(x=>x.getBoundingClientRect().width>0);if(getComputedStyle(L).position==='absolute'&&first){R.style.cssText='position:absolute;left:'+first.offsetLeft+'px;top:'+first.offsetTop+'px;width:'+first.offsetWidth+'px'}
+ R.innerHTML=out.slice(0,14).join('');L.appendChild(R);L.classList.add('pvfrozen')};
+let tries=0;const go=()=>{feat();rail();if(++tries<40&&(!document.querySelector('.pvfeat')||!document.querySelector('.lsrow.pvfrozen')))setTimeout(go,500)};go();
+const S=document.getElementById('coverSlot');if(S)new MutationObserver(()=>{if(!document.querySelector('#coverSlot .pvfeat'))feat()}).observe(S,{childList:true})})();</script><style id="pvLeadStable">html body #coverSlot .cvr .cvbrk{transform:none!important;transition:none!important}html body #coverSlot .cvr .cvbrk>:not(.spr-tag):not(.cvbrk-t):not(.spr-go){display:none!important}</style><script id="pvLeadStableJs">(()=>{const fix=()=>{const b=document.querySelector('#coverSlot .cvr .cvbrk');if(!b)return;if(b.classList.contains('itn-on')||b.classList.contains('bpx-on')){b.classList.remove('itn-on','bpx-on')}};setInterval(fix,250);fix()})();</script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style id="pvMine">
+/* Claude's pick: the original dark character, calmed, with stationary cards */
+.pvc{--c-bg:#16130f;--c-ink:#f1e9d8;--c-sub:#c4b89f;--c-line:#3b3327;--c-acc:#e0574d;--c-gold:#d9b25a}
+.pvc:hover{border-color:#d9b25a}
+.pvc .k{color:#e8a29b}
+.pvc .btn.p{background:#d9b25a;color:#15110a;border-color:#d9b25a}.pvc .btn.p:hover{background:#f0cd7a}
+.pvc .btn.q{background:transparent;color:#f1e9d8;border-color:#8a7a5c}.pvc .btn.q:hover{background:#221d16}
+.pvc :focus-visible,.pvfeat :focus-visible{outline:3px solid #ffd479;box-shadow:none}
+.pvfeat .lbl{color:#d9b25a}
+.pvfeat .nav button{background:#16130f;color:#f1e9d8;border-color:#8a7a5c}.pvfeat .nav button:hover{background:#221d16}
+.pvfeat .cnt{color:#c4b89f}
+.pvmodal{background:rgba(5,4,3,.8)}.pvmodal .box{background:#16130f}.pvmodal .x{background:#16130f;color:#f1e9d8;border-color:#8a7a5c}
+/* lead story: big stable serif headline */
+html body #coverSlot .cvr button.cvbrk .cvbrk-t b{font:700 clamp(32px,9cqw,54px)/1.08 "Cormorant Garamond",Georgia,serif!important;letter-spacing:-.01em!important;color:#f6eedc!important;-webkit-text-fill-color:#f6eedc!important;text-wrap:balance}
+html body #coverSlot .cvr button.cvbrk .cvbrk-t small{font:400 clamp(18px,4.6cqw,22px)/1.5 "Source Serif 4",Georgia,serif!important;color:#d6cbb4!important}
+html body #coverSlot .cvr .cvbrk{align-self:start!important;container-type:inline-size!important;height:auto!important;padding:24px!important;gap:14px!important;justify-content:flex-start!important}
+html body #coverSlot .cvr{align-items:start!important}
+@media (max-width:899px){html body #coverSlot .cvr{display:flex!important;flex-direction:column!important;gap:20px!important}html body #coverSlot .cvr .cvbrk{order:-2!important;width:100%!important;margin:0!important}}
+.pvfeat .lbl::after,.pvfeat .lbl::before{display:none!important;content:none!important}
+@media (min-width:900px){html body #coverSlot .cvr.pvfrozen{display:grid!important;grid-template-columns:minmax(0,3fr) minmax(0,2fr)!important;gap:24px 28px!important;align-items:start!important}html body #coverSlot .cvr.pvfrozen>.cvbrk{grid-column:1!important;grid-row:1!important}html body #coverSlot .cvr.pvfrozen>.pvfeat{grid-column:2!important;grid-row:1!important}html body #coverSlot .cvr.pvfrozen>.cvside{grid-column:1/-1!important;grid-row:2!important;margin-top:0!important}}
+@media (max-width:899px){html body #coverSlot .cvr.pvfrozen>.pvfeat{order:1!important}html body #coverSlot .cvr.pvfrozen>.cvside{order:3!important}}
+/* headlines across cards and section lists in the same serif */
+html body .sea-h b{font:700 28px/1.1 "Cormorant Garamond",Georgia,serif!important;letter-spacing:0!important;text-transform:none!important}
+html body .sea-h{gap:16px!important;flex-wrap:wrap}
+html body .sea-g>button b,html body .sgrid>button b{font-family:"Cormorant Garamond",Georgia,serif!important;font-weight:700!important;font-size:24px!important;line-height:1.15!important}
+html body .nat-l>button{font:600 18px/1.35 "Source Serif 4",Georgia,serif!important}
+/* directory event rows: calm */
+html body aside#dirCol .fb{background:#16130f!important;border:1px solid #3b3327!important;border-radius:4px!important;background-image:none!important;box-shadow:none!important}
+html body aside#dirCol .fb .fb-d{background:#2a2219!important;background-image:none!important;border-right:2px solid #d9b25a}
+html body aside#dirCol .fb .fb-d *{color:#f1e9d8!important}
+html body aside#dirCol .fb .fb-t{color:#f1e9d8!important;font:700 18px/1.2 "Cormorant Garamond",Georgia,serif!important;font-style:normal!important}
+html body aside#dirCol .fb .fb-v{color:#c4b89f!important}
+html body .lsrow .os-img{background-image:linear-gradient(rgba(22,19,15,.9),rgba(22,19,15,.75)),var(--osart)!important}
 </style></body>
 </html>
