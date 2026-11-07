@@ -484,3 +484,6 @@ html.ep-cov .cvr .cimg>img{visibility:hidden}
 .ep.os.os-rw{background:linear-gradient(180deg,#fbf6eaf2 0,#fbf6eae6 55%,#fbf6ea66 82%,#fbf6ea22 100%),var(--osart) center bottom/cover no-repeat,#fbf6ea}
 .ep.os.os-rw.os-img{background:url(img/posters/story-mast-clear.png) top 3% center/96% auto no-repeat,linear-gradient(180deg,#fbf6eaee 0,#fbf6eadd 30%,#fbf6ea99 55%,#fbf6ea33 85%,#fbf6ea00 100%),var(--osart) center bottom/cover no-repeat,#fbf6ea}
 .ep.os.os-rw .os-go{position:relative;z-index:1;align-self:flex-start;background:#fbf6eae6;padding:3px 6px;border-radius:3px}.ep.os.os-rw .os-t{text-shadow:0 0 6px #fbf6ea,0 0 2px #fbf6ea}
+
+/* Nov 7 audit: headline first and largest, details quieter */
+.fc-t{font-size:10cqw!important;font-style:normal!important;font-weight:700!important}.fc-k{font-size:2.2cqw!important;box-shadow:none!important;padding:1.2cqw 2cqw!important}.fc-big i{font-size:11cqw!important}
