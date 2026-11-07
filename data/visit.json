@@ -1008,15 +1008,6 @@
      "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
     },
     {
-     "name": "Tallulah's Taqueria",
-     "blurb": "Tallulah's Taqueria is the Jamestown outpost of a well-known Providence taqueria, set at 35 Narragansett Avenue. It's a smaller, fast-casual, on-the-go spot inspired by the flavors of Mexico, serving tacos, burritos, quesadillas, nachos, tortas and build-your-own bowls with meat, seafood and vegetarian fillings, made with fresh, local ingredients when possible. It suits a quick, casual meal on a warm day. The Jamestown shop is seasonal, so call (401) 236-1600 before visiting in the off-season.",
-     "address": "35 Narragansett Ave, Jamestown, RI 02835",
-     "phone": "",
-     "hours": "Seasonal",
-     "url": "https://www.visitrhodeisland.com/listing/tallulah-taqueria/9689/",
-     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
-    },
-    {
      "name": "Hard Pressed Cider Co.",
      "blurb": "Hard Pressed Cider Co. is a fall tradition at Windmist Farm on Weeden Lane. The cider is pressed from local orchard apples with no preservatives, sold cold or hot, alongside cinnamon-sugar cider donuts by the dozen and, more recently, cider slushies. It's a small farm stand rather than a sit-down spot, so plan to take your cider and donuts to go. The stand runs on weekends (Friday through Sunday, plus Monday holidays) from Labor Day to Thanksgiving; check its website for the current schedule.",
      "address": "71 Weeden Ln, Jamestown, RI 02835",
@@ -1138,7 +1129,7 @@
    "items": [
     {
      "name": "Jamestown Town Hall",
-     "blurb": "Jamestown Town Hall, at 93 Narragansett Avenue in the village, is the seat of town government and home to the Town Clerk's office. This is where residents go for permits, records and the annual transfer-station sticker, which can also be bought online. The Town Council meets on the first and third Mondays of each month at 7pm, and the Financial Town Meeting is held the first Monday in June. Offices are open weekdays, roughly 8am to 4:30pm; the main line is (401) 423-7200.",
+     "blurb": "Jamestown Town Hall, at 93 Narragansett Avenue in the village, is the seat of town government and home to the Town Clerk's office. This is where residents go for permits, records and the annual transfer-station sticker, which can also be bought online. The Town Council meets on the first and third Mondays of each month ; the time is posted on each dated agenda, and the Financial Town Meeting is held the first Monday in June. Offices are open weekdays, roughly 8am to 4:30pm; the main line is (401) 423-7200.",
      "address": "93 Narragansett Ave, Jamestown, RI 02835",
      "phone": "(401) 423-7200",
      "hours": "Mon–Fri 8am–4:30pm",
@@ -1518,8 +1509,8 @@
      "src": "https://www.jamestownri.gov/mackerelcove"
     },
     {
-     "name": "East Ferry Beach & Sheffield Cove",
-     "blurb": "Right in the village, the small, sheltered beaches at East Ferry and nearby Sheffield Cove are among the island's best places to paddle, with calm water facing Newport across the East Passage. Jamestown Outdoors in the village rents kayaks, stand-up paddleboards and bikes if you didn't bring your own. The town also keeps a boat ramp on Conanicus Avenue at East Ferry with no charge to use it; check the tide before launching, and note that trailer parking is limited, so follow the posted signs. Shops and cafes are a short walk away.",
+     "name": "East Ferry Beach",
+     "blurb": "Right in the village, the small, sheltered beach at East Ferry are among the island's best places to paddle, with calm water facing Newport across the East Passage. Jamestown Outdoors in the village rents kayaks, stand-up paddleboards and bikes if you didn't bring your own. The town also keeps a boat ramp on Conanicus Avenue at East Ferry with no charge to use it; check the tide before launching, and note that trailer parking is limited, so follow the posted signs. Shops and cafes are a short walk away.",
      "address": "Conanicus Ave, Jamestown, RI 02835",
      "phone": "",
      "hours": "",
@@ -1597,8 +1588,8 @@
     },
     {
      "name": "Conanicut Friends Meeting",
-     "blurb": "Conanicut Friends Meeting is Jamestown's Quaker community, gathering for worship in the Quaker tradition. In summer, meetings are held in the 18th-century Friends Meetinghouse at North Road and Weeden Lane, a historic island landmark. From November to April the meeting moves off-island to the Norman Bird Sanctuary in Middletown, where it meets Sundays at 10am. Anyone interested in attending can get current times and details by contacting John Drotos at (401) 855-3447.",
-     "address": "North Rd & Weeden Ln, Jamestown, RI",
+     "blurb": "Conanicut Friends Meeting is Jamestown's Quaker community, gathering for worship in the Quaker tradition. Its current meeting location is not confirmed in this guide; contact John Drotos at (401) 855-3447 for current times and location.",
+     "address": "Location: confirm with the meeting at (401) 855-3447",
      "phone": "(401) 855-3447",
      "hours": "",
      "url": "https://www.friendsjournal.org/meeting/conanicut-friends-meeting/",
@@ -1627,15 +1618,6 @@
      "hours": "",
      "url": "https://www.vrbo.com/search?destination=Jamestown%2C%20Rhode%20Island",
      "src": "https://www.vrbo.com/"
-    },
-    {
-     "name": "Club Wyndham Bay Voyage Inn",
-     "blurb": "This waterfront inn sits on Conanicus Avenue in the village. It is a Club Wyndham resort, and its rooms are also booked through Wyndham's Extra Holidays program, which advertises midweek and extended-stay deals. Guests get water views, a pool, a fitness center and laundry. JB's on the Water, the inn's restaurant, is on site, so dinner with a view of the harbor is steps from your room. Call Extra Holidays at 1-800-428-1932 to book.",
-     "address": "150 Conanicus Ave, Jamestown, RI 02835",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.extraholidays.com/wyndham-bay-voyage-inn-location",
-     "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
     },
     {
      "name": "East Bay Bed & Breakfast",
