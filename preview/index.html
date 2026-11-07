@@ -2937,7 +2937,7 @@ html body nav#nav .nb{color:var(--pv-ink)!important;box-shadow:none!important}
 html body nav#nav .nb[aria-current]{color:#15110a!important}
 
 /* v2 tweaks: smaller desktop masthead, two-row nav, a little color back */
-@media (min-width:901px){html body header.mast .lgimg img{max-width:620px!important;width:100%!important;height:auto!important;margin:0 auto;display:block}html body header.mast{padding-top:4px!important}}
+@media (min-width:901px){html body header.mast{padding-top:4px!important}}
 html body nav#nav{gap:5px!important;padding:8px 0!important;max-width:980px;margin-left:auto!important;margin-right:auto!important}
 @media (min-width:901px){html body nav#nav .nb{font-size:11px!important;padding:8px 10px!important;min-height:34px;letter-spacing:.04em!important}}
 html body nav#nav .nb{border-top:3px solid var(--pv-k,#6b5a3a)!important}
@@ -2946,5 +2946,38 @@ html body nav#nav .nb[aria-current]{box-shadow:0 0 14px rgba(217,178,90,.55)!imp
 html body .lsrow .lspot{opacity:.85}html body .lsrow .lspot img{filter:saturate(.8)!important}
 html body aside#dirCol{opacity:.9}
 </style>
-</body>
+<style id="pvArt">
+/* Artwork components (preview). Art is decoration: headings stay live text. */
+.pvban{position:relative;aspect-ratio:3/1;max-height:250px;width:100%;margin:0 0 16px;border-radius:6px;overflow:hidden;background:#efe4cc;border:1px solid #3b3327}
+.pvban picture,.pvban img{position:absolute;inset:0;width:100%;height:100%}
+.pvban img{object-fit:cover;object-position:left center}
+html body #view .pvban h2.room{position:absolute;left:44%;right:4%;top:50%;transform:translateY(-50%);margin:0!important;padding:0!important;border:0!important;background:none!important;color:#2b1d0e!important;font:700 clamp(20px,3.4vw,38px)/1.1 Georgia,"Times New Roman",serif!important;letter-spacing:0!important;text-transform:none!important;text-align:left}
+html body #view .pvban h2.room::before,html body #view .pvban h2.room::after{display:none!important}
+.pvban .pvsub{position:absolute;left:44%;right:4%;bottom:12%;color:#5a4526;font:700 clamp(10px,1.2vw,13px)/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+/* masthead: ivory nautical banner, logo printed dark on it */
+html body header.mast .pvmast{position:relative;max-width:660px;margin:0 auto;aspect-ratio:3/1;border-radius:4px;overflow:hidden;background:#efe4cc}
+html body header.mast .pvmast picture,html body header.mast .pvmast>picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+html body header.mast .pvmast .lgimg{position:absolute;left:20%;right:20%;top:46%;transform:translateY(-50%);margin:0!important}
+html body header.mast .pvmast .lgimg img{max-width:100%!important;width:100%!important;height:auto!important;filter:brightness(.16) sepia(.6)!important}
+/* holiday guide intro panel */
+.pvhcov{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:20px;align-items:center;margin:0 0 16px}
+.pvhcov .cv{position:relative;aspect-ratio:2/3;border-radius:6px;overflow:hidden;background:#efe4cc;border:1px solid #3b3327}
+.pvhcov .cv picture,.pvhcov .cv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pvhcov .cv .t{position:absolute;left:12%;right:12%;top:30%;text-align:center;color:#2b1d0e;font:700 clamp(18px,2.4vw,26px)/1.15 Georgia,serif}
+.pvhcov .cv .d{position:absolute;left:12%;right:12%;top:52%;text-align:center;color:#7a1f16;font:700 11px/1.3 "Helvetica Neue",Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+@media (max-width:600px){.pvhcov{grid-template-columns:minmax(0,150px) minmax(0,1fr);gap:12px}.pvban{border-radius:4px}}
+
+html body #view .pvban h2.room,html body #view .pvban h2{-webkit-text-fill-color:#2b1d0e!important;background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;opacity:1!important;filter:none!important;position:absolute;left:44%;right:4%;top:50%;transform:translateY(-50%);margin:0!important;padding:0!important;color:#2b1d0e!important;font:700 clamp(20px,3.4vw,38px)/1.1 Georgia,"Times New Roman",serif!important;text-transform:none!important;letter-spacing:0!important}
+html body aside#dirCol .drow *{-webkit-text-fill-color:currentColor!important}
+html body aside#dirCol .drow .dn{color:#f1e9d8!important}
+html body aside#dirCol .drow .dn small,html body aside#dirCol .drow .dn i,html body aside#dirCol .drow .dn em{color:#b9ad95!important}
+</style><script id="pvArtJs">(()=>{
+const MAST="<picture><source type=\"image/webp\" srcset=\"img/art/01-nautical-masthead-800.webp 800w, img/art/01-nautical-masthead-1600.webp 1600w\" sizes=\"(max-width:700px) 100vw, 660px\"><img src=\"img/art/01-nautical-masthead-800.jpg\" srcset=\"img/art/01-nautical-masthead-800.jpg 800w, img/art/01-nautical-masthead-1600.jpg 1600w\" sizes=\"(max-width:700px) 100vw, 660px\" alt=\"\" width=\"2172\" height=\"724\" decoding=\"async\"></picture>",NEWS="<picture><source type=\"image/webp\" srcset=\"img/art/02-news-header-800.webp 800w, img/art/02-news-header-1600.webp 1600w\" sizes=\"(max-width:900px) 100vw, 860px\"><img src=\"img/art/02-news-header-800.jpg\" srcset=\"img/art/02-news-header-800.jpg 800w, img/art/02-news-header-1600.jpg 1600w\" sizes=\"(max-width:900px) 100vw, 860px\" alt=\"\" width=\"2172\" height=\"724\" decoding=\"async\"></picture>",EVTS="<picture><source type=\"image/webp\" srcset=\"img/art/03-events-header-800.webp 800w, img/art/03-events-header-1600.webp 1600w\" sizes=\"(max-width:900px) 100vw, 860px\"><img src=\"img/art/03-events-header-800.jpg\" srcset=\"img/art/03-events-header-800.jpg 800w, img/art/03-events-header-1600.jpg 1600w\" sizes=\"(max-width:900px) 100vw, 860px\" alt=\"\" width=\"2172\" height=\"724\" decoding=\"async\"></picture>",HOL="<picture><source type=\"image/webp\" srcset=\"img/art/05-holiday-header-800.webp 800w, img/art/05-holiday-header-1600.webp 1600w\" sizes=\"(max-width:900px) 100vw, 860px\"><img src=\"img/art/05-holiday-header-800.jpg\" srcset=\"img/art/05-holiday-header-800.jpg 800w, img/art/05-holiday-header-1600.jpg 1600w\" sizes=\"(max-width:900px) 100vw, 860px\" alt=\"\" width=\"2172\" height=\"724\" decoding=\"async\"></picture>",COV="<picture><source type=\"image/webp\" srcset=\"img/art/06-holiday-cover-500.webp 500w, img/art/06-holiday-cover-900.webp 900w\" sizes=\"(max-width:600px) 60vw, 300px\"><img src=\"img/art/06-holiday-cover-500.jpg\" srcset=\"img/art/06-holiday-cover-500.jpg 500w, img/art/06-holiday-cover-900.jpg 900w\" sizes=\"(max-width:600px) 60vw, 300px\" alt=\"\" width=\"1024\" height=\"1536\" decoding=\"async\" loading=\"lazy\"></picture>";
+const m=document.querySelector('header.mast .lgimg');if(m&&!m.closest('.pvmast')){const w=document.createElement('div');w.className='pvmast';w.innerHTML=MAST;m.parentNode.insertBefore(w,m);w.appendChild(m)}
+const ban=(art,sub)=>{const h=document.querySelector('#view h2.room');if(!h||h.closest('.pvban'))return;const d=document.createElement('div');d.className='pvban';d.innerHTML=art;h.parentNode.insertBefore(d,h);d.appendChild(h);if(sub){const s=document.createElement('span');s.className='pvsub';s.textContent=sub;d.appendChild(s)}};
+const hol=()=>{const s=document.querySelector('#view section.hg');if(!s||s.querySelector('.pvban'))return;const hd=s.querySelector('.hg-head');if(!hd)return;const h2=hd.querySelector('h2');const p=hd.querySelector('p');
+ const b=document.createElement('div');b.className='pvban';b.innerHTML=HOL;h2.classList.add('room');b.appendChild(h2);s.insertBefore(b,hd);
+ const c=document.createElement('div');c.className='pvhcov';c.innerHTML='<div class="cv">'+COV+'<span class="t">Jamestown Holiday Guide</span><span class="d">Thanksgiving week to New Year\u2019s Day, 2026</span></div>';if(p)c.appendChild(p);hd.replaceWith(c)};
+const run=()=>{try{const v=STATE.view;if(v==='stories')ban(NEWS);else if(v==='cal')ban(EVTS);else if(v==='holiday')hol()}catch(_){}};
+const V=document.getElementById('view');if(V)new MutationObserver(run).observe(V,{childList:true});run()})();</script></body>
 </html>
