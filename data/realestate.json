@@ -279,5 +279,14 @@
    "note": "Found on Redfin only",
    "dom": null
   }
- ]
+ ],
+ "market": {
+  "typical_value": "$1,203,784",
+  "change_1y": "+11.3%",
+  "change_3y": null,
+  "change_5y": null,
+  "asof": "September 30, 2026",
+  "source": "Zillow home value index, Jamestown, RI",
+  "source_url": "https://www.zillow.com/jamestown-ri/home-values/"
+ }
 }
