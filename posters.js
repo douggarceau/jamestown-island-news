@@ -33,6 +33,9 @@ function bunting(h){const C=['#e3170a','#1b4dff','#ffffff','#0f9d6b','#ff8a00','
 function bauhaus(p,h){const r=h%3;return '<svg class="art bau" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="'+(r===0?68:34)+'" cy="34" r="30" fill="'+p[0]+'"/><rect x="'+(r===1?52:8)+'" y="56" width="40" height="40" fill="'+p[1]+'"/><path d="M'+(r===2?40:58)+' 96 L'+(r===2?70:88)+' 44 L'+(r===2?100:118)+' 96z" fill="'+p[2]+'"/><rect x="0" y="0" width="100" height="3" fill="#111"/></svg>'}
 function eq(n){let s='<span class="art eq" aria-hidden="true">';for(let i=0;i<n;i++)s+='<i style="animation-delay:-'+((i*0.37)%1.4).toFixed(2)+'s;height:'+(20+((i*53)%70))+'%"></i>';return s+'</span>'}
 function sax(){return '<svg class="art horn" viewBox="0 0 100 160" aria-hidden="true"><path d="M58 4h10v8l-6 2v70c0 30-8 52-30 60-14 5-28-2-28-16 0-9 7-15 16-15 10 0 14 6 14 14l0 4c8-4 12-16 12-34V14l-6-2z" fill="#e8b818"/><g fill="#0b2a5b">'+[30,44,58,72].map(y=>'<circle cx="62" cy="'+y+'" r="3"/>').join('')+'</g></svg>'}
+/* Island scene backgrounds (owner's art, Nov 7 2026): shown on about half of the fair and gallery posters, alternating hourly */
+const SCN=[['01-bridge',50],['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62]];
+const useScene=(st,h)=>(st==='fair'||st==='gallery')&&((h+Math.floor(Date.now()/36e5))%2===0);
 /* --- margin poster (landscape ~300x180) --- */
 window.evPoster=function(a,s){try{
  const e=s.ev||{},t=clean(s.bigText);if(!t)return;const st=kind(e,t),h=hash(t),w=when(e);
@@ -47,8 +50,9 @@ window.evPoster=function(a,s){try{
  else if(st==='club')h2=eq(18)+k+title+'<span class="ep-foot"><span><span class="ep-d" style="display:block">'+H(dl)+'</span><span class="ep-v" style="display:block">'+vl+'</span></span>'+cta+'</span>';
  else if(st==='fair')h2=bunting(h)+k+title+'<span class="ep-d">'+H(dl)+(ven?' · '+ven:'')+'</span>';
  else h2=bauhaus(GALPAL[h%3],h)+k+title+'<span class="ep-foot"><span class="ep-d">'+H(dl)+'</span><span class="ep-v">'+vl+'</span></span>';
+ let stc=st;if(useScene(st,h)){const S=SCN[h%5];h2='<span class="ep-sc" style="background-image:url(img/scenes/'+S[0]+'-640.webp);background-position:'+S[1]+'% 100%"></span><span class="ep-k">'+H(w.DW||w.dw||'')+' · Jamestown</span>'+title+'<span class="ep-d">'+H(dl)+'</span><span class="ep-v">'+vl+'</span>';sty='';stc='scene'}
  const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
- a.innerHTML='<span class="ep ep-'+st+' pv'+(h%4)+'" style="'+sty+'">'+h2+'</span>';
+ a.innerHTML='<span class="ep ep-'+stc+' pv'+(h%4)+'" style="'+sty+'">'+h2+'</span>';
 }catch(_){}};
 /* --- big poster (portrait 2:3, the flipping box under the cover) --- */
 window.bigPoster=function(e,region){try{
@@ -58,6 +62,7 @@ window.bigPoster=function(e,region){try{
  const title='<span class="bp-t '+sz+'">'+H(t)+'</span>';const reg=H(region||'');
  const go='<span class="bp-go">'+(e.url?'Tickets &amp; info':'See the calendar')+' →</span>';
  let b,sty='';
+ if(useScene(st,h)){const S=SCN[h%5];return '<span class="bp bp-scene pv'+(h%4)+'"><span class="bp-sc" style="background-image:url(img/scenes/'+S[0]+'-1200.webp);background-position:'+S[1]+'% 100%"></span><span class="bp-k">'+H(w.DW)+' · Jamestown</span>'+title+'<span class="bp-d">'+H(w.MON)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+'</span>'+go+'</span>'}
  if(st==='gala')b='<span class="bp-frame"></span>'+fan('#a8822f')+'<span class="bp-k">'+KICK.gala+' · '+reg+'</span>'+title+rule('#a8822f')+'<span class="bp-d">'+H(w.DW)+'<br>'+H(w.MON)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+(addr?'<small>'+addr+'</small>':'')+'</span>'+go;
  else if(st==='marquee')b='<span class="cur l"></span><span class="cur r"></span><span class="beam b1"></span><span class="beam b2"></span><span class="bp-sign"><span>'+(/comed/i.test(t)?'Live Comedy':'Now Playing')+'</span></span>'+title+'<span class="bp-d">'+H(w.dw)+' · '+H(w.MO)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+(hood?'<small>'+hood+'</small>':'')+'</span>'+go;
  else if(st==='gig'){const P=GIGPAL[h%GIGPAL.length];sty='--bg:'+P.bg+';--ink:'+P.ink+';--acc:'+P.acc;b='<span class="bp-k">'+reg+' · Live</span>'+title+speaker(P.ink)+'<span class="bp-tear"><b>'+H(w.dw)+'</b><b class="n">'+H(w.MO)+' '+w.DY+'</b>'+(w.tm?'<b>'+H(w.tm)+'</b>':'')+'</span><span class="bp-v">'+ven+(hood?' · '+hood:'')+'</span>'+go}
