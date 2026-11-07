@@ -2935,6 +2935,16 @@ html body aside#dirCol .drow .dn *{color:var(--pv-mute)!important}html body asid
 html body aside#dirCol header,html body aside#dirCol>*{background-image:none!important}
 html body nav#nav .nb{color:var(--pv-ink)!important;box-shadow:none!important}
 html body nav#nav .nb[aria-current]{color:#15110a!important}
+
+/* v2 tweaks: smaller desktop masthead, two-row nav, a little color back */
+@media (min-width:901px){html body header.mast .lgimg img{max-width:620px!important;width:100%!important;height:auto!important;margin:0 auto;display:block}html body header.mast{padding-top:4px!important}}
+html body nav#nav{gap:5px!important;padding:8px 0!important;max-width:980px;margin-left:auto!important;margin-right:auto!important}
+@media (min-width:901px){html body nav#nav .nb{font-size:11px!important;padding:8px 10px!important;min-height:34px;letter-spacing:.04em!important}}
+html body nav#nav .nb{border-top:3px solid var(--pv-k,#6b5a3a)!important}
+html body nav#nav .nb:nth-child(7n+1){--pv-k:#c8312a}html body nav#nav .nb:nth-child(7n+2){--pv-k:#d9b25a}html body nav#nav .nb:nth-child(7n+3){--pv-k:#2fa8a0}html body nav#nav .nb:nth-child(7n+4){--pv-k:#3d7fd9}html body nav#nav .nb:nth-child(7n+5){--pv-k:#c9568e}html body nav#nav .nb:nth-child(7n+6){--pv-k:#4cae5a}html body nav#nav .nb:nth-child(7n+7){--pv-k:#e07a2c}
+html body nav#nav .nb[aria-current]{box-shadow:0 0 14px rgba(217,178,90,.55)!important;border-top-color:#f4d58a!important}
+html body .lsrow .lspot{opacity:.85}html body .lsrow .lspot img{filter:saturate(.8)!important}
+html body aside#dirCol{opacity:.9}
 </style>
 </body>
 </html>
