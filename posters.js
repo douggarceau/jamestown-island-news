@@ -149,7 +149,7 @@ function turn(box,fn){box.style.transition='transform .33s ease-in';box.style.tr
  setTimeout(()=>{fn();box.style.transition='none';box.style.transform='perspective(1600px) rotateY(-90deg)';void box.offsetWidth;setTimeout(()=>{box.style.transition='transform .33s ease-out';box.style.transform='';setTimeout(()=>{box.style.transition=''},360)},20)},340)}
 function tick(){const box=document.querySelector('.cvr .cvbrk');if(!box||document.hidden||box.matches(':hover'))return;
  const slug=box.dataset.story,title=(box.querySelector('b')||{}).textContent||'';const phase=step++%4;
- if(phase===0){const h=itnHTML(slug,title);if(!h){step++;return tick()}const o=layer(box,'itn');turn(box,()=>{o.innerHTML=h;box.classList.remove('bpx-on');box.classList.add('itn-on');requestAnimationFrame(()=>{const R=o.querySelector('.itn-rows');let g=0;while(R&&R.scrollHeight>R.clientHeight+1&&g++<30){const k=R.lastElementChild;if(!k)break;k.remove();const l=R.lastElementChild;if(l&&l.classList.contains('itn-sec'))l.remove()}})})}
+ if(phase===0){return /* plain brown 'The details' panel retired Nov 7, 2026 */}
  else if(phase===1){turn(box,()=>box.classList.remove('itn-on'))}
  else if(phase===2){const L=bigList();if(!L.length)return;const e=L[pi++%L.length];const h=window.bigPoster&&window.bigPoster(e,region());if(!h)return;const o=layer(box,'bpx');o.innerHTML=h;o.dataset.href=e.url||'';box.classList.remove('itn-on');box.classList.add('bpx-on');requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})}
  else{const F=feats(box);const _t=F[0]||{},_td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'}),_lim=new Date(Date.now()+2*864e5).toLocaleDateString('en-CA',{timeZone:'America/New_York'});const _pin=_t.until&&_t.until>=_td&&_t.until<=_lim;if(F.length>1&&!_pin){if(fi===0){oi=oi%(F.length-1)+1;fi=oi}else fi=0;const s=F[fi];turn(box,()=>{box.classList.remove('bpx-on');setStory(box,s,fi===0)})}else box.classList.remove('bpx-on')}}
@@ -234,7 +234,7 @@ function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null;
   if(face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k';lab(o,'This week in Jamestown. Opens the event calendar')};first?put():turn(o,put);return}}
   if(face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w';lab(o,'Worship services this week. Opens the event calendar')};first?put():turn(o,put);return}}
   if(face===0){cur=L[i++%L.length];const h=window.bigPoster&&window.bigPoster(cur,region());if(!h)return;const put=()=>{o.innerHTML=h;o.dataset.href=cur.url||'';o.dataset.face='p';lab(o,evl(cur,'Event poster: '));requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})};first?put():turn(o,put);face=1}
-  else{const put=()=>{o.innerHTML=window.factsCard(cur);o.dataset.face='f';lab(o,evl(cur,'Event details: '))};turn(o,put);face=0}};
+  else{face=0;show(o,false) /* brown facts card retired: go straight to the next poster */}};
  let started=false;const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&pick().length){started=true;show(o,true);clearInterval(kick)}},400);
  setInterval(()=>{const o=host();if(!o)return;if(!started){started=true;show(o,true);return}if(document.hidden||o.matches(':hover'))return;show(o,false)},ms)}
 /* the box under the cover: every show, poster then facts */
