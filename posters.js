@@ -34,7 +34,7 @@ function bauhaus(p,h){const r=h%3;return '<svg class="art bau" viewBox="0 0 100 
 function eq(n){let s='<span class="art eq" aria-hidden="true">';for(let i=0;i<n;i++)s+='<i style="animation-delay:-'+((i*0.37)%1.4).toFixed(2)+'s;height:'+(20+((i*53)%70))+'%"></i>';return s+'</span>'}
 function sax(){return '<svg class="art horn" viewBox="0 0 100 160" aria-hidden="true"><path d="M58 4h10v8l-6 2v70c0 30-8 52-30 60-14 5-28-2-28-16 0-9 7-15 16-15 10 0 14 6 14 14l0 4c8-4 12-16 12-34V14l-6-2z" fill="#e8b818"/><g fill="#0b2a5b">'+[30,44,58,72].map(y=>'<circle cx="62" cy="'+y+'" r="3"/>').join('')+'</g></svg>'}
 /* Island scene backgrounds (owner's art, Nov 7 2026): shown on about half of the fair and gallery posters, alternating hourly */
-const SCN=[['01-bridge',50],['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['17-winter-bridge',30],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['33-lobster-launch',80],['34-dawn-cruiser',78]];
+const SCN=[['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['17-winter-bridge',30],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['33-lobster-launch',80],['34-dawn-cruiser',78]];window.__SCN=SCN;
 /* Nov 7 2026: owner wants only real art. Every poster uses an island painting, except the jazz and live-band posters, which carry their own painted art. */
 const useScene=(st,h)=>!(st==='blue'||st==='gig');
 /* --- margin poster (landscape ~300x180) --- */
@@ -312,3 +312,7 @@ const was=history.state;
 if(was&&was.ep&&(was.view!=='read'||STORIES.some(s=>s.slug===was.story))&&(was.view!==STATE.view||was.story!==STATE.story))restore(was);
 else{try{history.replaceState(snap(window.scrollY),'')}catch(_){}}
 })(0);
+
+/* paintings keep changing: every poster steps to the next scene every 8 seconds */
+(function(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;let n=0;
+setInterval(()=>{n++;document.querySelectorAll('.ep-sc,.bp-sc').forEach((el,k)=>{const big=el.classList.contains('bp-sc');const L=window.__SCN||[];if(!L.length)return;const S=L[(k*5+n)%L.length];el.style.transition='opacity .6s';el.style.opacity='0';setTimeout(()=>{el.style.backgroundImage='url(img/scenes/'+S[0]+(big?'-1200':'-640')+'.webp)';el.style.backgroundPosition=S[1]+'% 100%';el.style.opacity='1'},600)})},8000)})();

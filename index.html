@@ -349,7 +349,7 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 </style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#D4ECF5)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><script>window.EP_COVER_POSTERS=true;document.documentElement.classList.add("ep-cov")</script>
 <script>window.EP_COAST=true</script>
 <script>window.EP_MAST={img:'img/posters/story-jamestown.jpg'}</script>
-<script src="posters.js?v=41"></script>
+<script src="posters.js?v=42"></script>
 <style>.new3-glow{display:inline-block;margin-left:7px;padding:3px 8px;border-radius:5px;background:#B5123A;color:#fff;font-size:11px;font-weight:900;letter-spacing:.07em;vertical-align:middle;box-shadow:0 0 7px #B5123A,0 0 16px #B5123A;animation:new3pulse 1.8s ease-in-out infinite}@keyframes new3pulse{50%{box-shadow:0 0 13px #B5123A,0 0 26px #B5123A;background:#B5123A}}@media(prefers-reduced-motion:reduce){.new3-glow{animation:none}}</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
 </head>
 <body>
@@ -2876,7 +2876,7 @@ b.addEventListener('click',()=>set(!n.classList.contains('open')));
 n.addEventListener('click',e=>{if(e.target.closest('button[data-go],#dirNb,#appBtn')&&matchMedia('(max-width:600px)').matches)set(false)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&n.classList.contains('open')){set(false);b.focus()}})})();</script><style id="topSceneCss">
 /* Top story box: island painting instead of the red curtain (owner's request, Nov 7 2026) */
-html body #coverSlot .cvr button.cvbrk{background:#EEE9E5 var(--tsimg,none) var(--tspos,50%) 100%/cover no-repeat!important;border:1px solid #D4ECF5!important;box-shadow:none!important;justify-content:flex-start!important;padding:clamp(18px,5cqw,30px) clamp(18px,5cqw,28px) 42%!important;text-shadow:none!important;animation:none!important}
+html body #coverSlot .cvr button.cvbrk{transition:background-image 1.2s ease;background:#EEE9E5 var(--tsimg,none) var(--tspos,50%) 100%/cover no-repeat!important;border:1px solid #D4ECF5!important;box-shadow:none!important;justify-content:flex-start!important;padding:clamp(18px,5cqw,30px) clamp(18px,5cqw,28px) 42%!important;text-shadow:none!important;animation:none!important}
 html body #coverSlot .cvr button.cvbrk::before,html body #coverSlot .cvr button.cvbrk::after{display:none!important;content:none!important}
 html body #coverSlot .cvr button.cvbrk .spr-tag{background:none!important;color:#8A9DA1!important;border:0!important;box-shadow:none!important;padding:0!important;font:800 12px/1 "Helvetica Neue",Arial,sans-serif!important;letter-spacing:.2em!important;text-shadow:none!important;animation:none!important}
 html body #coverSlot .cvr button.cvbrk .spr-tag::before,html body #coverSlot .cvr button.cvbrk .spr-tag::after{background:#B5123A!important;box-shadow:none!important;animation:none!important;width:8px!important;height:8px!important;border-radius:50%!important}
@@ -2885,9 +2885,10 @@ html body #coverSlot .cvr button.cvbrk .cvbrk-t small{color:#002D57!important;te
 html body #coverSlot .cvr button.cvbrk .spr-go{background:#0F1F36!important;color:#EEE9E5!important;border:1px solid #0F1F36!important;box-shadow:none!important;text-shadow:none!important;animation:none!important}
 html body #coverSlot .cvr button.cvbrk:hover{border-color:#0F1F36!important}
 </style>
-<script id="topSceneJs">(()=>{const S=[['01-bridge',50],['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['17-winter-bridge',30],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['33-lobster-launch',80],['34-dawn-cruiser',78]];
-const k=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const d=Math.floor(Date.parse(k+'T12:00:00Z')/864e5);const s=S[d%S.length];
-const r=document.documentElement.style;r.setProperty('--tsimg','url(img/scenes/'+s[0]+'-1200.webp)');r.setProperty('--tspos',s[1]+'%')})();</script>
+<script id="topSceneJs">(()=>{const S=[['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['17-winter-bridge',30],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['33-lobster-launch',80],['34-dawn-cruiser',78]];
+const r=document.documentElement.style;let i=S.findIndex(x=>/yacht|cruiser|schooner/.test(x[0]));if(i<0)i=0;
+const set=()=>{const s=S[i%S.length];r.setProperty('--tsimg','url(img/scenes/'+s[0]+'-1200.webp)');r.setProperty('--tspos',s[1]+'%');const n=new Image();n.src='img/scenes/'+S[(i+1)%S.length][0]+'-1200.webp'};
+set();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{i++;set()},9000)})();</script>
 <style id="sailColors">
 /* Authentic sailing colors for the side columns (owner's palette, Nov 7 2026):
    navy #0A1428, Yankee blue #002D57, signal red #B5123A, cotton #FFFFFF, fluff #EEE9E5,
