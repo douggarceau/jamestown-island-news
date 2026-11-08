@@ -2890,7 +2890,7 @@ html.tsphoto body #coverSlot .cvr button.cvbrk .cvbrk-t small,html.tsphoto body 
 const r=document.documentElement.style;let i=S.findIndex(x=>/yacht|cruiser|schooner/.test(x[0]));if(i<0)i=0;
 const set=()=>{const s=S[i%S.length];r.setProperty('--tsimg','url(img/scenes/'+s[0]+'-1200.webp)');r.setProperty('--tspos',s[1]+'%');const n=new Image();n.src='img/scenes/'+S[(i+1)%S.length][0]+'-1200.webp'};
 /* Owner's picks for specific days: photos shown in the top story box instead of the paintings */
-const DAY={'2026-11-08':['img/story/hotel-garden-1200.webp','img/story/santa-arrives-coastal-queen.jpg','img/story/town-tree-raising.jpg']};
+const DAY={'2026-11-08':['img/story/santa-arrives-coastal-queen.jpg','img/story/town-tree-raising.jpg']};
 const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const P=DAY[td];
 if(P){document.documentElement.classList.add('tsphoto');let j=0;const sp=()=>{r.setProperty('--tsimg','url('+P[j%P.length]+')');r.setProperty('--tspos','50%');const n=new Image();n.src=P[(j+1)%P.length]};sp();if(P.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{j++;sp()},9000)}
 else{set();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{i++;set()},9000)}})();</script>
@@ -3090,5 +3090,24 @@ let opener=null;const close=()=>{if(!s.classList.contains('sbpop'))return;s.clas
 new MutationObserver(()=>{if(s.classList.contains('sbpop')){opener=document.activeElement&&document.activeElement!==document.body&&!s.contains(document.activeElement)?document.activeElement:opener;s.setAttribute('role','dialog');s.setAttribute('aria-modal','true')}}).observe(s,{attributes:true,attributeFilter:['class']});
 document.addEventListener('keydown',e=>{if(!s.classList.contains('sbpop'))return;if(e.key==='Escape'){e.preventDefault();close();return}if(e.key==='Tab'){const F=[...s.querySelectorAll('button,input,a[href],select,textarea')].filter(el=>!el.disabled&&el.offsetParent);if(!F.length)return;const a=F[0],z=F[F.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}})};
 go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
+<style id="artShowCss">
+#coverSlot .cimg.artBox{position:relative;display:block;min-height:300px;aspect-ratio:370/607;padding:0;border:1px solid #D4ECF566;border-radius:6px;background:#0A1428}
+#coverSlot .cimg .artShow{position:absolute;inset:0;z-index:5;overflow:hidden;background:#0A1428;cursor:zoom-in;border-radius:inherit}
+#coverSlot .cimg .artShow .ai{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;opacity:0;transition:opacity 1.4s ease}
+#coverSlot .cimg .artShow .ai.on{opacity:1}
+#coverSlot .cimg .artShow .artLbl{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(10,20,40,.85));color:#fff;font:700 12px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
+#artBig{position:fixed;inset:0;z-index:9999;background:rgba(10,20,40,.94);display:flex;align-items:center;justify-content:center;cursor:zoom-out}
+#artBig img{max-width:94vw;max-height:90vh;box-shadow:0 10px 40px #000}
+</style>
+<script id="artShowJs">(()=>{
+/* Art area: the box beside the top story shows the owner's best paintings */
+const ART=[['img/story/hotel-garden-1200.webp','50%'],['img/scenes/35-town-hall-swing-1200.webp','50%'],['img/scenes/36-sunset-terrace-1200.webp','50%']];
+const go=()=>{const old=document.querySelector('#coverSlot .cimg:not(.artBox)');if(!old)return;const box=document.createElement('div');box.className='cimg artBox';box.style.cssText='position:relative;overflow:hidden';old.replaceWith(box);
+const a=document.createElement('span');a.className='artShow';a.setAttribute('role','img');a.setAttribute('aria-label','Paintings of Jamestown');
+a.innerHTML=ART.map((x,i)=>'<span class="ai'+(i?'':' on')+'" style="background-image:url('+x[0]+');background-position:'+x[1]+' 50%"></span>').join('')+'<span class="artLbl"></span>';
+box.appendChild(a);let i=0;const I=[...a.querySelectorAll('.ai')];const L=a.querySelector('.artLbl');const lab=()=>{L.textContent=ART[i][2]||'Jamestown Art'};lab();
+if(I.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{I[i].classList.remove('on');i=(i+1)%I.length;I[i].classList.add('on');lab()},8000);
+a.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const o=document.createElement('div');o.id='artBig';o.innerHTML='<img src="'+ART[i][0]+'" alt="">';o.addEventListener('click',()=>o.remove());document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){o.remove();document.removeEventListener('keydown',k)}});document.body.appendChild(o)},true)};
+const mo=new MutationObserver(go);addEventListener('DOMContentLoaded',()=>{go();const c=document.getElementById('coverSlot');c&&mo.observe(c,{childList:true,subtree:true})});go()})();</script>
 </body>
 </html>
