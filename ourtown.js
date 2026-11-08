@@ -4,11 +4,11 @@ const H=x=>String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>
 const TZ='America/New_York',ymd=d=>d.toLocaleDateString('en-CA',{timeZone:TZ});
 const MUSIC=/^(live|rock|indie|jazz|pop|electronic|folk|r&b|latin|metal|hip-hop|punk|experimental|world|goth|country|classical|blues|soul|reggae|funk|music|sports|support|worship)$/i;
 const DULL=/pantry|thrift|rehearsal|appointment|office hours|support group|meeting\b|anonymous|al-anon|recovery|board of|council|committee|commission/i;
-const PAL=[['#1d4a6e','#0a1724'],['#5a1a12','#1a0806'],['#1f4d2b','#081a0e'],['#4a2a6e','#140a24'],['#6e4a12','#241606'],['#123f4a','#06181c']];
+const PAL=[['#002D57','#0A1428'],['#B5123A','#0F1F36'],['#0F1F36','#0F1F36'],['#002D57','#0A1428'],['#0F1F36','#0F1F36'],['#0F1F36','#0A1428']];
 let EV=null,BIZ=null;
 const EVS=[];
 function evFace(e,i){EVS.push(e);const u=/^https?:/.test(e.url||'')?e.url:'';return `<a class="otf otp" data-ev="${EVS.length-1}" href="${u?H(u):'#cal'}" ${u?'target="_blank" rel="noopener"':''}></a>`}
-const ART=[['snow','#ff5a6a','#e0203a'],['ornaments','#34d27a','#16a34a'],['stars','#5aaeff','#1f6fe0'],['holly','#ffffff','#f3ece0'],['lights','#b18cff','#7c3aed'],['snow','#3ddcf0','#0aa5c8'],['ornaments','#ff6b6b','#e11d48'],['stars','#ffc23a','#f97316']];
+const ART=[['snow','#B5123A','#B5123A'],['ornaments','#D4ECF5','#0F4C9A'],['stars','#D4ECF5','#0F4C9A'],['holly','#ffffff','#EEE9E5'],['lights','#D4ECF5','#0F4C9A'],['snow','#0F4C9A','#0F4C9A'],['ornaments','#B5123A','#B5123A'],['stars','#D4ECF5','#D4ECF5']];
 function bizFace(x,i,kick){const u=/^https?:/.test(x.url||'')?x.url:'';const t=ART[Math.floor(Math.random()*ART.length)];
  return `<a class="otf otbz" style="--img:url(img/holiday/${t[0]}.svg);--c1:${t[1]};--c2:${t[2]}"${t[0]==='holly'?' data-lt="1"':''} href="${u?H(u):'#visit'}" ${u?'target="_blank" rel="noopener"':''}><span class="otk">${H(kick)}</span><b>${H(x.name)}</b>${x.address?`<span class="otv">${H(x.address)}</span>`:''}${x.phone?`<span class="otw">${H(x.phone)}</span>`:''}<span class="otd">Visit →</span></a>`}
 const R=()=>Math.random();
