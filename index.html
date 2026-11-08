@@ -349,7 +349,7 @@ html body .cop::after{content:""!important;display:block!important;position:abso
 </style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#D4ECF5)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><script>window.EP_COVER_POSTERS=true;document.documentElement.classList.add("ep-cov")</script>
 <script>window.EP_COAST=true</script>
 <script>window.EP_MAST={img:'img/posters/story-jamestown.jpg'}</script>
-<script src="posters.js?v=45"></script>
+<script src="posters.js?v=46"></script>
 <style>.new3-glow{display:inline-block;margin-left:7px;padding:3px 8px;border-radius:5px;background:#B5123A;color:#fff;font-size:11px;font-weight:900;letter-spacing:.07em;vertical-align:middle;box-shadow:0 0 7px #B5123A,0 0 16px #B5123A;animation:new3pulse 1.8s ease-in-out infinite}@keyframes new3pulse{50%{box-shadow:0 0 13px #B5123A,0 0 26px #B5123A;background:#B5123A}}@media(prefers-reduced-motion:reduce){.new3-glow{animation:none}}</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
 </head>
 <body>
@@ -2521,7 +2521,7 @@ document.readyState==='loading'?document.addEventListener('DOMContentLoaded',st)
 const st=document.createElement('style');st.textContent='.cvr .cimg .cback{position:absolute;inset:0;display:none;z-index:6;cursor:pointer;background:#0F1F36}.cvr .cimg .cback img{display:block;width:100%;height:100%;object-fit:cover;animation:none!important;transform:none!important}.cvr .cimg.back .cback{display:block}';document.head.appendChild(st);
 const vidOn=()=>{const v=document.getElementById('irBox');return v&&getComputedStyle(v).display!=='none'&&getComputedStyle(v).opacity!=='0'};
 let busy=false;
-function flip(toBack){const b=document.querySelector('.cvr .cimg:not(.artBox)');if(!b||busy)return;if(toBack&&(document.hidden||vidOn()))return;if(!!toBack===b.classList.contains('back'))return;
+function flip(toBack){const b=document.querySelector('.cvr .cimg');if(!b||busy)return;if(toBack&&(document.hidden||vidOn()))return;if(!!toBack===b.classList.contains('back'))return;
  if(!b.querySelector('.cback')){const d=document.createElement('span');d.className='cback';d.innerHTML='<img src="'+BK+'" alt="Back cover: advertise with Jamestown Island News">';b.appendChild(d)}
  busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
  setTimeout(()=>{b.classList.toggle('back',!!toBack);if(toBack)bar(b);else unbar();b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
@@ -2555,7 +2555,7 @@ function evFace(kind){const E=EV&&EV.E,W=EV&&EV.W,B=EV&&EV.B;
   return {kind:'ev',html:photo(6)+'<span class="e-body"><i class="e-k">Worship on the island</i><div>'+ch.map(c=>{const st=new Set(),L=W[c].filter(x=>{const k=x.date+x.time;if(st.has(k))return false;st.add(k);return true}).slice(0,3);return '<h4>'+esc2(c.replace(/ Catholic| Episcopal/,''))+'</h4><ul>'+L.map(x=>{const d=dparts(x.date);return '<li><span>'+esc2(x.artists.replace(/ at .*$/,''))+'</span><i>'+d[0]+' '+esc2(x.time)+'</i></li>'}).join('')+'</ul>'}).join('')+'</div><span class="e-go">Island calendar →</span></span>'}}
  const x=E[evI++%E.length],d=dparts(x.date);if(window.bigPoster){const bp=window.bigPoster(x,'Jamestown');if(bp)return {kind:'ev',html:bp}}const ph=/narragansett caf/i.test(x.venue)?[5,0,1,3][evI%4]:evI;
  return {kind:'ev',html:photo(ph)+'<span class="e-dt"><small>'+d[0]+'</small>'+esc2(d[1])+'</span><span class="e-body"><i class="e-k">Coming up on the island</i><strong class="e-t '+tcls(x.artists)+'">'+esc2(x.artists)+'</strong><span class="e-w">'+esc2(x.time)+'</span><span class="e-v">'+esc2(x.venue)+'<small>'+esc2((x.address||'').replace(/,? ?Jamestown, RI \d+/,'').replace(x.venue+', ','').replace(x.venue,''))+'</small></span><span class="e-go">Island calendar →</span></span>'}}
-function flipEvt(on,kind){const b=document.querySelector('.cvr .cimg:not(.artBox)');if(!b||busy)return;if(on&&(document.hidden||vidOn()||b.classList.contains('back')))return;if(!!on===b.classList.contains('evt'))return;
+function flipEvt(on,kind){const b=document.querySelector('.cvr .cimg');if(!b||busy)return;if(on&&(document.hidden||vidOn()||b.classList.contains('back')))return;if(!!on===b.classList.contains('evt'))return;
  let html=null;if(on){const r=evFace(kind);if(!r)return;html=r.html;let f=b.querySelector('.cevt');if(!f){f=document.createElement('span');f.className='cevt';b.appendChild(f)}f.dataset.kind=r.kind;f.innerHTML=html}
  busy=true;b.style.transition='transform .38s ease-in';b.style.transform='perspective(1400px) rotateY(90deg)';
  setTimeout(()=>{b.classList.toggle('evt',!!on);b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
@@ -2586,9 +2586,9 @@ function tkBuild(el){tkLoad().then(t=>{if(!t||!t.rows.length)return;const one=t.
 setInterval(()=>{const s=document.querySelector('.cvr .cvside');if(!s||s.querySelector('.evtk'))return;const d=document.createElement('div');d.className='evtk';s.appendChild(d);tkBuild(d)},1000);
 addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.evtk .tr');if(!c)return;e.preventDefault();e.stopImmediatePropagation();try{go('cal')}catch(_){location.hash='cal'}},true);
 let frozen=false;const held=()=>frozen||!!document.querySelector('.cvr .cimg:hover,.bkSpread:hover');const whenFree=fn=>{const tk=()=>{if(held())setTimeout(tk,1000);else fn()};tk()};
-let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg:not(.artBox)');if(!b||busy||b.classList.contains('back')||b.classList.contains('evt')||document.hidden||vidOn())return;const k=cyc++%10;if(k===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),7000)}else if(k===5){openBook()}else{const kind=(k===4||k===9)?'biz':(k===8?'worship':'ev');evLoad().then(()=>{flipEvt(true,kind);setTimeout(()=>whenFree(()=>flipEvt(false)),7000)})}},14000);
+let cyc=0;setInterval(()=>{const b=document.querySelector('.cvr .cimg');if(!b||busy||b.classList.contains('back')||b.classList.contains('evt')||document.hidden||vidOn())return;const k=cyc++%10;if(k===0){flip(true);setTimeout(()=>whenFree(()=>flip(false)),7000)}else if(k===5){openBook()}else{const kind=(k===4||k===9)?'biz':(k===8?'worship':'ev');evLoad().then(()=>{flipEvt(true,kind);setTimeout(()=>whenFree(()=>flipEvt(false)),7000)})}},14000);
 ['img/inside-cover-ad.jpg','img/page-one-ad.jpg'].forEach(s=>{new Image().src=s});
-function openBook(){const b=document.querySelector('.cvr .cimg:not(.artBox)');if(!b||busy||document.hidden||vidOn()||b.classList.contains('back'))return;const cv=b.closest('.cvr');if(!cv)return;
+function openBook(){const b=document.querySelector('.cvr .cimg');if(!b||busy||document.hidden||vidOn()||b.classList.contains('back'))return;const cv=b.closest('.cvr');if(!cv)return;
  busy=true;if(getComputedStyle(cv).position==='static')cv.style.position='relative';
  const r=b.getBoundingClientRect(),c=cv.getBoundingClientRect();const L=r.left-c.left,T=r.top-c.top,w=Math.min(r.width*2,c.right-r.left);
  const s=document.createElement('div');s.className='bkSpread';s.style.cssText='position:absolute;left:'+L+'px;top:'+T+'px;width:'+w+'px;height:'+r.height+'px;z-index:3;display:flex;opacity:0;transition:opacity .5s ease;cursor:pointer;box-shadow:0 18px 40px rgba(10,20,40,.7);border-radius:6px;overflow:hidden';
@@ -2765,7 +2765,7 @@ const go=()=>{const l=document.getElementById('dirList');if(!l)return setTimeout
 <script id="mailLinks">addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href="#coverage"],a[href="#contact"]');if(!a)return;e.preventDefault();e.stopImmediatePropagation();const u=['doug','islandnewsmedia'].join(String.fromCharCode(64))+'.com';const s=a.getAttribute('href')==='#coverage'?'Coverage request for Jamestown Island News':'Jamestown Island News';location.href='mai'+'lto:'+u+'?subject='+encodeURIComponent(s)},true);</script>
 <script id="bridgeCar">(()=>{return;const st=document.createElement('style');st.textContent='.cvr .cimg .car{position:absolute;z-index:4;width:2.2%;height:.6%;pointer-events:none;transform:translate(-50%,-100%)}.cvr .cimg .car::before,.cvr .cimg .car::after{content:"";position:absolute;top:0;width:45%;height:100%;border-radius:50%}.cvr .cimg .car.r::after,.cvr .cimg .car.l::before{background:#EEE9E5;box-shadow:0 0 6px 2px rgba(238,233,229,.9),0 0 14px 4px rgba(238,233,229,.45)}.cvr .cimg .car.r::before,.cvr .cimg .car.l::after{background:#B5123A;box-shadow:0 0 5px 1px rgba(181,18,58,.8)}.cvr .cimg .car::before{left:0}.cvr .cimg .car::after{right:0}.cvr .cimg.back .car,.cvr .cimg.evt .car{display:none}';document.head.appendChild(st);
 const X0=0,Y0=39.6,X1=100,Y1=49.7;
-function drive(){const b=document.querySelector('.cvr .cimg:not(.artBox)');if(b&&!document.hidden&&!b.classList.contains('back')&&b.style.opacity!=='0'){const r=Math.random()<.5;const c=document.createElement('span');c.className='car '+(r?'r':'l');b.appendChild(c);
+function drive(){const b=document.querySelector('.cvr .cimg');if(b&&!document.hidden&&!b.classList.contains('back')&&b.style.opacity!=='0'){const r=Math.random()<.5;const c=document.createElement('span');c.className='car '+(r?'r':'l');b.appendChild(c);
  const a=r?[X0,Y0,X1,Y1]:[X1,Y1,X0,Y0];const dur=7000+Math.random()*3000;
  const an=c.animate([{left:a[0]+'%',top:a[1]+'%',opacity:0},{opacity:1,offset:.06},{opacity:1,offset:.94},{left:a[2]+'%',top:a[3]+'%',opacity:0}],{duration:dur,easing:'linear'});an.onfinish=()=>c.remove()}
  setTimeout(drive,12000+Math.random()*25000)}
@@ -2882,18 +2882,11 @@ html body #coverSlot .cvr button.cvbrk .cvbrk-t b{color:#0F1F36!important;-webki
 html body #coverSlot .cvr button.cvbrk .cvbrk-t small{color:#002D57!important;text-shadow:0 0 12px rgba(238,233,229,.95)!important}
 html body #coverSlot .cvr button.cvbrk .spr-go{background:#0F1F36!important;color:#EEE9E5!important;border:1px solid #0F1F36!important;box-shadow:none!important;text-shadow:none!important;animation:none!important}
 html body #coverSlot .cvr button.cvbrk:hover{border-color:#0F1F36!important}
-html.tsphoto body #coverSlot .cvr button.cvbrk{background:linear-gradient(180deg,rgba(10,20,40,.9) 0,rgba(10,20,40,.55) 38%,rgba(10,20,40,0) 62%),var(--tsimg) 50% 50%/cover no-repeat!important}
-html.tsphoto body #coverSlot .cvr button.cvbrk .cvbrk-t b{color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:0 2px 10px rgba(0,0,0,.6)!important}
-html.tsphoto body #coverSlot .cvr button.cvbrk .cvbrk-t small,html.tsphoto body #coverSlot .cvr button.cvbrk .spr-tag{color:#D4ECF5!important;-webkit-text-fill-color:#D4ECF5!important;text-shadow:0 1px 6px rgba(0,0,0,.6)!important}
 </style>
 <script id="topSceneJs">(()=>{const S=[['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['34-dawn-cruiser',78]];
 const r=document.documentElement.style;let i=S.findIndex(x=>/yacht|cruiser|schooner/.test(x[0]));if(i<0)i=0;
 const set=()=>{const s=S[i%S.length];r.setProperty('--tsimg','url(img/scenes/'+s[0]+'-1200.webp)');r.setProperty('--tspos',s[1]+'%');const n=new Image();n.src='img/scenes/'+S[(i+1)%S.length][0]+'-1200.webp'};
-/* Owner's picks for specific days: photos shown in the top story box instead of the paintings */
-const DAY={};document.documentElement.classList.add('tsphoto');
-const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const P=DAY[td];
-if(P){document.documentElement.classList.add('tsphoto');let j=0;const sp=()=>{r.setProperty('--tsimg','url('+P[j%P.length]+')');r.setProperty('--tspos','50%');const n=new Image();n.src=P[(j+1)%P.length]};sp();if(P.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{j++;sp()},9000)}
-else{set();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{i++;set()},9000)}})();</script>
+set();if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{i++;set()},9000)})();</script>
 <style id="sailColors">
 /* Authentic sailing colors for the side columns (owner's palette, Nov 7 2026):
    navy #0A1428, Yankee blue #002D57, signal red #B5123A, cotton #FFFFFF, fluff #EEE9E5,
@@ -3072,7 +3065,7 @@ html body .pad.on{box-shadow:inset 0 -3px 0 #B5123A!important}
 </style>
 <script id="nauticalContrast">(()=>{const P=s=>{const m=String(s).match(/[\d.]+/g);return m?m.map(Number):[0,0,0]};const L=c=>{const f=v=>{v/=255;return v<=.03928?v/12.92:((v+.055)/1.055)**2.4};return .2126*f(c[0])+.7152*f(c[1])+.0722*f(c[2])};
 const bgOf=e=>{let x=e;while(x&&x!==document.documentElement){const t=getComputedStyle(x);if(t.backgroundImage!=='none'&&!t.backgroundImage.includes('gradient'))return null;const v=P(t.backgroundColor);if(t.backgroundColor!=='rgba(0, 0, 0, 0)'&&(v[3]===undefined||v[3]>.5))return v;x=x.parentElement}return [10,20,40]};
-const run=()=>{const root=document.body;if(!root)return;root.querySelectorAll('#view *,#nav *,#dirCol *,.site-footer *,.cvr *,#whatsOn *,.lspot *').forEach(e=>{if(e.closest('.bp,.ep,#flagLine,.logo,svg,.artShow'))return;if(!e.offsetParent)return;if(![...e.childNodes].some(n=>n.nodeType==3&&n.nodeValue.trim()))return;const s=getComputedStyle(e);const bg=bgOf(e);if(!bg)return;const c=P(s.color);if((P(s.color)[3]??1)<.05&&s.webkitTextFillColor&&s.webkitTextFillColor!==s.color)return;const a=L(c),b=L(bg);if((Math.max(a,b)+.05)/(Math.min(a,b)+.05)<3.2){const col=b<.25?'#FFFFFF':'#0A1428';e.style.setProperty('color',col,'important');e.style.setProperty('-webkit-text-fill-color',col,'important')}})};
+const run=()=>{const root=document.body;if(!root)return;root.querySelectorAll('#view *,#nav *,#dirCol *,.site-footer *,.cvr *,#whatsOn *,.lspot *').forEach(e=>{if(e.closest('.bp,.ep,#flagLine,.logo,svg'))return;if(!e.offsetParent)return;if(![...e.childNodes].some(n=>n.nodeType==3&&n.nodeValue.trim()))return;const s=getComputedStyle(e);const bg=bgOf(e);if(!bg)return;const c=P(s.color);if((P(s.color)[3]??1)<.05&&s.webkitTextFillColor&&s.webkitTextFillColor!==s.color)return;const a=L(c),b=L(bg);if((Math.max(a,b)+.05)/(Math.min(a,b)+.05)<3.2){const col=b<.25?'#FFFFFF':'#0A1428';e.style.setProperty('color',col,'important');e.style.setProperty('-webkit-text-fill-color',col,'important')}})};
 let T;const later=ms=>{clearTimeout(T);T=setTimeout(run,ms)};addEventListener('load',()=>later(1500));document.addEventListener('click',()=>later(900),true);setTimeout(run,4000);setInterval(run,15000)})();</script>
 <script id="storyMeta">(()=>{const set=(sel,attr,val,mk)=>{let e=document.head.querySelector(sel);if(!e&&mk){e=document.createElement(mk.tag);for(const k in mk.a)e.setAttribute(k,mk.a[k]);document.head.appendChild(e)}if(e)e.setAttribute(attr,val)};
 const base={};const keep=()=>{if(base.t)return;base.t=1;base.can=(document.head.querySelector('link[rel=canonical]')||{}).href||location.origin+'/';base.ogt=(document.head.querySelector('meta[property="og:title"]')||{}).content||document.title;base.ogd=(document.head.querySelector('meta[property="og:description"]')||{}).content||'';base.d=(document.head.querySelector('meta[name=description]')||{}).content||''};
@@ -3090,49 +3083,5 @@ let opener=null;const close=()=>{if(!s.classList.contains('sbpop'))return;s.clas
 new MutationObserver(()=>{if(s.classList.contains('sbpop')){opener=document.activeElement&&document.activeElement!==document.body&&!s.contains(document.activeElement)?document.activeElement:opener;s.setAttribute('role','dialog');s.setAttribute('aria-modal','true')}}).observe(s,{attributes:true,attributeFilter:['class']});
 document.addEventListener('keydown',e=>{if(!s.classList.contains('sbpop'))return;if(e.key==='Escape'){e.preventDefault();close();return}if(e.key==='Tab'){const F=[...s.querySelectorAll('button,input,a[href],select,textarea')].filter(el=>!el.disabled&&el.offsetParent);if(!F.length)return;const a=F[0],z=F[F.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}})};
 go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
-<style id="artShowCss">
-#coverSlot .cimg.artBox{position:relative;display:block;min-height:300px;aspect-ratio:370/607;padding:0;border:1px solid #D4ECF566;border-radius:6px;background:#0A1428}
-#coverSlot .cimg .artShow{position:absolute;inset:0;z-index:5;overflow:hidden;background:#0A1428;cursor:default;border-radius:inherit}
-#coverSlot .cimg .artShow .ai{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;opacity:0;transition:opacity 1.4s ease}
-#coverSlot .cimg .artShow .ai.on{opacity:1}
-#coverSlot .cimg .artShow .artLbl{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(10,20,40,.85));color:#fff;font:700 12px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
-#artBig{position:fixed;inset:0;z-index:9999;background:rgba(10,20,40,.94);display:flex;align-items:center;justify-content:center;cursor:zoom-out}
-#artBig img{max-width:94vw;max-height:90vh;box-shadow:0 10px 40px #000}
-#coverSlot .cimg .artShow .ab{position:absolute;inset:-30px;background:center/cover no-repeat;filter:blur(22px) brightness(.55)}#coverSlot .cimg .artShow .af{position:absolute;inset:0;background:center/contain no-repeat}#coverSlot .cimg .artShow .af.cv{background-size:cover}
-#coverSlot .cimg .artShow .artAd{position:absolute;right:clamp(10px,2.5%,24px);top:clamp(10px,3%,24px);text-align:left;z-index:3;display:block;max-width:min(44%,360px);padding:0;border-radius:0;background:none;border:0;box-shadow:none;color:#0A1428;text-align:right;text-shadow:0 0 2px #fff,0 0 6px rgba(255,255,255,.95),0 0 14px rgba(255,255,255,.85),0 0 26px rgba(255,255,255,.6);text-decoration:none;opacity:0;transition:opacity .8s}
-#coverSlot .cimg .artShow .artAd.on{opacity:1}
-#coverSlot .cimg .artShow .artAd small{display:block;font:700 11px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#B5123A;margin-bottom:5px}
-#coverSlot .cimg .artShow .artAd b{display:block;font:800 clamp(17px,2.2vw,24px)/1.2 "Playfair Display",Georgia,serif;color:#0A1428}
-#coverSlot .cimg .artShow .artAd i{display:block;margin-top:6px;font:700 14px/1.3 "PT Serif",Georgia,serif;font-style:normal;color:#002D57}
-#coverSlot .cimg .artShow .artAd em{display:inline-block;margin-top:9px;font:700 11.5px/1 "Libre Franklin",Arial,sans-serif;font-style:normal;letter-spacing:.1em;text-transform:uppercase;color:#B5123A;border-bottom:2px solid #B5123A;padding-bottom:3px}
-@media (max-width:760px){#coverSlot .cimg .artShow .artAd{max-width:62%;padding:0;top:6px;right:8px}#coverSlot .cimg .artShow .artAd i,#coverSlot .cimg .artShow .artAd em{display:none}#coverSlot .cimg .artShow .artAd small{font-size:9px;margin-bottom:1px}#coverSlot .cimg .artShow .artAd b{font-size:14px}}
-/* One large rectangular flip box: art pieces and the top story take turns in the same space */
-html body #coverSlot .cvr .cimg.artBox{grid-column:1/-1!important;grid-row:1!important;width:100%!important;max-width:none!important;aspect-ratio:3/2!important;min-height:0!important;z-index:1}
-html body #coverSlot .cvr button.cvbrk{grid-column:1/-1!important;grid-row:1!important;width:100%!important;aspect-ratio:3/2;height:auto!important;z-index:2;opacity:0;visibility:hidden;transition:opacity 1s ease,visibility 0s linear 1s;padding:clamp(18px,4cqw,40px) clamp(18px,4cqw,44px)!important;justify-content:center!important}
-html body #coverSlot .cvr.showStory button.cvbrk{opacity:1;visibility:visible;transition:opacity 1s ease}
-html.tsphoto body #coverSlot .cvr button.cvbrk{background:linear-gradient(90deg,rgba(10,20,40,.94) 0,rgba(10,20,40,.7) 42%,rgba(10,20,40,0) 70%),var(--tsimg) 50% 40%/cover no-repeat!important}
-html body #coverSlot .cvr button.cvbrk .cvbrk-t{max-width:52%!important}
-@media (max-width:760px){html body #coverSlot .cvr button.cvbrk .cvbrk-t{max-width:78%!important}html body #coverSlot .cvr .cimg.artBox,html body #coverSlot .cvr button.cvbrk{aspect-ratio:4/3!important}}
-</style>
-<script id="artShowJs">(()=>{
-/* Art area: the box beside the top story shows the owner's best paintings */
-const ART=[['img/story/shoreby-hill-1200.webp','50%','','fit'],['img/story/thorndike-hotel-1200.webp','50%','','fit'],['img/story/jamestown-landing-1200.webp','50%','','fit'],['img/story/bay-view-house-1200.webp','50%','','fit'],['img/story/lyons-market-1200.webp','50%',''],['img/story/beaver-tail-ferry-1200.webp','50%',''],['img/story/fort-dumpling-1200.webp','50%','','fit'],['img/story/governor-carr-1938-1200.webp?v=2','50%',''],['img/story/jamestown-resort-area-1200.webp','50%',''],['img/story/santa-arrives-coastal-queen.jpg','50%','','','2026-12-05'],['img/story/town-tree-raising.jpg','50%','','','2026-12-05'],['img/story/jamestown-1900-1200.webp','50%',''],['img/story/palace-theatre-1200.webp','50%',''],['img/story/jamestown-garage-1200.webp','50%',''],['img/story/gardner-house-1920s-1200.webp?v=2','50%',''],['img/story/bay-view-hotel-1200.webp','50%',''],['img/scenes/36-sunset-terrace-1200.webp','50%','','fit'],['img/story/fort-wetherill-1970s-1200.webp','50%','','','','noad'],['img/story/east-ferry-1200.webp','50%','']];
-{const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});for(let n=ART.length-1;n>=0;n--)if(ART[n][4]&&td>ART[n][4])ART.splice(n,1)}
-const go=()=>{const old=document.querySelector('#coverSlot .cimg:not(.artBox)');if(!old)return;const box=document.createElement('div');box.className='cimg artBox';box.style.cssText='position:relative;overflow:hidden';old.replaceWith(box);
-const a=document.createElement('span');a.className='artShow';a.setAttribute('role','img');a.setAttribute('aria-label','Paintings of Jamestown');
-a.innerHTML=ART.map((x,i)=>'<span class="ai'+(i?'':' on')+'">'+(x[3]==='fit'?'<span class="ab" style="background-image:url('+x[0]+')"></span><span class="af" style="background-image:url('+x[0]+')"></span>':'<span class="af cv" style="background-image:url('+x[0]+');background-position:'+x[1]+' 50%"></span>')+'</span>').join('')+'<span class="artLbl"></span>';
-box.appendChild(a);let i=0;const I=[...a.querySelectorAll('.ai')];const L=a.querySelector('.artLbl');const lab=()=>{const s=ART[i][2];L.textContent=s===''?'':(s||'Jamestown Art');L.style.display=s===''?'none':''};lab();
-/* one small line of upcoming Jamestown event on each painting; kept short so the art shows */
-const AD=document.createElement('a');AD.className='artAd';AD.target='_blank';AD.rel='noopener';a.appendChild(AD);let EVS=[];
-const fmt=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-const ad=()=>{if(!EVS.length||ART[i][5]==='noad'){AD.classList.remove('on');return}const e=EVS[i%EVS.length];AD.innerHTML='<small>Coming up in Jamestown</small><b></b><i></i><em>Details →</em>';AD.querySelector('b').textContent=(e.artists||'').replace(/\s*\([^)]*\)/g,'').slice(0,60);AD.querySelector('i').textContent=fmt(e.date)+(e.time?' · '+e.time.replace(/\s*[-–].*/,''):'')+(e.venue?' · '+e.venue:'');if(e.url){AD.href=e.url}else{AD.removeAttribute('href')}AD.classList.add('on')};
-AD.addEventListener('click',e=>{e.stopPropagation()},true);
-fetch('data/cal.json').then(r=>r.json()).then(d=>{const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const lim=new Date(Date.now()+21*864e5).toISOString().slice(0,10);const seen=new Set();
-EVS=(d.events||[]).filter(e=>e.date>td&&e.date<=lim&&e.time&&!/worship|meeting|board|committee|mass|confession/i.test((e.genre||'')+' '+(e.artists||''))).filter(e=>{const k=(e.artists||'').toLowerCase().slice(0,24);if(seen.has(k))return false;seen.add(k);return true}).sort((x,y)=>x.date<y.date?-1:1).slice(0,12);ad()}).catch(()=>{});
-/* sequence: two paintings, then the top story, repeat */
-const cvr=box.closest('.cvr');let k=0;
-if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{k++;if(k%3===0){cvr&&cvr.classList.add('showStory');return}cvr&&cvr.classList.remove('showStory');I[i].classList.remove('on');AD.classList.remove('on');i=(i+1)%I.length;I[i].classList.add('on');lab();setTimeout(ad,500)},8000);
-};
-let q=0;const mo=new MutationObserver(()=>{if(q)return;q=1;requestAnimationFrame(()=>{q=0;go()})});addEventListener('DOMContentLoaded',()=>{go();mo.observe(document.body,{childList:true,subtree:true})});go()})();</script>
 </body>
 </html>
