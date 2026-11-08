@@ -3116,7 +3116,7 @@ html body #coverSlot .cvr button.cvbrk .cvbrk-t{max-width:52%!important}
 </style>
 <script id="artShowJs">(()=>{
 /* Art area: the box beside the top story shows the owner's best paintings */
-const ART=[['img/story/santa-arrives-coastal-queen.jpg','50%','','','2026-12-05'],['img/story/town-tree-raising.jpg','50%','','','2026-12-05'],['img/story/jamestown-1900-1200.webp','50%',''],['img/story/palace-theatre-1200.webp','50%',''],['img/story/jamestown-garage-1200.webp','50%',''],['img/story/gardner-house-1920s-1200.webp','50%',''],['img/story/bay-view-hotel-1200.webp','50%',''],['img/scenes/36-sunset-terrace-1200.webp','50%','','fit']];
+const ART=[['img/story/jamestown-resort-area-1200.webp','50%',''],['img/story/santa-arrives-coastal-queen.jpg','50%','','','2026-12-05'],['img/story/town-tree-raising.jpg','50%','','','2026-12-05'],['img/story/jamestown-1900-1200.webp','50%',''],['img/story/palace-theatre-1200.webp','50%',''],['img/story/jamestown-garage-1200.webp','50%',''],['img/story/gardner-house-1920s-1200.webp','50%',''],['img/story/bay-view-hotel-1200.webp','50%',''],['img/scenes/36-sunset-terrace-1200.webp','50%','','fit']];
 {const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});for(let n=ART.length-1;n>=0;n--)if(ART[n][4]&&td>ART[n][4])ART.splice(n,1)}
 const go=()=>{const old=document.querySelector('#coverSlot .cimg:not(.artBox)');if(!old)return;const box=document.createElement('div');box.className='cimg artBox';box.style.cssText='position:relative;overflow:hidden';old.replaceWith(box);
 const a=document.createElement('span');a.className='artShow';a.setAttribute('role','img');a.setAttribute('aria-label','Paintings of Jamestown');
