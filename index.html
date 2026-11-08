@@ -3083,5 +3083,7 @@ let opener=null;const close=()=>{if(!s.classList.contains('sbpop'))return;s.clas
 new MutationObserver(()=>{if(s.classList.contains('sbpop')){opener=document.activeElement&&document.activeElement!==document.body&&!s.contains(document.activeElement)?document.activeElement:opener;s.setAttribute('role','dialog');s.setAttribute('aria-modal','true')}}).observe(s,{attributes:true,attributeFilter:['class']});
 document.addEventListener('keydown',e=>{if(!s.classList.contains('sbpop'))return;if(e.key==='Escape'){e.preventDefault();close();return}if(e.key==='Tab'){const F=[...s.querySelectorAll('button,input,a[href],select,textarea')].filter(el=>!el.disabled&&el.offsetParent);if(!F.length)return;const a=F[0],z=F[F.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}})};
 go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
+<style id="coverGapFix">/* Nov 8 2026: stop the story list from reserving an empty band under the cover */
+html body div#coverSlot div.cvr div.cvside>div.sea-g{overflow:hidden!important}</style>
 </body>
 </html>
