@@ -3106,7 +3106,7 @@ go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
 </style>
 <script id="artShowJs">(()=>{
 /* Art area: the box beside the top story shows the owner's best paintings */
-const ART=[['img/story/jamestown-garage-1200.webp','50%','','fit'],['img/story/gardner-house-1920s-1200.webp','50%','','fit'],['img/story/bay-view-hotel-1200.webp','50%','','fit'],['img/scenes/35-town-hall-swing-1200.webp','50%'],['img/scenes/36-sunset-terrace-1200.webp','50%']];
+const ART=[['img/story/palace-theatre-1200.webp','50%','','fit'],['img/story/jamestown-garage-1200.webp','50%','','fit'],['img/story/gardner-house-1920s-1200.webp','50%','','fit'],['img/story/bay-view-hotel-1200.webp','50%','','fit'],['img/scenes/35-town-hall-swing-1200.webp','50%'],['img/scenes/36-sunset-terrace-1200.webp','50%']];
 const go=()=>{const old=document.querySelector('#coverSlot .cimg:not(.artBox)');if(!old)return;const box=document.createElement('div');box.className='cimg artBox';box.style.cssText='position:relative;overflow:hidden';old.replaceWith(box);
 const a=document.createElement('span');a.className='artShow';a.setAttribute('role','img');a.setAttribute('aria-label','Paintings of Jamestown');
 a.innerHTML=ART.map((x,i)=>'<span class="ai'+(i?'':' on')+'">'+(x[3]==='fit'?'<span class="ab" style="background-image:url('+x[0]+')"></span><span class="af" style="background-image:url('+x[0]+')"></span>':'<span class="af cv" style="background-image:url('+x[0]+');background-position:'+x[1]+' 50%"></span>')+'</span>').join('')+'<span class="artLbl"></span>';
