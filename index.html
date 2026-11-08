@@ -3092,17 +3092,20 @@ document.addEventListener('keydown',e=>{if(!s.classList.contains('sbpop'))return
 go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
 <style id="artShowCss">
 #coverSlot .cimg.artBox{position:relative;display:block;min-height:300px;aspect-ratio:370/607;padding:0;border:1px solid #D4ECF566;border-radius:6px;background:#0A1428}
-#coverSlot .cimg .artShow{position:absolute;inset:0;z-index:5;overflow:hidden;background:#0A1428;cursor:zoom-in;border-radius:inherit}
+#coverSlot .cimg .artShow{position:absolute;inset:0;z-index:5;overflow:hidden;background:#0A1428;cursor:default;border-radius:inherit}
 #coverSlot .cimg .artShow .ai{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;opacity:0;transition:opacity 1.4s ease}
 #coverSlot .cimg .artShow .ai.on{opacity:1}
 #coverSlot .cimg .artShow .artLbl{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(10,20,40,.85));color:#fff;font:700 12px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
 #artBig{position:fixed;inset:0;z-index:9999;background:rgba(10,20,40,.94);display:flex;align-items:center;justify-content:center;cursor:zoom-out}
 #artBig img{max-width:94vw;max-height:90vh;box-shadow:0 10px 40px #000}
 #coverSlot .cimg .artShow .ab{position:absolute;inset:-30px;background:center/cover no-repeat;filter:blur(22px) brightness(.55)}#coverSlot .cimg .artShow .af{position:absolute;inset:0;background:center/contain no-repeat}#coverSlot .cimg .artShow .af.cv{background-size:cover}
-#coverSlot .cimg .artShow .artAd{position:absolute;left:10px;right:10px;top:10px;z-index:3;display:block;padding:7px 10px;border-radius:5px;background:rgba(10,20,40,.72);color:#fff;text-decoration:none;font:600 13px/1.3 "Libre Franklin",Arial,sans-serif;opacity:0;transition:opacity .8s}
+#coverSlot .cimg .artShow .artAd{position:absolute;right:clamp(10px,2.5%,24px);top:clamp(10px,3%,24px);text-align:left;z-index:3;display:block;max-width:min(44%,360px);padding:12px 16px 13px;border-radius:4px;background:rgba(10,20,40,.86);border-left:4px solid #B5123A;box-shadow:0 6px 18px rgba(0,0,0,.35);color:#fff;text-decoration:none;opacity:0;transition:opacity .8s}
 #coverSlot .cimg .artShow .artAd.on{opacity:1}
-#coverSlot .cimg .artShow .artAd small{display:block;font:700 10.5px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#D4ECF5;margin-bottom:2px}
-#coverSlot .cimg .artShow .artAd b{font:700 15px/1.25 "Playfair Display",Georgia,serif;color:#fff}
+#coverSlot .cimg .artShow .artAd small{display:block;font:700 11px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#D4ECF5;margin-bottom:5px}
+#coverSlot .cimg .artShow .artAd b{display:block;font:700 clamp(16px,2.1vw,22px)/1.2 "Playfair Display",Georgia,serif;color:#fff}
+#coverSlot .cimg .artShow .artAd i{display:block;margin-top:6px;font:400 13px/1.3 "PT Serif",Georgia,serif;font-style:normal;color:#D4ECF5}
+#coverSlot .cimg .artShow .artAd em{display:inline-block;margin-top:9px;font:700 11.5px/1 "Libre Franklin",Arial,sans-serif;font-style:normal;letter-spacing:.1em;text-transform:uppercase;color:#fff;border-bottom:2px solid #B5123A;padding-bottom:3px}
+@media (max-width:760px){#coverSlot .cimg .artShow .artAd{max-width:62%;padding:8px 10px}#coverSlot .cimg .artShow .artAd i{display:none}}
 /* One large rectangular flip box: art pieces and the top story take turns in the same space */
 html body #coverSlot .cvr .cimg.artBox{grid-column:1/-1!important;grid-row:1!important;width:100%!important;max-width:none!important;aspect-ratio:3/2!important;min-height:0!important;z-index:1}
 html body #coverSlot .cvr button.cvbrk{grid-column:1/-1!important;grid-row:1!important;width:100%!important;aspect-ratio:3/2;height:auto!important;z-index:2;opacity:0;visibility:hidden;transition:opacity 1s ease,visibility 0s linear 1s;padding:clamp(18px,4cqw,40px) clamp(18px,4cqw,44px)!important;justify-content:center!important}
@@ -3121,14 +3124,14 @@ box.appendChild(a);let i=0;const I=[...a.querySelectorAll('.ai')];const L=a.quer
 /* one small line of upcoming Jamestown event on each painting; kept short so the art shows */
 const AD=document.createElement('a');AD.className='artAd';AD.target='_blank';AD.rel='noopener';a.appendChild(AD);let EVS=[];
 const fmt=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-const ad=()=>{if(!EVS.length){AD.classList.remove('on');return}const e=EVS[i%EVS.length];AD.innerHTML='<small>Coming up · '+fmt(e.date)+(e.time?' · '+e.time.replace(/\s*[-–].*/,''):'')+'</small><b></b>';AD.querySelector('b').textContent=(e.artists||'').replace(/\s*\([^)]*\)/g,'').slice(0,70);if(e.url){AD.href=e.url}else{AD.removeAttribute('href')}AD.classList.add('on')};
+const ad=()=>{if(!EVS.length){AD.classList.remove('on');return}const e=EVS[i%EVS.length];AD.innerHTML='<small>Coming up in Jamestown</small><b></b><i></i><em>Details →</em>';AD.querySelector('b').textContent=(e.artists||'').replace(/\s*\([^)]*\)/g,'').slice(0,60);AD.querySelector('i').textContent=fmt(e.date)+(e.time?' · '+e.time.replace(/\s*[-–].*/,''):'')+(e.venue?' · '+e.venue:'');if(e.url){AD.href=e.url}else{AD.removeAttribute('href')}AD.classList.add('on')};
 AD.addEventListener('click',e=>{e.stopPropagation()},true);
-false&&fetch('data/cal.json').then(r=>r.json()).then(d=>{const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const lim=new Date(Date.now()+21*864e5).toISOString().slice(0,10);const seen=new Set();
+fetch('data/cal.json').then(r=>r.json()).then(d=>{const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});const lim=new Date(Date.now()+21*864e5).toISOString().slice(0,10);const seen=new Set();
 EVS=(d.events||[]).filter(e=>e.date>td&&e.date<=lim&&e.time&&!/worship|meeting|board|committee|mass|confession/i.test((e.genre||'')+' '+(e.artists||''))).filter(e=>{const k=(e.artists||'').toLowerCase().slice(0,24);if(seen.has(k))return false;seen.add(k);return true}).sort((x,y)=>x.date<y.date?-1:1).slice(0,12);ad()}).catch(()=>{});
 /* sequence: two paintings, then the top story, repeat */
 const cvr=box.closest('.cvr');let k=0;
-if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{k++;if(k%3===0){cvr&&cvr.classList.add('showStory');return}cvr&&cvr.classList.remove('showStory');I[i].classList.remove('on');i=(i+1)%I.length;I[i].classList.add('on');lab()},8000);
-a.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const o=document.createElement('div');o.id='artBig';o.innerHTML='<img src="'+ART[i][0]+'" alt="">';o.addEventListener('click',()=>o.remove());document.addEventListener('keydown',function k(ev){if(ev.key==='Escape'){o.remove();document.removeEventListener('keydown',k)}});document.body.appendChild(o)},true)};
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{k++;if(k%3===0){cvr&&cvr.classList.add('showStory');return}cvr&&cvr.classList.remove('showStory');I[i].classList.remove('on');AD.classList.remove('on');i=(i+1)%I.length;I[i].classList.add('on');lab();setTimeout(ad,500)},8000);
+};
 let q=0;const mo=new MutationObserver(()=>{if(q)return;q=1;requestAnimationFrame(()=>{q=0;go()})});addEventListener('DOMContentLoaded',()=>{go();mo.observe(document.body,{childList:true,subtree:true})});go()})();</script>
 </body>
 </html>
