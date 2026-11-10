@@ -31,9 +31,9 @@
  const css=document.createElement('style');css.textContent=`
 .sp-box{margin:0 0 14px;border:2px solid #2F5B4F;border-left:6px solid #2F5B4F;border-radius:8px;background:#2F5B4F22;padding:0 14px 10px}
 .sp-box>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:3px;padding:12px 0 6px}.sp-box>summary::-webkit-details-marker{display:none}
-.sp-box>summary b{font:700 21px/1.2 "Playfair Display",Georgia,serif;color:#fff}.sp-box>summary span{font:400 15px/1.4 Georgia,serif;color:#EEE9E5}
-.sp-list{margin:4px 0 8px;padding-left:18px;font:400 16px/1.5 Georgia,serif;color:#EEE9E5}.sp-list li{margin:3px 0}.sp-list b{color:#fff}.sp-list span{color:#C9D6DF}.sp-list a{color:#D4ECF5}
-.sp-p{margin:6px 0;font:400 16px/1.5 Georgia,serif;color:#EEE9E5}.sp-tel{font-weight:800;color:#fff!important;text-decoration:underline;white-space:nowrap}
+.sp-box>summary b{font:700 17px/1.2 "Playfair Display",Georgia,serif;color:#fff}.sp-box>summary span{font:400 15px/1.4 Georgia,serif;color:#EEE9E5}
+.sp-list{margin:3px 0 6px;padding-left:16px;font:400 14px/1.45 Georgia,serif;color:#EEE9E5}.sp-list li{margin:3px 0}.sp-list b{color:#fff}.sp-list span{color:#C9D6DF}.sp-list a{color:#D4ECF5}
+.sp-p{margin:5px 0;font:400 14px/1.45 Georgia,serif;color:#EEE9E5}.sp-tel{font-weight:800;color:#fff!important;text-decoration:underline;white-space:nowrap}
 .sp-link{all:unset;cursor:pointer;font:700 15px/1.3 "Libre Franklin",system-ui,sans-serif;color:#D4ECF5;text-decoration:underline}
 .sp-box a:focus-visible,.sp-link:focus-visible,.sp-box summary:focus-visible{outline:3px solid #E9C46A;outline-offset:2px}`;document.head.appendChild(css);
  try{if(typeof STATE!=='undefined'&&STATE.view==='cal'&&typeof render==='function')render()}catch(_){}
