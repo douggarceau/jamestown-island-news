@@ -1,7 +1,7 @@
 /* "Help & Support This Week" box at the top of the Jamestown Event Calendar.
    Dated help listings (food pantries, Medicare/Medicaid counseling, thrift shop, tax help, clinics) come from the calendar itself, next 7 days only.
    Standing help lines come from the Senior Help Network research (data/help.json, checked Nov. 10, 2026).
-   Recovery meetings are not dated here: the Jamestown AA/Al-Anon listings are old, so they point to the Mental Health page with a "call to confirm" note. */
+   Recovery meetings: weekly times from the Rhode Island AA meeting list (rhodeisland-aa.org, entries updated 2025-2026) and RI Al-Anon (Aug. 2026). */
 (function(){
  const X=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const tel=p=>'<a class="sp-tel" href="tel:+1'+p.replace(/\D/g,'')+'">'+p+'</a>';
@@ -20,7 +20,13 @@
    '<li><b>Fire Dept. COAST</b> (free medical rides, home check-ins, equipment loans) '+tel('401-423-5904')+'</li>'+
    '<li><b>Jamestown Community Food Pantry</b> (pickup or home delivery) '+tel('401-560-4080')+'</li>'+
    '<li><b>Jamestown Village</b> (volunteer rides, errands, tech help) '+tel('401-661-7203')+'</li>'+
-   '<li><b>Recovery:</b> AA and Al-Anon meet weekly at St. Matthew’s, 87 Narragansett Ave. Times aren’t confirmed: call the RI AA office '+tel('401-438-8860')+' or see <button type="button" class="sp-link" data-go="mh">Mental Health ›</button></li>'+
+   '</ul><p class="sp-p"><b>Recovery meetings at St. Matthew’s, 87 Narragansett Ave.</b> (every week, open to anyone unless marked):</p><ul class="sp-list">'+
+   '<li><b>Sun 4:30 pm</b> AA Time for Promises</li><li><b>Mon 6 am</b> AA Morning Glory · <b>6 pm</b> Al-Anon Live &amp; Let Live (for families)</li>'+
+   '<li><b>Tue 5:15 pm</b> AA Happy Hour II</li><li><b>Wed 5:30 pm</b> AA Come to Believe</li>'+
+   '<li><b>Thu 6 am</b> AA Morning Glory · <b>5:30 pm</b> AA Eleventh Step <span>(closed: for people who want to stop drinking)</span></li>'+
+   '<li><b>Fri 5 pm</b> AA Happy Hour I</li><li><b>Sat 9 am</b> AA Jamestown Step Workshop</li>'+
+   '<li><b>NA (Narcotics Anonymous):</b> no meetings on the island; nearest ones are on the <a href="https://gpana.org/?current-meeting-list=1" target="_blank" rel="noopener noreferrer">official NA list</a>, helpline '+tel('866-624-3578')+'</li>'+
+   '<li><span>From the <a href="https://rhodeisland-aa.org/archives/meetings/" target="_blank" rel="noopener noreferrer">Rhode Island AA meeting list</a>. AA 24/7 line</span> '+tel('401-438-8860')+' · <button type="button" class="sp-link" data-go="mh">More support on Mental Health ›</button></li>'+
    '</ul><p class="sp-p">More: <button type="button" class="sp-link" data-go="help">Help &amp; Benefits ›</button> · Crisis, call or text <a class="sp-tel" href="tel:988">988</a> · Any help, <a class="sp-tel" href="tel:211">211</a></p></details>'};
  const css=document.createElement('style');css.textContent=`
 .sp-box{margin:0 0 14px;border:2px solid #2F5B4F;border-left:6px solid #2F5B4F;border-radius:8px;background:#2F5B4F22;padding:0 14px 10px}
