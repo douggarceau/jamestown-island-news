@@ -230,5 +230,52 @@
    }
   ],
   "until": "2026-11-07"
+ },
+ {
+  "slug": "today-on-the-island-2026-11-09",
+  "topic": "people",
+  "date": "2026-11-09",
+  "until": "2026-11-09",
+  "minutes": 1,
+  "title": "Today on the Island: Gallery Viewing, Writing and LEGO",
+  "dek": "Out of the Box Studio opens its artists-in-residence gallery at 10 a.m., and the library runs a writing workshop at 10:30.",
+  "body": [
+   "A quiet Monday on the island, with a gallery viewing, a writing workshop and a few family options. Here is what the listings show for today.",
+   "## Today and tonight",
+   "#T {\"title\": \"Monday, Nov. 9\", \"head\": [\"Time\", \"What\", \"Where\"], \"rows\": [[\"10:00 AM\", \"Artists in Residence — Out of the Box gallery viewing\", \"Out of the Box Studio & Gallery\"], [\"10:30 AM\", \"Rusty Pens Writing & Storytelling Workshop\", \"Jamestown Philomenian Library\"], [\"2:00 PM\", \"Needles Galore Knitting Group\", \"Jamestown Philomenian Library\"], [\"3:00 PM\", \"Let's LEGO Club\", \"Jamestown Philomenian Library\"], [\"3:45 PM\", \"Dungeons and Dragons Club (5th-6th)\", \"Teen Center - Recreation Center\"]]}",
+   "Times come from each organizer's listing. Check before you go."
+  ],
+  "sources": [
+   {
+    "outlet": "Out of the Box Studio & Gallery",
+    "title": "Artists in Residence — Out of the Box gallery viewing",
+    "date": "",
+    "url": "https://www.outoftheboxart.net/"
+   },
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Rusty Pens Writing & Storytelling Workshop",
+    "date": "",
+    "url": "https://jplri.libcal.com/event/16548216"
+   },
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Needles Galore Knitting Group",
+    "date": "",
+    "url": "https://jplri.libcal.com/event/16595773"
+   },
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Let's LEGO Club",
+    "date": "",
+    "url": "https://jplri.libcal.com/event/16694057"
+   },
+   {
+    "outlet": "Jamestown Parks and Recreation",
+    "title": "Dungeons and Dragons Club (5th-6th)",
+    "date": "",
+    "url": "https://jamestown.perfectmind.com/39698/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=57df6188-b217-48b7-a212-c09c77cd382a&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=True"
+   }
+  ]
  }
 ]
