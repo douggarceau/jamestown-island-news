@@ -23,7 +23,7 @@
   const day=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
   const ev=events();
   if(!ev.length&&(window.__snTry=(window.__snTry||0)+1)<8)setTimeout(()=>{try{if(STATE.view==='seniors'&&events().length)render()}catch(_){}},700);
-  return '<section class="box sn"><div class="sn-head"><h2>Seniors in Jamestown</h2><p>Help, programs and benefits for island seniors and the people who care for them. Free to use.</p>'+
+  return '<section class="box sn"><div class="sn-head">'+(window.helpBar?helpBar('seniors'):'')+'<h2>Seniors in Jamestown</h2><p>Help, programs and benefits for island seniors and the people who care for them. Free to use.</p>'+
    '<p class="sn-urgent"><b>Emergency? Call <a class="sn-tel" href="tel:911">911</a>.</b> Crisis or feeling low, call or text <a class="sn-tel" href="tel:988">988</a>. Any help, any time: <a class="sn-tel" href="tel:211">211</a>.</p></div>'+
    '<h3 class="sn-h">Who to call</h3><div class="sn-call">'+CALL.map(c=>'<div class="sn-c"><b>'+X(c[0])+'</b><span>'+X(c[1])+'</span>'+tel(c[2])+'</div>').join('')+'</div>'+
    '<h3 class="sn-h">What do you need?</h3><p class="sn-p">Tap one to see every service that serves Jamestown.</p><div class="sn-needs">'+
@@ -36,7 +36,7 @@
  document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-snneed],[data-snben]');if(!b||!b.closest('.sn'))return;e.preventDefault();
   if(b.dataset.snben!=null)open({tab:'benefits',view:b.dataset.snben,bcat:''});else open({tab:'find',cat:b.dataset.snneed})});
  const css=document.createElement('style');css.textContent=`
-.sn{padding-bottom:16px}.sn-head{padding:22px 18px 6px}.sn-head h2{margin:0 0 6px;font:700 clamp(28px,5vw,42px)/1.1 "Playfair Display",Georgia,serif;color:#D4ECF5}.sn-head p{margin:0 0 8px;font:400 18px/1.5 Georgia,serif;color:#EEE9E5}
+.sn{padding-bottom:16px}.sn-head{padding:22px 18px 6px}.sn-head h2{margin:12px 0 6px;font:700 clamp(22px,4vw,30px)/1.15 "Playfair Display",Georgia,serif;color:#D4ECF5}.sn-head p{margin:0 0 8px;font:400 18px/1.5 Georgia,serif;color:#EEE9E5}
 .sn-urgent{padding:10px 12px;border-left:4px solid #B5123A;background:#ffffff0d}.sn-urgent b{color:#fff}.sn-tel{font-weight:800;color:#fff!important;text-decoration:underline;text-underline-offset:3px;white-space:nowrap;font-size:18px}
 .sn-h{margin:20px 18px 8px;font:800 16px/1.3 "Libre Franklin",system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#D4ECF5}.sn-p{margin:6px 18px;font:400 17px/1.5 Georgia,serif;color:#EEE9E5}
 .sn-call{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:0 18px}.sn-c{display:flex;flex-direction:column;gap:5px;padding:14px;border:1px solid #D4ECF544;border-radius:8px;background:#ffffff08}
