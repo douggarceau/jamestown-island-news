@@ -3,13 +3,13 @@
    window.JOBS_HOME = list of towns to show first (Jamestown Island News sets it). Compact rows, no boxes. */
 (function(){
  let D=null,asked=false,err=false,lim=200;
- const HOME=window.JOBS_HOME||null;
+ const HOME=window.JOBS_HOME||null;const ONLY=!!window.JOBS_ONLY;
  const st={q:'',type:'',town:HOME?'__near':'',sort:'new'};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const TYPES={state:'State of Rhode Island',town:'City or town',school:'School district',college:'College',authority:'State authority'};
  const fmt=d=>{if(!d)return '';const t=new Date(d+'T12:00:00');return isNaN(t)?d:t.toLocaleDateString('en-US',{month:'short',day:'numeric'})};
- function load(){if(asked)return;asked=true;fetch('data/jobs.json?'+Math.floor(Date.now()/36e5)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/jobs.json?'+Math.floor(Date.now()/36e5)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{if(ONLY){j.listings=j.listings.filter(r=>HOME.includes(r.town));j.employers=j.employers.filter(e=>HOME.includes(e.town))}D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  const inTown=(r,t)=>t==='__near'?HOME.includes(r.town):(!t||r.town===t);
  function fill(){const root=document.getElementById('jbRoot');if(!root)return;
   const L=root.querySelector('#jbList'),C=root.querySelector('#jbCount'),E=root.querySelector('#jbEmp');
@@ -17,7 +17,7 @@
   if(!D){L.innerHTML='<p>Loading open jobs…</p>';return}
   root.querySelector('#jbUpd').textContent='Updated '+new Date(D.updated).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
   const T=root.querySelector('#jbTown');
-  if(T.options.length<2){const towns=uniq(D.listings.map(r=>r.town).concat(D.employers.map(e=>e.town)));T.innerHTML=(HOME?'<option value="__near">Jamestown & nearby</option>':'')+'<option value="">All of Rhode Island</option>'+towns.map(t=>'<option>'+X(t)+'</option>').join('')}
+  if(T.options.length<2){const towns=uniq(D.listings.map(r=>r.town).concat(D.employers.map(e=>e.town)));T.innerHTML=ONLY?'<option value="__near">Jamestown</option>':(HOME?'<option value="__near">Jamestown & nearby</option>':'')+'<option value="">All of Rhode Island</option>'+towns.map(t=>'<option>'+X(t)+'</option>').join('')}
   T.value=st.town;root.querySelector('#jbType').value=st.type;root.querySelector('#jbSort').value=st.sort;
   const q=st.q.trim().toLowerCase();
   let rows=D.listings.filter(r=>(!st.type||r.type===st.type)&&inTown(r,st.town)&&(!q||(r.title+' '+r.employer+' '+(r.town||'')+' '+(r.dept||'')).toLowerCase().includes(q)));
@@ -29,8 +29,8 @@
   const emps=D.employers.filter(e=>!e.feed&&(!st.type||e.type===st.type)&&inTown(e,st.town)&&(!q||(e.name+' '+(e.town||'')).toLowerCase().includes(q)));
   E.innerHTML=emps.length?'<h3>Check these job pages directly ('+emps.length+')</h3><p class="jb-s">These employers post openings on their own sites without a feed we can read. The link goes to their official jobs page.</p><ul class="jb-e">'+emps.map(e=>'<li><a href="'+X(e.page)+'" target="_blank" rel="noopener">'+X(e.name)+'</a> <span class="jb-s">'+X(TYPES[e.type]||'')+'</span></li>').join('')+'</ul>':''}
  window.vJobs=function(){setTimeout(()=>{load();const r=document.getElementById('jbRoot');if(r)r.querySelector('#jbQ').value=st.q;fill()},0);
-  return '<section class="box jb" id="jbRoot"><h2>Jobs: open positions in Rhode Island government</h2>'
-   +'<p class="jb-s">Openings posted by the State of Rhode Island, cities and towns, school districts, public colleges and state authorities, pulled from their official job boards every morning. <span id="jbUpd"></span>.</p>'
+  return '<section class="box jb" id="jbRoot"><h2>'+(ONLY?'Jobs in Jamestown':'Jobs: open positions in Rhode Island government')+'</h2>'
+   +'<p class="jb-s">'+(ONLY?'Public jobs in Jamestown: the Town, the Jamestown schools and state agencies with Jamestown workplaces, pulled from their official job boards every morning.':'Openings posted by the State of Rhode Island, cities and towns, school districts, public colleges and state authorities, pulled from their official job boards every morning.')+' <span id="jbUpd"></span>.</p>'
    +'<p class="jb-note"><b>Public records.</b> These listings come from public job postings. Titles, pay, dates and requirements can change or close early: verify every detail with the employer, and apply only on the employer’s official site. Jamestown Island News is not the employer and does not take applications.</p>'
    +'<div class="jb-f"><input type="search" id="jbQ" placeholder="Search a job title, employer or town" aria-label="Search jobs">'
    +'<select id="jbType" aria-label="Employer type"><option value="">All employers</option>'+Object.entries(TYPES).map(([k,v])=>'<option value="'+k+'">'+v+'</option>').join('')+'</select>'
