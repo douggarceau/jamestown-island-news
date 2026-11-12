@@ -5,7 +5,7 @@
   "advertised_role_records": 32,
   "jamestown_worksite_role_records": 25,
   "jamestown_based_travel_role_records": 7,
-  "leads_needing_confirmation": 13,
+  "leads_needing_confirmation": 10,
   "recruitment_pipelines": 4,
   "expired_ads": 1,
   "verified_open_procurement_solicitations": 0
@@ -900,16 +900,6 @@
    "address": "41 North Road, Jamestown, RI 02835"
   },
   {
-   "id": "L-PSYCH",
-   "employer": "Children’s Wellness & Development Center",
-   "title": "Psychometrist",
-   "pay_text": "$30–$35/hour",
-   "source_url": "https://www.indeed.com/q-psychometrist-l-riverside%2C-ri-jobs.html",
-   "status": "needs_confirmation",
-   "last_checked": "2026-11-12",
-   "reason": "Indexed ad specifies bachelor’s degree and previous pediatric assessment experience. Fresh search page no longer shows the employer; not proof of closure."
-  },
-  {
    "id": "L-TECH",
    "employer": "Jamestown School Department",
    "title": "Technology hardware technician / specialist",
@@ -960,16 +950,6 @@
    "reason": "Indexed 20–30 hours/week, weekday cleaning with travel. Fresh Indeed employer search shows no results. Do not label active without further verification."
   },
   {
-   "id": "L-NEATSEA",
-   "employer": "NeatSea Home Cleaning and Organizing",
-   "title": "Professional cleaner",
-   "pay_text": "$25–$30/hour",
-   "source_url": "https://www.indeed.com/q-house-assistant-l-rhode-island-jobs.html",
-   "status": "needs_confirmation",
-   "last_checked": "2026-11-12",
-   "reason": "Older indexed part-time ad; current opening not confirmed."
-  },
-  {
    "id": "L-RICHARDSON",
    "employer": "Richardson Landscaping Corp",
    "title": "Landscape laborer",
@@ -988,17 +968,6 @@
    "status": "needs_confirmation",
    "last_checked": "2026-11-12",
    "reason": "Older seasonal indexed ad; cannot establish whether November recruitment remains open. 18+, driver’s license, lifting to 50 lb in ad."
-  },
-  {
-   "id": "L-ANCHOR-INFANT",
-   "employer": "Anchor Point Early Learning Academy",
-   "title": "Infant teacher",
-   "pay_text": "Not published",
-   "source_url": "https://anchorpointacademy.com/employment-opportunities/",
-   "status": "needs_confirmation",
-   "last_checked": "2026-11-12",
-   "reason": "Career index mentions Jamestown, but linked detail specifies a different worksite. Hold until Jamestown placement is confirmed.",
-   "email": "admissions@anchorpointacademy.com"
   },
   {
    "id": "L-PINHEIRO",

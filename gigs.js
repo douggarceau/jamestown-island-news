@@ -5,7 +5,11 @@
  let D=null,asked=false,err=false;
  const st={q:'',cat:'',easy:''};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
+ const dl=v=>{const d=new Date(String(v).slice(0,10)+'T12:00:00');return isNaN(d)?v:d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
+ const TODAY=()=>new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+ const live=j=>!j.deadline||String(j.deadline).slice(0,10)>=TODAY(); // hide anything past its deadline even before the daily check runs
  const NP=v=>!v||/^not published/i.test(v);
  const tel=p=>'<a href="tel:'+X(p.replace(/ext.*/i,'').replace(/[^0-9]/g,'').slice(0,10))+'">'+X(p)+'</a>';
  const PRI={lower_barrier:['Easier to get started','gg-g'],training_available:['Training available','gg-g'],early_career_with_training:['Early career, with training','gg-g'],standard:['','']};
@@ -21,18 +25,18 @@
   const C=root.querySelector('#ggCat');if(C.options.length<2)C.innerHTML='<option value="">All kinds of work</option>'+uniq(D.jobs.map(j=>j.category)).map(c=>'<option>'+X(c)+'</option>').join('');
   C.value=st.cat;root.querySelector('#ggEasy').value=st.easy;
   const q=st.q.trim().toLowerCase(),has=o=>!q||JSON.stringify(o).toLowerCase().includes(q);
-  const jobs=D.jobs.filter(j=>(!st.cat||j.category===st.cat)&&(!st.easy||j.priority!=='standard')&&has(j)).sort((a,b)=>((a.priority==='standard')-(b.priority==='standard'))||a.category.localeCompare(b.category)||a.employer.localeCompare(b.employer));
+  const jobs=D.jobs.filter(j=>live(j)&&(!st.cat||j.category===st.cat)&&(!st.easy||j.priority!=='standard')&&has(j)).sort((a,b)=>((a.priority==='standard')-(b.priority==='standard'))||a.category.localeCompare(b.category)||a.employer.localeCompare(b.employer));
   root.querySelector('#ggCount').textContent=jobs.length+' advertised job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   let h='<div class="gg-scroll"><table class="gg-t"><thead><tr><th>Job</th><th>Pay · hours</th><th>What it takes</th><th>How to apply</th></tr></thead><tbody>'
    +(jobs.map(j=>{const p=PRI[j.priority]||PRI.standard;const url=j.application_url||j.source_url;
-    return '<tr><td><a href="'+X(url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="gg-s">'+X(j.employer)+' · '+X(j.category)+'</span>'+(p[0]?'<br><span class="'+p[1]+'">'+p[0]+'</span>':'')+(j.location_scope&&!/Jamestown worksite/i.test(j.location_scope)?'<br><span class="gg-s">'+X(j.location_scope)+'</span>':'')+'</td>'
-    +'<td>'+(NP(j.pay_text)?'<span class="gg-s">Pay not published</span>':X(j.pay_text))+(NP(j.hours)?'':'<br><span class="gg-s">'+X(j.hours)+'</span>')+(j.deadline?'<br>Apply by '+X(j.deadline):'')+'</td>'
+    return '<tr><td><a href="'+U(url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="gg-s">'+X(j.employer)+' · '+X(j.category)+'</span>'+(p[0]?'<br><span class="'+p[1]+'">'+p[0]+'</span>':'')+(j.location_scope&&!/Jamestown worksite/i.test(j.location_scope)?'<br><span class="gg-s">'+X(j.location_scope)+'</span>':'')+'</td>'
+    +'<td>'+(NP(j.pay_text)?'<span class="gg-s">Pay not published</span>':X(j.pay_text))+(NP(j.hours)?'':'<br><span class="gg-s">'+X(j.hours)+'</span>')+(j.deadline?'<br>Apply by '+X(dl(j.deadline)):'')+'</td>'
     +'<td>'+X(j.requirements||'')+(NP(j.arrangement)||/W-2\/1099 form not published/.test(j.arrangement)?'':'<br><span class="gg-s">'+X(j.arrangement)+'</span>')+'</td>'
-    +'<td><a class="gg-apply" href="'+X(url)+'" target="_blank" rel="noopener">'+(j.source_kind==='client_posted_request'?'Reply on Care.com':'Apply on the employer’s page')+'</a><br><span class="gg-s">'+X(KIND[j.source_kind]||'')+'</span>'+(NP(j.phone)?'':'<br>'+tel(j.phone))+(NP(j.email)?'':'<br><a href="mailto:'+X(j.email)+'">'+X(j.email)+'</a>')+(j.contact_note?'<br><span class="gg-s gg-n">'+X(j.contact_note)+'</span>':'')+'</td></tr>'}).join('')||'<tr><td colspan="4">No jobs match.</td></tr>')+'</tbody></table></div>';
+    +'<td><a class="gg-apply" href="'+U(url)+'" target="_blank" rel="noopener">'+(j.source_kind==='client_posted_request'?'Reply on Care.com':'Apply on the employer’s page')+'</a><br><span class="gg-s">'+X(KIND[j.source_kind]||'')+'</span>'+(NP(j.phone)?'':'<br>'+tel(j.phone))+(NP(j.email)?'':'<br><a href="mailto:'+X(j.email)+'">'+X(j.email)+'</a>')+(j.contact_note?'<br><span class="gg-s gg-n">'+X(j.contact_note)+'</span>':'')+'</td></tr>'}).join('')||'<tr><td colspan="4">No jobs match.</td></tr>')+'</tbody></table></div>';
   if(!st.cat&&!st.easy){
    const P=(D.pipelines||[]).filter(has),L=(D.leads||[]).filter(has);
-   if(P.length)h+='<h3>Always taking applications</h3><ul class="gg-l">'+P.map(p=>'<li><a href="'+X(p.source_url)+'" target="_blank" rel="noopener"><b>'+X(p.employer)+': '+X(p.title)+'</b></a>'+(NP(p.pay_text)?'':' · '+X(p.pay_text))+(NP(p.phone)?'':' · '+tel(p.phone))+(NP(p.email)?'':' · <a href="mailto:'+X(p.email)+'">'+X(p.email)+'</a>')+(p.notes?'<br><span class="gg-s">'+X(p.notes)+'</span>':'')+'</li>').join('')+'</ul>';
-   if(L.length)h+='<h3>Not yet confirmed</h3><p class="gg-s">Seen in job ads for Jamestown, but we couldn’t confirm the ad is still open. Check with the employer before applying.</p><ul class="gg-l">'+L.map(l=>'<li><a href="'+X(l.source_url)+'" target="_blank" rel="noopener">'+X(l.employer)+': '+X(l.title)+'</a>'+(NP(l.pay_text)?'':' · '+X(l.pay_text))+(l.reason?'<br><span class="gg-s">'+X(l.reason)+'</span>':'')+'</li>').join('')+'</ul>'}
+   if(P.length)h+='<h3>Always taking applications</h3><ul class="gg-l">'+P.map(p=>'<li><a href="'+U(p.source_url)+'" target="_blank" rel="noopener"><b>'+X(p.employer)+': '+X(p.title)+'</b></a>'+(NP(p.pay_text)?'':' · '+X(p.pay_text))+(NP(p.phone)?'':' · '+tel(p.phone))+(NP(p.email)?'':' · <a href="mailto:'+X(p.email)+'">'+X(p.email)+'</a>')+(p.notes?'<br><span class="gg-s">'+X(p.notes)+'</span>':'')+'</li>').join('')+'</ul>';
+   if(L.length)h+='<h3>Not yet confirmed</h3><p class="gg-s">Seen in job ads for Jamestown, but we couldn’t confirm the ad is still open. Check with the employer before applying.</p><ul class="gg-l">'+L.map(l=>'<li><a href="'+U(l.source_url)+'" target="_blank" rel="noopener">'+X(l.employer)+': '+X(l.title)+'</a>'+(NP(l.pay_text)?'':' · '+X(l.pay_text))+(l.reason?'<br><span class="gg-s">'+X(l.reason)+'</span>':'')+'</li>').join('')+'</ul>'}
   B.innerHTML=h}
  window.vGigs=function(){setTimeout(()=>{load();const r=document.getElementById('ggRoot');if(r)r.querySelector('#ggQ').value=st.q;fill()},0);
   return '<section class="box gg" id="ggRoot">'+jtJobTabs('gigs')+'<h2>Jamestown Jobs &amp; Paid Gigs</h2>'

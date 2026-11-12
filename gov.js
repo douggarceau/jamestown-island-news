@@ -5,12 +5,13 @@
  let D=null,asked=false,err=false;
  const st={tab:'contacts',q:'',dept:'',lim:150};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const NP=v=>!v||/^not (published|confirmed)/i.test(v);
- const src=(u,t)=>u?'<a class="gv-src" href="'+X(u)+'" target="_blank" rel="noopener">'+(t||'source')+'</a>':'';
+ const src=(u,t)=>u?'<a class="gv-src" href="'+U(u)+'" target="_blank" rel="noopener">'+(t||'source')+'</a>':'';
  const money=n=>n==null?'':'$'+Math.round(n).toLocaleString('en-US');
  const day=s=>{if(!s)return '';const t=new Date(s.length<=10?s+'T12:00:00':s);return isNaN(t)?s:t.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'})};
- const time=s=>{const t=new Date(s);return isNaN(t)?'':t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})};
+ const time=s=>{if(!s||String(s).length<=10)return 'Time not posted';const t=new Date(s);return isNaN(t)?'':t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})};
  const today=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
  const TABS=[['contacts','People & contacts'],['meetings','Meetings'],['projects','Projects & decisions'],['money','Budget & taxes'],['bodies','Offices & boards'],['records','Records & services']];
  function load(){if(asked)return;asked=true;fetch('data/gov.json?v=20261112b').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
@@ -31,7 +32,7 @@
   return [fut.length,'','<p class="gv-s">Dates come from the Town calendar, school calendar and posted agendas; nothing is assumed from a regular schedule. Read the latest posted agenda before attending.</p>'
    +'<h3>Coming up ('+fut.length+')</h3><div class="gv-scroll"><table class="gv-t"><tbody>'+(fut.map(row).join('')||'<tr><td>None found.</td></tr>')+'</tbody></table></div>'
    +(past.length?'<h3>Earlier this month</h3><div class="gv-scroll"><table class="gv-t"><tbody>'+past.map(row).join('')+'</tbody></table></div>':'')
-   +'<h3>Recent agendas, minutes and videos ('+recs.length+')</h3><ul class="gv-l">'+recs.slice(0,st.lim).map(r=>'<li><a href="'+X(r.source)+'" target="_blank" rel="noopener">'+X(r.title)+'</a> <span class="gv-s">'+X(((r.category_paths||[])[0]||[]).join(' › '))+'</span></li>').join('')+'</ul>'+(recs.length>st.lim?'<button type="button" id="gvMore">Show more</button>':'')]}
+   +'<h3>Recent agendas, minutes and videos ('+recs.length+')</h3><ul class="gv-l">'+recs.slice(0,st.lim).map(r=>'<li><a href="'+U(r.source)+'" target="_blank" rel="noopener">'+X(r.title)+'</a> <span class="gv-s">'+X(((r.category_paths||[])[0]||[]).join(' › '))+'</span></li>').join('')+'</ul>'+(recs.length>st.lim?'<button type="button" id="gvMore">Show more</button>':'')]}
 
  function projects(q){
   const rows=D.projects_and_decisions.filter(p=>has(p,q)).sort((a,b)=>(b.record_date||'').localeCompare(a.record_date||''));
@@ -46,12 +47,12 @@
  function bodies(q){
   const g=D.government_breakdown.filter(x=>has(x,q)),reg=D.public_body_registry.filter(x=>has(x,q));
   return [g.length,'','<ul class="gv-l gv-p">'+g.map(x=>'<li><b>'+X(x.name)+'</b> <span class="gv-s">'+X(x.type)+'</span><br>'+X(x.function)+((x.leadership||[]).length?'<br><span class="gv-s">Led by: '+X(x.leadership.join('; '))+'</span>':'')+(x.notes?'<br><span class="gv-s gv-n">'+X(x.notes)+'</span>':'')+' '+src(x.source)+'</li>').join('')+'</ul>'
-   +'<h3>Every Jamestown public body on the state open-meetings portal ('+reg.length+')</h3><p class="gv-s">Some are inactive or historical; the portal does not say which.</p><ul class="gv-l gv-cols">'+reg.map(x=>'<li><a href="'+X(x.source)+'" target="_blank" rel="noopener">'+X(x.name)+'</a></li>').join('')+'</ul>']}
+   +'<h3>Every Jamestown public body on the state open-meetings portal ('+reg.length+')</h3><p class="gv-s">Some are inactive or historical; the portal does not say which.</p><ul class="gv-l gv-cols">'+reg.map(x=>'<li><a href="'+U(x.source)+'" target="_blank" rel="noopener">'+X(x.name)+'</a></li>').join('')+'</ul>']}
 
  function records(q){
   const s=D.public_safety.filter(x=>has(x,q)),a=D.announcements_and_service_notices.filter(x=>has(x,q)),w=D.records_and_publication_workflow.filter(x=>has(x,q));
   return [s.length+a.length+w.length,'','<h3>Emergencies and public safety</h3><p><b>Emergency: 911.</b> Police non-emergency: <a href="tel:4014231212">401-423-1212</a>. Fire/EMS station: <a href="tel:4014230062">401-423-0062</a>.</p><ul class="gv-l">'+s.map(x=>'<li><b>'+X(x.name)+'</b>: '+X(x.detail)+' '+src(x.source)+'</li>').join('')+'</ul>'
-   +'<h3>Notices and announcements</h3><ul class="gv-l">'+a.map(x=>'<li><b>'+X(x.title)+'</b> <span class="gv-s">'+X(x.relevant_date||'')+' · '+X(x.status)+'</span><br>'+X(x.summary)+' '+src(x.source)+'</li>').join('')+'</ul>'
+   +'<h3>Notices and announcements</h3><ul class="gv-l">'+a.map(x=>'<li><b>'+X(x.title)+'</b> <span class="gv-s">'+(x.relevant_date&&!/^not published/i.test(x.relevant_date)?X(x.relevant_date)+' · ':'')+X(x.status)+'</span><br>'+X(x.summary)+' '+src(x.source)+'</li>').join('')+'</ul>'
    +'<h3>How to get public records</h3><ul class="gv-l">'+w.map(x=>'<li><b>'+X(x.name)+'</b>: '+X(x.instructions)+' '+src(x.source)+'</li>').join('')+'</ul>'
    +'<p class="gv-s">Town job openings are on the <a href="#" data-go="jobs">Jobs</a> tab, refreshed every morning.</p>']}
 
