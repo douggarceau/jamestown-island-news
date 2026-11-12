@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-12T20:12:57Z",
+ "updated": "2026-11-12T20:25:02Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-12T19:30:00Z",
-   "wdir": 80,
-   "wspd_kt": 12.1,
-   "gst_kt": 15.0,
-   "pres_mb": 1001.4,
+   "time": "2026-11-12T19:48:00Z",
+   "wdir": 70,
+   "wspd_kt": 11.1,
+   "gst_kt": 17.1,
+   "pres_mb": 1001.1,
    "atmp_f": 54,
    "wtmp_f": 58
   },
@@ -18,24 +18,24 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-12T19:30:00Z",
-   "wdir": 60,
+   "time": "2026-11-12T19:48:00Z",
+   "wdir": 40,
    "wspd_kt": 11.1,
-   "gst_kt": 14.0,
-   "pres_mb": 1001.5,
+   "gst_kt": 12.1,
+   "pres_mb": 1001.4,
    "atmp_f": 54
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-12T19:30:00Z",
+   "time": "2026-11-12T19:48:00Z",
    "wdir": 60,
-   "wspd_kt": 15.0,
-   "gst_kt": 17.1,
+   "wspd_kt": 8.9,
+   "gst_kt": 12.1,
    "pres_mb": 1001.5,
    "atmp_f": 53,
-   "wtmp_f": 56
+   "wtmp_f": 57
   },
   {
    "id": "PRUR1",
@@ -48,22 +48,22 @@
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-12T19:30:00Z",
-   "wvht_ft": 5.2,
+   "time": "2026-11-12T20:00:00Z",
+   "wvht_ft": 5.6,
    "dpd_s": 6.0,
    "mwd": 110,
-   "atmp_f": 56,
+   "atmp_f": 55,
    "wtmp_f": 59
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-12T19:00:00Z",
+   "time": "2026-11-12T20:00:00Z",
    "wdir": 70,
-   "wspd_kt": 19.0,
-   "gst_kt": 21.0,
-   "pres_mb": 1002.2
+   "wspd_kt": 24.1,
+   "gst_kt": 27.0,
+   "pres_mb": 1001.0
   }
  ],
  "uscg": [
