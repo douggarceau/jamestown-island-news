@@ -10,7 +10,10 @@
  const tel=p=>'<a href="tel:'+X(p.replace(/ext.*/i,'').replace(/[^0-9]/g,'').slice(0,10))+'">'+X(p)+'</a>';
  const PRI={lower_barrier:['Easier to get started','gg-g'],training_available:['Training available','gg-g'],early_career_with_training:['Early career, with training','gg-g'],standard:['','']};
  const KIND={employer_or_authorized_recruitment:'Employer’s own posting',employer_branded_job_board_post:'Employer’s ad on a job site',client_posted_request:'Posted by a household on Care.com'};
- window.jtJobTabs=cur=>'<div class="gg-tabs">'+[['gigs','All Jamestown jobs'],['jobs','Town, school & state job boards']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
+ window.jtJobTabs=cur=>'<nav class="gg-tabs" aria-label="Job lists"><span class="gg-lab">Job lists:</span>'+[['gigs','All Jamestown jobs','Every advertised job and gig'],['jobs','Town, school & state job boards','Updated every morning']].map(([k,l,d])=>k===cur?'<button type="button" class="on" aria-current="page"><b>'+l+'</b><small>'+d+'</small></button>':'<button type="button" data-go="'+k+'"><b>'+l+'</b><small>'+d+'</small></button>').join('')+'</nav>';
+ const SEL='table.gg-t,table.jb-t';
+ const label=()=>document.querySelectorAll(SEL).forEach(t=>{const h=[...t.querySelectorAll('thead th')].map(th=>th.textContent.trim());t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{if(h[i]&&!td.hasAttribute('data-label'))td.setAttribute('data-label',h[i])}))});
+ new MutationObserver(ms=>{for(const m of ms)if(m.addedNodes.length){label();break}}).observe(document.documentElement,{childList:true,subtree:true});
  function load(){if(asked)return;asked=true;fetch('data/gigs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('ggRoot');if(!root)return;const B=root.querySelector('#ggBody');
   if(err){B.innerHTML='<p>Couldn’t load the list. <button type="button" id="ggRetry">Retry</button></p>';return}
@@ -24,8 +27,8 @@
    +(jobs.map(j=>{const p=PRI[j.priority]||PRI.standard;const url=j.application_url||j.source_url;
     return '<tr><td><a href="'+X(url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="gg-s">'+X(j.employer)+' · '+X(j.category)+'</span>'+(p[0]?'<br><span class="'+p[1]+'">'+p[0]+'</span>':'')+(j.location_scope&&!/Jamestown worksite/i.test(j.location_scope)?'<br><span class="gg-s">'+X(j.location_scope)+'</span>':'')+'</td>'
     +'<td>'+(NP(j.pay_text)?'<span class="gg-s">Pay not published</span>':X(j.pay_text))+(NP(j.hours)?'':'<br><span class="gg-s">'+X(j.hours)+'</span>')+(j.deadline?'<br>Apply by '+X(j.deadline):'')+'</td>'
-    +'<td>'+X(j.requirements||'')+(NP(j.arrangement)?'':'<br><span class="gg-s">'+X(j.arrangement)+'</span>')+'</td>'
-    +'<td><span class="gg-s">'+X(KIND[j.source_kind]||'')+'</span>'+(NP(j.phone)?'':'<br>'+tel(j.phone))+(NP(j.email)?'':'<br><a href="mailto:'+X(j.email)+'">'+X(j.email)+'</a>')+(j.contact_note?'<br><span class="gg-s gg-n">'+X(j.contact_note)+'</span>':'')+'</td></tr>'}).join('')||'<tr><td colspan="4">No jobs match.</td></tr>')+'</tbody></table></div>';
+    +'<td>'+X(j.requirements||'')+(NP(j.arrangement)||/W-2\/1099 form not published/.test(j.arrangement)?'':'<br><span class="gg-s">'+X(j.arrangement)+'</span>')+'</td>'
+    +'<td><a class="gg-apply" href="'+X(url)+'" target="_blank" rel="noopener">'+(j.source_kind==='client_posted_request'?'Reply on Care.com':'Apply on the employer’s page')+'</a><br><span class="gg-s">'+X(KIND[j.source_kind]||'')+'</span>'+(NP(j.phone)?'':'<br>'+tel(j.phone))+(NP(j.email)?'':'<br><a href="mailto:'+X(j.email)+'">'+X(j.email)+'</a>')+(j.contact_note?'<br><span class="gg-s gg-n">'+X(j.contact_note)+'</span>':'')+'</td></tr>'}).join('')||'<tr><td colspan="4">No jobs match.</td></tr>')+'</tbody></table></div>';
   if(!st.cat&&!st.easy){
    const P=(D.pipelines||[]).filter(has),L=(D.leads||[]).filter(has);
    if(P.length)h+='<h3>Always taking applications</h3><ul class="gg-l">'+P.map(p=>'<li><a href="'+X(p.source_url)+'" target="_blank" rel="noopener"><b>'+X(p.employer)+': '+X(p.title)+'</b></a>'+(NP(p.pay_text)?'':' · '+X(p.pay_text))+(NP(p.phone)?'':' · '+tel(p.phone))+(NP(p.email)?'':' · <a href="mailto:'+X(p.email)+'">'+X(p.email)+'</a>')+(p.notes?'<br><span class="gg-s">'+X(p.notes)+'</span>':'')+'</li>').join('')+'</ul>';
@@ -46,9 +49,24 @@
  const css=document.createElement('style');css.textContent=`
 #view #ggRoot{display:block!important}
 #ggRoot>*{width:auto;max-width:100%}
-.gg-tabs{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 6px}
-.gg-tabs button{all:unset;cursor:pointer;padding:3px 9px;border:1px solid #D4ECF544;border-radius:4px;color:#D4ECF5}
-.gg-tabs button.on{background:#D4ECF5;color:#0A1428;font-weight:700;cursor:default}
+.gg-tabs{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch;margin:0 0 10px;padding:0 0 10px;border-bottom:1px solid #D4ECF533}
+.gg-tabs .gg-lab{align-self:center;color:#B9CAD6;font-weight:700;margin-right:2px}
+.gg-tabs button{all:unset;cursor:pointer;display:flex;flex-direction:column;padding:4px 10px;border:1px solid #D4ECF566;border-radius:5px;color:#D4ECF5;line-height:1.25}
+.gg-tabs button small{font-size:.8em;color:#B9CAD6}
+.gg-tabs button:hover,.gg-tabs button:focus-visible{border-color:#E9C46A;outline:none}
+.gg-tabs button.on{background:#E9C46A;border-color:#E9C46A;color:#0A1428;cursor:default}
+.gg-tabs button.on small{color:#0A1428}
+@media (max-width:640px){
+ .gg-tabs{display:grid;grid-template-columns:1fr 1fr;gap:5px}.gg-tabs .gg-lab{grid-column:1/-1}
+ :is(table.gg-t,table.jb-t){display:block;width:100%!important;min-width:0!important}
+ :is(table.gg-t,table.jb-t) thead{display:none}
+ :is(table.gg-t,table.jb-t) tbody,:is(table.gg-t,table.jb-t) tr{display:block}
+ :is(table.gg-t,table.jb-t) tr{border:1px solid #D4ECF533;border-radius:6px;padding:6px 8px;margin:0 0 8px}
+ :is(table.gg-t,table.jb-t) td{display:block;border:0!important;padding:3px 0!important;white-space:normal!important;min-width:0!important}
+ :is(table.gg-t,table.jb-t) td:empty{display:none!important}
+ :is(table.gg-t,table.jb-t) td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;font-size:.8em;font-weight:700;color:#B9CAD6;text-transform:uppercase;letter-spacing:.03em}
+ #ggRoot .gg-scroll{overflow:visible}
+}
 #ggRoot .gg-f{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
 #view #ggRoot .gg-f>input[type=search]{width:auto!important;flex:1 1 220px!important;min-width:0;height:30px;padding:0 8px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
 #view #ggRoot .gg-f>select{width:auto!important;flex:0 1 230px!important;height:30px;padding:0 6px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
@@ -60,6 +78,6 @@
 #ggRoot .gg-t th{text-align:left;color:#B9CAD6;border-bottom:1px solid #D4ECF544;padding:3px 6px;font-weight:600}
 #ggRoot .gg-t td{border-bottom:1px solid #D4ECF51f;padding:4px 6px;vertical-align:top}
 #ggRoot ul.gg-l{margin:4px 0;padding-left:18px}#ggRoot ul.gg-l li{margin:4px 0}
-#ggRoot h3{margin:12px 0 4px}#ggRoot a{color:#D4ECF5}`;document.head.appendChild(css);
+#ggRoot h3{margin:12px 0 4px}#ggRoot a.gg-apply{font-weight:700;color:#E9C46A}#ggRoot a{color:#D4ECF5}`;document.head.appendChild(css);
  if(typeof STATE!=='undefined'&&STATE.view==='gigs'&&!document.getElementById('ggRoot')&&typeof render==='function')render();
 })();
