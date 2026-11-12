@@ -1,0 +1,407 @@
+{
+ "updated": "2026-11-12T20:11:52Z",
+ "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
+ "buoys": [
+  {
+   "id": "NWPR1",
+   "name": "Newport (Naval Station pier)",
+   "what": "Shore station: wind, pressure, water temperature",
+   "time": "2026-11-12T19:30:00Z",
+   "wdir": 80,
+   "wspd_kt": 12.1,
+   "gst_kt": 15.0,
+   "pres_mb": 1001.4,
+   "atmp_f": 54,
+   "wtmp_f": 58
+  },
+  {
+   "id": "PDVR1",
+   "name": "Quonset / Port of Davisville",
+   "what": "Shore station: wind, water temperature",
+   "time": "2026-11-12T19:30:00Z",
+   "wdir": 60,
+   "wspd_kt": 11.1,
+   "gst_kt": 14.0,
+   "pres_mb": 1001.5,
+   "atmp_f": 54
+  },
+  {
+   "id": "CPTR1",
+   "name": "Conimicut Light",
+   "what": "Upper bay: wind, water temperature",
+   "time": "2026-11-12T19:30:00Z",
+   "wdir": 60,
+   "wspd_kt": 15.0,
+   "gst_kt": 17.1,
+   "pres_mb": 1001.5,
+   "atmp_f": 53,
+   "wtmp_f": 56
+  },
+  {
+   "id": "PRUR1",
+   "name": "Prudence Island",
+   "what": "Mid-bay: air temperature, wind",
+   "time": "2026-11-12T19:30:00Z",
+   "atmp_f": 54
+  },
+  {
+   "id": "44097",
+   "name": "Block Island buoy (offshore)",
+   "what": "Open ocean: wave height, period, direction",
+   "time": "2026-11-12T19:30:00Z",
+   "wvht_ft": 5.2,
+   "dpd_s": 6.0,
+   "mwd": 110,
+   "atmp_f": 56,
+   "wtmp_f": 59
+  },
+  {
+   "id": "BUZM3",
+   "name": "Buzzards Bay tower",
+   "what": "Offshore tower: wind, pressure",
+   "time": "2026-11-12T19:00:00Z",
+   "wdir": 70,
+   "wspd_kt": 19.0,
+   "gst_kt": 21.0,
+   "pres_mb": 1002.2
+  }
+ ],
+ "uscg": [
+  {
+   "title": "East Passage - Newport Harbor/General/Marine Events/Regatta (Race)",
+   "group": "Marine Events",
+   "type": "Regatta (Race)",
+   "waterway": "Newport Harbor",
+   "begin": "2026-05-20",
+   "end": "2026-11-24",
+   "updated": "",
+   "nm": 1.2,
+   "desc": "RI – NARRAGANSETT BAY– MITCHELL REGATTA SPRING EDITION – RACE/REGATTA Mariners are advised that the Mitchell Regatta Spring Edition is scheduled to be held from west of Goat Island and south of Rose Island, RI to New Harbor, Block Island, RI. The event will take place on Saturday May 23, 2026, from 9:00 a.m. to 6:00 p.m. Expect up to 20 sailing vessels, 20-60 ft in length. Mariners are advised to transit the area with extreme caution. Mariners may contact the person in charge on VHF channel 72 or by phone at (401) 529-5699."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - West Passage/General/Miscellaneous",
+   "group": "Miscellaneous",
+   "type": "",
+   "waterway": "West Passage",
+   "begin": "2026-04-02",
+   "end": "2027-04-02",
+   "updated": "2026-06-16",
+   "nm": 1.9,
+   "desc": "General/MISC From: 2026-06-16 To: 2026-06-19 Sunrise to sunset And further testing dates to be announced. Unmanned remote controlled vehicles will be conducting surface and aerial ground effect testing in the West Passage, Narragansett Bay, with speeds up to 50 knots. The unmanned vehicles will launch from the Port of Davisville. Mariners are advised to transit the area with extreme caution. \"REGENT support boat Nautaplane will be standing by on Ch 13/16."
+  },
+  {
+   "title": "Eastern Approach - East Passage/General/Naval Activity/Naval Testing (Surface/Underwater)",
+   "group": "Naval Activity",
+   "type": "Naval Testing (Surface/Underwater)",
+   "waterway": "East Passage",
+   "begin": "2026-03-05",
+   "end": "2027-03-06",
+   "updated": "2026-06-16",
+   "nm": 2.0,
+   "desc": "General/Naval Activity/Naval Testing (Surface/Underwater) From: 2026-03-05 To: 2027-03-06 RI-NARRAGANSETT BAY - NAVAL UNDERSEA WARFARE CENTER WILL BE CONDUCTING TESTING USING SURFACE AND SUBSURFACE DEVICES NORTH AND EAST OF GOULD ISLAND IN THE NAVY TEST RANGE RESTRICTED AREA MARKED ON NOAA CHART 13223 NORTH OF THE NEWPORT BRIDGE. OPERATIONS WILL BE CONDUCTED MONDAY THRU FRIDAY 0700-1700. MARINERS ARE REQUESTED TO COOPERATE WITH PARTICIPATING VESSELS FOR THE SAFETY OF ALL. ANY CONCERNED TRAFFIC CAN CONTACT NAVY SUPPORT CRAFT ON VHF CHANNELS 13,16. FOR MORE INFORMATION PLEASE CONTACT 401-832-6140."
+  },
+  {
+   "title": "Eastern Approach - East Passage/General/Hazards To Navigation/Obstructions",
+   "group": "Hazards To Navigation",
+   "type": "Obstructions",
+   "waterway": "East Passage",
+   "begin": "2026-10-06",
+   "end": "2026-11-21",
+   "updated": "2026-10-06",
+   "nm": 2.5,
+   "desc": "General/Hazards To Navigation/Obstructions From: 2026-10-27 To: 2026-11-21 Location: 41-32-03.156N/071-20-26.448W Mariners are advised that a SOFAR drifter buoy with an attached navigational cone will be anchored in the vicinity east of Gould Island, Newport, Rhode Island, at approximate position 41°32.053′N, 071°20.441′W, from October 27 through November 20, 2026. The buoy will remain on scene continuously during this period. Mariners are urged to transit the area with caution and maintain a safe distance from the buoy and associated equipment."
+  },
+  {
+   "title": "Approaches To New York Nantucket Shoals To Five Fathom Bank - West Passage/General/Hazards To Navigation/Hazards",
+   "group": "Hazards To Navigation",
+   "type": "Hazards",
+   "waterway": "West Passage",
+   "begin": "2024-09-04",
+   "end": "2039-12-31",
+   "updated": "2024-09-04",
+   "nm": 2.8,
+   "desc": "RI- NARRANGANSETT BAY - WEST PASSAGE – UNEXPLODED ORDNANCE-UPDATE 9/2/2022 Sixteen (16) unexploded ordnances have been located via survey in Narragansett Bay – West Passage in positions: (1.) 41-27-7.68N 071-24-35.64W; (2.) 41-27-25.74N 071-24-38.94W; (3.) 41-27-33.60N 071-24-38.34W (4.) 41-24-49.80N 071-22-58.14W (5.) 41-26-40.32N 071-24-42.54W (6.) 41-26-34.44N 071-24-8.22W; (7.) 41-26-00.18N 071-24-30.48W;(8.) 41-28-00.96N 071-24-28.68W; (9.) 41-24-43.74N 071-4.26.40W; (10.) 41-24-56.52N 071-21-59.64W; (11.) 41-24-52.62N 071-23-43.62W; (12.) 41-27-38.88N 071-24-6.978W; (13.) 41-26-4.324N 071-24-30.591W; (14.) 41-27-36.236N 071-24-37.026N; (15.) 41-26-44.709N 071-24-38.97W; (16.) 41-24-45.927N 071-21-39.508W. Mariners are urged to avoid the ordnances and transit the area with caution."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - West Passage/General/Miscellaneous",
+   "group": "Miscellaneous",
+   "type": "",
+   "waterway": "West Passage",
+   "begin": "2026-10-13",
+   "end": "2026-12-31",
+   "updated": "2026-10-13",
+   "nm": 3.4,
+   "desc": "General/Miscellaneous From: 2026-10-13 To: 2026-12-31 Location: 41-26-37.572N/071-20-37.536W 41-22-38.388N/071-18-48.780W 41-22-43.032N/071-27-26.640W 41-26-34.764N/071-24-57.096W 41-26-37.572N/071-20-37.536W Anduril Industries will conduct autonomous underwater vehicle testing in Rhode Island Sound from October 1, 2026, through December 31, 2026, daily from 0600 to 1800. Operations will involve a 19-foot autonomous underwater vehicle and support vessel F/V VOYAGER. The operating area is bounded by the approximate positions listed above. Mariners are requested to use caution when transiting the area. F/V VOYAGER may be contacted on VHF-FM channels 16 and 13. Once submerged and on mission, the AUV will be restricted in its ability to maneuver until it reaches its preset destination. the underwater vehicle will not operate in marked channels of separation schemes."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Sakonnet River/General/Miscellaneous",
+   "group": "Miscellaneous",
+   "type": "",
+   "waterway": "Sakonnet River",
+   "begin": "2026-08-01",
+   "end": "2027-08-01",
+   "updated": "2026-08-12",
+   "nm": 6.4,
+   "desc": "General/Survey Operations From: 2026-02-03 To: 2027-01-01 VATN Systems will be conducting AUV testing in the Sakonnet River, from Island Park to Third Beach, from February 2, 2026, to December 31, 2026, between 8:00am to 5:00pm. Equipment on scene will be a support vessel, AUV with a boat in tow, monitoring VHF-FM CH 16."
+  },
+  {
+   "title": "Point Judith Harbor Of Refuge - Point Judith Pond/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Point Judith Pond",
+   "begin": "2024-09-12",
+   "end": "2039-10-11",
+   "updated": "2024-11-21",
+   "nm": 9.6,
+   "desc": "General/Hazards To Navigation/Shoaling Reported From: 2024-09-12 To: 2039-10-11 RI-BLOCK ISLAND SOUND AND APPROACHES (CHART 13205)-POINT JUDITH POND Shoaling has been observed within the channel to a least depth of 4.0 feet MLW in approximate position 41 22'48\"N, 071 33'55\"W between Point Judith Pond Channel Buoy 2 (LLNR 19555) and Point Judith Pond Channel Buoy 4 (LLNR 19560). Shoal is encroaching from the East side of the channel and protruding west. Shoaling has also been identified in several other areas north of buoy 2, below charted depth, extending into the upper pond. Mariners without local knowledge are advised to transit with extreme caution, paying particular attention to tidal range. Mariners are urged to use caution while transiting the area."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Sakonnet River/General/Marine Events/Fireworks",
+   "group": "Marine Events",
+   "type": "Fireworks",
+   "waterway": "Sakonnet River",
+   "begin": "2026-05-20",
+   "end": "2026-11-24",
+   "updated": "",
+   "nm": 10.2,
+   "desc": "RI – SAKONETT RIVER – TOWN OF GOSNOLD FIREWORKS DISPLAY – FIREWORKS Mariners are advised that the Town of Tiverton Fireworks Display is scheduled to be held from a barge in the vicinity of Sakonett River and Grinnell Beach, Tiverton, RI. The event will take place on Saturday May 23, 2026 from 8:45 p.m. to 9:30 p.m. Mariners are requested to maintain a minimum distance of 190 yards from the fireworks launching platform. Mariners may contact the person in charge by phone at (603) 235-4656. (Rain Date: May 26)"
+  },
+  {
+   "title": "West Passage - Point Judith Harbor Of Refuge/General/Hazards To Navigation/Obstructions",
+   "group": "Hazards To Navigation",
+   "type": "Obstructions",
+   "waterway": "Point Judith Harbor Of Refuge",
+   "begin": "2026-11-04",
+   "end": "2027-05-03",
+   "updated": "2026-11-04",
+   "nm": 10.4,
+   "desc": "General/Hazards To Navigation/Obstructions From: 2026-11-04 To: 2027-05-03 Blue Acres Aquaculture will conduct seaweed aquaculture operations in the Harbor of Refuge, Point Judith, Narragansett, Rhode Island, from November 1, 2026, through May 1, 2027. The aquaculture site is bounded by the following approximate positions: 41°21'33.95\" N, 071°30'29.95\" W; 41°21'24.95\" N, 071°30'34.67\" W; 41°21'32.23\" N, 071°30'25.88\" W; and 41°21'23.14\" N, 071°30'30.46\" W. Mariners are advised of anchors, buoys, and lines associated with the operation and are urged to exercise caution when transiting the area"
+  },
+  {
+   "title": "Providence River Approach - Bristol Harbor/General/Miscellaneous",
+   "group": "Miscellaneous",
+   "type": "",
+   "waterway": "Bristol Harbor",
+   "begin": "2026-05-12",
+   "end": "2026-12-31",
+   "updated": "2026-05-13",
+   "nm": 10.8,
+   "desc": "General/Miscellaneous From: 2025-11-14 To: 2026-12-31 Location: 41-39-45.216N/071-16-29.964W Jaia Robotics will be conducting autonomous underwater vehicle testing, in Narragansett Bay, Monday through Friday, between 8:00am to 7:00pm. The autonomous, underwater, vehicles are around 36 inches in length, and the vehicles come in red/yellow configurations."
+  },
+  {
+   "title": "Greenwich Bay - Warwick Cove/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Warwick Cove",
+   "begin": "2024-09-12",
+   "end": "2039-10-25",
+   "updated": "2024-09-12",
+   "nm": 11.1,
+   "desc": "RI-NARRAGANSETT BAY (CHART 13221)-GREENWICH BAY-WARWICK COVE Shoaling has been observed within the federal navigation channel to a least depth of 3 FT MLW. Shoaling is encroaching from the west and has impacted the western part of the channel, reducing the authorized project width from 150 feet to approx. 90 feet between Warwick Cove Buoy 3 (LLNR 19360) and Warwick Cove Buoy 7 (LLNR 19375)."
+  },
+  {
+   "title": "Buzzards Bay Main Channel - Westport Harbor/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Westport Harbor",
+   "begin": "2024-08-30",
+   "end": "2039-12-31",
+   "updated": "2024-09-25",
+   "nm": 12.2,
+   "desc": "General/Hazards To Navigation/Shoaling Reported From: 2024-08-30 To: 2039-12-31 Location: Westport Channel has experienced significant shoaling, with considerable narrowing of the federal channel. Aids to navigation have been relocated outside the federal channel, to mark best water. Mariners are advised that shoaling has been identified and is unpredictable outside the federal channel, affecting both commercial and recreational vessels. Mariners without local knowledge are advised to transit with extreme caution and only during plus tides. Mariners are urged to use caution while transiting the area."
+  },
+  {
+   "title": "Buzzards Bay Main Channel - Westport Harbor/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Westport Harbor",
+   "begin": "2024-09-12",
+   "end": "2039-08-16",
+   "updated": "2024-09-12",
+   "nm": 12.2,
+   "desc": "MA-MARTHA'S VINEYARD TO BLOCK ISLAND (Chart 13218)-WESTPORT HARBOR Shoaling exists in Westport Harbor in the vicinity of Westport Harbor Channel LB 14 (LLNR 17490) and Westport Harbor Channel Buoy 17 (LLNR 17505). There are other areas of shoaling throughout the Westport Harbor Channel reducing the available depth of water. Mariners are advised to use caution while navigating this area"
+  },
+  {
+   "title": "Mount Hope Bay - Kickamuit River/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Kickamuit River",
+   "begin": "2024-09-12",
+   "end": "2039-11-07",
+   "updated": "2024-11-21",
+   "nm": 13.0,
+   "desc": "General/Hazards To Navigation/Shoaling Reported From: 2024-09-12 To: 2039-11-07 RI-NARRAGANSETT BAT (CHART 13221)-MOUNT HOPE BAY-KICKAMUIT RIVER Shoaling has been reported in the Kickamuit River in the vicinity of Kickamuit River Buoy 2. Mariners are advised to proceed with caution while transiting the area."
+  },
+  {
+   "title": "Providence River Approach - Providence River/General/Marine Events/Regatta (Race)",
+   "group": "Marine Events",
+   "type": "Regatta (Race)",
+   "waterway": "Providence River",
+   "begin": "2026-06-08",
+   "end": "2026-12-15",
+   "updated": "",
+   "nm": 13.1,
+   "desc": "RI – PROVIDENCE RIVER – RIYC 2026 GASPEE REGATTA – RACE/REGATTA Mariners are advised that the RIYC 2026 Gaspee Regatta is scheduled to be held in multiple areas to include Providence River, Rhode Island Yacht Club, Rumstick Neck Reach, Rumstick Point. The event will take place on Sunday June 14, 2026 from 1:00 p.m. to 4:00 p.m. Expect up to 15 sailing vessels, 25-42 ft in length. Mariners are advised to transit the area with extreme caution. Mariners may contact the person in charge by phone at (401) 474-4769."
+  },
+  {
+   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)/General/Miscellaneous",
+   "group": "Miscellaneous",
+   "type": "",
+   "waterway": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)",
+   "begin": "2026-10-13",
+   "end": "2026-11-14",
+   "updated": "2026-10-13",
+   "nm": 14.7,
+   "desc": "General/Miscellaneous From: 2026-10-13 To: 2026-11-14 Location: 41-15-53.676N/070-18-50.904W 40-50-25.152N/070-18-45.936W 40-49-29.028N/071-38-21.696W 41-07-57.540N/071-38-01.932W 41-08-04.992N/071-28-08.688W 41-15-46.260N/071-27-53.856W 41-15-53.676N/070-18-50.904W EXAILS's DriX 18 will be conducting fish stock surveys in and around • Block Island wind farm • South Fork wind • Revolution wind • Vineyard wind 1 • Sunrise wind The DriX 18 remote operations center can be contacted at (401) 256-1561 This number can be reached 24 hours a day and 7 days a week during the survey."
+  },
+  {
+   "title": "Tiverton Channel - Mount Hope Bay/General/Bridges/Repairs, Painting, Or Fender Replacement",
+   "group": "Bridges",
+   "type": "Repairs, Painting, Or Fender Replacement",
+   "waterway": "Mount Hope Bay",
+   "begin": "2026-05-18",
+   "end": "2027-02-01",
+   "updated": "2026-05-05",
+   "nm": 15.5,
+   "desc": "General/Bridges/Repairs, Painting, Or Fender Replacement From: 2026-05-18 To: 2027-02-01 Location: 41-42-33.510N/071-10-13.650W Bridge Name: I 195 Bridge From May 18, 2026 – January 31, 2027, daily between 7:00 a.m. and 5:00 p.m., fender repairs using barges will be conducted on the Braga (I-195) Bridge across the Taunton River, mile 0.4, between Fall River and Somerset, MA. While material barges are on site, the width of the channel will be reduced from 400 feet to approximately 335 feet. Mariners requiring additional information regarding this project can contact the contractor on-site via marine radio VHF-FM Ch. 13/16 or by calling 978-844-4768. Mariners are advised to exercise caution when transiting this area."
+  },
+  {
+   "title": "Tiverton Channel - Mount Hope Bay/General/Marine Construction (Excluding Bridges)/Dredging",
+   "group": "Marine Construction (Excluding Bridges)",
+   "type": "Dredging",
+   "waterway": "Mount Hope Bay",
+   "begin": "2026-09-11",
+   "end": "2026-12-24",
+   "updated": "2026-09-11",
+   "nm": 16.1,
+   "desc": "General/Marine Construction (Excluding Bridges)/Dredging From: 2026-12-21 To: 2026-12-24 Location: 41-43-04.296N/071-09-57.312W Mariners are advised that Gladding-Hearn Shipbuilding Duclos Corporation will conduct maintenance dredging of the existing marine railway on the Taunton River in Somerset, MA, from December 21, 2026, through December 23, 2026. Operations are scheduled Monday through Friday from 7:00 a.m. to 5:00 p.m. Equipment on scene will include a long arm excavator. The work location is in approximate position 41°43'04.30\"N, 071°09'57.32\"W, charted on NOAA ENC US5FAVCB. Mariners should use caution when transiting the area and proceed at a safe speed."
+  },
+  {
+   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ) - Sector Southeastern New England, Territorial Sea/General/LAA/RNA/Safety Zone",
+   "group": "LAA/RNA",
+   "type": "Safety Zone",
+   "waterway": "Sector Southeastern New England, Territorial Sea",
+   "begin": "2026-11-11",
+   "end": "2026-11-19",
+   "updated": "2026-11-11",
+   "nm": 18.2,
+   "desc": "General/LAA/RNA/Safety Zone From: 2026-11-11 To: 2026-11-19 A 500-meter Safety Zone may be enforced around Ørsted Northeast Program operations from 8:00am, November 11, 2026, to 8:00am, November 18, 2026, Mariners are to avoid transiting within 500-meters of the following positions: Revolution Wind Lease Area 486 Offshore Substations (OSS): AF08: 41-12-36.00N, 071-07-42.120W, AL11: 41-07-41.15N, 071-03-32.6W. Sunrise Wind Lease Area 487 Offshore Converter Station (OCS): AU08: 40-59-36.262N, 071-07-16.954W. Sunrise Wind Lease Area 487 Wind Turbine Generator (WTG) AW05: 40-57-31.370N, 071-11-10.235W, AW06: 40-57-32.162N, 071-09-51.402W, AW07: 40-57-34.496N, 071-08-31.736W, AW08: 40-57- 33.833N, 071-07-12.497W, AV11: 40-58-40.445N, 071-03-17.397W Northeast Program SCYLLA and supporting vessels are installing wind turbine generators (WTGs). Components are stored in New London, CT. Barge 455-"
+  },
+  {
+   "title": "Providence River - Seekonk River/General/Bridges/Construction",
+   "group": "Bridges",
+   "type": "Construction",
+   "waterway": "Seekonk River",
+   "begin": "2026-05-18",
+   "end": "2029-06-29",
+   "updated": "2026-05-22",
+   "nm": 19.4,
+   "desc": "RHODE ISLAND- WASHINGTON BRIDGE (RIDOT BRIDGE NO. 700) – SEEKONK RIVER- General Construction – Rhode Island Department of Transportation (RIDOT) will begin preliminary construction work for the new Washington Bridge. From May 18, 2026, to June 29, 2029, there will be ongoing bridge construction operations Monday-Friday from 7:00 a.m.-4:30 p.m. Construction equipment and barges will be positioned outside of the navigation channel. For the next three months, there will be no reduction to the bridge horizontal or vertical clearances and no closures to the navigation channel. Mariners are advised to exercise caution and reduce wake when transiting the area. Mariners with questions or concerns can contact the contractor via marine radio VHF-FM Ch 16 or call Andy Kerr, General Superintendent at (860) 912-7299."
+  },
+  {
+   "title": "Providence River Approach - Providence River/General/Bridges/Inspection",
+   "group": "Bridges",
+   "type": "Inspection",
+   "waterway": "Providence River",
+   "begin": "2026-11-16",
+   "end": "2026-11-21",
+   "updated": "2026-10-26",
+   "nm": 19.4,
+   "desc": "General/Bridges/Inspection From: 2026-11-16 To: 2026-11-21 Location: 41-49-04.876N/071-24-12.924W Bridge Name: Point St Bridge From November 16, 2026, to November 20, 2026, between 8:00 am to 4:00 pm, a 28’ aqualift CAT (CT0790BL) will be utilized to inspect Point Street Bridge across Providence River at mile 7.5, in Providence, RI. Mariners requiring full horizontal clearance can contact the contractor via marine radio VHF-FM Ch 13/16 or by calling (410) 294-6092 or (207) 356-0242. Mariners are advised to exercise caution and reduce wake when transiting the area."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Buzzards Bay Main Channel/General/Marine Events/Regatta (Race)",
+   "group": "Marine Events",
+   "type": "Regatta (Race)",
+   "waterway": "Buzzards Bay Main Channel",
+   "begin": "2026-06-15",
+   "end": "2026-12-21",
+   "updated": "",
+   "nm": 19.7,
+   "desc": "RI – BUZZARDS BAY, VINEYARD SOUND – HORATIO BREWSTER PERSUIT RACE – RACE/REGATTA Mariners are advised that the Horatio Brewster Persuit Race is scheduled to be held from Padanaram Harbor, MA to Menemsha, MA. The event will take place on Saturday June 20, 2026, from 9:00 a.m. to 4:00 p.m. Expect up to 10 sailing vessels, 20-40 ft in length. Mariners are advised to transit the area with extreme caution. Mariners may contact the person in charge by phone at (508) 843-4426."
+  },
+  {
+   "title": "Main Channel - Canapitsit Channel/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Canapitsit Channel",
+   "begin": "2024-08-30",
+   "end": "2039-02-26",
+   "updated": "2024-09-23",
+   "nm": 20.2,
+   "desc": "Mariners are advised of shoaling in the Cuttyhunk Inner Harbor Entrance Channel. The shoaling is reported to extend across the entirety of the entrance channel with an approximate depth at mean low water of 5 feet. Mariners are urged to exercise extreme caution while transiting this area."
+  },
+  {
+   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Buzzards Bay Main Channel/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Buzzards Bay Main Channel",
+   "begin": "2024-09-12",
+   "end": "2039-08-23",
+   "updated": "2024-11-21",
+   "nm": 20.7,
+   "desc": "General/Hazards To Navigation/Shoaling Reported From: 2024-09-12 To: 2039-08-23 MA – CUTTYHUNK HARBOR – ENTRY CHANNEL Mariners are advised that the navigable width of the entry channel into Cuttyhunk Harbor has decreased to approximately 15 feet wide. This may cause navigability issues and restrict movement for two-way traffic. Mariners are urged to maintain a proper lookout and use extreme caution while transiting the area. You may contact the local harbormaster by phone at (508) 990-7578."
+  },
+  {
+   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ) - Sector Southeastern New England, Territorial Sea/General/Hazards To Navigation/Obstructions",
+   "group": "Hazards To Navigation",
+   "type": "Obstructions",
+   "waterway": "Sector Southeastern New England, Territorial Sea",
+   "begin": "2026-04-20",
+   "end": "2029-04-19",
+   "updated": "2026-04-21",
+   "nm": 20.8,
+   "desc": "General/Hazards To Navigation/Obstructions From: 2026-04-20 To: 2029-04-19 Location: 41.13795/-71.3519 RIDEM is deploying acoustic monitoring units with fixed structures on the seafloor. The fixed structures will remain in place on the seafloor and are roughly 40 inches wide by 14 inches in height. All mariners are advised to exercise caution if trawling or fishing along the seafloor in this area."
+  },
+  {
+   "title": "Approaches To New York Nantucket Shoals To Five Fathom Bank - Block Island/General/Hazards To Navigation/Shoaling Reported",
+   "group": "Hazards To Navigation",
+   "type": "Shoaling Reported",
+   "waterway": "Sector Southeastern New England, Territorial Sea",
+   "begin": "2024-09-12",
+   "end": "2039-08-22",
+   "updated": "2024-09-12",
+   "nm": 20.9,
+   "desc": "RI-BLOCK ISLAND-OLD HARBOR Shoaling has been reported in the entrance to Old Harbor, Block Island. Mariners are advised to proceed with caution while transiting the area."
+  },
+  {
+   "title": "New Bedford Channel - New Bedford Harbor Channel/General/Marine Construction (Excluding Bridges)/Dredging",
+   "group": "Marine Construction (Excluding Bridges)",
+   "type": "Dredging",
+   "waterway": "New Bedford Harbor Channel",
+   "begin": "2026-10-21",
+   "end": "2027-07-09",
+   "updated": "2026-10-21",
+   "nm": 21.7,
+   "desc": "General/Marine Construction (Excluding Bridges)/Dredging From: 2026-10-21 To: 2027-07-09 DW White Construction Inc. will conduct intermittent disposal of material into CAD Cell 3 in the Acushnet River, at approximate position 41°37'27.37\"N, 070°54'52.10\"W, from October 23, 2026, through July 8, 2027. Operations will occur Monday through Friday, 6:00 a.m. to 11:00 p.m. Equipment on scene may include the push boats SHEELAGH M and ERIN ASHLEY; spud barges KS1502 and POSEIDON SECTIONAL; barges LITTLE JEFF and 61B; and a Caterpillar 390 excavator. Work at Shuster Wharf will be conducted without a silt curtain to avoid impeding channel navigation. Work within CAD Cell 3 will occur inside a silt curtain. Mariners are requested to use caution, maintain a safe speed and distance, and contact project vessels on VHF-FM Channels 13, 16, or 71 for passing arrangements."
+  },
+  {
+   "title": "New Bedford Channel - New Bedford Harbor Channel/General/Hazards To Navigation/Wrecks",
+   "group": "Hazards To Navigation",
+   "type": "Wrecks",
+   "waterway": "New Bedford Harbor Channel",
+   "begin": "2026-07-28",
+   "end": "2027-01-24",
+   "updated": "2026-07-28",
+   "nm": 22.0,
+   "desc": "An uncharted wreck has been identified during recent survey work with the following details: length: @13m, Width:@10m Height off seafloor:@4.9m Least Depth:@4.9m in position 41-38-37.41N, 070-55-08.07W"
+  },
+  {
+   "title": "New Bedford Channel - New Bedford Harbor Channel/General/Marine Construction (Excluding Bridges)/Facilities, Barriers, Manmade Reefs, Riprap, Jetties/Dikes",
+   "group": "Marine Construction (Excluding Bridges)",
+   "type": "Facilities, Barriers, Manmade Reefs, Riprap, Jetties/Dikes",
+   "waterway": "New Bedford Harbor Channel",
+   "begin": "2026-10-28",
+   "end": "2026-11-24",
+   "updated": "2026-10-28",
+   "nm": 22.1,
+   "desc": "US Army Corps of Engineers (USACE) will be conducting work on the hurricane barrier sector gate leading edge steel repair Available width of the 150’ navigation opening will be reduced by up to 20’ at times during the project from a partial gate closure, a work skiff, and a floating work platform. Tug and tows or large vessels that require the full 150’ horizontal clearance should contact the barrier one hour before transit on Channel 13 VHF to coordinate vessel movement"
+  }
+ ],
+ "cwf": {
+  "zone": "ANZ236",
+  "name": "Narragansett Bay",
+  "text": "Expires:202611130700;;704313\nFZUS51 KBOX 121804\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n104 PM EST Thu Nov 12 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-130700-\nNarragansett Bay-\n104 PM EST Thu Nov 12 2026\n\n...SMALL CRAFT ADVISORY IN EFFECT FROM 6 PM EST THIS EVENING\nTHROUGH FRIDAY EVENING...\n\n.THIS AFTERNOON...E winds 10 to 15 kt with gusts up to 30 kt.\nWaves 2 to 3 ft. Rain likely. \n.TONIGHT...NE winds 15 to 20 kt with gusts up to 30 kt. Waves\naround 3 ft. Rain.\n.FRI...N winds 15 to 20 kt with gusts up to 35 kt. Waves around\n3 ft. Rain likely, mainly in the morning. \n.FRI NIGHT...N winds 10 to 15 kt with gusts up to 30 kt. Waves\n2 to 3 ft. \n.SAT AND SAT NIGHT...NW winds around 10 kt with gusts up to\n20 kt. Waves around 2 ft. \n.SUN THROUGH MON NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+ },
+ "errors": []
+}
