@@ -6,7 +6,7 @@
  const HELP='<b>Not medical, legal or financial advice.</b> Being listed does not mean you qualify or that help is still available. Rules change: confirm with the provider before you apply or go. Emergency: call 911. Mental health crisis: call or text 988.';
  const EVENTS='<b>Event and place details come from organizers’ public listings</b> and can change or be canceled. Verify with the organizer or venue before you go. '+NAME+' is not the organizer.';
  const NOTES={
-  gov:PUB,ccri:PUB,
+  ccri:PUB,
   help:HELP,mh:HELP,seniors:HELP,recovery:HELP,cancer:HELP,support:HELP,
   cal:EVENTS,holiday:EVENTS,visit:EVENTS,scene:EVENTS,venues:EVENTS,bands:EVENTS,
   crime:'<b>Public records.</b> Based on public police, court and agency records. An arrest or charge is an allegation, not a finding of guilt; everyone is presumed innocent unless proven guilty in court. Report corrections and we will review them.',
