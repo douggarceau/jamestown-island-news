@@ -10,7 +10,7 @@
  const tel=p=>'<a href="tel:'+X(p.replace(/ext.*/i,'').replace(/[^0-9]/g,'').slice(0,10))+'">'+X(p)+'</a>';
  const PRI={lower_barrier:['Easier to get started','gg-g'],training_available:['Training available','gg-g'],early_career_with_training:['Early career, with training','gg-g'],standard:['','']};
  const KIND={employer_or_authorized_recruitment:'Employer’s own posting',employer_branded_job_board_post:'Employer’s ad on a job site',client_posted_request:'Posted by a household on Care.com'};
- window.jtJobTabs=cur=>'<div class="gg-tabs">'+[['jobs','Public jobs'],['gigs','Jobs & paid gigs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
+ window.jtJobTabs=cur=>'<div class="gg-tabs">'+[['gigs','All Jamestown jobs'],['jobs','Town, school & state job boards']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
  function load(){if(asked)return;asked=true;fetch('data/gigs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('ggRoot');if(!root)return;const B=root.querySelector('#ggBody');
   if(err){B.innerHTML='<p>Couldn’t load the list. <button type="button" id="ggRetry">Retry</button></p>';return}
