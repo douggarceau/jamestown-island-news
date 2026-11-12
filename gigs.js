@@ -11,7 +11,7 @@
  const PRI={lower_barrier:['Easier to get started','gg-g'],training_available:['Training available','gg-g'],early_career_with_training:['Early career, with training','gg-g'],standard:['','']};
  const KIND={employer_or_authorized_recruitment:'Employer’s own posting',employer_branded_job_board_post:'Employer’s ad on a job site',client_posted_request:'Posted by a household on Care.com'};
  window.jtJobTabs=cur=>'<div class="gg-tabs">'+[['jobs','Public jobs'],['gigs','Jobs & paid gigs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
- function load(){if(asked)return;asked=true;fetch('data/gigs.json?v=20261112a').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/gigs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('ggRoot');if(!root)return;const B=root.querySelector('#ggBody');
   if(err){B.innerHTML='<p>Couldn’t load the list. <button type="button" id="ggRetry">Retry</button></p>';return}
   if(!D){B.innerHTML='<p>Loading…</p>';return}
@@ -19,7 +19,7 @@
   C.value=st.cat;root.querySelector('#ggEasy').value=st.easy;
   const q=st.q.trim().toLowerCase(),has=o=>!q||JSON.stringify(o).toLowerCase().includes(q);
   const jobs=D.jobs.filter(j=>(!st.cat||j.category===st.cat)&&(!st.easy||j.priority!=='standard')&&has(j)).sort((a,b)=>((a.priority==='standard')-(b.priority==='standard'))||a.category.localeCompare(b.category)||a.employer.localeCompare(b.employer));
-  root.querySelector('#ggCount').textContent=jobs.length+' advertised job'+(jobs.length===1?'':'s');
+  root.querySelector('#ggCount').textContent=jobs.length+' advertised job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   let h='<div class="gg-scroll"><table class="gg-t"><thead><tr><th>Job</th><th>Pay · hours</th><th>What it takes</th><th>How to apply</th></tr></thead><tbody>'
    +(jobs.map(j=>{const p=PRI[j.priority]||PRI.standard;const url=j.application_url||j.source_url;
     return '<tr><td><a href="'+X(url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="gg-s">'+X(j.employer)+' · '+X(j.category)+'</span>'+(p[0]?'<br><span class="'+p[1]+'">'+p[0]+'</span>':'')+(j.location_scope&&!/Jamestown worksite/i.test(j.location_scope)?'<br><span class="gg-s">'+X(j.location_scope)+'</span>':'')+'</td>'
