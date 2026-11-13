@@ -70,7 +70,7 @@
  const FLAGS=[[/hurricane force wind warning|hurricane warning/i,'Hurricane warning flags','▮▮','wx-fl4'],[/storm warning/i,'Storm warning flag','▮','wx-fl3'],[/gale warning/i,'Gale warning: 2 red pennants','▶▶','wx-fl2'],[/small craft advisory/i,'Small craft advisory: 1 red pennant','▶','wx-fl1']];
  function flagOf(evs){for(const [re,label,sym,cls] of FLAGS)if(evs.some(e=>re.test(e)))return '<span class="wx-flag '+cls+'" title="'+X(label)+'">'+sym+'</span> '+X(label);return ''}
  function alertsHTML(){
-  if(err.alerts&&!S.alerts)return '<p class="wx-s">Couldn’t reach the National Weather Service for alerts. Check '+A('https://alerts.weather.gov/','alerts.weather.gov')+'.</p>';
+  if(err.alerts&&!S.alerts)return '<p class="wx-s">Couldn’t reach the National Weather Service for alerts. Check '+A('https://www.weather.gov/alerts','weather.gov/alerts')+'.</p>';
   if(!S.alerts)return '<p class="wx-s">Checking for warnings…</p>';
   const f=(S.alerts.features||[]).map(x=>x.properties).filter(p=>p&&p.status==='Actual');
   const seen=new Set(),list=f.filter(p=>{const k=p.event+'|'+p.ends+'|'+p.areaDesc;if(seen.has(k))return false;seen.add(k);return true})

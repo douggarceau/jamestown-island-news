@@ -29,7 +29,7 @@
      "address": "5 Narragansett Ave, Jamestown, RI 02835",
      "phone": "(401) 423-2722",
      "hours": "",
-     "url": "https://stores.truevalue.com/ri/jamestown/3059/",
+     "url": "https://stores.truevalue.com/ri/jamestown/",
      "src": "https://in.worldorgs.com/catalog/jamestown/hardware-store/jamestown-true-value"
     },
     {
@@ -267,7 +267,7 @@
      "address": "3 Clarke Street, Jamestown, RI 02835",
      "phone": "401-423-5840",
      "hours": "",
-     "url": "https://goodgracesgrooming.com/",
+     "url": "",
      "src": "goodgracesgrooming.com",
      "town": "Jamestown"
     },
@@ -467,7 +467,7 @@
      "address": "49 North Road, Jamestown, RI 02835",
      "phone": "401-314-5754",
      "hours": "",
-     "url": "https://www.jamestownwellness.com/",
+     "url": "",
      "src": "jamestownwellness.com",
      "town": "Jamestown"
     },
@@ -617,7 +617,7 @@
      "address": "15 Priscilla Road, Jamestown, RI 02835",
      "phone": "",
      "hours": "",
-     "url": "https://elsworthart.com/",
+     "url": "",
      "src": "elsworthart.com",
      "town": "Jamestown"
     },
@@ -657,7 +657,7 @@
      "address": "Jamestown",
      "phone": "",
      "hours": "",
-     "url": "https://www.rumrunnercustomapparel.com/",
+     "url": "",
      "src": "rumrunnercustomapparel.com",
      "town": "Jamestown"
     },
@@ -1169,7 +1169,7 @@
      "address": "",
      "phone": "(401) 423-7260",
      "hours": "Mon–Fri 2:30–6pm",
-     "url": "https://www.jamestownri.gov/town-departments/teen-center",
+     "url": "https://www.jamestownri.gov/",
      "src": "https://www.jamestownri.gov/parksandrec"
     },
     {
@@ -1224,7 +1224,7 @@
      "phone": "",
      "hours": "",
      "url": "https://exceed.ri.gov/program-search-details/141",
-     "src": "https://daycarescan.com/state/rhode-island/jamestown"
+     "src": ""
     },
     {
      "name": "Newport County YMCA at Jamestown (after school)",
@@ -1266,7 +1266,7 @@
      "phone": "(401) 423-7260",
      "hours": "",
      "url": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/",
-     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sa"
+     "src": "https://www.visitrhodeisland.com/"
     },
     {
      "name": "Fort Getty Park",
@@ -1584,7 +1584,7 @@
      "phone": "",
      "hours": "",
      "url": "",
-     "src": "https://divinity.yale.edu/sites/default/files/job_positions/cbc_jamestown_self-study_2023.pdf"
+     "src": ""
     },
     {
      "name": "Conanicut Friends Meeting",
@@ -1728,7 +1728,7 @@
      "phone": "",
      "hours": "",
      "url": "",
-     "src": "https://divinity.yale.edu/sites/default/files/job_positions/cbc_jamestown_self-study_2023.pdf"
+     "src": ""
     },
     {
      "name": "Jamestown Fire & EMS Volunteers",
