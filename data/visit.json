@@ -1169,7 +1169,7 @@
      "address": "",
      "phone": "(401) 423-7260",
      "hours": "Mon–Fri 2:30–6pm",
-     "url": "https://www.jamestownri.gov/",
+     "url": "https://www.jamestownri.gov/parksandrec",
      "src": "https://www.jamestownri.gov/parksandrec"
     },
     {
@@ -1266,7 +1266,7 @@
      "phone": "(401) 423-7260",
      "hours": "",
      "url": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/",
-     "src": "https://www.visitrhodeisland.com/"
+     "src": "https://www.visitrhodeisland.com/listing/conanicut-island-sanctuary/8312/"
     },
     {
      "name": "Fort Getty Park",
@@ -1274,8 +1274,8 @@
      "address": "1050 Fort Getty Rd, Jamestown, RI 02835",
      "phone": "(401) 423-7260",
      "hours": "7 a.m.–10 p.m.",
-     "url": "https://jamestownri.gov/town-departments/parks-rec/fort-getty",
-     "src": "https://jamestownri.gov/town-departments/parks-rec/fort-getty"
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "https://www.jamestownri.gov/rvcamping"
     },
     {
      "name": "Watson Farm walking trails",
@@ -1395,7 +1395,7 @@
      "phone": "(401) 423-7200",
      "hours": "",
      "url": "https://www.jamestownri.gov/harbor",
-     "src": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities"
+     "src": "https://www.jamestownri.gov/harbor"
     },
     {
      "name": "Docks & pump-outs",
@@ -1403,8 +1403,8 @@
      "address": "East Ferry, Conanicus Ave, Jamestown, RI 02835",
      "phone": "",
      "hours": "",
-     "url": "https://jamestownri.gov/town-departments/harbor/pumpout-facilities",
-     "src": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities"
+     "url": "https://www.jamestownri.gov/harbor",
+     "src": "https://www.jamestownri.gov/harbor"
     },
     {
      "name": "Moorings & permits",
@@ -1514,7 +1514,7 @@
      "address": "Conanicus Ave, Jamestown, RI 02835",
      "phone": "",
      "hours": "",
-     "url": "https://jamestownri.gov/town-departments/harbor/east-ferry-facilities",
+     "url": "https://www.jamestownri.gov/harbor",
      "src": "https://www.discovernewport.org/blog/post/a-day-in-jamestown/"
     },
     {
@@ -1584,7 +1584,7 @@
      "phone": "",
      "hours": "",
      "url": "",
-     "src": ""
+     "src": "https://www.churchatfourcorners.net/"
     },
     {
      "name": "Conanicut Friends Meeting",
@@ -1644,7 +1644,7 @@
      "phone": "(401) 423-7260",
      "hours": "Closed for camping; reopening 2027",
      "url": "https://www.jamestownri.gov/tentsitereservations",
-     "src": "https://jamestownri.gov/town-departments/parks-rec/fort-getty"
+     "src": "https://www.jamestownri.gov/rvcamping"
     }
    ]
   },
@@ -1800,7 +1800,7 @@
      "phone": "(401) 741-9818",
      "hours": "",
      "url": "",
-     "src": "https://jamestownri.gov/town-departments/parks-recreation/jamestown-community-theatre"
+     "src": "https://www.jamestownri.gov/parksandrec"
     },
     {
      "name": "Jamestown Community Band",
