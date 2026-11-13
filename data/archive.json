@@ -323,5 +323,21 @@
     "url": "https://jamestownartcenter.org/events/"
    }
   ]
+ },
+ {
+  "slug": "today-on-the-island-2026-11-12",
+  "topic": "people",
+  "date": "2026-11-12",
+  "until": "2026-11-12",
+  "minutes": 1,
+  "title": "Today on the Island: Gallery, Nature and Live Music",
+  "dek": "Gallery viewing, a storytime, a nature activity at Fort Getty and live music at the Narragansett Café.",
+  "body": [
+   "Here are a few easy picks for today: a gallery visit in the morning, a story hour for little ones, a nature activity at Fort Getty, and live music at the Narragansett Café this evening.",
+   "## Today and tonight",
+   "#T {\"title\": \"Thursday, Nov 12\", \"head\": [\"Time\", \"What\", \"Where\"], \"rows\": [[\"10:00 AM\", \"Out of the Box gallery viewing (artists in residence)\", \"Out of the Box Studio & Gallery, 11 Clinton Avenue\"], [\"10:15 AM\", \"Storytime for ages 0 to 5\", \"Jamestown Philomenian Library\"], [\"3:30 PM\", \"Creating with Nature\", \"CISF tent at Fort Getty\"], [\"5:00 PM\", \"Patrick Gaynes, live music\", \"Narragansett Café\"]]}",
+   "Times come from each organizer's listing. Check before you go."
+  ],
+  "sources": []
  }
 ]
