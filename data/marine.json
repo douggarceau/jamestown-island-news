@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T20:24:31Z",
+ "updated": "2026-11-15T21:24:11Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-15T19:48:00Z",
-   "wdir": 310,
-   "wspd_kt": 13.0,
-   "gst_kt": 17.1,
-   "pres_mb": 1017.6,
+   "time": "2026-11-15T20:48:00Z",
+   "wdir": 320,
+   "wspd_kt": 8.9,
+   "gst_kt": 14.0,
+   "pres_mb": 1018.2,
    "atmp_f": 49,
    "wtmp_f": 53
   },
@@ -18,36 +18,36 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-15T19:48:00Z",
-   "pres_mb": 1017.4
+   "time": "2026-11-15T20:48:00Z",
+   "pres_mb": 1018.1
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-15T19:30:00Z",
-   "wdir": 310,
+   "time": "2026-11-15T20:48:00Z",
+   "wdir": 290,
    "wspd_kt": 15.9,
-   "gst_kt": 19.0,
-   "pres_mb": 1017.0,
-   "atmp_f": 48,
+   "gst_kt": 18.1,
+   "pres_mb": 1017.9,
+   "atmp_f": 47,
    "wtmp_f": 55
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-15T19:30:00Z",
-   "atmp_f": 49
+   "time": "2026-11-15T20:30:00Z",
+   "atmp_f": 48
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-15T20:00:00Z",
+   "time": "2026-11-15T21:00:00Z",
    "wvht_ft": 3.9,
    "dpd_s": 5.0,
-   "mwd": 270,
+   "mwd": 277,
    "atmp_f": 51,
    "wtmp_f": 57
   },
@@ -55,11 +55,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-15T20:00:00Z",
-   "wdir": 330,
-   "wspd_kt": 19.0,
-   "gst_kt": 20.0,
-   "pres_mb": 1017.6
+   "time": "2026-11-15T21:00:00Z",
+   "wdir": 320,
+   "wspd_kt": 21.0,
+   "gst_kt": 24.1,
+   "pres_mb": 1018.5
   }
  ],
  "uscg": [
@@ -386,7 +386,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611160700;;876578\nFZUS51 KBOX 151803\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n103 PM EST Sun Nov 15 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-160700-\nNarragansett Bay-\n103 PM EST Sun Nov 15 2026\n\n.THIS AFTERNOON...NW winds 10 to 15 kt with gusts up to 20 kt.\nWaves around 2 ft. \n.TONIGHT...NW winds 5 to 10 kt. Waves around 2 ft in the evening,\nthen 1 foot or less. \n.MON...NW winds 5 to 10 kt. Waves around 2 ft in the morning,\nthen 1 foot or less. \n.MON NIGHT...NW winds 5 to 10 kt. Waves 1 foot or less. \n.TUE AND TUE NIGHT...W winds 5 to 10 kt. Waves around 2 ft. \n.WED THROUGH THU NIGHT...SW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611161000;;886112\nFZUS51 KBOX 152104\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n404 PM EST Sun Nov 15 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-161000-\nNarragansett Bay-\n404 PM EST Sun Nov 15 2026\n\n.TONIGHT...NW winds 5 to 10 kt. Waves around 2 ft this evening,\nthen 1 foot or less. \n.MON...NW winds 5 to 10 kt. Waves around 2 ft in the morning,\nthen 1 foot or less. \n.MON NIGHT...NW winds 5 to 10 kt. Waves 1 foot or less. \n.TUE...W winds 5 to 10 kt. Waves 1 foot or less. \n.TUE NIGHT THROUGH WED NIGHT...W winds 5 to 10 kt. Waves around\n2 ft. \n.THU THROUGH FRI NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
