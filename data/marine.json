@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-15T10:24:29Z",
+ "updated": "2026-11-15T11:24:44Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-15T09:48:00Z",
-   "wdir": 290,
-   "wspd_kt": 8.0,
-   "gst_kt": 13.0,
-   "pres_mb": 1012.6,
-   "atmp_f": 39,
+   "time": "2026-11-15T10:48:00Z",
+   "wdir": 310,
+   "wspd_kt": 9.9,
+   "gst_kt": 15.9,
+   "pres_mb": 1013.4,
+   "atmp_f": 41,
    "wtmp_f": 54
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-15T09:48:00Z",
-   "pres_mb": 1012.5
+   "time": "2026-11-15T10:48:00Z",
+   "pres_mb": 1013.3
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-15T09:48:00Z",
-   "wdir": 290,
-   "wspd_kt": 12.1,
+   "time": "2026-11-15T10:48:00Z",
+   "wdir": 280,
+   "wspd_kt": 8.0,
    "gst_kt": 13.0,
-   "pres_mb": 1012.5,
+   "pres_mb": 1013.1,
    "atmp_f": 39,
    "wtmp_f": 53
   },
@@ -37,17 +37,17 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-15T09:30:00Z",
-   "atmp_f": 38
+   "time": "2026-11-15T10:30:00Z",
+   "atmp_f": 39
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-15T10:00:00Z",
-   "wvht_ft": 4.6,
-   "dpd_s": 5.0,
-   "mwd": 274,
+   "time": "2026-11-15T11:00:00Z",
+   "wvht_ft": 4.9,
+   "dpd_s": 6.0,
+   "mwd": 237,
    "atmp_f": 46,
    "wtmp_f": 57
   },
