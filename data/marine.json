@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-15T18:25:22Z",
+ "updated": "2026-11-15T19:24:59Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-15T17:30:00Z",
-   "wdir": 320,
-   "wspd_kt": 8.9,
-   "gst_kt": 13.0,
-   "pres_mb": 1016.3,
-   "atmp_f": 49,
+   "time": "2026-11-15T18:48:00Z",
+   "wdir": 350,
+   "wspd_kt": 15.0,
+   "gst_kt": 19.0,
+   "pres_mb": 1016.8,
+   "atmp_f": 50,
    "wtmp_f": 53
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-15T17:30:00Z",
-   "pres_mb": 1016.1
+   "time": "2026-11-15T18:48:00Z",
+   "pres_mb": 1016.7
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-15T17:30:00Z",
-   "wdir": 320,
-   "wspd_kt": 19.0,
-   "gst_kt": 22.9,
-   "pres_mb": 1016.0,
+   "time": "2026-11-15T18:48:00Z",
+   "wdir": 300,
+   "wspd_kt": 17.1,
+   "gst_kt": 21.0,
+   "pres_mb": 1016.6,
    "atmp_f": 48,
    "wtmp_f": 54
   },
@@ -37,29 +37,29 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-15T17:30:00Z",
-   "atmp_f": 51
+   "time": "2026-11-15T18:30:00Z",
+   "atmp_f": 50
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-15T18:00:00Z",
+   "time": "2026-11-15T19:00:00Z",
    "wvht_ft": 3.9,
    "dpd_s": 6.0,
-   "mwd": 244,
-   "atmp_f": 49,
+   "mwd": 238,
+   "atmp_f": 50,
    "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-15T18:00:00Z",
-   "wdir": 320,
+   "time": "2026-11-15T19:00:00Z",
+   "wdir": 330,
    "wspd_kt": 18.1,
    "gst_kt": 20.0,
-   "pres_mb": 1016.5
+   "pres_mb": 1016.8
   }
  ],
  "uscg": [
