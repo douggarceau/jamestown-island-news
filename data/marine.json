@@ -1,65 +1,65 @@
 {
- "updated": "2026-11-14T23:24:23Z",
+ "updated": "2026-11-15T00:46:05Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-14T22:48:00Z",
-   "wdir": 290,
+   "time": "2026-11-15T00:00:00Z",
+   "wdir": 280,
    "wspd_kt": 8.0,
-   "gst_kt": 9.9,
-   "pres_mb": 1007.7,
-   "atmp_f": 44,
+   "gst_kt": 12.1,
+   "pres_mb": 1008.3,
+   "atmp_f": 42,
    "wtmp_f": 55
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-14T22:48:00Z",
-   "pres_mb": 1007.6
+   "time": "2026-11-15T00:00:00Z",
+   "pres_mb": 1008.2
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-14T22:48:00Z",
-   "wdir": 290,
-   "wspd_kt": 8.0,
-   "gst_kt": 11.1,
-   "pres_mb": 1007.3,
-   "atmp_f": 43,
+   "time": "2026-11-15T00:00:00Z",
+   "wdir": 250,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.0,
+   "pres_mb": 1008.0,
+   "atmp_f": 41,
    "wtmp_f": 55
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-14T22:30:00Z",
-   "atmp_f": 43
+   "time": "2026-11-15T00:00:00Z",
+   "atmp_f": 42
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-14T23:00:00Z",
+   "time": "2026-11-15T00:00:00Z",
    "wvht_ft": 3.9,
-   "dpd_s": 4.0,
-   "mwd": 291,
-   "atmp_f": 46,
+   "dpd_s": 5.0,
+   "mwd": 278,
+   "atmp_f": 47,
    "wtmp_f": 58
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-14T23:00:00Z",
+   "time": "2026-11-15T00:00:00Z",
    "wdir": 300,
-   "wspd_kt": 13.0,
-   "gst_kt": 17.1,
-   "pres_mb": 1008.0
+   "wspd_kt": 15.9,
+   "gst_kt": 18.1,
+   "pres_mb": 1008.4
   }
  ],
  "uscg": [
@@ -240,17 +240,6 @@
    "desc": "RI – PROVIDENCE RIVER – RIYC 2026 GASPEE REGATTA – RACE/REGATTA Mariners are advised that the RIYC 2026 Gaspee Regatta is scheduled to be held in multiple areas to include Providence River, Rhode Island Yacht Club, Rumstick Neck Reach, Rumstick Point. The event will take place on Sunday June 14, 2026 from 1:00 p.m. to 4:00 p.m. Expect up to 15 sailing vessels, 25-42 ft in length. Mariners are advised to transit the area with extreme caution. Mariners may contact the person in charge by phone at (401) 474-4769."
   },
   {
-   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)/General/Miscellaneous",
-   "group": "Miscellaneous",
-   "type": "",
-   "waterway": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)",
-   "begin": "2026-10-13",
-   "end": "2026-11-14",
-   "updated": "2026-10-13",
-   "nm": 14.7,
-   "desc": "General/Miscellaneous From: 2026-10-13 To: 2026-11-14 Location: 41-15-53.676N/070-18-50.904W 40-50-25.152N/070-18-45.936W 40-49-29.028N/071-38-21.696W 41-07-57.540N/071-38-01.932W 41-08-04.992N/071-28-08.688W 41-15-46.260N/071-27-53.856W 41-15-53.676N/070-18-50.904W EXAILS's DriX 18 will be conducting fish stock surveys in and around • Block Island wind farm • South Fork wind • Revolution wind • Vineyard wind 1 • Sunrise wind The DriX 18 remote operations center can be contacted at (401) 256-1561 This number can be reached 24 hours a day and 7 days a week during the survey."
-  },
-  {
    "title": "Tiverton Channel - Mount Hope Bay/General/Bridges/Repairs, Painting, Or Fender Replacement",
    "group": "Bridges",
    "type": "Repairs, Painting, Or Fender Replacement",
@@ -397,7 +386,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611151000;;828801\nFZUS51 KBOX 142105\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n404 PM EST Sat Nov 14 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-151000-\nNarragansett Bay-\n404 PM EST Sat Nov 14 2026\n\n.TONIGHT...NW winds 10 to 15 kt. Gusts up to 20 kt after\nmidnight. Waves around 2 ft. \n.SUN...NW winds 10 to 15 kt with gusts up to 20 kt. Waves around\n2 ft. \n.SUN NIGHT...NW winds around 10 kt. Waves around 2 ft in the\nevening, then 1 foot or less. \n.MON...NW winds 5 to 10 kt. Waves 1 foot or less. \n.MON NIGHT THROUGH TUE NIGHT...W winds 5 to 10 kt. Waves 1 foot\nor less. \n.WED THROUGH THU NIGHT...SW winds 5 to 10 kt. Waves 1 foot or\nless.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611151300;;835864\nFZUS51 KBOX 150005\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n705 PM EST Sat Nov 14 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-151300-\nNarragansett Bay-\n705 PM EST Sat Nov 14 2026\n\n.TONIGHT...NW winds 10 to 15 kt. Gusts up to 20 kt after\nmidnight. Waves around 2 ft. \n.SUN...NW winds 10 to 15 kt with gusts up to 20 kt. Waves around\n2 ft. \n.SUN NIGHT...NW winds around 10 kt. Waves around 2 ft in the\nevening, then 1 foot or less. \n.MON...NW winds 5 to 10 kt. Waves 1 foot or less. \n.MON NIGHT THROUGH TUE NIGHT...W winds 5 to 10 kt. Waves 1 foot\nor less. \n.WED THROUGH THU NIGHT...SW winds 5 to 10 kt. Waves 1 foot or\nless.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
