@@ -1,4 +1,73 @@
 {
  "note": "Listings removed by the daily check, kept 60 days so a removal can be undone.",
- "removed": []
+ "removed": [
+  {
+   "date": "2026-11-15",
+   "file": "gigs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "id": "JT-CARE-36967621",
+    "employer": "Private Jamestown household",
+    "title": "Nanny / mother’s helper",
+    "category": "Private household work",
+    "location_scope": "Jamestown worksite",
+    "address": "Not published",
+    "pay_text": "$30/hour",
+    "hours": "Mon–Wed, 7:30 a.m.–12:30 p.m.",
+    "requirements": "Young-child experience; own car, CPR and other preferences in original ad.",
+    "arrangement": "Private household engagement; employee/contract classification not published",
+    "source_url": "https://www.care.com/job/childcare/ri/jamestown/36967621-part-time-nanny-mothers-helper-for-1-and-3-year-old-in-jamestown",
+    "application_url": "https://www.care.com/job/childcare/ri/jamestown/36967621-part-time-nanny-mothers-helper-for-1-and-3-year-old-in-jamestown",
+    "source_kind": "client_posted_request",
+    "phone": "Not published",
+    "email": "Not published",
+    "contact_note": "",
+    "notes": [
+     "Listed start: November 9; start year not separately displayed. Confirm continuing need.",
+     "Apply through Care.com. Account or platform conditions may apply.",
+     "Do not republish household names, home addresses, medical details or children’s identifying details."
+    ],
+    "priority": "standard",
+    "date_posted": null,
+    "date_posted_display": null,
+    "deadline": null,
+    "last_checked": "2026-11-12"
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "file": "gigs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "id": "JT-CARE-36946760",
+    "employer": "Private Jamestown household",
+    "title": "Adult-care provider",
+    "category": "Private household work",
+    "location_scope": "Jamestown worksite",
+    "address": "Not published",
+    "pay_text": "$16–$26/hour",
+    "hours": "Mon/Wed/Fri, 6 a.m.–noon",
+    "requirements": "Companionship and personal-care duties; confirm required training.",
+    "arrangement": "Private household engagement; employee/contract classification not published",
+    "source_url": "https://www.care.com/job/seniorcare/ri/jamestown/36946760-seeking-part-time-adult-care-provider-in-jamestown",
+    "application_url": "https://www.care.com/job/seniorcare/ri/jamestown/36946760-seeking-part-time-adult-care-provider-in-jamestown",
+    "source_kind": "client_posted_request",
+    "phone": "Not published",
+    "email": "Not published",
+    "contact_note": "",
+    "notes": [
+     "Listed start: October 29; start year not separately displayed. Confirm continuing need.",
+     "Apply through Care.com. Account or platform conditions may apply.",
+     "Do not republish household names, home addresses, medical details or children’s identifying details."
+    ],
+    "priority": "standard",
+    "date_posted": null,
+    "date_posted_display": null,
+    "deadline": null,
+    "last_checked": "2026-11-12"
+   }
+  }
+ ]
 }
