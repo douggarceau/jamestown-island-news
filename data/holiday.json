@@ -47,20 +47,6 @@
      "more": "Shops and fairs keep their own hours. Chamber: 401-423-3650."
     },
     {
-     "t": "Holiday Arts Market",
-     "start": "2026-12-05",
-     "end": "2026-12-05",
-     "when": "Sat, Dec 5",
-     "time": "10 AM–4 PM",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
-     "note": "A juried market of one-of-a-kind work by local artists and artisans: ceramics, jewelry, textiles, paintings, prints and more.",
-     "addr": "18 Valley St., Jamestown",
-     "price": "No admission charge",
-     "more": "Bring a canned good or shelf-stable food for the Martin Luther King Jr. Community Center in Newport; bins are in the lobby. The building is wheelchair accessible."
-    },
-    {
      "t": "Beavertail Lighthouse Holiday Open House",
      "start": "2026-12-05",
      "end": "2026-12-05",
@@ -239,19 +225,6 @@
    "label": "On the Island: Concerts, Parties and Shopping",
    "items": [
     {
-     "t": "Holiday Arts Market Pre-Party and Early Shopping",
-     "start": "2026-12-04",
-     "end": "2026-12-04",
-     "when": "Fri, Dec 4",
-     "time": "5:30–7:30 PM",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "https://www.jamestownartcenter.org/events/holiday-arts-market-2026",
-     "note": "First pick of the market the night before the Stroll.",
-     "addr": "18 Valley St., Jamestown",
-     "price": "No admission charge"
-    },
-    {
      "t": "Beavertail Holiday Shopping Days",
      "start": "2026-12-06",
      "end": "2026-12-13",
@@ -322,20 +295,6 @@
      "addr": "7592 Post Road, North Kingstown",
      "price": "$18 per family, kit included; extra kits $18",
      "more": "Register by Nov 22."
-    },
-    {
-     "t": "Stuffed Ornaments Workshop",
-     "start": "2026-12-01",
-     "end": "2026-12-01",
-     "when": "Tue, Dec 1",
-     "time": "3–5 PM",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "https://www.jamestownartcenter.org/education-store/p/stuffed-ornaments-workshop",
-     "note": "A two-hour workshop with Petra Napolitano to sew your own stuffed ornaments.",
-     "addr": "18 Valley St., Jamestown",
-     "price": "$40",
-     "more": "Ages 13 and up; younger children with a parent. Registration required."
     },
     {
      "t": "Wreath Decorating Workshop at Mount Hope Farm",
@@ -666,7 +625,7 @@
      "end": "2026-12-06",
      "when": "Nov 24–Dec 6",
      "time": "Several times",
-     "where": "Providence Performing Arts Center",
+     "where": "PPAC",
      "town": "Providence",
      "url": "https://www.ppacri.org/events/detail/twas-the-night-before-by-cirque-du-soleil",
      "note": "Acrobatics, dance and Christmas music bring a familiar holiday poem to the stage when Cirque du Soleil presents ’Twas the Night Before… at PPAC in Providence. The family production combines its Christmas characters and story with the company’s physical performance style, offering a holiday outing built around movement and spectacle. PPAC advertises a family-ticket offer involving a child age 18 or younger and a regularly priced ticket; check the box office for the current terms and available seats.",
@@ -753,7 +712,7 @@
      "end": "2026-12-13",
      "when": "Sun, Dec 13",
      "time": "3 PM and 7 PM",
-     "where": "Providence Performing Arts Center",
+     "where": "PPAC",
      "town": "Providence",
      "url": "https://ppac.evenue.net/events/POPS",
      "note": "Keith Lockhart and the Boston Pops bring their holiday concert to PPAC in Providence, with a program that includes “Sleigh Ride,” seasonal arrangements and a sing-along. A visit from Santa is part of the festivities, giving the orchestral concert a family element alongside its music. There are afternoon and evening performances on the same day, so check the selected showtime carefully when reserving seats through PPAC.",

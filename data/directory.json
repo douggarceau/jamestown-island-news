@@ -2096,48 +2096,6 @@
    "cl": false
   },
   {
-   "i": "100",
-   "n": "Jamestown Arts Center",
-   "c": "Community and cultural resources",
-   "a": "18 Valley Street, Jamestown RI 02835",
-   "p": "401-560-0979",
-   "e": "christine@jamestownartcenter.org",
-   "w": "https://www.jamestownartcenter.org/",
-   "wl": "Website",
-   "b": "Jamestown Arts Center presents exhibitions, classes, camps, performances, talks and film programs. It is a nonprofit cultural resource with both public events and opportunities to make art. Its Valley Street location gives residents and visitors a place to encounter contemporary work and participate in the island's creative community.",
-   "nt": [],
-   "s": [
-    [
-     "Jamestown Chamber profile",
-     "https://www.jamestownrichamber.com/jamestown-arts-center"
-    ],
-    [
-     "jamestownartcenter.org",
-     "https://www.jamestownartcenter.org/"
-    ]
-   ],
-   "cl": false
-  },
-  {
-   "i": "199",
-   "n": "Jamestown Arts Center — gallery visits",
-   "c": "Visitor information",
-   "a": "18 Valley Street",
-   "p": "401-560-0979",
-   "e": "",
-   "w": "https://www.jamestownartcenter.org/",
-   "wl": "Website",
-   "b": "The arts center presents changing exhibitions and public art programs. Wednesday–Saturday 11:00 AM–3:00 PM; appointments available; exhibition runs and closures vary. Visit during exhibition hours; register separately for classes and workshops.",
-   "nt": [],
-   "s": [
-    [
-     "jamestownartcenter.org",
-     "https://www.jamestownartcenter.org/"
-    ]
-   ],
-   "cl": false
-  },
-  {
    "i": "101",
    "n": "Jamestown Chamber of Commerce",
    "c": "Community and cultural resources",
@@ -4836,8 +4794,7 @@
    ],
    "s": [
     [
-     "Published professional résumé",
-     ""
+     "Published professional résumé"
     ]
    ],
    "cl": false
