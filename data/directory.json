@@ -3346,25 +3346,6 @@
    "cl": false
   },
   {
-   "i": "211",
-   "n": "Newport day-trip connection",
-   "c": "Visitor information",
-   "a": "Newport, RI",
-   "p": "",
-   "e": "",
-   "w": "https://www.ripta.com/routes/64/",
-   "wl": "Website",
-   "b": "Jamestown visitors can reach Newport by road, bus or seasonal ferry. Route 64 timetable; seasonal ferry; no verified regular winter ferry. Use Route 64’s current timetable or drive across the Pell Bridge; check ferry season before planning a water connection.",
-   "nt": [],
-   "s": [
-    [
-     "ripta.com",
-     "https://www.ripta.com/routes/64/"
-    ]
-   ],
-   "cl": false
-  },
-  {
    "i": "150",
    "n": "One More Chapter Book Club",
    "c": "Community and cultural resources",
@@ -3792,27 +3773,6 @@
     [
      "dutchharborboatyard.com",
      "https://www.dutchharborboatyard.com"
-    ]
-   ],
-   "cl": false
-  },
-  {
-   "i": "210",
-   "n": "Seal watching — Save The Bay Newport departure",
-   "c": "Visitor information",
-   "a": "37 America’s Cup Avenue, Newport, RI",
-   "p": "401-203-7325",
-   "e": "",
-   "w": "https://savebay.org/family-fun/seals/",
-   "wl": "Website",
-   "b": "Save The Bay offers winter boat trips to observe seals around the lower bay. Published season November–April; individual times vary with the booking calendar. Reserve through the official ticket link; one-hour tour $25 standard or $20 qualifying discounted rate, under-three children no charge; travel to Newport first.",
-   "nt": [
-    "Hours and details not recently confirmed; check before visiting."
-   ],
-   "s": [
-    [
-     "savebay.org",
-     "https://savebay.org/family-fun/seals/"
     ]
    ],
    "cl": false
