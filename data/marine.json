@@ -1,57 +1,57 @@
 {
- "updated": "2026-11-16T14:43:43Z",
+ "updated": "2026-11-16T15:34:27Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-16T14:00:00Z",
-   "wdir": 330,
+   "time": "2026-11-16T14:54:00Z",
+   "wdir": 360,
    "wspd_kt": 6.0,
-   "gst_kt": 9.9,
+   "gst_kt": 12.1,
    "pres_mb": 1027.1,
-   "atmp_f": 44,
+   "atmp_f": 45,
    "wtmp_f": 53
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-16T14:00:00Z",
+   "time": "2026-11-16T14:54:00Z",
    "wdir": 320,
-   "wspd_kt": 6.0,
-   "gst_kt": 9.9,
+   "wspd_kt": 11.1,
+   "gst_kt": 13.0,
    "pres_mb": 1026.9,
-   "atmp_f": 44
+   "atmp_f": 46
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-16T14:00:00Z",
-   "wdir": 320,
+   "time": "2026-11-16T14:48:00Z",
+   "wdir": 330,
    "wspd_kt": 12.1,
-   "gst_kt": 15.0,
-   "pres_mb": 1026.8,
-   "atmp_f": 42,
-   "wtmp_f": 53
+   "gst_kt": 14.0,
+   "pres_mb": 1026.9,
+   "atmp_f": 43,
+   "wtmp_f": 54
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-16T14:00:00Z",
+   "time": "2026-11-16T14:30:00Z",
    "atmp_f": 45
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-16T14:00:00Z",
+   "time": "2026-11-16T15:00:00Z",
    "wvht_ft": 2.6,
    "dpd_s": 4.0,
-   "mwd": 318,
+   "mwd": 307,
    "atmp_f": 47,
    "wtmp_f": 57
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-16T14:00:00Z",
-   "wdir": 350,
-   "wspd_kt": 15.0,
-   "gst_kt": 15.9,
-   "pres_mb": 1027.0
+   "time": "2026-11-16T15:00:00Z",
+   "wdir": 340,
+   "wspd_kt": 12.1,
+   "gst_kt": 13.0,
+   "pres_mb": 1027.2
   }
  ],
  "uscg": [
@@ -390,7 +390,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611170100;;919741\nFZUS51 KBOX 161203\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n703 AM EST Mon Nov 16 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-170100-\nNarragansett Bay-\n703 AM EST Mon Nov 16 2026\n\n.TODAY...NW winds 5 to 10 kt. Waves around 2 ft this morning,\nthen 1 foot or less. \n.TONIGHT...NW winds around 5 kt. Waves 1 foot or less. \n.TUE...W winds 5 to 10 kt. Waves 1 foot or less. \n.TUE NIGHT...W winds 5 to 10 kt. Waves around 2 ft in the\nevening, then 1 foot or less. \n.WED AND WED NIGHT...W winds 5 to 10 kt. Waves 1 foot or less. \n.THU THROUGH FRI NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611170400;;926198\nFZUS51 KBOX 161503\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n1003 AM EST Mon Nov 16 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-170400-\nNarragansett Bay-\n1003 AM EST Mon Nov 16 2026\n\n.THIS AFTERNOON...NW winds 5 to 10 kt. Waves around 2 ft, then\n1 foot or less. \n.TONIGHT...NW winds around 5 kt. Waves 1 foot or less. \n.TUE...W winds 5 to 10 kt. Waves 1 foot or less. \n.TUE NIGHT...W winds 5 to 10 kt. Waves around 2 ft in the\nevening, then 1 foot or less. \n.WED AND WED NIGHT...W winds 5 to 10 kt. Waves 1 foot or less. \n.THU THROUGH FRI NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
