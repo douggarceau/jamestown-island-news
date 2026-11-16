@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-16T08:41:28Z",
+ "updated": "2026-11-16T09:37:12Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-16T08:00:00Z",
-   "wdir": 330,
-   "wspd_kt": 4.1,
-   "gst_kt": 6.0,
-   "pres_mb": 1023.8,
+   "time": "2026-11-16T08:30:00Z",
+   "wdir": 350,
+   "wspd_kt": 5.1,
+   "gst_kt": 8.0,
+   "pres_mb": 1023.9,
    "atmp_f": 41,
    "wtmp_f": 52
   },
@@ -18,36 +18,36 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-16T08:00:00Z",
-   "pres_mb": 1023.5
+   "time": "2026-11-16T08:30:00Z",
+   "pres_mb": 1023.7
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-16T08:00:00Z",
+   "time": "2026-11-16T08:30:00Z",
    "wdir": 310,
    "wspd_kt": 9.9,
    "gst_kt": 12.1,
-   "pres_mb": 1023.4,
-   "atmp_f": 40,
+   "pres_mb": 1023.5,
+   "atmp_f": 41,
    "wtmp_f": 54
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-16T08:00:00Z",
+   "time": "2026-11-16T08:30:00Z",
    "atmp_f": 39
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-16T08:00:00Z",
-   "wvht_ft": 3.6,
-   "dpd_s": 5.0,
-   "mwd": 299,
+   "time": "2026-11-16T08:30:00Z",
+   "wvht_ft": 3.3,
+   "dpd_s": 4.0,
+   "mwd": 300,
    "atmp_f": 47,
    "wtmp_f": 57
   },
@@ -386,7 +386,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611161900;;904373\nFZUS51 KBOX 160605\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n104 AM EST Mon Nov 16 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-161900-\nNarragansett Bay-\n104 AM EST Mon Nov 16 2026\n\n.REST OF TONIGHT...NW winds 5 to 10 kt. Waves 1 foot or less. \n.MON...NW winds 5 to 10 kt. Waves around 2 ft in the morning,\nthen 1 foot or less. \n.MON NIGHT...NW winds 5 to 10 kt. Waves 1 foot or less. \n.TUE...W winds 5 to 10 kt. Waves 1 foot or less. \n.TUE NIGHT THROUGH WED NIGHT...W winds 5 to 10 kt. Waves around\n2 ft. \n.THU THROUGH FRI NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611162200;;912608\nFZUS51 KBOX 160903\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n403 AM EST Mon Nov 16 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-162200-\nNarragansett Bay-\n403 AM EST Mon Nov 16 2026\n\n.TODAY...NW winds 5 to 10 kt. Waves around 2 ft this morning,\nthen 1 foot or less. \n.TONIGHT...NW winds around 5 kt. Waves 1 foot or less. \n.TUE...W winds 5 to 10 kt. Waves 1 foot or less. \n.TUE NIGHT...W winds 5 to 10 kt. Waves around 2 ft in the\nevening, then 1 foot or less. \n.WED AND WED NIGHT...W winds 5 to 10 kt. Waves 1 foot or less. \n.THU THROUGH FRI NIGHT...NW winds 5 to 10 kt. Waves around 2 ft. \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
