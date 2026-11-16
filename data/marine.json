@@ -1,57 +1,57 @@
 {
- "updated": "2026-11-16T15:34:27Z",
+ "updated": "2026-11-16T16:27:59Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-16T14:54:00Z",
-   "wdir": 360,
-   "wspd_kt": 6.0,
-   "gst_kt": 12.1,
-   "pres_mb": 1027.1,
-   "atmp_f": 45,
+   "time": "2026-11-16T15:48:00Z",
+   "wdir": 340,
+   "wspd_kt": 7.0,
+   "gst_kt": 9.9,
+   "pres_mb": 1026.8,
+   "atmp_f": 46,
    "wtmp_f": 53
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-16T14:54:00Z",
-   "wdir": 320,
-   "wspd_kt": 11.1,
-   "gst_kt": 13.0,
-   "pres_mb": 1026.9,
-   "atmp_f": 46
+   "time": "2026-11-16T15:48:00Z",
+   "wdir": 330,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.9,
+   "pres_mb": 1026.6,
+   "atmp_f": 47
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-16T14:48:00Z",
+   "time": "2026-11-16T15:48:00Z",
    "wdir": 330,
-   "wspd_kt": 12.1,
-   "gst_kt": 14.0,
-   "pres_mb": 1026.9,
-   "atmp_f": 43,
+   "wspd_kt": 9.9,
+   "gst_kt": 12.1,
+   "pres_mb": 1026.5,
+   "atmp_f": 44,
    "wtmp_f": 54
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-16T14:30:00Z",
-   "atmp_f": 45
+   "time": "2026-11-16T15:30:00Z",
+   "atmp_f": 47
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-16T15:00:00Z",
-   "wvht_ft": 2.6,
+   "time": "2026-11-16T16:00:00Z",
+   "wvht_ft": 2.3,
    "dpd_s": 4.0,
-   "mwd": 307,
+   "mwd": 316,
    "atmp_f": 47,
    "wtmp_f": 57
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-16T15:00:00Z",
+   "time": "2026-11-16T16:00:00Z",
    "wdir": 340,
-   "wspd_kt": 12.1,
-   "gst_kt": 13.0,
-   "pres_mb": 1027.2
+   "wspd_kt": 7.0,
+   "gst_kt": 8.0,
+   "pres_mb": 1027.0
   }
  ],
  "uscg": [
