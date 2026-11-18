@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-18T01:25:21Z",
+ "updated": "2026-11-18T02:28:20Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-18T00:48:00Z",
-   "wdir": 280,
-   "wspd_kt": 6.0,
-   "gst_kt": 8.0,
-   "pres_mb": 1029.6,
-   "atmp_f": 52,
-   "wtmp_f": 53
+   "time": "2026-11-18T01:30:00Z",
+   "wdir": 290,
+   "wspd_kt": 5.1,
+   "gst_kt": 7.0,
+   "pres_mb": 1029.5,
+   "atmp_f": 51,
+   "wtmp_f": 54
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-18T00:48:00Z",
+   "time": "2026-11-18T01:30:00Z",
    "wdir": 260,
-   "wspd_kt": 7.0,
-   "gst_kt": 9.9,
+   "wspd_kt": 5.1,
+   "gst_kt": 8.9,
    "pres_mb": 1029.2,
-   "atmp_f": 51
+   "atmp_f": 50
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-18T00:48:00Z",
+   "time": "2026-11-18T01:30:00Z",
    "wdir": 280,
-   "wspd_kt": 4.1,
-   "gst_kt": 5.1,
-   "pres_mb": 1029.2,
-   "atmp_f": 49,
-   "wtmp_f": 55
+   "wspd_kt": 11.1,
+   "gst_kt": 13.0,
+   "pres_mb": 1028.9,
+   "atmp_f": 50,
+   "wtmp_f": 53
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-18T00:30:00Z",
-   "atmp_f": 50
+   "time": "2026-11-18T01:30:00Z",
+   "atmp_f": 51
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-18T01:00:00Z",
-   "wvht_ft": 3.6,
+   "time": "2026-11-18T02:00:00Z",
+   "wvht_ft": 4.3,
    "dpd_s": 5.0,
-   "mwd": 267,
-   "atmp_f": 56,
+   "mwd": 268,
+   "atmp_f": 55,
    "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-18T01:00:00Z",
+   "time": "2026-11-18T02:00:00Z",
    "wdir": 290,
-   "wspd_kt": 15.9,
-   "gst_kt": 17.1,
-   "pres_mb": 1029.7
+   "wspd_kt": 20.0,
+   "gst_kt": 21.0,
+   "pres_mb": 1029.4
   }
  ],
  "uscg": [
@@ -275,6 +275,17 @@
    "updated": "2026-11-11",
    "nm": 18.2,
    "desc": "General/LAA/RNA/Safety Zone From: 2026-11-11 To: 2026-11-19 A 500-meter Safety Zone may be enforced around Ørsted Northeast Program operations from 8:00am, November 11, 2026, to 8:00am, November 18, 2026, Mariners are to avoid transiting within 500-meters of the following positions: Revolution Wind Lease Area 486 Offshore Substations (OSS): AF08: 41-12-36.00N, 071-07-42.120W, AL11: 41-07-41.15N, 071-03-32.6W. Sunrise Wind Lease Area 487 Offshore Converter Station (OCS): AU08: 40-59-36.262N, 071-07-16.954W. Sunrise Wind Lease Area 487 Wind Turbine Generator (WTG) AW05: 40-57-31.370N, 071-11-10.235W, AW06: 40-57-32.162N, 071-09-51.402W, AW07: 40-57-34.496N, 071-08-31.736W, AW08: 40-57- 33.833N, 071-07-12.497W, AV11: 40-58-40.445N, 071-03-17.397W Northeast Program SCYLLA and supporting vessels are installing wind turbine generators (WTGs). Components are stored in New London, CT. Barge 455-"
+  },
+  {
+   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)/General/LAA/RNA/Safety Zone",
+   "group": "LAA/RNA",
+   "type": "Safety Zone",
+   "waterway": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)",
+   "begin": "2026-11-17",
+   "end": "2026-11-26",
+   "updated": "2026-11-18",
+   "nm": 18.2,
+   "desc": "General/LAA/RNA/Safety Zone From: 2026-11-17 To: 2026-11-26 A 500-meter Safety Zone may be enforced around Ørsted Northeast Program operations from 8:00am, November 18, 2026, to 8:00am, November 25, 2026, Mariners are to avoid transiting within 500-meters of the following positions: Revolution Wind Lease Area 486 Offshore Substations (OSS): AF08: 41-12-36.00N, 071-07-42.120W, AL11: 41-07-41.15N, 071-03-32.6W. Sunrise Wind Lease Area 487 Offshore Converter Station (OCS): AU08: 40-59-36.262N, 071-07-16.954W. Sunrise Wind Lease Area 487 Wind Turbine Generator (WTG) AW06: 40-57-32.162N, 071-09-51.402W, AW07: 40-57-34.496N, 071-08-31.736W, AW08: 40-57- 33.833N, 071-07-12.497W, AV11: 40-58-40.445N, 071-03-17.397W, AW12: 40-57-38.911N, 071-01-55.773W Northeast Program SCYLLA and supporting vessels are installing wind turbine generators (WTGs). Components are stored in New London, CT. Barge 455-"
   },
   {
    "title": "Providence River - Seekonk River/General/Bridges/Construction",
