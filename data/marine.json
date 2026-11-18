@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-18T12:30:22Z",
+ "updated": "2026-11-18T13:25:23Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-18T11:48:00Z",
-   "wdir": 290,
+   "time": "2026-11-18T12:48:00Z",
+   "wdir": 310,
    "wspd_kt": 2.9,
-   "gst_kt": 5.1,
-   "pres_mb": 1030.0,
-   "atmp_f": 48,
+   "gst_kt": 4.1,
+   "pres_mb": 1030.2,
+   "atmp_f": 49,
    "wtmp_f": 53
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-18T11:48:00Z",
-   "wdir": 280,
+   "time": "2026-11-18T12:48:00Z",
+   "wdir": 260,
    "wspd_kt": 2.9,
    "gst_kt": 5.1,
-   "pres_mb": 1029.8,
-   "atmp_f": 46
+   "pres_mb": 1030.0,
+   "atmp_f": 49
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-18T11:48:00Z",
-   "wdir": 270,
-   "wspd_kt": 4.1,
-   "gst_kt": 4.1,
-   "pres_mb": 1029.6,
+   "time": "2026-11-18T12:48:00Z",
+   "wdir": 290,
+   "wspd_kt": 5.1,
+   "gst_kt": 7.0,
+   "pres_mb": 1029.8,
    "atmp_f": 46,
-   "wtmp_f": 53
+   "wtmp_f": 54
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-18T11:30:00Z",
-   "atmp_f": 47
+   "time": "2026-11-18T12:30:00Z",
+   "atmp_f": 49
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-18T12:00:00Z",
-   "wvht_ft": 3.0,
-   "dpd_s": 5.0,
+   "time": "2026-11-18T13:00:00Z",
+   "wvht_ft": 2.6,
+   "dpd_s": 4.0,
    "mwd": 271,
-   "atmp_f": 53,
+   "atmp_f": 54,
    "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-18T12:00:00Z",
-   "wdir": 300,
-   "wspd_kt": 9.9,
+   "time": "2026-11-18T13:00:00Z",
+   "wdir": 290,
+   "wspd_kt": 11.1,
    "gst_kt": 11.1,
-   "pres_mb": 1030.4
+   "pres_mb": 1030.5
   }
  ],
  "uscg": [
@@ -264,6 +264,17 @@
    "updated": "2026-09-11",
    "nm": 16.1,
    "desc": "General/Marine Construction (Excluding Bridges)/Dredging From: 2026-12-21 To: 2026-12-24 Location: 41-43-04.296N/071-09-57.312W Mariners are advised that Gladding-Hearn Shipbuilding Duclos Corporation will conduct maintenance dredging of the existing marine railway on the Taunton River in Somerset, MA, from December 21, 2026, through December 23, 2026. Operations are scheduled Monday through Friday from 7:00 a.m. to 5:00 p.m. Equipment on scene will include a long arm excavator. The work location is in approximate position 41°43'04.30\"N, 071°09'57.32\"W, charted on NOAA ENC US5FAVCB. Mariners should use caution when transiting the area and proceed at a safe speed."
+  },
+  {
+   "title": "Providence River Approach - Providence River/General/Marine Construction (Excluding Bridges)/Dredging",
+   "group": "Marine Construction (Excluding Bridges)",
+   "type": "Dredging",
+   "waterway": "Providence River",
+   "begin": "2026-11-13",
+   "end": "2026-12-31",
+   "updated": "2026-11-18",
+   "nm": 16.3,
+   "desc": "General/Marine Construction (Excluding Bridges)/Dredging From: 2026-11-13 To: 2026-12-31 Location: 41-46-08.580N/071-23-10.140W 41-46-04.584N/071-23-09.924W 41-46-03.576N/071-23-14.892W 41-46-08.508N/071-23-15.720W 41-46-08.580N/071-23-10.140W Mariners are advised that OSM Marine will conduct Maintenance dredging inside marina basin of the Rhode Island Yacht Club with disposal of the material into the Providence River CAD cell. from November 18 through December 31, 2026. There will be 8 – 10 dumps over the course of the project. The primary work site is located near 41° 48’ 33.28′”N, 71°23’ 47.83′”W, with a lay barge positioned near Buoy 19 at approximately 41°01.3′ N, 73°07.1′ W. Vessels may contact project equipment on VHF-FM Channels 13 and 16. Mariners are urged to proceed at their slowest safe speed to minimize wake and use caution when passing."
   },
   {
    "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ) - Sector Southeastern New England, Territorial Sea/General/LAA/RNA/Safety Zone",
