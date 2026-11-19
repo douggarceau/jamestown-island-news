@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-19T11:24:53Z",
+ "updated": "2026-11-19T12:30:25Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-19T10:48:00Z",
-   "wdir": 320,
-   "wspd_kt": 2.9,
-   "gst_kt": 4.1,
-   "pres_mb": 1029.1,
+   "time": "2026-11-19T11:48:00Z",
+   "wdir": 360,
+   "wspd_kt": 1.0,
+   "gst_kt": 1.9,
+   "pres_mb": 1029.6,
    "atmp_f": 45,
    "wtmp_f": 54
   },
@@ -18,22 +18,22 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-19T10:48:00Z",
-   "wdir": 270,
-   "wspd_kt": 1.0,
+   "time": "2026-11-19T11:48:00Z",
+   "wdir": 300,
+   "wspd_kt": 1.9,
    "gst_kt": 2.9,
-   "pres_mb": 1029.2,
-   "atmp_f": 40
+   "pres_mb": 1029.5,
+   "atmp_f": 38
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-19T10:48:00Z",
-   "wdir": 250,
-   "wspd_kt": 1.9,
-   "gst_kt": 2.9,
-   "pres_mb": 1029.0,
+   "time": "2026-11-19T11:48:00Z",
+   "wdir": 330,
+   "wspd_kt": 6.0,
+   "gst_kt": 7.0,
+   "pres_mb": 1029.4,
    "atmp_f": 44,
    "wtmp_f": 53
   },
@@ -41,17 +41,17 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-19T10:30:00Z",
-   "atmp_f": 45
+   "time": "2026-11-19T11:30:00Z",
+   "atmp_f": 43
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-19T11:00:00Z",
+   "time": "2026-11-19T12:00:00Z",
    "wvht_ft": 2.3,
    "dpd_s": 4.0,
-   "mwd": 244,
+   "mwd": 255,
    "atmp_f": 55,
    "wtmp_f": 57
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-19T11:00:00Z",
-   "wdir": 320,
-   "wspd_kt": 8.9,
-   "gst_kt": 9.9,
-   "pres_mb": 1029.5
+   "time": "2026-11-19T12:00:00Z",
+   "wdir": 310,
+   "wspd_kt": 8.0,
+   "gst_kt": 8.9,
+   "pres_mb": 1030.1
   }
  ],
  "uscg": [
@@ -277,17 +277,6 @@
    "desc": "General/Marine Construction (Excluding Bridges)/Dredging From: 2026-11-13 To: 2026-12-31 Location: 41-46-08.580N/071-23-10.140W 41-46-04.584N/071-23-09.924W 41-46-03.576N/071-23-14.892W 41-46-08.508N/071-23-15.720W 41-46-08.580N/071-23-10.140W Mariners are advised that OSM Marine will conduct Maintenance dredging inside marina basin of the Rhode Island Yacht Club with disposal of the material into the Providence River CAD cell. from November 18 through December 31, 2026. There will be 8 – 10 dumps over the course of the project. The primary work site is located near 41° 48’ 33.28′”N, 71°23’ 47.83′”W, with a lay barge positioned near Buoy 19 at approximately 41°01.3′ N, 73°07.1′ W. Vessels may contact project equipment on VHF-FM Channels 13 and 16. Mariners are urged to proceed at their slowest safe speed to minimize wake and use caution when passing."
   },
   {
-   "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ) - Sector Southeastern New England, Territorial Sea/General/LAA/RNA/Safety Zone",
-   "group": "LAA/RNA",
-   "type": "Safety Zone",
-   "waterway": "Sector Southeastern New England, Territorial Sea",
-   "begin": "2026-11-11",
-   "end": "2026-11-19",
-   "updated": "2026-11-11",
-   "nm": 18.2,
-   "desc": "General/LAA/RNA/Safety Zone From: 2026-11-11 To: 2026-11-19 A 500-meter Safety Zone may be enforced around Ørsted Northeast Program operations from 8:00am, November 11, 2026, to 8:00am, November 18, 2026, Mariners are to avoid transiting within 500-meters of the following positions: Revolution Wind Lease Area 486 Offshore Substations (OSS): AF08: 41-12-36.00N, 071-07-42.120W, AL11: 41-07-41.15N, 071-03-32.6W. Sunrise Wind Lease Area 487 Offshore Converter Station (OCS): AU08: 40-59-36.262N, 071-07-16.954W. Sunrise Wind Lease Area 487 Wind Turbine Generator (WTG) AW05: 40-57-31.370N, 071-11-10.235W, AW06: 40-57-32.162N, 071-09-51.402W, AW07: 40-57-34.496N, 071-08-31.736W, AW08: 40-57- 33.833N, 071-07-12.497W, AV11: 40-58-40.445N, 071-03-17.397W Northeast Program SCYLLA and supporting vessels are installing wind turbine generators (WTGs). Components are stored in New London, CT. Barge 455-"
-  },
-  {
    "title": "Sector Southeastern New England, Exclusive Economic Zone (EEZ)/General/LAA/RNA/Safety Zone",
    "group": "LAA/RNA",
    "type": "Safety Zone",
@@ -412,7 +401,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611192200;;555773\nFZUS51 KBOX 190903\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n403 AM EST Thu Nov 19 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-192200-\nNarragansett Bay-\n403 AM EST Thu Nov 19 2026\n\n.TODAY...NW winds around 5 kt, becoming SW this afternoon. Waves\n1 foot or less. \n.TONIGHT...SW winds 5 to 10 kt. Waves around 2 ft. \n.FRI...W winds 5 to 10 kt. Waves around 2 ft. \n.FRI NIGHT...N winds 5 to 10 kt. Waves 1 foot or less. \n.SAT AND SAT NIGHT...SE winds around 5 kt. Waves 1 foot or less. \n.SUN...E winds 5 to 10 kt. Waves around 2 ft. \n.SUN NIGHT...E winds 15 to 20 kt with gusts up to 25 kt. Waves\n2 to 3 ft. Rain with a chance of tstms. Some tstms may produce\nheavy rainfall. \n.MON...NW winds 15 to 20 kt with gusts up to 30 kt. Waves around\n3 ft, except 5 to 7 ft at the bay entrance. Rain.\n.MON NIGHT...NW winds 20 to 25 kt with gusts up to 30 kt. Waves\naround 3 ft, except 5 to 7 ft at the bay entrance. A chance of\nrain.  \n\nWinds and waves higher in and near tstms.\n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611200100;;563099\nFZUS51 KBOX 191203\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n703 AM EST Thu Nov 19 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-200100-\nNarragansett Bay-\n703 AM EST Thu Nov 19 2026\n\n.TODAY...NW winds around 5 kt, becoming SW this afternoon. Waves\n1 foot or less. \n.TONIGHT...SW winds 5 to 10 kt. Waves around 2 ft. \n.FRI...W winds 5 to 10 kt. Waves around 2 ft. \n.FRI NIGHT...N winds 5 to 10 kt. Waves 1 foot or less. \n.SAT AND SAT NIGHT...SE winds around 5 kt. Waves 1 foot or less. \n.SUN...E winds 5 to 10 kt. Waves around 2 ft. \n.SUN NIGHT...E winds 15 to 20 kt with gusts up to 25 kt. Waves\n2 to 3 ft. Rain with a chance of tstms. Some tstms may produce\nheavy rainfall. \n.MON...NW winds 15 to 20 kt with gusts up to 30 kt. Waves around\n3 ft, except 5 to 7 ft at the bay entrance. Rain.\n.MON NIGHT...NW winds 20 to 25 kt with gusts up to 30 kt. Waves\naround 3 ft, except 5 to 7 ft at the bay entrance. A chance of\nrain.  \n\nWinds and waves higher in and near tstms.\n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
