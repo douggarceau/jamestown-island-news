@@ -354,5 +354,58 @@
     "url": "https://jplri.org/kids-homepage"
    }
   ]
+ },
+ {
+  "slug": "today-on-the-island-2026-11-18",
+  "topic": "people",
+  "date": "2026-11-18",
+  "until": "2026-11-18",
+  "minutes": 2,
+  "title": "Today on the Island: Gallery Hours, Open Mic and Storytime",
+  "dek": "Two gallery viewings open at 10 AM, Storytime starts at 10:15 AM, and Open Mic Night at the Narragansett Café begins at 6:30 PM.",
+  "body": [
+   "Good morning, Jamestown. Here is what is on the island today, from the galleries and library to an evening open mic.",
+   "## Today and tonight",
+   "#T {\"title\": \"Wednesday, Nov 18\", \"head\": [\"Time\", \"What\", \"Where\"], \"rows\": [[\"10:00 AM\", \"Out of the Box: Artists-in-Residence gallery viewing\", \"Out of the Box Studio & Gallery\"], [\"10:00 AM\", \"Fuller Gallery art viewing hours\", \"Fuller Art & Frame Gallery\"], [\"10:15 AM\", \"Storytime for ages 0 to 5\", \"Jamestown Philomenian Library\"], [\"12:00 PM\", \"Homeschool Nature Explorers\", \"Fort Getty\"], [\"3:45 PM\", \"Rooster Book Club, grades 3 to 5\", \"Jamestown Philomenian Library\"], [\"4:00 PM\", \"Dewey's Readers Book Group\", \"Jamestown Philomenian Library\"], [\"6:30 PM\", \"Open Mic Night\", \"Narragansett Café\"]]}",
+   "Times come from each organizer's listing. Check before you go."
+  ],
+  "sources": [
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Events calendar",
+    "date": "Nov 18, 2026",
+    "url": "https://jplri.libcal.com/calendar"
+   },
+   {
+    "outlet": "Narragansett Café",
+    "title": "Events",
+    "date": "Nov 18, 2026",
+    "url": "https://narragansettcaferi.com/events/"
+   }
+  ]
+ },
+ {
+  "slug": "open-mic-night-narragansett-cafe-nov-18",
+  "topic": "music",
+  "date": "2026-11-05",
+  "until": "2026-11-18",
+  "minutes": 1,
+  "title": "Open Mic Night at the Narragansett Cafe on Nov. 18",
+  "dek": "Musicians and listeners gather at the cafe on Wednesday evening, Nov. 18, from 6:30 to 10 p.m.",
+  "body": [
+   "Narragansett Cafe is hosting an open mic night on Wednesday, Nov. 18, from 6:30 to 10 p.m. The cafe lists the evening under its live music category, so it sits alongside the band and solo nights on its schedule this month.",
+   "Open mic nights give local singers, songwriters and instrumentalists a relaxed room to try new material in front of an audience, and they are a good way to hear the island's players up close.",
+   "## Planning a visit",
+   "The cafe is at 25 Narragansett Avenue. The event page does not describe the sign-up process, performance time limits or an age policy, so performers who want a slot should contact the cafe by phone at (401) 423-2150 or through the contact options on its website before the night.",
+   "Listeners do not need to sign up. Arriving during the evening is the simplest way to catch the performances."
+  ],
+  "sources": [
+   {
+    "outlet": "Narragansett Café",
+    "title": "Open Mic Night",
+    "date": "Nov 5, 2026",
+    "url": "https://narragansettcaferi.com/event/open-mic-night-15/"
+   }
+  ]
  }
 ]
