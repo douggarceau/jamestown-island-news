@@ -68,6 +68,73 @@
     "deadline": null,
     "last_checked": "2026-11-12"
    }
+  },
+  {
+   "date": "2026-11-20",
+   "file": "gigs.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "id": "JT-CLARK-4471381528",
+    "employer": "Clark Boat Yard & Marine Works",
+    "title": "Boat yard technician / crew",
+    "category": "Marine",
+    "location_scope": "Jamestown worksite",
+    "address": "110 Racquet Road, Jamestown, RI 02835",
+    "pay_text": "$20–$31.45/hour in matching indexed ad; confirm",
+    "hours": "20–40 hours/week in matching ad; seasonal flexibility",
+    "requirements": "Marine experience preferred; strong mechanical skills and willingness to learn considered.",
+    "arrangement": "Employment advertised; W-2/1099 form not published",
+    "source_url": "https://www.linkedin.com/jobs/view/technician-at-clark-boat-yard-marine-works-llc-4471381528",
+    "application_url": "https://www.linkedin.com/jobs/view/technician-at-clark-boat-yard-marine-works-llc-4471381528",
+    "source_kind": "employer_branded_job_board_post",
+    "phone": "401-423-3625",
+    "email": "clarkboatyard@gmail.com",
+    "contact_note": "",
+    "notes": [
+     "LinkedIn individual listing read with Apply available. Pay and hours also appear in matching Indeed/Glassdoor ad.",
+     "Apply by email with resume or description of experience, or call."
+    ],
+    "priority": "lower_barrier",
+    "date_posted": null,
+    "date_posted_display": null,
+    "deadline": null,
+    "last_checked": "2026-11-12"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "file": "gigs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "id": "JT-CARE-36946887",
+    "employer": "Private Jamestown household",
+    "title": "Senior-care provider, full-time listing",
+    "category": "Private household work",
+    "location_scope": "Jamestown worksite",
+    "address": "Not published",
+    "pay_text": "$25–$35/hour",
+    "hours": "Daily, 8 a.m.–1 p.m.; listed as full-time",
+    "requirements": "Prior care experience, meals, errands and personal-care assistance.",
+    "arrangement": "Private household engagement; employee/contract classification not published",
+    "source_url": "https://www.care.com/job/seniorcare/ri/jamestown/36946887-seeking-full-time-senior-care-provider-in-jamestown",
+    "application_url": "https://www.care.com/job/seniorcare/ri/jamestown/36946887-seeking-full-time-senior-care-provider-in-jamestown",
+    "source_kind": "client_posted_request",
+    "phone": "Not published",
+    "email": "Not published",
+    "contact_note": "",
+    "notes": [
+     "Listed start: November 2; start year not separately displayed. Confirm continuing need.",
+     "Apply through Care.com. Account or platform conditions may apply.",
+     "Do not republish household names, home addresses, medical details or children’s identifying details."
+    ],
+    "priority": "standard",
+    "date_posted": null,
+    "date_posted_display": null,
+    "deadline": null,
+    "last_checked": "2026-11-12"
+   }
   }
  ]
 }
