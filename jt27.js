@@ -22,9 +22,15 @@ function dedupe(){const h=document.getElementById('hero27');const ld=h&&h.datase
  document.querySelectorAll('.cvside .sea-g [data-story]').forEach(b=>{if(ld&&b.dataset.story===ld)b.style.setProperty('display','none','important')});
  const hb=document.getElementById('hlBox');if(hb){const vis=[...hb.querySelectorAll('a.hlr')].some(a=>!/^\?story=/.test(a.getAttribute('href')||''));hb.style.setProperty('display',vis?'':'none',vis?'':'important')}}
 function foot(){const ft=document.querySelector('footer.site-footer');if(!ft||ft.querySelector('.ft27'))return;const d=document.createElement('div');d.className='ft27';
- d.innerHTML='<a href="https://newyorkcityscream.com/">New York City Scream</a><a href="https://rhodeislandhurricane.com/">Rhode Island Hurricane</a><a href="https://theguitardougreport.com/">The Guitar Doug Report</a><button type="button" data-dir="1">Jamestown Local Directory</button><button type="button" data-g="advertise">Advertising</button><button type="button" data-g="privacy">Privacy &amp; Contact</button>';
- d.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.dir){R.classList.toggle('dir27');return}try{go(b.dataset.g)}catch(_){}});ft.insertBefore(d,ft.firstChild)}
+ d.innerHTML='<a href="https://newyorkcityscream.com/">New York City Scream</a><a href="https://rhodeislandhurricane.com/">Rhode Island Hurricane</a><a href="https://theguitardougreport.com/">The Guitar Doug Report</a><button type="button" data-dir="1">Jamestown Local Directory</button><button type="button" data-g="holiday">Holiday Guide</button><button type="button" data-g="gov">Town Government</button><button type="button" data-g="gigs">Jobs</button><button type="button" data-g="realestate">Homes for Sale</button><button type="button" data-g="help">Help</button><button type="button" data-c="nbSub">Subscribe</button><button type="button" data-g="advertise">Advertising</button><button type="button" data-g="privacy">Privacy &amp; Contact</button>';
+ d.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.dir){R.classList.toggle('dir27');return}if(b.dataset.c){const x=document.getElementById(b.dataset.c);if(x)x.click();return}try{go(b.dataset.g)}catch(_){}scrollTo(0,0)});ft.insertBefore(d,ft.firstChild)}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')R.classList.remove('dir27')});
 const run=()=>{hero();dedupe();foot()};
 const go_=()=>{run();let t;new MutationObserver(()=>{clearTimeout(t);t=setTimeout(run,60)}).observe(document.body,{childList:true,subtree:true})};
+document.readyState==='loading'?document.addEventListener('DOMContentLoaded',go_):go_()})();
+
+/* plain short tab names */
+(function(){const N={front:'Now',stories:'News',cal:'Calendar',ann:'Announcements',wx:'Weather & Marine',visit:'Visit'};
+function lab(){document.querySelectorAll('#nav>.nb[data-go]').forEach(b=>{const t=N[b.dataset.go];if(!t)return;b.style.setProperty('order',String(Object.keys(N).indexOf(b.dataset.go)+1),'important');const tn=[...b.childNodes].find(n=>n.nodeType===3&&n.textContent.trim());if(tn&&tn.textContent.trim()!==t)tn.textContent=t+(b.children.length?' ':'')})}
+const go_=()=>{lab();let t;new MutationObserver(()=>{clearTimeout(t);t=setTimeout(lab,60)}).observe(document.getElementById('nav')||document.body,{childList:true,subtree:true,characterData:true})};
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',go_):go_()})();
