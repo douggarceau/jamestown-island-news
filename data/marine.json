@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-21T19:24:38Z",
+ "updated": "2026-11-21T20:24:58Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-21T18:48:00Z",
-   "wdir": 190,
-   "wspd_kt": 4.1,
-   "gst_kt": 5.1,
-   "pres_mb": 1027.5,
-   "atmp_f": 60,
+   "time": "2026-11-21T19:48:00Z",
+   "wdir": 170,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.0,
+   "pres_mb": 1027.4,
+   "atmp_f": 59,
    "wtmp_f": 57
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-21T18:48:00Z",
-   "wdir": 120,
-   "wspd_kt": 6.0,
-   "gst_kt": 6.0,
-   "pres_mb": 1027.2,
-   "atmp_f": 56
+   "time": "2026-11-21T19:48:00Z",
+   "wdir": 160,
+   "wspd_kt": 9.9,
+   "gst_kt": 9.9,
+   "pres_mb": 1026.8,
+   "atmp_f": 58
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-21T18:48:00Z",
+   "time": "2026-11-21T19:48:00Z",
    "wdir": 150,
-   "wspd_kt": 4.1,
-   "gst_kt": 4.1,
-   "pres_mb": 1027.2,
-   "atmp_f": 55,
-   "wtmp_f": 56
+   "wspd_kt": 9.9,
+   "gst_kt": 9.9,
+   "pres_mb": 1026.8,
+   "atmp_f": 56,
+   "wtmp_f": 57
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-21T18:48:00Z",
+   "time": "2026-11-21T19:30:00Z",
    "atmp_f": 59
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-21T19:00:00Z",
+   "time": "2026-11-21T20:00:00Z",
    "wvht_ft": 1.3,
    "dpd_s": 8.0,
-   "mwd": 187,
+   "mwd": 179,
    "atmp_f": 57,
-   "wtmp_f": 58
+   "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-21T19:00:00Z",
-   "wdir": 150,
-   "wspd_kt": 7.0,
-   "gst_kt": 7.0,
-   "pres_mb": 1028.0
+   "time": "2026-11-21T20:00:00Z",
+   "wdir": 160,
+   "wspd_kt": 8.0,
+   "gst_kt": 8.0,
+   "pres_mb": 1027.8
   }
  ],
  "uscg": [
@@ -379,7 +379,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611220700;;691883\nFZUS51 KBOX 211803\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n103 PM EST Sat Nov 21 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-220700-\nNarragansett Bay-\n103 PM EST Sat Nov 21 2026\n\n.THIS AFTERNOON...S winds around 5 kt. Waves 1 foot or less. \n.TONIGHT...S winds around 5 kt. Waves 1 foot or less. \n.SUN...SE winds 5 to 10 kt. Gusts up to 20 kt in the afternoon.\nWaves 2 to 3 ft. Rain likely in the afternoon. \n.SUN NIGHT...E winds 10 to 15 kt, becoming S 15 to 20 kt after\nmidnight. Gusts up to 30 kt. Waves 2 to 4 ft, building to 5 to\n7 ft after midnight. Rain.\n.MON...W winds 10 to 15 kt, diminishing to 5 to 10 kt in the\nafternoon. Gusts up to 25 kt. Waves 4 to 6 ft, subsiding to 2 to\n3 ft in the afternoon. At the bay entrance, waves 5 to 7 ft. A\nchance of rain in the morning. \n.MON NIGHT...NW winds 5 to 10 kt with gusts up to 20 kt. Waves\n2 to 3 ft. \n.TUE THROUGH WED...NE winds 10 to 15 kt with gusts up to 25 kt.\nWaves 2 to 3 ft. \n.WED NIGHT...NE winds 20 to 25 kt with gusts up to 30 kt. Waves\n2 to 3 ft, except 4 to 6 ft at the bay entrance. A chance of\nrain.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611220900;;699713\nFZUS51 KBOX 212017\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n317 PM EST Sat Nov 21 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-220900-\nNarragansett Bay-\n317 PM EST Sat Nov 21 2026\n\n.THIS AFTERNOON...S winds around 5 kt. Waves 1 foot or less. \n.TONIGHT...S winds around 5 kt. Waves 1 foot or less. Patchy fog\nafter midnight with vsby 1 NM or less. \n.SUN...E winds 5 to 10 kt. Waves 1 foot or less, then around 2 ft\nin the afternoon. A chance of rain in the afternoon. \n.SUN NIGHT...E winds 15 to 20 kt, becoming S after midnight.\nGusts up to 30 kt. Waves 2 to 3 ft, building to 3 to 5 ft after\nmidnight. Patchy fog. Rain. Vsby 1 NM or less, increasing to 1 to\n3 NM after midnight. \n.MON...W winds 10 to 15 kt with gusts up to 20 kt. Waves 3 to\n5 ft. Patchy fog in the morning. A chance of rain in the morning\nwith vsby 1 to 3 NM. \n.MON NIGHT...NW winds 10 to 15 kt. Gusts up to 20 kt in the\nevening. Waves 2 to 3 ft. \n.TUE THROUGH WED NIGHT...NE winds 15 to 20 kt with gusts up to\n30 kt. Waves 2 to 3 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
