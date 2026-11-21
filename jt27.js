@@ -1,0 +1,5 @@
+(function(){document.documentElement.setAttribute('data-jt27','');const f=document.createElement('link');f.rel='stylesheet';f.href='https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap';document.head.appendChild(f)})();
+(function(){const OLD=/Georgia|Playfair|PT Serif|Libre Caslon|Bodoni|DM Serif|Old Standard|Cormorant|Times|serif$/i;
+function fx(){document.querySelectorAll('.wrap :is(b,strong,span,a,h2,h3,h4,p,button,div,small,li,summary,label):not([data-f27]),#dirCol :is(b,span,button,div):not([data-f27])').forEach(e=>{e.dataset.f27='';if(e.closest('header.mast,.bp,.ep'))return;if(OLD.test(getComputedStyle(e).fontFamily)){e.style.setProperty('font-family','"Geist",system-ui,sans-serif','important');e.style.setProperty('font-style','normal','important')}})}
+const go=()=>{fx();let t;new MutationObserver(()=>{clearTimeout(t);t=setTimeout(fx,80)}).observe(document.body,{childList:true,subtree:true})};
+document.readyState==='loading'?document.addEventListener('DOMContentLoaded',go):go()})();

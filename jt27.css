@@ -1,0 +1,11 @@
+/* Jamestown: Geist type and a slim menu bar, matching the sister sites. Colors, masthead and paintings unchanged. */
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) body :is(div,span,a,button,p,h1,h2,h3,h4,h5,b,i,em,strong,small,summary,label,select,input,li,td,th,time,article,section){font-family:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) :is(.bp,.ep,.bp *,.ep *,header.mast *){font-family:revert-layer}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #nav{position:sticky!important;top:22px!important;z-index:80!important;gap:4px!important;padding:6px!important;border-radius:12px!important;background:rgba(10,25,50,.78)!important;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(0,0,0,.35)!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #nav .nb{font:600 12.5px/1 "Geist",system-ui,sans-serif!important;letter-spacing:.01em!important;text-transform:none!important;border-radius:8px!important;padding:9px 12px!important;box-shadow:none!important;text-shadow:none!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) :is(#paperBtn,header.mast .mastApp,#appBtn){display:none!important}
+/* big cover boxes off (owner, Nov 21 2026); the story lists under them stay */
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #coverSlot .cvr>:is(button.cimg,.cvbrk,.spr.brk,.bigev){display:none!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #coverSlot .cvr{display:block!important;grid-template-columns:none!important;min-height:0!important;height:auto!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #coverSlot .cvr>.cvside{width:auto!important;max-width:none!important;margin:0!important;grid-column:auto!important;position:static!important}
+:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #coverSlot .cvr>.cvside,:root[data-jt27]:not(#_):not(#t1):not(#t2):not(#t3):not(#t4):not(#t5):not(#t6) #coverSlot .cvr>.cvside>*{width:100%!important;max-width:none!important;flex:1 1 auto!important}
