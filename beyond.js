@@ -17,7 +17,7 @@ const st=document.createElement('style');st.textContent=`
 #byRead .dk{color:#AFC3DA;font-size:18px;margin:0 0 14px}#byRead .src{font-size:13px;color:#AFC3DA;border-top:1px solid rgba(255,255,255,.15);margin-top:22px;padding-top:10px}
 #byRead .src a{color:#AFC3DA}#byRead .bk{all:unset;cursor:pointer;font:700 13px/1 var(--lb,system-ui);letter-spacing:.1em;text-transform:uppercase;color:#fff;border:1px solid rgba(255,255,255,.3);border-radius:6px;padding:8px 12px}`;
 document.head.appendChild(st);
-function list(){return `<section id="beyond"><h2>Beyond the Island<small>Tech, music and film from the wider world</small></h2>${B.map((s,i)=>`<button type="button" class="br" data-i="${i}"><b>${H(s.title)}</b><span>${H(s.dek)}</span></button>`).join('')}</section>`}
+function list(){return `<section id="beyond"><h2>Headlines<small></small></h2>${B.map((s,i)=>`<button type="button" class="br" data-i="${i}"><b>${H(s.title)}</b><span>${H(s.dek)}</span></button>`).join('')}</section>`}
 function open(s){const v=document.getElementById('view');if(!v)return;
  const body=(s.body||[]).map(p=>/^## /.test(p)?`<h3>${H(p.slice(3))}</h3>`:/^#T /.test(p)?'':`<p>${H(p)}</p>`).join('');
  const src=(s.sources||[]).map(x=>`<a href="${H(x.url)}" target="_blank" rel="noopener">${H(x.outlet)}${x.title?': '+H(x.title):''}</a>`).join(' · ');
