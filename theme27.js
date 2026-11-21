@@ -221,7 +221,8 @@ function rails27(){const w=document.querySelector('.wrap');if(!w)return;let box=
  const P=pool2();if(!P.length)return;
  const anchor=document.getElementById('hero27')||document.getElementById('main27')||document.getElementById('view');if(!anchor)return;
  const top=Math.max(0,Math.round(anchor.getBoundingClientRect().top-w.getBoundingClientRect().top));
- const H=Math.max(600,w.scrollHeight-top-40);const per=Math.max(1,Math.floor((H+12)/162));const n=Math.min(P.length,per*2);
+ /* size from the content column, not the whole page: the rails themselves must not make the page taller */
+ const col=document.getElementById('main27')||document.getElementById('view');const H=Math.max(600,Math.round((col?col.getBoundingClientRect().bottom:w.getBoundingClientRect().bottom)-w.getBoundingClientRect().top)-top-40);const per=Math.max(1,Math.floor((H+12)/162));const n=Math.min(P.length,per*2);
  const sig=top+'|'+per+'|'+P.length;if(box&&R27sig===sig){fitRails();return}R27sig=sig;
  if(!box){box=document.createElement('div');box.id='rails27';box.setAttribute('aria-label','Events');box.innerHTML='<div class="c l"></div><div class="c r"></div>';w.appendChild(box)}
  box.style.top=top+'px';fitRails();
@@ -272,5 +273,7 @@ document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('article.reader button.back');if(!b)return;const h=history.state;let st='';try{st=STATE.story}catch(_){}
  if(!(h&&h.ep&&h.t27in&&h.view==='read'&&h.story===st))return;e.preventDefault();e.stopImmediatePropagation();history.back()},true);
 addEventListener('popstate',()=>{const was=inRead,s=lastRead;if(!was||!s)return;
- setTimeout(()=>{let v='';try{v=STATE.view}catch(_){}if(v==='read')return;const L=[...document.querySelectorAll('#main27 [data-story="'+CSS.escape(s)+'"]')].filter(x=>x.offsetParent);
-  const a=L.find(x=>{const r=x.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight})||L[0];if(a&&document.activeElement!==a)a.focus({preventScroll:true})},450)})})();
+ /* big lists can redraw after the first try: retry while focus is still unclaimed (or sits on a stale copy) */
+ const put=()=>{let v='';try{v=STATE.view}catch(_){}if(v==='read')return;const fe=document.activeElement;if(fe&&fe!==document.body&&document.contains(fe)&&!(fe.dataset&&fe.dataset.story===s))return;
+  const L=[...document.querySelectorAll('#main27 [data-story="'+CSS.escape(s)+'"]')].filter(x=>x.offsetParent);const a=L.find(x=>{const r=x.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight})||L[0];if(a&&fe!==a)a.focus({preventScroll:true})};
+ [450,900,1600,2600].forEach(t=>setTimeout(put,t))})})();
