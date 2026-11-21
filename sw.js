@@ -1,5 +1,5 @@
 /* Jamestown Island News app: fresh news first, saved copy when offline. */
-const V='jamestown-v26';
+const V='jamestown-v27';
 const CORE=['/','/img/jamestown-masthead.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE)).catch(()=>{}));self.skipWaiting();});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
