@@ -1,39 +1,39 @@
 {
- "updated": "2026-11-22T04:26:12Z",
+ "updated": "2026-11-22T05:24:52Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-22T03:48:00Z",
-   "wdir": 140,
-   "wspd_kt": 0.0,
-   "gst_kt": 1.0,
-   "pres_mb": 1026.9,
-   "atmp_f": 52,
+   "time": "2026-11-22T04:30:00Z",
+   "wdir": 160,
+   "wspd_kt": 2.9,
+   "gst_kt": 2.9,
+   "pres_mb": 1026.4,
+   "atmp_f": 54,
    "wtmp_f": 57
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-22T03:48:00Z",
-   "wdir": 250,
-   "wspd_kt": 1.9,
+   "time": "2026-11-22T04:48:00Z",
+   "wdir": 280,
+   "wspd_kt": 1.0,
    "gst_kt": 1.9,
-   "pres_mb": 1026.7,
-   "atmp_f": 48
+   "pres_mb": 1026.2,
+   "atmp_f": 47
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-22T03:48:00Z",
-   "wdir": 170,
-   "wspd_kt": 1.9,
-   "gst_kt": 1.9,
-   "pres_mb": 1026.7,
+   "time": "2026-11-22T04:48:00Z",
+   "wdir": 190,
+   "wspd_kt": 0.0,
+   "gst_kt": 0.0,
+   "pres_mb": 1026.2,
    "atmp_f": 50,
    "wtmp_f": 56
   },
@@ -41,17 +41,17 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-22T03:48:00Z",
-   "atmp_f": 54
+   "time": "2026-11-22T04:30:00Z",
+   "atmp_f": 53
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-22T04:00:00Z",
-   "wvht_ft": 2.0,
-   "dpd_s": 9.0,
-   "mwd": 190,
+   "time": "2026-11-22T05:00:00Z",
+   "wvht_ft": 1.6,
+   "dpd_s": 8.0,
+   "mwd": 179,
    "atmp_f": 57,
    "wtmp_f": 57
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-22T04:00:00Z",
-   "wdir": 180,
+   "time": "2026-11-22T05:00:00Z",
+   "wdir": 160,
    "wspd_kt": 8.9,
    "gst_kt": 8.9,
-   "pres_mb": 1027.2
+   "pres_mb": 1026.6
   }
  ],
  "uscg": [
