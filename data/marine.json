@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-23T10:26:01Z",
+ "updated": "2026-11-23T11:24:56Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-23T09:48:00Z",
-   "wdir": 340,
-   "wspd_kt": 9.9,
-   "gst_kt": 15.0,
-   "pres_mb": 1005.7,
+   "time": "2026-11-23T10:48:00Z",
+   "wdir": 320,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.9,
+   "pres_mb": 1006.7,
    "atmp_f": 57,
    "wtmp_f": 57
   },
@@ -18,22 +18,22 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-23T09:48:00Z",
-   "wdir": 310,
-   "wspd_kt": 8.0,
-   "gst_kt": 11.1,
-   "pres_mb": 1005.8,
+   "time": "2026-11-23T10:48:00Z",
+   "wdir": 290,
+   "wspd_kt": 5.1,
+   "gst_kt": 7.0,
+   "pres_mb": 1006.6,
    "atmp_f": 57
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-23T09:48:00Z",
-   "wdir": 320,
-   "wspd_kt": 15.9,
-   "gst_kt": 19.0,
-   "pres_mb": 1005.7,
+   "time": "2026-11-23T10:48:00Z",
+   "wdir": 310,
+   "wspd_kt": 9.9,
+   "gst_kt": 13.0,
+   "pres_mb": 1006.2,
    "atmp_f": 56,
    "wtmp_f": 56
   },
@@ -41,29 +41,29 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-23T09:48:00Z",
+   "time": "2026-11-23T10:48:00Z",
    "atmp_f": 56
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-23T10:00:00Z",
-   "wvht_ft": 9.8,
+   "time": "2026-11-23T11:00:00Z",
+   "wvht_ft": 9.5,
    "dpd_s": 11.0,
    "mwd": 170,
-   "atmp_f": 56,
+   "atmp_f": 58,
    "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-23T10:00:00Z",
-   "wdir": 320,
-   "wspd_kt": 15.9,
-   "gst_kt": 18.1,
-   "pres_mb": 1006.0
+   "time": "2026-11-23T11:00:00Z",
+   "wdir": 310,
+   "wspd_kt": 15.0,
+   "gst_kt": 15.9,
+   "pres_mb": 1007.1
   }
  ],
  "uscg": [
@@ -379,7 +379,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611232200;;785541\nFZUS51 KBOX 230904\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n404 AM EST Mon Nov 23 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-232200-\nNarragansett Bay-\n404 AM EST Mon Nov 23 2026\n\n.TODAY...W winds 5 to 10 kt. Gusts up to 20 kt this morning.\nWaves 2 to 4 ft. Patchy fog this morning. \n.TONIGHT...NW winds 5 to 10 kt with gusts up to 25 kt. Waves 2 to\n3 ft. \n.TUE...NW winds 10 to 15 kt with gusts up to 25 kt. Waves 2 to\n3 ft. \n.TUE NIGHT...N winds 5 to 10 kt with gusts up to 20 kt. Waves\n2 to 3 ft. \n.WED AND WED NIGHT...NE winds 10 to 15 kt with gusts up to 25 kt.\nWaves 2 to 3 ft. \n.THU...NE winds 25 to 30 kt with gusts up to 45 kt. Waves 2 to\n3 ft, except 5 to 7 ft at the bay entrance. Rain likely. \n.THU NIGHT...E winds 25 to 30 kt with gusts up to 45 kt. Waves\n5 to 8 ft. Rain.\n.FRI...SW winds 25 to 30 kt with gusts up to 35 kt. Waves 5 to\n7 ft, except 7 to 10 ft at the bay entrance. Rain.\n.FRI NIGHT...W winds 20 to 25 kt with gusts up to 35 kt. Waves\n5 to 7 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611240030;;791298\nFZUS51 KBOX 231119\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n619 AM EST Mon Nov 23 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-240030-\nNarragansett Bay-\n619 AM EST Mon Nov 23 2026\n\n.TODAY...W winds 5 to 10 kt. Gusts up to 20 kt this morning.\nWaves 2 to 4 ft. \n.TONIGHT...NW winds 5 to 10 kt with gusts up to 25 kt. Waves 2 to\n3 ft. \n.TUE...NW winds 10 to 15 kt with gusts up to 25 kt. Waves 2 to\n3 ft. \n.TUE NIGHT...N winds 5 to 10 kt with gusts up to 20 kt. Waves\n2 to 3 ft. \n.WED AND WED NIGHT...NE winds 10 to 15 kt with gusts up to 25 kt.\nWaves 2 to 3 ft. \n.THU...NE winds 25 to 30 kt with gusts up to 45 kt. Waves 2 to\n3 ft, except 5 to 7 ft at the bay entrance. Rain likely. \n.THU NIGHT...E winds 25 to 30 kt with gusts up to 45 kt. Waves\n5 to 8 ft. Rain.\n.FRI...SW winds 25 to 30 kt with gusts up to 40 kt. Waves 5 to\n7 ft, except 7 to 10 ft at the bay entrance. Rain.\n.FRI NIGHT...W winds 20 to 25 kt with gusts up to 35 kt. Waves\n5 to 7 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
