@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-23T19:24:10Z",
+ "updated": "2026-11-23T20:25:15Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-23T18:48:00Z",
+   "time": "2026-11-23T19:48:00Z",
    "wdir": 210,
-   "wspd_kt": 14.0,
-   "gst_kt": 15.0,
-   "pres_mb": 1008.6,
+   "wspd_kt": 12.1,
+   "gst_kt": 13.0,
+   "pres_mb": 1009.0,
    "atmp_f": 60,
    "wtmp_f": 58
   },
@@ -18,22 +18,22 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-23T18:48:00Z",
-   "wdir": 230,
+   "time": "2026-11-23T19:48:00Z",
+   "wdir": 210,
    "wspd_kt": 5.1,
    "gst_kt": 8.0,
-   "pres_mb": 1008.2,
+   "pres_mb": 1008.6,
    "atmp_f": 69
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-23T18:30:00Z",
-   "wdir": 170,
-   "wspd_kt": 8.9,
+   "time": "2026-11-23T19:48:00Z",
+   "wdir": 230,
+   "wspd_kt": 9.9,
    "gst_kt": 11.1,
-   "pres_mb": 1007.9,
+   "pres_mb": 1008.4,
    "atmp_f": 62,
    "wtmp_f": 57
   },
@@ -41,17 +41,17 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-23T18:30:00Z",
+   "time": "2026-11-23T19:30:00Z",
    "atmp_f": 61
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-23T18:30:00Z",
+   "time": "2026-11-23T20:00:00Z",
    "wvht_ft": 6.9,
-   "dpd_s": 11.0,
-   "mwd": 147,
+   "dpd_s": 10.0,
+   "mwd": 156,
    "atmp_f": 59,
    "wtmp_f": 57
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-23T19:00:00Z",
-   "wdir": 220,
-   "wspd_kt": 17.1,
+   "time": "2026-11-23T20:00:00Z",
+   "wdir": 230,
+   "wspd_kt": 15.9,
    "gst_kt": 18.1,
-   "pres_mb": 1009.3
+   "pres_mb": 1010.0
   }
  ],
  "uscg": [
@@ -283,9 +283,9 @@
    "waterway": "Seekonk River",
    "begin": "2026-05-18",
    "end": "2029-06-29",
-   "updated": "2026-05-22",
+   "updated": "2026-11-23",
    "nm": 19.4,
-   "desc": "RHODE ISLAND- WASHINGTON BRIDGE (RIDOT BRIDGE NO. 700) – SEEKONK RIVER- General Construction – Rhode Island Department of Transportation (RIDOT) will begin preliminary construction work for the new Washington Bridge. From May 18, 2026, to June 29, 2029, there will be ongoing bridge construction operations Monday-Friday from 7:00 a.m.-4:30 p.m. Construction equipment and barges will be positioned outside of the navigation channel. For the next three months, there will be no reduction to the bridge horizontal or vertical clearances and no closures to the navigation channel. Mariners are advised to exercise caution and reduce wake when transiting the area. Mariners with questions or concerns can contact the contractor via marine radio VHF-FM Ch 16 or call Andy Kerr, General Superintendent at (860) 912-7299."
+   "desc": "RHODE ISLAND- WASHINGTON BRIDGE (RIDOT BRIDGE NO. 700) – SEEKONK RIVER- General Construction – Rhode Island Department of Transportation (RIDOT) is replacing the westbound span of the I-195 Washington Bridge. From May 18, 2026, to June 29, 2029, there will be ongoing bridge construction operations Monday-Friday from 7:00 a.m.-5:30 p.m. Construction equipment and barges will be positioned outside of the navigation channel. For the next three months, there will be no reduction to the bridge horizontal or vertical clearances and no closures to the navigation channel. Mariners are advised to exercise caution and reduce wake when transiting the area. Mariners with questions or concerns can contact the contractor via marine radio VHF-FM Ch 16 or call Andy Kerr, General Superintendent at (860) 912-7299."
   },
   {
    "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Buzzards Bay Main Channel/General/Marine Events/Regatta (Race)",
