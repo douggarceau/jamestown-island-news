@@ -603,5 +603,49 @@
   },
   "emma": true,
   "until": "2026-11-21"
+ },
+ {
+  "slug": "today-on-the-island-2026-11-22",
+  "topic": "people",
+  "date": "2026-11-22",
+  "until": "2026-11-22",
+  "minutes": 1,
+  "title": "Today on the Island: Merrily, Jury Band and Fuller Gallery",
+  "dek": "Merrily We Roll Along has a 1 p.m. matinee at the Recreation Center, the Jury Band plays the Narragansett Café at 4 p.m., and Fuller Gallery is open from noon.",
+  "body": [
+   "Sunday is a quiet one on the island, with a few arts and music stops worth the trip.",
+   "## Today and tonight",
+   "#T {\"title\": \"Sunday, Nov. 22\", \"head\": [\"Time\", \"What\", \"Where\"], \"rows\": [[\"12:00 PM\", \"Fuller Gallery art viewing hours\", \"Fuller Art & Frame Gallery, 42 Narragansett Avenue\"], [\"1:00 PM\", \"Merrily We Roll Along, Sunday matinee\", \"Jamestown Recreation Center, 41 Conanicus Avenue\"], [\"4:00 PM\", \"Jury Band\", \"Narragansett Café, 25 Narragansett Avenue\"]]}",
+   "Times come from each organizer's listing. Check before you go."
+  ],
+  "sources": []
+ },
+ {
+  "slug": "merrily-we-roll-along-jct",
+  "topic": "culture",
+  "date": "2026-10-24",
+  "minutes": 1,
+  "title": "Sondheim, Backwards, on Conanicut Island",
+  "dek": "Jamestown Community Theatre opens its 36th season with \"Merrily We Roll Along\" Nov. 19-22.",
+  "body": [
+   "Jamestown Community Theatre is opening its 36th season with one of Stephen Sondheim's most beloved puzzles. \"Merrily We Roll Along\" runs Nov. 19 through 22, What'sUpNewp reported when the company announced auditions this summer.",
+   "## The story, in reverse",
+   "The musical follows three friends across two decades of show business and famously tells their story backwards, starting with the bruised end of the friendship and rewinding to the bright-eyed beginning. It is a tricky show for any company, which makes it a bold pick for a community troupe.",
+   "> The 36th season opens by running the clock backwards.",
+   "## Who's behind it",
+   "Ricky Martin directs, with music direction by Joseph Carvalho and choreography by Amanda Del Vecchio, Sam Mathias and Elle Roy, according to What'sUpNewp. Auditions were held Sept. 3 at the Jamestown Recreation Center and were open to adults, teens and young performers in grade 5 and up, so expect a cast that spans generations of islanders.",
+   "The rehearsal calendar the company posted was no hobby schedule: Sundays from 1 to 5 p.m., Tuesday and Thursday nights from 6 to 9, plus choreography intensives on Oct. 16 and Oct. 30, per the report.",
+   "## Getting tickets",
+   "Venue, curtain times and ticket details had not been announced in the coverage we reviewed. Watch for them from Jamestown Community Theatre, which can be reached at jamestowncommunitytheatreRI@gmail.com, and we will add them to our calendar as soon as they are posted."
+  ],
+  "sources": [
+   {
+    "outlet": "What'sUpNewp",
+    "title": "Jamestown Community Theatre holding auditions for Sondheim's \"Merrily We Roll Along\"",
+    "date": "2026-08-21",
+    "url": "https://whatsupnewp.com/?p=531058"
+   }
+  ],
+  "until": "2026-11-22"
  }
 ]
