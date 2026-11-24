@@ -135,6 +135,40 @@
     "deadline": null,
     "last_checked": "2026-11-12"
    }
+  },
+  {
+   "date": "2026-11-24",
+   "file": "gigs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "id": "JT-CARE-36947463",
+    "employer": "Private Jamestown household",
+    "title": "Senior-care provider, part-time listing",
+    "category": "Private household work",
+    "location_scope": "Jamestown worksite",
+    "address": "Not published",
+    "pay_text": "$16–$26/hour",
+    "hours": "Tue–Sat, 6 a.m.–noon",
+    "requirements": "Experienced caregiver; personal care, meals and companionship.",
+    "arrangement": "Private household engagement; employee/contract classification not published",
+    "source_url": "https://www.care.com/job/seniorcare/ri/jamestown/36947463-seeking-part-time-senior-care-provider-in-jamestown",
+    "application_url": "https://www.care.com/job/seniorcare/ri/jamestown/36947463-seeking-part-time-senior-care-provider-in-jamestown",
+    "source_kind": "client_posted_request",
+    "phone": "Not published",
+    "email": "Not published",
+    "contact_note": "",
+    "notes": [
+     "Listed start: November 2; start year not separately displayed. Confirm continuing need.",
+     "Apply through Care.com. Account or platform conditions may apply.",
+     "Do not republish household names, home addresses, medical details or children’s identifying details."
+    ],
+    "priority": "standard",
+    "date_posted": null,
+    "date_posted_display": null,
+    "deadline": null,
+    "last_checked": "2026-11-12"
+   }
   }
  ]
 }
