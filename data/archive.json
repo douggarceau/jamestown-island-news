@@ -647,5 +647,90 @@
    }
   ],
   "until": "2026-11-22"
+ },
+ {
+  "slug": "today-on-the-island-2026-11-23",
+  "topic": "people",
+  "date": "2026-11-23",
+  "until": "2026-11-23",
+  "minutes": 1,
+  "title": "Today on the Island: Gallery, Workshop and Mysteries",
+  "dek": "A gallery viewing at 10 a.m., a writing workshop at 10:30, knitting at 2 p.m. and Monday Mysteries at 4 p.m.",
+  "body": [
+   "Here is a quiet Monday of arts and reading on the island. Times come from each organizer's listing.",
+   "## Today and tonight",
+   "#T {\"title\": \"Monday, Nov. 23\", \"head\": [\"Time\", \"What\", \"Where\"], \"rows\": [[\"10:00 AM\", \"Artists in Residence gallery viewing\", \"Out of the Box Studio & Gallery\"], [\"10:30 AM\", \"Rusty Pens Writing & Storytelling Workshop\", \"Jamestown Philomenian Library\"], [\"2:00 PM\", \"Needles Galore Knitting Group\", \"Jamestown Philomenian Library\"], [\"4:00 PM\", \"Monday Mysteries\", \"Jamestown Philomenian Library\"]]}",
+   "Times come from each organizer's listing. Check before you go."
+  ],
+  "sources": [
+   {
+    "outlet": "Out of the Box Studio & Gallery",
+    "title": "Artists in Residence gallery viewing",
+    "date": "Nov. 23, 2026",
+    "url": "https://jamestownislandnews.com"
+   },
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Library events calendar",
+    "date": "Nov. 23, 2026",
+    "url": "https://jamestownphilomenianlibrary.org/"
+   }
+  ]
+ },
+ {
+  "slug": "library-knitting-and-mysteries-nov-23",
+  "topic": "culture",
+  "date": "2026-11-10",
+  "until": "2026-11-23",
+  "minutes": 1,
+  "title": "Knitting and Mysteries at the Library on Nov. 23",
+  "dek": "Needles Galore and the Monday Mysteries book group both meet at the Jamestown Philomenian Library on the fourth Monday of the month.",
+  "body": [
+   "Monday, Nov. 23, brings a full afternoon of quiet, creative company to the Jamestown Philomenian Library. Two long-running groups share the day, one for hands at work and one for whodunits.",
+   "Needles Galore is a knitting group that meets on the second and fourth Mondays of the month, from 2 to 4 p.m. Beginners get instruction from the ground up, while more experienced knitters can bring their own projects and ask for help with tricky patterns. Newcomers and drop-ins are welcome, and the group is sponsored by the library's Friends organization. There is no charge to take part.",
+   "Monday Mysteries follows at 4 p.m. It is a book group that reads mysteries by authors from around the world, with each month spotlighting a different country. The group normally meets on the fourth Monday, which makes November's session fall on the 23rd. Anyone with questions about the group can reach the library by phone or email.",
+   "Both groups suit a grey November afternoon. Bring a project or a finished book, settle in at the library, and enjoy the company."
+  ],
+  "sources": [
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Needles Galore Knitting Group",
+    "date": "Nov 10, 2026",
+    "url": "https://jamestownphilomenianlibrary.org/node/6717"
+   },
+   {
+    "outlet": "Jamestown Philomenian Library",
+    "title": "Monday Mysteries Book Group",
+    "date": "Nov 10, 2026",
+    "url": "https://jamestownphilomenianlibrary.org/node/11125"
+   }
+  ]
+ },
+ {
+  "slug": "st-matthews-piano-concerts-since-2001",
+  "topic": "music",
+  "date": "2026-11-09",
+  "until": "2026-11-23",
+  "minutes": 1,
+  "title": "St. Matthew's Piano Concerts Have Played Since 2001",
+  "dek": "The Jamestown Community Piano Association has presented more than eighty concerts at Saint Matthew's Episcopal Church since its first in November 2001.",
+  "body": [
+   "Saint Matthew's Episcopal Church hosts a series of piano concerts run by the Jamestown Community Piano Association, a group of local music lovers that has kept recitals going on the island for more than two decades.",
+   "## How it started",
+   "The Association began in 1999 as a group of music lovers, many of them parishioners, who wanted Jamestown to have a fine piano for musical events. They raised $28,000 over two years and bought a seven-foot Schimmel grand piano.",
+   "The first concert took place in November 2001. According to the church's concert page, the Association has since presented more than eighty concerts.",
+   "## What to expect",
+   "The series usually runs nine or ten concerts a year, most of them on Sunday afternoons at 2 p.m. The performers are professional and semi-professional musicians, and the church's page describes admission as no charge for the public.",
+   "## Finding the next concert",
+   "The church's concert page does not list this fall's dates. It refers visitors to the parish calendar on the church's home page, so check there for the current season before you plan a Sunday afternoon."
+  ],
+  "sources": [
+   {
+    "outlet": "Saint Matthew's Episcopal Church",
+    "title": "Community Piano Concerts",
+    "date": "Nov 9, 2026",
+    "url": "http://www.stmatthewsjamestown.org/community-piano-concerts.html"
+   }
+  ]
  }
 ]
