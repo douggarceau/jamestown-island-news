@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-24T11:26:05Z",
+ "updated": "2026-11-24T12:31:32Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-24T10:48:00Z",
-   "wdir": 320,
-   "wspd_kt": 7.0,
-   "gst_kt": 9.9,
-   "pres_mb": 1020.2,
+   "time": "2026-11-24T11:48:00Z",
+   "wdir": 310,
+   "wspd_kt": 11.1,
+   "gst_kt": 15.0,
+   "pres_mb": 1021.5,
    "atmp_f": 46,
    "wtmp_f": 56
   },
@@ -18,22 +18,22 @@
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-24T10:48:00Z",
-   "wdir": 290,
-   "wspd_kt": 7.0,
-   "gst_kt": 9.9,
-   "pres_mb": 1020.0,
+   "time": "2026-11-24T11:48:00Z",
+   "wdir": 280,
+   "wspd_kt": 11.1,
+   "gst_kt": 15.0,
+   "pres_mb": 1021.4,
    "atmp_f": 43
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-24T10:48:00Z",
-   "wdir": 310,
-   "wspd_kt": 13.0,
+   "time": "2026-11-24T11:48:00Z",
+   "wdir": 300,
+   "wspd_kt": 12.1,
    "gst_kt": 15.0,
-   "pres_mb": 1019.9,
+   "pres_mb": 1021.3,
    "atmp_f": 44,
    "wtmp_f": 56
   },
@@ -41,43 +41,32 @@
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-24T10:30:00Z",
+   "time": "2026-11-24T11:30:00Z",
    "atmp_f": 44
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-24T11:00:00Z",
+   "time": "2026-11-24T12:00:00Z",
    "wvht_ft": 5.2,
    "dpd_s": 10.0,
-   "mwd": 147,
-   "atmp_f": 50,
+   "mwd": 134,
+   "atmp_f": 49,
    "wtmp_f": 57
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-24T11:00:00Z",
+   "time": "2026-11-24T12:00:00Z",
    "wdir": 320,
-   "wspd_kt": 19.0,
+   "wspd_kt": 18.1,
    "gst_kt": 20.0,
-   "pres_mb": 1020.3
+   "pres_mb": 1021.6
   }
  ],
  "uscg": [
-  {
-   "title": "East Passage - Newport Harbor/General/Marine Events/Regatta (Race)",
-   "group": "Marine Events",
-   "type": "Regatta (Race)",
-   "waterway": "Newport Harbor",
-   "begin": "2026-05-20",
-   "end": "2026-11-24",
-   "updated": "",
-   "nm": 1.2,
-   "desc": "RI – NARRAGANSETT BAY– MITCHELL REGATTA SPRING EDITION – RACE/REGATTA Mariners are advised that the Mitchell Regatta Spring Edition is scheduled to be held from west of Goat Island and south of Rose Island, RI to New Harbor, Block Island, RI. The event will take place on Saturday May 23, 2026, from 9:00 a.m. to 6:00 p.m. Expect up to 20 sailing vessels, 20-60 ft in length. Mariners are advised to transit the area with extreme caution. Mariners may contact the person in charge on VHF channel 72 or by phone at (401) 529-5699."
-  },
   {
    "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - West Passage/General/Miscellaneous",
    "group": "Miscellaneous",
@@ -143,17 +132,6 @@
    "updated": "2024-11-21",
    "nm": 9.6,
    "desc": "General/Hazards To Navigation/Shoaling Reported From: 2024-09-12 To: 2039-10-11 RI-BLOCK ISLAND SOUND AND APPROACHES (CHART 13205)-POINT JUDITH POND Shoaling has been observed within the channel to a least depth of 4.0 feet MLW in approximate position 41 22'48\"N, 071 33'55\"W between Point Judith Pond Channel Buoy 2 (LLNR 19555) and Point Judith Pond Channel Buoy 4 (LLNR 19560). Shoal is encroaching from the East side of the channel and protruding west. Shoaling has also been identified in several other areas north of buoy 2, below charted depth, extending into the upper pond. Mariners without local knowledge are advised to transit with extreme caution, paying particular attention to tidal range. Mariners are urged to use caution while transiting the area."
-  },
-  {
-   "title": "Sector Southeastern New England, Submerged Lands Act (SLA) - Sakonnet River/General/Marine Events/Fireworks",
-   "group": "Marine Events",
-   "type": "Fireworks",
-   "waterway": "Sakonnet River",
-   "begin": "2026-05-20",
-   "end": "2026-11-24",
-   "updated": "",
-   "nm": 10.2,
-   "desc": "RI – SAKONETT RIVER – TOWN OF GOSNOLD FIREWORKS DISPLAY – FIREWORKS Mariners are advised that the Town of Tiverton Fireworks Display is scheduled to be held from a barge in the vicinity of Sakonett River and Grinnell Beach, Tiverton, RI. The event will take place on Saturday May 23, 2026 from 8:45 p.m. to 9:30 p.m. Mariners are requested to maintain a minimum distance of 190 yards from the fireworks launching platform. Mariners may contact the person in charge by phone at (603) 235-4656. (Rain Date: May 26)"
   },
   {
    "title": "West Passage - Point Judith Harbor Of Refuge/General/Hazards To Navigation/Obstructions",
@@ -363,23 +341,12 @@
    "updated": "2026-07-28",
    "nm": 22.0,
    "desc": "An uncharted wreck has been identified during recent survey work with the following details: length: @13m, Width:@10m Height off seafloor:@4.9m Least Depth:@4.9m in position 41-38-37.41N, 070-55-08.07W"
-  },
-  {
-   "title": "New Bedford Channel - New Bedford Harbor Channel/General/Marine Construction (Excluding Bridges)/Facilities, Barriers, Manmade Reefs, Riprap, Jetties/Dikes",
-   "group": "Marine Construction (Excluding Bridges)",
-   "type": "Facilities, Barriers, Manmade Reefs, Riprap, Jetties/Dikes",
-   "waterway": "New Bedford Harbor Channel",
-   "begin": "2026-10-28",
-   "end": "2026-11-24",
-   "updated": "2026-10-28",
-   "nm": 22.1,
-   "desc": "US Army Corps of Engineers (USACE) will be conducting work on the hurricane barrier sector gate leading edge steel repair Available width of the 150’ navigation opening will be reduced by up to 20’ at times during the project from a partial gate closure, a work skiff, and a floating work platform. Tug and tows or large vessels that require the full 150’ horizontal clearance should contact the barrier one hour before transit on Channel 13 VHF to coordinate vessel movement"
   }
  ],
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611242200;;843692\nFZUS51 KBOX 240903\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n403 AM EST Tue Nov 24 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-242200-\nNarragansett Bay-\n403 AM EST Tue Nov 24 2026\n\n...GALE WATCH IN EFFECT FROM THURSDAY MORNING THROUGH FRIDAY\nAFTERNOON...\n\n.TODAY...NW winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to\n3 ft. \n.TONIGHT...N winds around 10 kt. Waves 2 to 3 ft. \n.WED...NE winds 5 to 10 kt. Waves around 2 ft. \n.WED NIGHT...NE winds 5 to 10 kt, increasing to 10 to 15 kt with\ngusts up to 20 kt after midnight. Waves 2 to 3 ft. \n.THU...NE winds 20 to 25 kt, becoming E 25 to 30 kt in the\nafternoon. Gusts up to 40 kt. Waves 2 to 3 ft, except 4 to 6 ft\nat the bay entrance. Rain likely in the afternoon. \n.THU NIGHT...E winds 25 to 30 kt with gusts up to 40 kt. Waves\n5 to 7 ft, building to 6 to 9 ft after midnight. At the bay\nentrance, waves 5 to 8 ft, building to 9 to 13 ft after midnight.\nRain.\n.FRI...SW winds 25 to 30 kt with gusts up to 35 kt. Waves 5 to\n8 ft, except 8 to 11 ft at the bay entrance. Rain.\n.FRI NIGHT...SW winds 20 to 25 kt with gusts up to 30 kt. Waves\n5 to 7 ft. \n.SAT...W winds 20 to 25 kt with gusts up to 30 kt. Waves 4 to\n6 ft. \n.SAT NIGHT...W winds 10 to 15 kt with gusts up to 20 kt. Waves\n2 to 4 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611250100;;850664\nFZUS51 KBOX 241203\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n703 AM EST Tue Nov 24 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-250100-\nNarragansett Bay-\n703 AM EST Tue Nov 24 2026\n\n...GALE WATCH IN EFFECT FROM THURSDAY MORNING THROUGH FRIDAY\nAFTERNOON...\n\n.TODAY...NW winds 10 to 15 kt with gusts up to 20 kt. Waves 2 to\n3 ft. \n.TONIGHT...N winds around 10 kt. Waves 2 to 3 ft. \n.WED...NE winds 5 to 10 kt. Waves around 2 ft. \n.WED NIGHT...NE winds 5 to 10 kt, increasing to 10 to 15 kt with\ngusts up to 20 kt after midnight. Waves 2 to 3 ft. \n.THU...NE winds 20 to 25 kt, becoming E 25 to 30 kt in the\nafternoon. Gusts up to 40 kt. Waves 2 to 3 ft, except 4 to 6 ft\nat the bay entrance. Rain likely in the afternoon. \n.THU NIGHT...E winds 25 to 30 kt with gusts up to 40 kt. Waves\n5 to 7 ft, building to 6 to 9 ft after midnight. At the bay\nentrance, waves 5 to 8 ft, building to 9 to 13 ft after midnight.\nRain.\n.FRI...SW winds 25 to 30 kt with gusts up to 35 kt. Waves 5 to\n8 ft, except 8 to 11 ft at the bay entrance. Rain.\n.FRI NIGHT...SW winds 20 to 25 kt with gusts up to 30 kt. Waves\n5 to 7 ft. \n.SAT...W winds 20 to 25 kt with gusts up to 30 kt. Waves 4 to\n6 ft. \n.SAT NIGHT...W winds 10 to 15 kt with gusts up to 20 kt. Waves\n2 to 4 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
