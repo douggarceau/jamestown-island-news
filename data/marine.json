@@ -1,57 +1,57 @@
 {
- "updated": "2026-11-25T13:26:40Z",
+ "updated": "2026-11-25T14:26:38Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-25T12:48:00Z",
-   "wdir": 20,
-   "wspd_kt": 9.9,
-   "gst_kt": 13.0,
-   "pres_mb": 1040.5,
-   "atmp_f": 35,
+   "time": "2026-11-25T13:48:00Z",
+   "wdir": 10,
+   "wspd_kt": 7.0,
+   "gst_kt": 11.1,
+   "pres_mb": 1041.4,
+   "atmp_f": 36,
    "wtmp_f": 54
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-25T12:48:00Z",
-   "wdir": 330,
-   "wspd_kt": 5.1,
-   "gst_kt": 8.0,
-   "pres_mb": 1040.6,
-   "atmp_f": 33
+   "time": "2026-11-25T13:48:00Z",
+   "wdir": 340,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.9,
+   "pres_mb": 1041.5,
+   "atmp_f": 36
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-25T12:48:00Z",
-   "wdir": 350,
-   "wspd_kt": 8.0,
-   "gst_kt": 11.1,
-   "pres_mb": 1040.5,
-   "atmp_f": 32,
-   "wtmp_f": 54
+   "time": "2026-11-25T13:48:00Z",
+   "wdir": 10,
+   "wspd_kt": 6.0,
+   "gst_kt": 8.0,
+   "pres_mb": 1041.4,
+   "atmp_f": 36,
+   "wtmp_f": 53
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-25T12:00:00Z",
-   "atmp_f": 34
+   "time": "2026-11-25T13:30:00Z",
+   "atmp_f": 35
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-25T13:00:00Z",
-   "wvht_ft": 3.3,
+   "time": "2026-11-25T13:30:00Z",
+   "wvht_ft": 3.6,
    "dpd_s": 10.0,
-   "mwd": 135,
+   "mwd": 132,
    "atmp_f": 46,
    "wtmp_f": 56
   },
@@ -59,11 +59,11 @@
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-25T13:00:00Z",
-   "wdir": 10,
-   "wspd_kt": 14.0,
-   "gst_kt": 15.0,
-   "pres_mb": 1040.4
+   "time": "2026-11-25T14:00:00Z",
+   "wdir": 30,
+   "wspd_kt": 12.1,
+   "gst_kt": 13.0,
+   "pres_mb": 1041.6
   }
  ],
  "uscg": [
@@ -154,6 +154,17 @@
    "updated": "2026-05-13",
    "nm": 10.8,
    "desc": "General/Miscellaneous From: 2025-11-14 To: 2026-12-31 Location: 41-39-45.216N/071-16-29.964W Jaia Robotics will be conducting autonomous underwater vehicle testing, in Narragansett Bay, Monday through Friday, between 8:00am to 7:00pm. The autonomous, underwater, vehicles are around 36 inches in length, and the vehicles come in red/yellow configurations."
+  },
+  {
+   "title": "Greenwich Bay Approach - Greenwich Bay/General/Hazards To Navigation/Obstructions",
+   "group": "Hazards To Navigation",
+   "type": "Obstructions",
+   "waterway": "Greenwich Bay",
+   "begin": "2026-11-25",
+   "end": "2027-02-16",
+   "updated": "2026-11-25",
+   "nm": 11.0,
+   "desc": "General/Hazards To Navigation/Obstructions From: 2026-11-25 To: 2027-02-16 Location: 41-40-36.948N/071-24-40.788W The University of Rhode Island will deploy a bottom-mounted Acoustic Doppler Current Profiler (ADCP) with a surface marker buoy in approximately 5.6 meters of water, immediately outside Safe Harbor Cowesett Marina, Warwick, Rhode Island, near 41°40.616′N, 071°24.680′W. The equipment will be located outside the navigational channel and will remain in place from December 2, 2026, through February 15, 2027. Mariners are requested to use caution and avoid the marked equipment."
   },
   {
    "title": "Greenwich Bay - Warwick Cove/General/Hazards To Navigation/Shoaling Reported",
