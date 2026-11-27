@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-27T00:43:38Z",
+ "updated": "2026-11-27T01:25:42Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-27T00:00:00Z",
-   "wdir": 40,
-   "wspd_kt": 19.0,
-   "gst_kt": 27.0,
-   "pres_mb": 1015.5,
-   "atmp_f": 48,
+   "time": "2026-11-27T00:48:00Z",
+   "wdir": 50,
+   "wspd_kt": 15.9,
+   "gst_kt": 25.1,
+   "pres_mb": 1014.5,
+   "atmp_f": 49,
    "wtmp_f": 55
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-27T00:00:00Z",
+   "time": "2026-11-27T00:48:00Z",
    "wdir": 30,
-   "wspd_kt": 22.0,
-   "gst_kt": 31.1,
-   "pres_mb": 1016.1,
-   "atmp_f": 47
+   "wspd_kt": 20.0,
+   "gst_kt": 27.0,
+   "pres_mb": 1015.1,
+   "atmp_f": 48
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-27T00:00:00Z",
+   "time": "2026-11-27T00:48:00Z",
    "wdir": 40,
-   "wspd_kt": 22.0,
-   "gst_kt": 28.0,
-   "pres_mb": 1016.6,
-   "atmp_f": 46,
+   "wspd_kt": 25.1,
+   "gst_kt": 32.1,
+   "pres_mb": 1015.3,
+   "atmp_f": 47,
    "wtmp_f": 53
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-27T00:00:00Z",
+   "time": "2026-11-27T00:30:00Z",
    "atmp_f": 48
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-27T00:00:00Z",
-   "wvht_ft": 14.1,
+   "time": "2026-11-27T01:00:00Z",
+   "wvht_ft": 15.1,
    "dpd_s": 10.0,
-   "mwd": 124,
-   "atmp_f": 53,
+   "mwd": 121,
+   "atmp_f": 54,
    "wtmp_f": 55
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-27T00:00:00Z",
-   "wdir": 60,
-   "wspd_kt": 36.0,
-   "gst_kt": 39.1,
-   "pres_mb": 1014.8
+   "time": "2026-11-27T01:00:00Z",
+   "wdir": 70,
+   "wspd_kt": 39.1,
+   "gst_kt": 44.1,
+   "pres_mb": 1011.9
   }
  ],
  "uscg": [
