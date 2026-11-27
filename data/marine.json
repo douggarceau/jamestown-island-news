@@ -1,69 +1,69 @@
 {
- "updated": "2026-11-27T08:28:51Z",
+ "updated": "2026-11-27T09:27:06Z",
  "note": "Collected hourly from NOAA NDBC, U.S. Coast Guard NAVCEN and NWS. Not for navigation.",
  "buoys": [
   {
    "id": "NWPR1",
    "name": "Newport (Naval Station pier)",
    "what": "Shore station: wind, pressure, water temperature",
-   "time": "2026-11-27T07:48:00Z",
-   "wdir": 350,
-   "wspd_kt": 8.0,
-   "gst_kt": 12.1,
-   "pres_mb": 1003.3,
-   "atmp_f": 53,
+   "time": "2026-11-27T08:48:00Z",
+   "wdir": 10,
+   "wspd_kt": 9.9,
+   "gst_kt": 11.1,
+   "pres_mb": 1002.9,
+   "atmp_f": 52,
    "wtmp_f": 55
   },
   {
    "id": "PDVR1",
    "name": "Quonset / Port of Davisville",
    "what": "Shore station: wind, water temperature",
-   "time": "2026-11-27T07:48:00Z",
+   "time": "2026-11-27T08:48:00Z",
    "wdir": 330,
-   "wspd_kt": 9.9,
-   "gst_kt": 12.1,
-   "pres_mb": 1003.1,
+   "wspd_kt": 7.0,
+   "gst_kt": 9.9,
+   "pres_mb": 1002.9,
    "atmp_f": 51
   },
   {
    "id": "CPTR1",
    "name": "Conimicut Light",
    "what": "Upper bay: wind, water temperature",
-   "time": "2026-11-27T07:48:00Z",
+   "time": "2026-11-27T08:48:00Z",
    "wdir": 340,
    "wspd_kt": 11.1,
-   "gst_kt": 14.0,
-   "pres_mb": 1003.1,
+   "gst_kt": 13.0,
+   "pres_mb": 1002.7,
    "atmp_f": 50,
-   "wtmp_f": 52
+   "wtmp_f": 53
   },
   {
    "id": "PRUR1",
    "name": "Prudence Island",
    "what": "Mid-bay: air temperature, wind",
-   "time": "2026-11-27T07:30:00Z",
-   "atmp_f": 52
+   "time": "2026-11-27T08:30:00Z",
+   "atmp_f": 51
   },
   {
    "id": "44097",
    "name": "Block Island buoy (offshore)",
    "what": "Open ocean: wave height, period, direction",
-   "time": "2026-11-27T08:00:00Z",
-   "wvht_ft": 12.1,
+   "time": "2026-11-27T08:30:00Z",
+   "wvht_ft": 10.8,
    "dpd_s": 12.0,
-   "mwd": 132,
-   "atmp_f": 60,
+   "mwd": 129,
+   "atmp_f": 58,
    "wtmp_f": 55
   },
   {
    "id": "BUZM3",
    "name": "Buzzards Bay tower",
    "what": "Offshore tower: wind, pressure",
-   "time": "2026-11-27T08:00:00Z",
-   "wdir": 250,
-   "wspd_kt": 14.0,
-   "gst_kt": 15.0,
-   "pres_mb": 1003.1
+   "time": "2026-11-27T09:00:00Z",
+   "wdir": 300,
+   "wspd_kt": 2.9,
+   "gst_kt": 4.1,
+   "pres_mb": 1003.3
   }
  ],
  "uscg": [
@@ -357,7 +357,7 @@
  "cwf": {
   "zone": "ANZ236",
   "name": "Narragansett Bay",
-  "text": "Expires:202611271900;;007693\nFZUS51 KBOX 270604\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n104 AM EST Fri Nov 27 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-271900-\nNarragansett Bay-\n104 AM EST Fri Nov 27 2026\n\n...GALE WARNING IN EFFECT UNTIL 1 PM EST THIS AFTERNOON...\n\n.REST OF TONIGHT...S winds 20 to 25 kt with gusts up to 40 kt.\nWaves 5 to 7 ft, except 7 to 10 ft at the bay entrance. A chance\nof light rain. \n.FRI...SW winds 15 to 20 kt, increasing to 20 to 25 kt in the\nafternoon. Gusts up to 30 kt. Waves 5 to 7 ft, except 6 to 9 ft\nat the bay entrance. Scattered showers. \n.FRI NIGHT...SW winds 20 to 25 kt, becoming W 15 to 20 kt after\nmidnight. Gusts up to 30 kt. Waves 5 to 7 ft, except 7 to 10 ft\nat the bay entrance. Scattered showers in the evening. \n.SAT...W winds 15 to 20 kt, diminishing to 10 to 15 kt in the\nafternoon. Gusts up to 25 kt. Waves 4 to 6 ft. \n.SAT NIGHT AND SUN...SW winds 10 to 15 kt with gusts up to 20 kt.\nWaves 2 to 4 ft. \n.SUN NIGHT...SW winds 5 to 10 kt, becoming S 15 to 20 kt with\ngusts up to 25 kt after midnight. Waves 2 to 3 ft. Rain likely\nafter midnight. \n.MON...SW winds 15 to 20 kt with gusts up to 25 kt. Waves 3 to\n5 ft. Rain.\n.MON NIGHT THROUGH TUE NIGHT...NW winds 15 to 20 kt with gusts up\nto 25 kt. Waves 2 to 3 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
+  "text": "Expires:202611272200;;016557\nFZUS51 KBOX 270903\nCWFBOX\n\nCoastal Waters Forecast for Massachusetts and Rhode Island\nNational Weather Service Boston/Norton MA\n402 AM EST Fri Nov 27 2026\n\nCoastal waters from the Merrimack River MA to Watch Hill RI out\nto 60 NM\n\n\nANZ236-272200-\nNarragansett Bay-\n402 AM EST Fri Nov 27 2026\n\n...GALE WARNING IN EFFECT UNTIL 8 AM EST THIS MORNING...\n\n.TODAY...SW winds 15 to 20 kt, increasing to 20 to 25 kt this\nafternoon. Gusts up to 30 kt. Waves 4 to 6 ft, except 6 to 9 ft\nat the bay entrance. A chance of rain this afternoon. \n.TONIGHT...SW winds 20 to 25 kt, diminishing to 15 to 20 kt after\nmidnight. Gusts up to 35 kt. Waves 4 to 6 ft, except 6 to 9 ft at\nthe bay entrance. Rain likely in the evening. \n.SAT...W winds 15 to 20 kt with gusts up to 25 kt. Waves 4 to\n6 ft. \n.SAT NIGHT...W winds 10 to 15 kt with gusts up to 20 kt. Waves\n2 to 4 ft. \n.SUN...W winds 5 to 10 kt. Waves 2 to 3 ft. \n.SUN NIGHT...S winds 10 to 15 kt, increasing to 15 to 20 kt with\ngusts up to 25 kt after midnight. Waves 2 to 3 ft. Rain after\nmidnight. \n.MON...SW winds 20 to 25 kt with gusts up to 30 kt. Waves 3 to\n5 ft. Rain.\n.MON NIGHT THROUGH TUE NIGHT...NW winds 20 to 25 kt with gusts up\nto 30 kt. Waves 2 to 3 ft.  \n\nSeas are reported as significant wave height, which is the\naverage of the highest third of the waves. Individual wave\nheights may be more than twice the significant wave height.\n\n$$"
  },
  "errors": []
 }
